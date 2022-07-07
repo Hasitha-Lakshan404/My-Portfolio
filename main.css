@@ -1,0 +1,17 @@
+/**@author : Hasitha Lakshan
+Project :Portfolio
+Date :7/7/2022
+Time :4:17 PM
+*/
+
+/*==============*/
+.si1{
+    color: blue;
+    font-size: 20px;
+}
+
+.si1:hover{
+    color: rgba(255,124,48,0.98);
+    font-size: 30px;
+}
+/*==============*/
