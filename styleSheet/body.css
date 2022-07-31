@@ -1,0 +1,50 @@
+/**@author : Hasitha Lakshan
+Project :Portfolio
+Date :7/31/2022
+Time :7:12 PM
+*/
+
+/*==========================PAGE 01=======================*/
+.page01Background {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    z-index: 1; /*possession in the index */
+    fill: #192F35;
+}
+
+.pg1Hello{
+    position: absolute;
+    top: 11px;
+    left: 735px;
+    z-index: 1;
+    color: #B79C8D;
+    stroke: black;
+}
+.pg1Hasitha{
+    position: absolute;
+    top:250px;
+    left: 50px;
+    z-index: 1;
+    color: #BA903A;
+    font-size: 100px;
+    stroke: #BA903A;
+    font-family: "DM Serif Display";
+    font-weight: bold;
+}
+.pg1Im{
+    position: absolute;
+    top: 11px;
+    left: 735px;
+    z-index: 1;
+    color: #B79C8D;
+    stroke: black;
+}
+.pg1Lakshan{
+    position: absolute;
+    top: 11px;
+    left: 735px;
+    z-index: 1;
+    color: #B79C8D;
+    stroke: black;
+}

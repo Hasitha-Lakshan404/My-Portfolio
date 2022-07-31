@@ -38,13 +38,15 @@ Time :5:37 PM
     position: absolute;
     width: 103px;
     height: 29px;
-    left: 763px;
-    top: 18px;
-    /*z-index: 1;*/
+
+    left: 700px;
+    top: 25px;
+    z-index: 1;
 
     background: wheat;
     border-radius: 10px;
     fill: wheat;
+    opacity: 0.2;
 }
 
 
