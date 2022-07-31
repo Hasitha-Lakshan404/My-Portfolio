@@ -53,3 +53,61 @@ Time :7:12 PM
     font-family: "DM Serif Display";
     font-weight: bold;
 }
+
+.fullStackDev {
+    position: absolute;
+    top: 425px;
+    left: 60px;
+    z-index: 1;
+    color: #4AB29B;
+    font-size: 25px;
+    font-family: "Della Respira";
+}
+
+
+.btnContactMe{
+    position: absolute;
+    top:475px;
+    left: 60px;
+    z-index: 1;
+
+    /*Button*/
+    background-color: #192F35;
+    border: 2px solid #8086F1;
+    border-radius: 10px;
+    width: 200px;
+    height: 45px;
+    display: inline-block;
+
+    /*Text*/
+    font-family: 'Della Respira';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #8086F1;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnContactMe:hover{
+
+    /*Button*/
+    background-color: #BA903A;
+    border: 2px solid #192F35;
+    border-radius: 10px;
+    width: 200px;
+    height: 45px;
+    display: inline-block;
+
+    /*Text*/
+    font-family: 'Della Respira';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(223,233,245,0.4), 0 17px 50px 0 rgba(223,233,245,0.4);
+}
