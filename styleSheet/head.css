@@ -17,18 +17,72 @@ Time :5:37 PM
     z-index: 1;
 }
 
+/*======Theme icon and text and rectangle=====*/
 .themeIcon{
     position: absolute;
     top: 20px;
-    left: 500px;
+    left: 700px;
     z-index: 1;
 }
 
 .themeText{
     position: absolute;
     top: 11px;
-    left: 535px;
+    left: 735px;
     z-index: 1;
     color: #B79C8D;
     stroke: black;
+}
+
+.themeRectangle{
+    position: absolute;
+    width: 103px;
+    height: 29px;
+    left: 763px;
+    top: 18px;
+    /*z-index: 1;*/
+
+    background: wheat;
+    border-radius: 10px;
+    fill: wheat;
+}
+
+
+/*=====home/about/skills/education/Project/hireMe=====*/
+#OtherHeadTitles{
+    position: absolute;
+    color: #B79C8D;
+    stroke: black;
+    z-index: 1;
+}
+
+.headHome{
+    position: absolute;
+    top: 3px;
+    left: 820px;
+}
+.headAbout{
+    position: absolute;
+    top: 3px;
+    left: 920px;
+}
+.headSkill{
+    position: absolute;
+    top: 3px;
+    left: 1020px;
+}
+.headEducation{
+    position: absolute;
+    top: 3px;
+    left: 1100px;
+}
+.headProjects{
+    position: absolute;
+    top: 3px;
+    left: 1220px;
+}
+.headHireMe{
+    position: absolute;
+    top: 3px;
+    left: 1320px;
 }
