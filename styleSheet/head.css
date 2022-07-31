@@ -1,0 +1,18 @@
+/**@author : Hasitha Lakshan
+Project :Portfolio
+Date :7/31/2022
+Time :5:37 PM
+*/
+.ThemeHead{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1; /*possession in the index */
+}
+
+.logo{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
