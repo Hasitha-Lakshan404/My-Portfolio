@@ -12,7 +12,23 @@ Time :5:37 PM
 
 .logo{
     position:absolute;
-    top: 10px;
+    top: 15px;
     left: 10px;
     z-index: 1;
+}
+
+.themeIcon{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    z-index: 1;
+}
+
+.themeText{
+    position: absolute;
+    top: 11px;
+    left: 535px;
+    z-index: 1;
+    color: #B79C8D;
+    stroke: black;
 }
