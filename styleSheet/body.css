@@ -15,11 +15,12 @@ Time :7:12 PM
 
 .pg1Hello{
     position: absolute;
-    top: 11px;
-    left: 735px;
+    top: 265px;
+    left: 160px;
     z-index: 1;
-    color: #B79C8D;
-    stroke: black;
+    font-size: 37px;
+    font-family: "Inika";
+    color: #ffffff;
 }
 .pg1Hasitha{
     position: absolute;
@@ -34,11 +35,12 @@ Time :7:12 PM
 }
 .pg1Im{
     position: absolute;
-    top: 11px;
-    left: 735px;
+    top: 265px;
+    left: 700px;
     z-index: 1;
-    color: #B79C8D;
-    stroke: black;
+    font-size: 37px;
+    font-family: "Inika";
+    color: #ffffff;
 }
 .pg1Lakshan{
     position: absolute;
