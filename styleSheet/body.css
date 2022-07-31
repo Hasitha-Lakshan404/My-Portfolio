@@ -27,8 +27,8 @@ Time :7:12 PM
     left: 50px;
     z-index: 1;
     color: #BA903A;
-    font-size: 100px;
-    stroke: #BA903A;
+    font-size: 128px;
+    /*-webkit-text-stroke:1px #BA903A;*/
     font-family: "DM Serif Display";
     font-weight: bold;
 }
@@ -42,9 +42,12 @@ Time :7:12 PM
 }
 .pg1Lakshan{
     position: absolute;
-    top: 11px;
-    left: 735px;
+    top:250px;
+    left: 500px;
     z-index: 1;
-    color: #B79C8D;
-    stroke: black;
+    color: #192F35;
+    font-size: 128px;
+    -webkit-text-stroke:1px #BA903A;
+    font-family: "DM Serif Display";
+    font-weight: bold;
 }
