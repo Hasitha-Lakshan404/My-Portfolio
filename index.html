@@ -14,9 +14,10 @@
     <meta content="width=device-width initial-scale=1 maximum-scale=1 minimum-scale=1 user-scalable=no" name="viewport">
     <meta content="#485715" name="theme-color">
 
-    <link href="styleSheet/head.css" rel="stylesheet">
-    <link href="styleSheet/body.css" rel="stylesheet">
-    <link href="styleSheet/nameGoldAnimation.css" rel="stylesheet">
+    <link href="assets/styleSheet/head.css" rel="stylesheet">
+    <link href="assets/styleSheet/body.css" rel="stylesheet">
+    <link href="assets/styleSheet/nameGoldAnimation.css" rel="stylesheet">
+    <link href="assets/styleSheet/backgroundBubbles.css" rel="stylesheet">
 
 </head>
 <body>
@@ -33,13 +34,13 @@
         <!--for navigation Text-->
         <nav>
             <!--for Dark,LightThemeIcon and Text-->
-            <div >
+            <div>
                 <img class="themeIcon" src="assets/lightThemeIcon.png">
 
                 <h3 class="themeText">Theme</h3>
 
-                <svg width="400" height="110" class="themeRectangle">
-                    <rect width="300" height="100"/>
+                <svg class="themeRectangle" height="110" width="400">
+                    <rect height="100" width="300"/>
                 </svg>
             </div>
 
@@ -63,31 +64,85 @@
     <!--===================================================-->
     <!--first rectangle/page-->
     <section>
-        BackgroundRectangle
-        <svg width="1536" height="680" class="page01Background">
-            <rect width="1536" height="680"/>
+        <!--BackgroundRectangle-->
+        <svg class="page01Background" height="680" width="1536">
+            <rect height="680" width="1536"/>
         </svg>
+
+        <!--for the background Animation-->
+        <div class="container">
+            <div class="bubbles">
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:24;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:23;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:20;"></span>
+                <span style="--i:22;"></span>
+                <span style="--i:25;"></span>
+                <span style="--i:28;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:21;"></span>
+                <span style="--i:11;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:24;"></span>
+                <span style="--i:28;"></span>
+
+                <span style="--i:25;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:11;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:20;"></span>
+                <span style="--i:22;"></span>
+                <span style="--i:22;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:17;"></span>
+                <span style="--i:23;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:24;"></span>
+                <span style="--i:29;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:26;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:11;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:20;"></span>
+
+            </div>
+
+        </div>
+
 
         <!--for name side-->
         <section>
             <div class="pg1Hello">Hello!!</div>
 
-            <!--<div class="pg1Hasitha">
+            <div class="pg1Hasitha">
                 Hasitha
-            </div>-->
+            </div>
 
-            <div class="gold-container">
-                <span class="gold-text__highlight" data-text="Hasitha">Hasitha</span>
+            <div class="gold-text">
+                <div class="gold-container">
+                    <span class="gold-text__highlight" data-text="Lakshan">Lakshan</span>
+                </div>
             </div>
 
 
             <div class="pg1Im">I'm,</div>
-            <div class="pg1Lakshan">Lakshan</div>
+            <!--            <div class="pg1Lakshan">Lakshan</div>-->
 
             <div class="fullStackDev">Full Stack Developer</div>
 
-            <button type="button" class="btnContactMe">Contact me</button>
-            <button type="button" class="btnSeeMore">See more...</button>
+            <button class="btnContactMe" type="button">Contact me</button>
+            <button class="btnSeeMore" type="button">See more...</button>
         </section>
 
         <!--for link icon and email-->

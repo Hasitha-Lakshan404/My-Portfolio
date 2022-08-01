@@ -6,39 +6,36 @@ Time :1:22 AM
 
 .gold-container {
     position: absolute;
-    top:250px;
-    left: 50px;
-    z-index: 1;
-    color: #BA903A;
-    font-size: 128px;
-    /*-webkit-text-stroke:1px #BA903A;*/
-    font-family: "DM Serif Display";
-    font-weight: bold;
-
-    /*position: relative;*/
     display: block;
     margin: 0 auto;
     max-width: 36rem;
+
+    top:261px;
+    left: 500px;
+    font-size: 128px;
+    font-family: "DM Serif Display";
+    font-weight: bold;
+    -webkit-text-stroke:1px #BA903A;
+
 }
 
 .gold-text {
     font-family: "Alegreya", serif;
-    font-style: italic;
-    font-size: 10rem;
-    word-spacing: 0.9em;
+    font-size: 4rem;
+    word-spacing: 0.2em;
     display: inline-block;
     padding: 0;
     line-height: 1;
     white-space: nowrap;
     color: transparent;
     background-color: #E8A95B;
-    /*background-image: radial-gradient(ellipse farthest-corner at right bottom, white 0%, #F0BB7A 20%, #E8A95B 60%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, white 0%, #F0BB7A 50%, #DE9945 75%, #E8A95B 100%);*/
-    background-image: radial-gradient(ellipse farthest-corner at right bottom, white 100%, #BA903A 100%, #BA903A 100%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, white 0%, #F0BB7A 50%, #DE9945 75%, #E8A95B 100%);
+    background-image: radial-gradient(ellipse farthest-corner at right bottom, white 0%, #F0BB7A 20%, #E8A95B 60%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, white 0%, #F0BB7A 50%, #DE9945 75%, #E8A95B 100%);
     background-size: 100% 100%;
     background-clip: text;
     -webkit-background-clip: text;
     margin: 0 0 0.5rem 0;
 }
+
 .gold-text:before {
     content: attr(data-text);
     position: absolute;
@@ -46,14 +43,15 @@ Time :1:22 AM
     left: 0;
     color: #E8A95B;
     z-index: -1;
-    /*text-shadow: 0 -1px 0 #f4cc9b, 0 1px 0 #a77334, 0 2px 0 #9b6b30, 0 3px 0 #90632d, 0 4px 0 #7a5426, 0 4px 2px #7a5426, 0 0.075em 0.1em rgba(26, 35, 39, 0.3), 0 0.15em 0.3em rgba(222, 153, 69, 0.2);*/
-    text-shadow: 0 -1px 0 #f4cc9b, 0 1px 0 #a77334, 0 2px 0 #9b6b30, 0 3px 0 #90632d, 0 4px 0 #7a5426, 0 4px 2px #7a5426, 0 0.075em 0.1em rgba(26, 35, 39, 1), 0 0.15em 0.3em rgba(222, 153, 69, 1);
+    text-shadow: 0 -1px 0 #f4cc9b, 0 1px 0 #a77334, 0 2px 0 #9b6b30, 0 3px 0 #90632d, 0 4px 0 #7a5426, 0 4px 2px #7a5426, 0 0.075em 0.1em rgba(26, 35, 39, 0.3), 0 0.15em 0.3em rgba(222, 153, 69, 0.2);
 }
+
 .gold-text__highlight {
     display: inline-block;
-    position: absolute;
+    position: relative;
     z-index: 1;
 }
+
 .gold-text__highlight:after {
     content: attr(data-text);
     position: absolute;
@@ -62,8 +60,7 @@ Time :1:22 AM
     width: 100%;
     height: 100%;
     z-index: 5;
-    /*background-image: linear-gradient(100deg, transparent 0%, transparent 6rem, white 11rem, transparent 11.15rem, transparent 15rem, rgba(255, 255, 255, 0.3) 20rem, transparent 25rem, transparent 27rem, rgba(255, 255, 255, 0.6) 32rem, white 33rem, rgba(255, 255, 255, 0.3) 33.15rem, transparent 38rem, transparent 40rem, rgba(255, 255, 255, 0.3) 45rem, transparent 50rem, transparent 100%);*/
-    background-image: linear-gradient(100deg, transparent 0%, transparent 6rem, white 11rem, transparent 11.15rem, transparent 15rem, rgba(255, 255, 255, 1) 20rem, transparent 25rem, transparent 27rem, rgba(255, 255, 255, 1) 32rem, white 33rem, rgba(255, 255, 255, 1) 33.15rem, transparent 38rem, transparent 40rem, rgba(255, 255, 255, 1) 45rem, transparent 100rem, transparent 100%);
+    background-image: linear-gradient(100deg, transparent 0%, transparent 6rem, white 11rem, transparent 11.15rem, transparent 15rem, rgba(255, 255, 255, 0.3) 20rem, transparent 25rem, transparent 27rem, rgba(255, 255, 255, 0.6) 32rem, white 33rem, rgba(255, 255, 255, 0.3) 33.15rem, transparent 38rem, transparent 40rem, rgba(255, 255, 255, 0.3) 45rem, transparent 50rem, transparent 100%);
     background-clip: text;
     background-size: 60rem 100%;
     background-repeat: no-repeat;
@@ -90,10 +87,8 @@ Time :1:22 AM
     width: 100%;
     height: 100%;
     z-index: 10;
-    /*color: transparent;*/
-    color: #537094;
-    /*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, transparent 35%, transparent 75%, #DE9945 100%);*/
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 35%, transparent 75%, #DE9945 100%);
+    color: transparent;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, transparent 35%, transparent 75%, #DE9945 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-animation-name: flash;
@@ -102,12 +97,23 @@ Time :1:22 AM
     animation-direction: alternate;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    -webkit-animation-duration: 5s;
-    animation-duration: 5s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+}
+
+.decoration-text {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: transparent;
+    background-image: radial-gradient(ellipse at top left, #CFD8DC 0%, rgba(69, 90, 100, 0.75) 75%, transparent 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 @-webkit-keyframes shine {
