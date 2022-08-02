@@ -10,9 +10,11 @@ Time :7:12 PM
 
 }
 ::-webkit-scrollbar-track{
-    background: #8086F1;
+    background: #192F35;
+
 }
 ::-webkit-scrollbar-thumb{
+    background: #8086F1;
 
 }
 
