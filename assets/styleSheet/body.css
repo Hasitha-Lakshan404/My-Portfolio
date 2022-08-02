@@ -281,3 +281,38 @@ Time :7:12 PM
     top: 753px;
     left: 0;
 }
+.quoteHead01{
+    position: absolute;
+    width: 659px;
+    height: 138px;
+    left: 820px;
+    top: 820px;
+
+    font-family: "Fanwood Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: right;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+}
+.quoteHead2{
+    position: absolute;
+    width: 609px;
+    height: 50px;
+    left: 900px;
+    top: 1000px;
+
+    font-family: "Fanwood Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
