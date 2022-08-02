@@ -337,8 +337,8 @@ Time :7:12 PM
 
 .image{
     position: absolute;
-    width: 600px;
-    height: 743px;
+    width: 400px;
+    height:500px;
     left: 37px;
     top: 1312px;
 
@@ -347,7 +347,7 @@ Time :7:12 PM
     border-radius: 22px;
 }
 .image:hover{
-    position: absolute;
+   /* position: absolute;
     width: 600px;
     height: 743px;
     left: 37px;
@@ -355,6 +355,6 @@ Time :7:12 PM
 
     background: url(../hoveMe.jpg);
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
-    border-radius: 22px;
+    border-radius: 22px;*/
 
 }
