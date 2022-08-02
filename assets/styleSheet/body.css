@@ -4,11 +4,17 @@ Date :7/31/2022
 Time :7:12 PM
 */
 
+
+::-webkit-scrollbar{
+    width: 0.5px;
+
+}
+
 /*==========================PAGE 01=======================*/
 .page01Background {
     position: absolute;
-    top: 80px;
-    left: 0px;
+    top: 75px;
+    left: 0;
     z-index: 1; /*possession in the index */
     fill: #192F35;
 }
@@ -160,4 +166,12 @@ Time :7:12 PM
 
     box-shadow: 0 12px 16px 0 rgba(223,233,245,0.4), 0 17px 50px 0 rgba(223,233,245,0.4);
 
+}
+
+/*======================PAGE 02=====================*/
+
+.headUnder{
+    position: relative;
+    top: 0;
+    left: 0;
 }
