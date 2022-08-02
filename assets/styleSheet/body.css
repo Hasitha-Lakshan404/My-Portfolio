@@ -4,9 +4,15 @@ Date :7/31/2022
 Time :7:12 PM
 */
 
-
+/*====Redesign ScrollBar=====*/
 ::-webkit-scrollbar{
-    width: 0.5px;
+    width: 0.5em;
+
+}
+::-webkit-scrollbar-track{
+    background: #8086F1;
+}
+::-webkit-scrollbar-thumb{
 
 }
 
