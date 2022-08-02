@@ -334,3 +334,27 @@ Time :7:12 PM
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.image{
+    position: absolute;
+    width: 600px;
+    height: 743px;
+    left: 37px;
+    top: 1312px;
+
+    background: url(../imgme.jpg);
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
+    border-radius: 22px;
+}
+.image:hover{
+    position: absolute;
+    width: 600px;
+    height: 743px;
+    left: 37px;
+    top: 1312px;
+
+    background: url(../hoveMe.jpg);
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
+    border-radius: 22px;
+
+}
