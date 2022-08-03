@@ -436,7 +436,7 @@ body{
 
     color: #254871;
 }
-.disMe1{
+.desMe1{
     position: absolute;
     width: 713px;
     height: 87px;
@@ -454,7 +454,7 @@ body{
 
 }
 
-.disMe2{
+.desMe2{
     position: absolute;
     width: 713px;
     height: 87px;
@@ -471,3 +471,100 @@ body{
     color: #254871;
 
 }
+#btnDownload{
+    width: 213px;
+    height: 48px;
+    left: 693px;
+    top: 1909px;
+}
+#btnDownload:hover{
+    width: 213px;
+    height: 48px;
+    left: 693px;
+    top: 1909px;
+    box-shadow: 0 12px 16px 0 rgba(120, 233, 75, 0.4), 0 17px 50px 0 rgba(120, 223, 75, 0.4);
+}
+#btnDownload:hover:after{
+    width: 213px;
+    height: 48px;
+    left: 693px;
+    top: 1909px;
+    box-shadow: 0 12px 16px 0 rgba(120, 233, 75, 0.4), 0 17px 50px 0 rgba(120, 223, 75, 0.4);
+}
+.languages{
+    position: absolute;
+    width: 332px;
+    height: 50px;
+    left: 37px;
+    top: 1921px;
+
+    font-family: 'Familjen Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #3C5B54;
+}
+#sin {
+    /*position: absolute;
+    top: 1923px;
+    left: 50px;*/
+    padding-right: 10px;
+    font-size: 1rem;
+
+    position: absolute;
+    width: 96px;
+    height: 31px;
+    left: 42px;
+    top: 2000px;
+
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #000000;
+
+}
+
+#file{
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 150px;
+    top: 2000px;
+}
+
+#eng {
+    /*position: absolute;
+    top: 1923px;
+    left: 50px;*/
+    padding-right: 10px;
+    font-size: 1rem;
+
+    position: absolute;
+    width: 96px;
+    height: 31px;
+    left: 42px;
+    top: 2030px;
+
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #000000;
+
+}
+
+#file2{
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 150px;
+    top: 2030px;
+}
+
