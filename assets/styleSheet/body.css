@@ -3,6 +3,7 @@ Project :Portfolio
 Date :7/31/2022
 Time :7:12 PM
 */
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 /*====Redesign ScrollBar=====*/
 ::-webkit-scrollbar {
@@ -28,6 +29,10 @@ Time :7:12 PM
 
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(blue, rebeccapurple);
+}
+
+body{
+    background: #E7EBF8;
 }
 
 /*==========================PAGE 01=======================*/
@@ -356,5 +361,113 @@ Time :7:12 PM
     background: url(../hoveMe.jpg);
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
     border-radius: 22px;*/
+
+}
+
+/*name/se/age*/
+.name{
+    position: absolute;
+    width: 329px;
+    height: 37px;
+    left: 693px;
+    top: 1350px;
+
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+
+
+    color: #254871;
+}
+.se{
+
+    position: absolute;
+    width: 259px;
+    height: 53px;
+    left: 693px;
+    top: 1410px;
+
+    font-family: 'Ek Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 53px;
+    letter-spacing: 0.01em;
+
+    color: #254871;
+}
+
+.age{
+    position: absolute;
+    width: 130px;
+    height: 49px;
+    left: 693px;
+    top: 1451px;
+
+    font-family: 'Ek Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    /* identical to box height */
+
+
+    color: #254871;
+}
+
+.hi{
+
+    position: absolute;
+    width: 120px;
+    height: 42px;
+    left: 693px;
+    top: 1542px;
+
+    font-family: 'Ek Mukta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42px;
+    /* identical to box height */
+
+
+    color: #254871;
+}
+.disMe1{
+    position: absolute;
+    width: 713px;
+    height: 87px;
+    left: 693px;
+    top: 1578px;
+
+    font-family: 'Fanwood Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+
+    color: #254871;
+
+}
+
+.disMe2{
+    position: absolute;
+    width: 713px;
+    height: 87px;
+    left: 693px;
+    top: 1689px;
+
+    font-family: 'Fanwood Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+
+    color: #254871;
 
 }
