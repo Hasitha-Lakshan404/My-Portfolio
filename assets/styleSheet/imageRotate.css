@@ -1,0 +1,51 @@
+/**@author : Hasitha Lakshan
+Project :Portfolio
+Date :8/3/2022
+Time :8:59 PM
+*/
+
+.imageMeCard {
+    align-content: center;
+    /*margin: 0;*/
+    position: absolute;
+    width: 100px;
+    height: 500px;
+    background: black;
+    top: 1312px;
+    left: 37px;
+    /*filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));*/
+    /*border-radius: 22px;*/
+    transition: transform 3s;
+
+}
+.imageMeCard:hover{
+    align-content: center;
+    /*left: 100px;*/
+    transform: rotateY(.5turn);
+}
+
+.imageMeCard__content{
+    text-align: center;
+    position: relative;
+    padding: 5em;
+    left: 0;
+    /*filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));*/
+    /*border-radius: 22px;*/
+
+}
+.imageMeCard__front,.imageMeCard__back{
+    position: absolute;
+    width: 100px;
+    height:500px;
+    left: 37px;
+    top:0;
+
+    /*background: url(../imgme.jpg);*/
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
+    border-radius: 22px;
+}
+.imageMeCard__image{
+    width: 400px;
+    height: 500px;
+    left: 37px;
+}

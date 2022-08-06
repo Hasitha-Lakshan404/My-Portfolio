@@ -32,7 +32,8 @@ Time :7:12 PM
 }
 
 body{
-    background: #E7EBF8;
+    /*background: #E7EBF8;*/
+    background: #ffffff;
 }
 
 /*==========================PAGE 01=======================*/
@@ -340,7 +341,7 @@ body{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.image{
+.imageMeCard__image{
     position: absolute;
     width: 400px;
     height:500px;
@@ -351,8 +352,9 @@ body{
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
     border-radius: 22px;
 }
+/*
 .image:hover{
-   /* position: absolute;
+   !* position: absolute;
     width: 600px;
     height: 743px;
     left: 37px;
@@ -360,9 +362,12 @@ body{
 
     background: url(../hoveMe.jpg);
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
-    border-radius: 22px;*/
+    border-radius: 22px;*!
 
-}
+}*/
+
+
+
 
 /*name/se/age*/
 .name{
@@ -436,6 +441,8 @@ body{
 
     color: #254871;
 }
+
+/*About description/paras */
 .desMe1{
     position: absolute;
     width: 713px;
