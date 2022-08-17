@@ -78,7 +78,7 @@
 
         /*1 Box-circle*/
         body > section:first-child > div > div {
-            position: absolute;
+           /* position: absolute;
             top: 0;
             left: 0;
             right: 0;
@@ -87,12 +87,12 @@
             width: 10vw;
             height: 20vh;
             background-color: white;
-            border-radius: 5em;
+            border-radius: 5em;*/
         }
 
         /*2 Box-circle*/
         body > section:nth-child(2) > div > div {
-            position: absolute;
+            /*position: absolute;
             top: 0;
             left: 0;
             right: 0;
@@ -101,13 +101,13 @@
             width: 10vw;
             height: 20vh;
             background-color: white;
-            border-radius: 5em;
+            border-radius: 5em;*/
 
         }
 
         /*3 Box-circle*/
         body > section:nth-child(3) > div > div {
-            position: absolute;
+           /* position: absolute;
             top: 0;
             left: 0;
             right: 0;
@@ -116,12 +116,26 @@
             width: 10vw;
             height: 20vh;
             background-color: white;
-            border-radius: 5em;
+            border-radius: 5em;*/
 
         }
 
         /*4 Box-circle*/
         body > section:nth-child(4) > div > div {
+            /*position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 10vw;
+            height: 20vh;
+            background-color: white;
+            border-radius: 5em;*/
+
+        }
+
+        .whiteCircle{
             position: absolute;
             top: 0;
             left: 0;
@@ -132,7 +146,19 @@
             height: 20vh;
             background-color: white;
             border-radius: 5em;
+        }
 
+
+        .insideBox{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 5vw;
+            height: 10vh;
+            background-color: red;
         }
 
 
@@ -144,35 +170,51 @@
 <section>
     <div>
         <!--circle-->
-        <div></div>
+        <div class="whiteCircle">
+            <!--Box-->
+            <div class="insideBox"></div>
+        </div>
     </div>
 </section>
 
 <!--2 Box-->
 <section>
-    <div><!--circle-->
-        <div></div>
+    <div>
+        <!--circle-->
+        <div class="whiteCircle">
+            <!--Box-->
+            <div class="insideBox"></div>
+        </div>
     </div>
 </section>
 
 <!--3 Box-->
 <section>
-    <div><!--circle-->
-        <div></div>
+    <div>
+        <!--circle-->
+        <div class="whiteCircle">
+            <!--Box-->
+            <div class="insideBox"></div>
+        </div>
     </div>
 </section>
 
 <!--4 Box-->
 <section>
-    <div><!--circle-->
-        <div></div>
+    <div>
+        <!--circle-->
+        <div class="whiteCircle">
+            <!--Box-->
+            <div class="insideBox"></div>
+        </div>
     </div>
 </section>
 
 <!--middle Box-->
 <section>
-    <!--Circle-->
+    <!--Box-->
     <div>
+        <!--Circle-->
         <div></div>
     </div>
 </section>
