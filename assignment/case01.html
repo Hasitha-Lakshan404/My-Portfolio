@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 01 Css</title>
+    <style>
+
+        section {
+            /*width: 50vw;*/
+        }
+
+        /*1 Box*/
+        body > section:first-child > div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50vw;
+            height: 50vh;
+            background-color: red;
+        }
+
+        /*2 Box*/
+        body > section:nth-child(2) > div {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50vw;
+            height: 50vh;
+            background-color: green;
+        }
+
+        /*3 Box*/
+        body > section:nth-child(3) > div {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50vw;
+            height: 50vh;
+            background-color: yellowgreen;
+        }
+
+        /*4 Box*/
+        body > section:nth-child(4) > div {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 50vw;
+            height: 50vh;
+            background-color: deeppink;
+        }
+
+        /*Middle Box*/
+        body > section:nth-child(5) > div:first-child {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            width: 20vw;
+            height: 40vh;
+            background-color: white;
+        }
+
+        /*Middle Box-circle*/
+        body > section:nth-child(5) > div > div {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            width: 10vw;
+            height: 20vh;
+            background-color: black;
+            border-radius: 5em;
+        }
+
+        /*1 Box-circle*/
+        body > section:first-child > div > div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 10vw;
+            height: 20vh;
+            background-color: white;
+        }
+
+        /*2 Box-circle*/
+        body > section:nth-child(2) > div > div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 10vw;
+            height: 20vh;
+            background-color: white;
+        }
+
+        /*2 Box-circle*/
+        body > section:nth-child(3) > div > div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 10vw;
+            height: 20vh;
+            background-color: white;
+        }
+
+        /*2 Box-circle*/
+        body > section:nth-child(4) > div > div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 10vw;
+            height: 20vh;
+            background-color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<!--first Box-->
+<section>
+    <div>
+        <!--circle-->
+        <div></div>
+    </div>
+</section>
+
+<!--2 Box-->
+<section>
+    <div><!--circle-->
+        <div></div>
+    </div>
+</section>
+
+<!--3 Box-->
+<section>
+    <div><!--circle-->
+        <div></div>
+    </div>
+</section>
+
+<!--4 Box-->
+<section>
+    <div><!--circle-->
+        <div></div>
+    </div>
+</section>
+
+<!--middle Box-->
+<section>
+    <!--Circle-->
+    <div>
+        <div></div>
+    </div>
+</section>
+
+
+</body>
+</html>
