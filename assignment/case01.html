@@ -77,7 +77,7 @@
         }
 
 
-        .whiteCircle{
+        .whiteCircle {
             position: absolute;
             top: 0;
             left: 0;
@@ -90,8 +90,7 @@
             border-radius: 5em;
         }
 
-
-        .insideBox{
+        .insideBox {
             position: absolute;
             top: 0;
             left: 0;
@@ -101,6 +100,18 @@
             width: 5vw;
             height: 10vh;
             background-color: red;
+        }
+
+        /*=========Corner Circles===========*/
+
+        body > section:nth-child(1) > div > div:nth-child(2) {
+            position: absolute;
+            width: 10vw;
+            height: 20vh;
+            top: 0;
+            left: 0;
+            border-radius: 0 0 100% 0;
+            background-color: white;
         }
 
 
@@ -115,7 +126,11 @@
         <div class="whiteCircle">
             <!--Box-->
             <div class="insideBox"></div>
+
         </div>
+
+        <!--left Corner-->
+        <div></div>
     </div>
 </section>
 
