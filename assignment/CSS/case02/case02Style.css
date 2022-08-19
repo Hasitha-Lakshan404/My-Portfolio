@@ -4,6 +4,16 @@ Date :8/19/2022
 Time :2:39 PM
 */
 
+
+
+/*IJSE LOGO*/
+body > header > div > aside:nth-child(1){
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+}
+
+/*Head Bar*/
 body > header > div > aside:nth-child(2) {
     position: fixed;
     top: 0;
