@@ -1,0 +1,15 @@
+/**@author : Hasitha Lakshan
+Project :Portfolio
+Date :8/19/2022
+Time :2:39 PM
+*/
+
+body > header > div > aside:nth-child(2) {
+    position: fixed;
+    top: 0;
+    background-color: #4AB29B;
+    width: 100vw;
+    height: 10vh;
+    box-shadow: 0 20px 45px 0 black;
+
+}
