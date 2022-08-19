@@ -4,22 +4,41 @@ Date :8/19/2022
 Time :2:39 PM
 */
 
-
+/*Header Div*/
+body > header > div:nth-child(1) {
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4AB29B;
+    box-shadow: 1px 1px 45px 0 black;
+}
 
 /*IJSE LOGO*/
-body > header > div > aside:nth-child(1){
+body > header > div > aside:nth-child(1) {
     position: absolute;
-    top: 15px;
+    display: inline-block;
+    top: 5em;
+    bottom: 5em;
+    left: 10px;
     z-index: 1;
 }
 
-/*Head Bar*/
+/*Head Text*/
 body > header > div > aside:nth-child(2) {
-    position: fixed;
-    top: 0;
-    background-color: #4AB29B;
-    width: 100vw;
-    height: 10vh;
-    box-shadow: 0 20px 45px 0 black;
-
+    position: absolute;
+    display: inline-block;
+    right: 50px;
 }
+/*list*/
+body > header > div > aside:nth-child(2)>ul>li{
+    position: absolute;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+
