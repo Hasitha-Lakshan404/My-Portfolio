@@ -18,12 +18,9 @@ body > header > div:nth-child(1) {
 /*IJSE LOGO*/
 body > header > div > aside:nth-child(1) {
     position: absolute;
-    /*display: inline-block;*/
     left: 2em;
     top:1em;
     width: 10%;
-    /*right: 5%;*/
-    /*bottom: 5%;*/
     z-index: 1;
 }
 
@@ -37,7 +34,6 @@ body > header > div > aside:nth-child(2) {
 }
 /*list*/
 body > header > div > aside:nth-child(2)>ul>li{
-    /*position: absolute;*/
     display: inline-block;
     padding: 5px;
     cursor: pointer;
