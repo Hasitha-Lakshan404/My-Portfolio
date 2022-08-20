@@ -4,6 +4,8 @@ Date :8/19/2022
 Time :2:39 PM
 */
 
+/*=======HEADER=====*/
+
 /*Header Div*/
 body > header > div:nth-child(1) {
     width: 100vw;
@@ -38,6 +40,8 @@ body > header > div > aside:nth-child(2)>ul>li{
     padding: 5px;
     cursor: pointer;
 }
+
+/*=====MAIN====*/
 
 
 
