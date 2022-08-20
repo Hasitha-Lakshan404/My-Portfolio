@@ -5,12 +5,14 @@ Time :2:39 PM
 */
 
 /*=======HEADER=====*/
-
+header{
+    height: 10vh;
+}
 /*Header Div*/
 body > header > div:nth-child(1) {
     width: 100vw;
     height: 10vh;
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     left: 0;
     background-color: #4AB29B;
@@ -45,6 +47,19 @@ body > header > div > aside:nth-child(2)>ul>li{
 
 /*Main-Blue-Box*/
 body>main>section:first-child>div:first-child{
+
+}
+main{
+    alignment: right;
+    height: 100vh;
+}
+#ss{
+    background-color: black;
+    width: 25%;
+    height: 100%;
+    top: 10vh;
+    left: 0;
+    position: absolute;
 
 }
 
