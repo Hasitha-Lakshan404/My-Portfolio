@@ -19,9 +19,10 @@ body > header > div:nth-child(1) {
 body > header > div > aside:nth-child(1) {
     position: absolute;
     display: inline-block;
-    top: 5em;
-    bottom: 5em;
-    left: 10px;
+    left: 2em;
+    top: 10px;
+    /*right: 5%;*/
+    /*bottom: 5%;*/
     z-index: 1;
 }
 
@@ -29,11 +30,13 @@ body > header > div > aside:nth-child(1) {
 body > header > div > aside:nth-child(2) {
     position: absolute;
     display: inline-block;
-    right: 50px;
+    right: 2vw;
+    top: 2vh;
+    bottom: 1vh;
 }
 /*list*/
 body > header > div > aside:nth-child(2)>ul>li{
-    position: absolute;
+    /*position: absolute;*/
     display: inline-block;
     padding: 5px;
     cursor: pointer;
