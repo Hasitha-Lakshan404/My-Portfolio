@@ -4,15 +4,22 @@ Date :8/19/2022
 Time :2:39 PM
 */
 
+::-webkit-scrollbar{
+    width: 0.3em;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#3C5B54;
+}
+
 /*=======HEADER=====*/
 header{
     height: 10vh;
 }
 /*Header Div*/
 body > header > div:nth-child(1) {
-    width: 100vw;
+    width: 99.6vw;
     height: 10vh;
-    /*position: fixed;*/
+    position: absolute;
     top: 0;
     left: 0;
     background-color: #4AB29B;
