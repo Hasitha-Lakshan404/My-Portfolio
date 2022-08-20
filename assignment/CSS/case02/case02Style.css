@@ -43,6 +43,11 @@ body > header > div > aside:nth-child(2)>ul>li{
 
 /*=====MAIN====*/
 
+/*Main-Blue-Box*/
+body>main>section:first-child>div:first-child{
+
+}
+
 
 
 
