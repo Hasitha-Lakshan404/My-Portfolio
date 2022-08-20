@@ -17,12 +17,12 @@ header{
 }
 /*Header Div*/
 body > header > div:nth-child(1) {
-    width: 99.6vw;
+    width: 99.7vw;
     height: 10vh;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #4AB29B;
+    background-color: white;
     box-shadow: 1px 1px 45px 0 black;
 }
 
@@ -30,7 +30,7 @@ body > header > div:nth-child(1) {
 body > header > div > aside:nth-child(1) {
     position: absolute;
     left: 2em;
-    top:1em;
+    top:2vh;
     width: 10%;
     z-index: 1;
 }
@@ -40,7 +40,7 @@ body > header > div > aside:nth-child(2) {
     position: absolute;
     display: inline-block;
     right: 2vw;
-    top: 2vh;
+    top: 1vh;
     bottom: 1vh;
 }
 /*list*/
@@ -54,8 +54,13 @@ body > header > div > aside:nth-child(2)>ul>li{
 
 /*Main-Blue-Box*/
 body>main>section:first-child>div:first-child{
+    width: 20%;
+    height: 100%;
+    background-color: #3C5B54;
+    position: absolute;
 
 }
+
 main{
     alignment: right;
     height: 100vh;
