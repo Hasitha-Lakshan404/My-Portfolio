@@ -1,4 +1,12 @@
 
+::-webkit-scrollbar{
+    width: 0.3em;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3C5B54;
+}
+
+
 /*Header-bar*/
 body>header{
     width: 99.7vw;
@@ -31,10 +39,10 @@ body > header >aside:nth-child(2)>ul>li{
 /*Side-Box*/
 body>main>nav{
     position: absolute;
-    width: 270px;
-    height: 100%;
-    background-color: #465e6e;
-    left: -2px;
+    width: 25vh;
+    height: 500vh;
+    background-color: #701C7D;
+    left: 0;
     top: 10vh;
 }
 
