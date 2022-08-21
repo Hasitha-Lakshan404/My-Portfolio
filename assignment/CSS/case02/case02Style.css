@@ -55,6 +55,7 @@ body>main>nav>ul:first-child{
     /*padding: 10px;*/
 }
 
+/*li margin*/
 body>main>nav>ul:first-child>li{
     margin-bottom: 15px;
 }
