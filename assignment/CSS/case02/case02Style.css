@@ -28,9 +28,20 @@ body > header >aside:nth-child(2)>ul>li{
 
 /*=======MAIN=========*/
 
+/*Side-Box*/
+body>main>nav{
+    position: absolute;
+    width: 270px;
+    height: 100%;
+    background-color: #465e6e;
+    left: -2px;
+    top: 10vh;
+}
+
 /*Remove Bullets Dot*/
 body>main>nav>ul:first-child{
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
