@@ -59,3 +59,33 @@ body>main>nav>ul:first-child{
 body>main>nav>ul:first-child>li{
     margin-bottom: 15px;
 }
+
+
+/*First image*/
+ body>main>section>section>div:first-child{
+   /* position: absolute;*/
+display: inline-block;
+top: 5px;
+left: 20vw;
+border: 2px solid lightseagreen;
+}
+
+
+/*second image*/
+body>main>section>section>div:nth-child(2){
+    /*position: absolute;*/
+display: inline-block;
+top: 5px;
+left: 46vw;
+border: 2px solid lightseagreen;
+}
+
+/*Third image*/
+body>main>section>section>div:nth-child(3){
+    /*position: absolute;*/
+display: inline-block;
+top: 5px;
+left: 71.9vw;
+border: 2px solid lightseagreen;
+
+}
