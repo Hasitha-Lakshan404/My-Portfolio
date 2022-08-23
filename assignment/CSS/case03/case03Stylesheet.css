@@ -5,10 +5,10 @@ Time :11:16 PM
 */
 
 body>main>section:first-child{
-    background-color: #0B2A2A;
-    width: 150px;
-    height: 150px;
-    border-radius: 5rem;
+    background-color: red;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 10rem;
     position: fixed;
     top: 0;
     bottom: 0;
