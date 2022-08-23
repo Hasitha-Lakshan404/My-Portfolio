@@ -8,10 +8,10 @@ Time :11:16 PM
 
 /*red circle*/
 body>main>section:first-child>div:nth-child(1){
-    background-color: red;
+    background-color: transparent;
     width: 13vw;
     height: 13vw;
-    border-radius: 10rem;
+    border-radius: 50%;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -20,14 +20,15 @@ body>main>section:first-child>div:nth-child(1){
     margin: auto;
     z-index: 1;
 
+
 }
 
 /*middle white Circle*/
 body>main>section:nth-child(1)>div:nth-child(2){
-    background-color: white;
+    background-color: transparent;
     width: 11vw;
     height: 11vw;
-    border-radius: 10rem;
+    border-radius: 50%;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -37,11 +38,11 @@ body>main>section:nth-child(1)>div:nth-child(2){
     z-index: 2;
 }
 /*main circle*/
-body>main>section>div:nth-child(3){
-    background-color: darkgray;
+body>main>section:nth-child(1)>div:nth-child(3){
+    background-color: transparent;
     width: 15vw;
     height: 15vw;
-    border-radius: 10rem;
+    border-radius: 50%;
     position: fixed;
     top: 0;
     bottom: 0;
