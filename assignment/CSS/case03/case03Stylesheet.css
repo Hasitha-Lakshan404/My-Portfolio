@@ -25,22 +25,8 @@ body>main>section:first-child>div:nth-child(1){
 
 }
 
-/*middle white Circle*/
-body>main>section:nth-child(1)>div:nth-child(2){
-    background-color: transparent;
-    width: 11vw;
-    height: 11vw;
-    border-radius: 50%;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    z-index: 2;
-}
 /*main circle*/
-body>main>section:nth-child(1)>div:nth-child(3){
+body>main>section:nth-child(1)>div:nth-child(2){
     background-color: transparent;
     width: 15vw;
     height: 15vw;
