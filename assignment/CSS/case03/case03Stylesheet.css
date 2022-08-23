@@ -3,3 +3,17 @@ Project :Portfolio
 Date :8/23/2022
 Time :11:16 PM
 */
+
+body>main>section:first-child{
+    background-color: #0B2A2A;
+    width: 150px;
+    height: 150px;
+    border-radius: 5rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
