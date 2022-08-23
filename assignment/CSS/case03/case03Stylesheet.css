@@ -19,7 +19,9 @@ body>main>section:first-child>div:nth-child(1){
     right: 0;
     margin: auto;
     z-index: 1;
-
+    border:1em solid red;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
 
 }
 
