@@ -4,7 +4,8 @@ Date :8/23/2022
 Time :11:16 PM
 */
 
-body>main>section:first-child{
+/*red circle*/
+body>main>section:first-child>div:nth-child(1){
     background-color: red;
     width: 13vw;
     height: 13vw;
@@ -16,4 +17,19 @@ body>main>section:first-child{
     right: 0;
     margin: auto;
 
+}
+
+/*middle white Circle*/
+body>main>section:nth-child(1)>div:nth-child(2){
+    background-color: white;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 10rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
 }
