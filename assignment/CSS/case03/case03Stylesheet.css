@@ -51,6 +51,9 @@ body>main>section:nth-child(1)>div:nth-child(3){
     left: 0;
     right: 0;
     margin: auto;
+    border:1em solid lightseagreen;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
 }
 
 
