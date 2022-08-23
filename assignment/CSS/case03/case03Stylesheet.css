@@ -44,3 +44,9 @@ body>main>section:nth-child(1)>div:nth-child(2){
 
 
 /*=========STICKY Pages========*/
+
+/*first page*/
+body>main>section:nth-child(2)>div:nth-child(1){
+    width: 100vw;
+    height: 100vh;
+}
