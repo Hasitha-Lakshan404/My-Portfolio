@@ -53,7 +53,17 @@ body > main > section:nth-child(1) > div:nth-child(2) {
 
 /*=========STICKY Pages========*/
 
-/*==========first page*/
+/*page-circle-words*/
+h5{
+    position: relative;
+    top: 40%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/*==========first page========*/
 body > main > section:nth-child(2) > div:nth-child(1) {
     width: 99.7vw;
     height: 100vh;
@@ -79,17 +89,8 @@ body > main > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
 
 }
 
-/*page-circle-words*/
-h5{
-    position: relative;
-    top: 40%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
 
-/*==========second page*/
+/*==========second page=========*/
 body > main > section:nth-child(2) > div:nth-child(2) {
     width: 99.7vw;
     height: 100vh;
@@ -111,4 +112,10 @@ body > main > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
     color: #3C5B54;
     text-align: center;
 
+}
+
+/*==========Third page=========*/
+body > main > section:nth-child(2) > div:nth-child(3) {
+    width: 99.7vw;
+    height: 100vh;
 }
