@@ -4,10 +4,17 @@ Date :8/23/2022
 Time :11:16 PM
 */
 
+::-webkit-scrollbar{
+    width: 0.3em;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3C5B54;
+}
+
 /*=======FIXED CIRCLES==========*/
 
 /*red circle*/
-body>main>section:first-child>div:nth-child(1){
+body > main > section:first-child > div:nth-child(1) {
     background-color: transparent;
     width: 13vw;
     height: 13vw;
@@ -19,14 +26,14 @@ body>main>section:first-child>div:nth-child(1){
     right: 0;
     margin: auto;
     z-index: 1;
-    border:1em solid red;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
+    border: 1em solid red;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 
 }
 
 /*main circle*/
-body>main>section:nth-child(1)>div:nth-child(2){
+body > main > section:nth-child(1) > div:nth-child(2) {
     background-color: transparent;
     width: 15vw;
     height: 15vw;
@@ -37,21 +44,22 @@ body>main>section:nth-child(1)>div:nth-child(2){
     left: 0;
     right: 0;
     margin: auto;
-    border:1em solid lightseagreen;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
+    border: 1em solid lightseagreen;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
 
 
 /*=========STICKY Pages========*/
 
-/*first page*/
-body>main>section:nth-child(2)>div:nth-child(1){
-    width: 100vw;
+/*==========first page*/
+body > main > section:nth-child(2) > div:nth-child(1) {
+    width: 99.7vw;
     height: 100vh;
 }
 
-body>main>section:nth-child(2)>div:nth-child(1)>div:nth-child(1){
+/*first page-circle*/
+body > main > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
     background: darkblue;
     width: 13vw;
     height: 13vw;
@@ -63,18 +71,25 @@ body>main>section:nth-child(2)>div:nth-child(1)>div:nth-child(1){
     right: 0;
     margin: auto;
 
-    font-size: calc(100vw/40);
+    font-size: calc(100vw / 40);
 
     color: black;
     text-align: center;
 
 }
 
-h3{
+/*page-circle-words*/
+h3 {
     position: absolute;
     top: 35%;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
+}
+
+/*==========second page*/
+body > main > section:nth-child(2) > div:nth-child(2) {
+    width: 99.7vw;
+    height: 100vh;
 }
