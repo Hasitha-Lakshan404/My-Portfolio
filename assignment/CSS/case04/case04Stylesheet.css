@@ -13,10 +13,29 @@ Time :3:21 PM
 }
 
 
-/*=======Page 01==========*/
 section{
     height: 100vh;
 }
+
+/*main-text-hello-=for All*/
+main>section>div>h1:first-child{
+    position: absolute;
+    font-size: 5em;
+    margin-top: calc(90vh/2.5);
+    margin-left: calc(99.7vw/2.3);
+}
+
+/*Header Text-All*/
+h2 {
+    position: absolute;
+    text-align: center;
+    left: 15px;
+    color: white;
+}
+
+
+/*=======Page 01==========*/
+
 /*page01-HeaderBar*/
 body > main > section:nth-child(1) > header:first-child {
     width: 99.7vw;
@@ -25,14 +44,6 @@ body > main > section:nth-child(1) > header:first-child {
     top: 0;
     position: sticky;
     z-index: 2;
-}
-
-/*page01-Header Text*/
-h2 {
-    position: absolute;
-    text-align: center;
-    left: 15px;
-    color: white;
 }
 
 /*page01-Body*/
@@ -44,13 +55,6 @@ body>main>section:nth-child(1)>div:nth-child(2){
     top:0;
 
 }
-/*main-text-hello-=for All*/
-main>section>div>h1:first-child{
-     position: absolute;
-     font-size: 5em;
-     margin-top: calc(90vh/2.5);
-     margin-left: calc(99.7vw/2.3);
- }
 
 /*=======Page 02==========*/
 
@@ -94,7 +98,7 @@ body>main>section:nth-child(3)>div:nth-child(2){
 
 /*========Page 04=======*/
 
-/*page03-HeaderBar*/
+/*page04-HeaderBar*/
 body > main > section:nth-child(4) > header:first-child {
     width: 99.7vw;
     background-color: darkolivegreen;
@@ -104,7 +108,7 @@ body > main > section:nth-child(4) > header:first-child {
     z-index: 2;
 }
 
-/*page03-Body*/
+/*page04-Body*/
 body>main>section:nth-child(4)>div:nth-child(2){
     width: 99.7vw;
     height: 90vh;
