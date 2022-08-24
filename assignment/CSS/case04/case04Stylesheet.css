@@ -44,21 +44,30 @@ body>main>section:nth-child(1)>div:nth-child(2){
     top:0;
 
 }
-/*main-text-hello*/
+/*main-text-hello-=for All*/
 main>section>div>h1:first-child{
-    position: absolute;
-    font-size: 5em;
-    margin-top: calc(90vh/2.5);
-    margin-left: calc(99.7vw/2.5);
-}
+     position: absolute;
+     font-size: 5em;
+     margin-top: calc(90vh/2.5);
+     margin-left: calc(99.7vw/2.3);
+ }
 
 /*=======Page 02==========*/
 
-/*page01-HeaderBar*/
+/*page02-HeaderBar*/
 body > main > section:nth-child(2) > header:first-child {
     width: 99.7vw;
     background-color: blueviolet;
     height: 10vh;
     top: 0;
     position: sticky;
+}
+/*page02-Body*/
+body>main>section:nth-child(2)>div:nth-child(2){
+    width: 99.7vw;
+    height: 90vh;
+    background-color: lightseagreen;
+    position: relative;
+    top:0;
+
 }
