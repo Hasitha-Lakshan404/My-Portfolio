@@ -50,3 +50,31 @@ body>main>section:nth-child(2)>div:nth-child(1){
     width: 100vw;
     height: 100vh;
 }
+
+body>main>section:nth-child(2)>div:nth-child(1)>div:nth-child(1){
+    background: darkblue;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    font-size: calc(100vw/40);
+
+    color: black;
+    text-align: center;
+
+}
+
+h3{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
