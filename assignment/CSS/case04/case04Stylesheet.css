@@ -90,3 +90,14 @@ body>main>section:nth-child(3)>div:nth-child(2){
     position: relative;
     top:0;
 }
+
+/*========Page 04=======*/
+
+/*page03-HeaderBar*/
+body > main > section:nth-child(4) > header:first-child {
+    width: 99.7vw;
+    background-color: darkolivegreen;
+    height: 10vh;
+    top: 0;
+    position: sticky;
+}
