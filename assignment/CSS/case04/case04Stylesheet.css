@@ -81,6 +81,7 @@ body > main > section:nth-child(3) > header:first-child {
     height: 10vh;
     top: 0;
     position: sticky;
+    z-index: 2;
 }
 /*page03-Body*/
 body>main>section:nth-child(3)>div:nth-child(2){
@@ -100,6 +101,7 @@ body > main > section:nth-child(4) > header:first-child {
     height: 10vh;
     top: 0;
     position: sticky;
+    z-index: 2;
 }
 
 /*page03-Body*/
