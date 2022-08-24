@@ -47,6 +47,7 @@ body > main > section:nth-child(1) > div:nth-child(2) {
     border: 1em solid lightseagreen;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
+    z-index: 1;
 }
 
 
