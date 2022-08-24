@@ -39,7 +39,7 @@ h2 {
 body>main>section:nth-child(1)>div:nth-child(2){
     width: 99.7vw;
     height: 90vh;
-    background-color: #3C5B54;
+    background-color: lightcyan;
     position: relative;
     top:0;
 
@@ -100,4 +100,13 @@ body > main > section:nth-child(4) > header:first-child {
     height: 10vh;
     top: 0;
     position: sticky;
+}
+
+/*page03-Body*/
+body>main>section:nth-child(4)>div:nth-child(2){
+    width: 99.7vw;
+    height: 90vh;
+    background-color: darkcyan;
+    position: relative;
+    top:0;
 }
