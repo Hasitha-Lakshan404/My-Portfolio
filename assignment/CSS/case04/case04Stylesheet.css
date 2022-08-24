@@ -4,8 +4,10 @@ Date :8/24/2022
 Time :3:21 PM
 */
 
-body>main>header:first-child{
+body>main>section:nth-child(1)>header:first-child{
     width: 99.7vw;
     background-color: #9b6b30;
     height: 10vh;
+    top: 0;
+    position: absolute;
 }
