@@ -61,6 +61,7 @@ body > main > section:nth-child(2) > header:first-child {
     height: 10vh;
     top: 0;
     position: sticky;
+    z-index: 2;
 }
 /*page02-Body*/
 body>main>section:nth-child(2)>div:nth-child(2){
@@ -69,4 +70,13 @@ body>main>section:nth-child(2)>div:nth-child(2){
     background-color: lightseagreen;
     position: relative;
     top:0;
+}
+
+/*========Page 03=======*/
+body > main > section:nth-child(3) > header:first-child {
+    width: 99.7vw;
+    background-color: darkgoldenrod;
+    height: 10vh;
+    top: 0;
+    position: sticky;
 }
