@@ -74,15 +74,15 @@ body > main > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
 
     font-size: calc(100vw / 40);
 
-    color: black;
+    color:  #B79C8D;
     text-align: center;
 
 }
 
 /*page-circle-words*/
-h3 {
-    position: absolute;
-    top: 35%;
+h5{
+    position: relative;
+    top: 40%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -93,4 +93,22 @@ h3 {
 body > main > section:nth-child(2) > div:nth-child(2) {
     width: 99.7vw;
     height: 100vh;
+}
+/*second page-circle*/
+body > main > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+    background: lightblue;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    font-size: calc(100vw / 40);
+
+    color: #3C5B54;
+    text-align: center;
+
 }
