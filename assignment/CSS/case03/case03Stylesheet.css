@@ -120,7 +120,7 @@ body > main > section:nth-child(2) > div:nth-child(3) {
     height: 100vh;
 }
 
-/*second page-circle*/
+/*Third page-circle*/
 body > main > section:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
     background: orangered;
     width: 13vw;
@@ -137,4 +137,13 @@ body > main > section:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
     color: white;
     text-align: center;
 
+}
+/*Third page circle-text*/
+#ijse{
+    position: relative;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
