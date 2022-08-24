@@ -50,6 +50,6 @@ body > main > section:nth-child(2) > header:first-child {
     width: 99.7vw;
     background-color: blueviolet;
     height: 10vh;
-    top: 100vh;
+    top: 0;
     position: sticky;
 }
