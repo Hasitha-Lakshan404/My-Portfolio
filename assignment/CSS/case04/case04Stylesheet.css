@@ -4,6 +4,15 @@ Date :8/24/2022
 Time :3:21 PM
 */
 
+::-webkit-scrollbar{
+    width: 0.3em;
+    background-color: #8086F1;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3C5B54;
+}
+
+
 /*=======Page 01==========*/
 section{
     height: 100vh;
