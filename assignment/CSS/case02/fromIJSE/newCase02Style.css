@@ -48,3 +48,15 @@ header > nav > ul > li {
 header > nav > ul > li:first-child {
     border-left: 2px solid rgba(46, 41, 41, 0.58);
 }
+
+/*======MAIN======*/
+
+main {
+    position: relative;
+    margin-top: 73px;
+}
+
+
+main>section:first-child{
+    border: 2px solid   black;
+}
