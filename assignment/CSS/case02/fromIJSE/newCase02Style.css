@@ -39,3 +39,7 @@ header > nav > ul > li {
     border-right: 2px solid rgba(46, 41, 41, 0.58);
 
 }
+
+header > nav > ul > li:first-child {
+    border-left: 2px solid rgba(46, 41, 41, 0.58);
+}
