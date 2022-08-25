@@ -6,6 +6,7 @@ Time :1:30 PM
 
 /*====HEDER=======*/
 
+/*img*/
 header > img {
     width: 190px;
     position: relative;
@@ -13,6 +14,7 @@ header > img {
     left: 10px;
 }
 
+/*header box*/
 header {
     background: white;
     box-shadow: 0px -1px 8px 2px #1c1717e8;
@@ -23,12 +25,14 @@ header {
     z-index: 2;
 }
 
+/*header nav*/
 header > nav {
     position: absolute;
     right: 40px;
     top: 0;
 }
 
+/*list with line*/
 header > nav > ul > li {
     display: inline-block;
     cursor: pointer;
@@ -40,6 +44,7 @@ header > nav > ul > li {
 
 }
 
+/*line for left*/
 header > nav > ul > li:first-child {
     border-left: 2px solid rgba(46, 41, 41, 0.58);
 }
