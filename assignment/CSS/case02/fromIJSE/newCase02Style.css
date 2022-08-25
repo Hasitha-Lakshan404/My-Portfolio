@@ -108,3 +108,47 @@ main > section {
 main > section p {
     color: #433636f5;
 }
+
+
+footer {
+    height: 60px;
+    background: #363030;
+}
+
+footer > h4 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    color: #e5e5e5;
+    font-weight: lighter;
+}
+
+main > section > section:first-child {
+    height: 300px;
+    position: relative;
+}
+
+main > section > section:first-child > div {
+    height: 100%;
+    width: calc(100% / 3);
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+}
+
+main > section > section:first-child > div:nth-child(1) {
+    background: url("../assets/gg.gif");
+    background-size: 450px;
+    left: 0;
+}
+
+main > section > section:first-child > div:nth-child(2) {
+    background: url("../assets/gg.gif");
+    background-size: 450px;
+    left: calc(100%/3);
+}
+
+main > section > section:first-child > div:nth-child(3) {
+    background: url("../assets/gg.gif");
+    background-size: 450px;
+    right: 0;
+}
