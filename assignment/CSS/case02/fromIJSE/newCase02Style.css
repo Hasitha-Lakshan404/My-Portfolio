@@ -78,3 +78,33 @@ main > nav > ul > li {
     cursor: pointer;
 
 }
+
+
+header ul > li > i {
+    padding-right: 6px;
+}
+
+header ul > li > a {
+    color: rgba(46, 41, 41, 0.96);
+    text-decoration: none;
+}
+
+main ul > li > i {
+    padding-right: 15px;
+    font-size: 20px;
+    color: #ccffcd;
+}
+
+main ul > li > a {
+    color: #ccffcd;
+    text-decoration: none;
+}
+
+main > section {
+    margin-left: 270px;
+    padding: 10px;
+}
+
+main > section p {
+    color: #433636f5;
+}
