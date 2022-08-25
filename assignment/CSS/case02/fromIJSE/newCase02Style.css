@@ -22,3 +22,9 @@ header {
     height: 73px;
     z-index: 2;
 }
+
+header > nav {
+    position: absolute;
+    right: 40px;
+    top: 0;
+}
