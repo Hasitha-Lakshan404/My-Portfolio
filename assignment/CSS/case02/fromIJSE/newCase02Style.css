@@ -136,7 +136,7 @@ main > section > section:first-child > div {
 
 main > section > section:first-child > div:nth-child(1) {
     background: url("../assets/gg.gif");
-    background-size: 450px;
+    background-size: 139px;
     left: 0;
 }
 
@@ -148,6 +148,6 @@ main > section > section:first-child > div:nth-child(2) {
 
 main > section > section:first-child > div:nth-child(3) {
     background: url("../assets/gg.gif");
-    background-size: 450px;
+    background-size: 139px;
     right: 0;
 }
