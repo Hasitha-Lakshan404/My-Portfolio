@@ -28,3 +28,14 @@ header > nav {
     right: 40px;
     top: 0;
 }
+
+header > nav > ul > li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(46, 41, 41, 0.96);
+    font-size: 19px;
+    border-right: 2px solid rgba(46, 41, 41, 0.58);
+
+}
