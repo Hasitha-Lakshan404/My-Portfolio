@@ -61,10 +61,20 @@ main>section:first-child{
     border: 2px solid   black;
 }
 
+/*side nav box*/
 main > nav {
     position: absolute;
     background: #24327f;
     top: 0;
     bottom: 0;
     width: 270px;
+}
+
+main > nav > ul > li {
+    color: white;
+    list-style: none;
+    padding-top: 40px;
+    font-size: 19px;
+    cursor: pointer;
+
 }
