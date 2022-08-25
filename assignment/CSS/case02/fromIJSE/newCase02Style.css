@@ -3,3 +3,13 @@ Project :Portfolio
 Date :8/25/2022
 Time :1:30 PM
 */
+
+header {
+    background: white;
+    box-shadow: 0px -1px 8px 2px #1c1717e8;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 73px;
+    z-index: 2;
+}
