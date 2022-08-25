@@ -4,6 +4,15 @@ Date :8/25/2022
 Time :1:30 PM
 */
 
+/*====HEDER=======*/
+
+header > img {
+    width: 190px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
 header {
     background: white;
     box-shadow: 0px -1px 8px 2px #1c1717e8;
