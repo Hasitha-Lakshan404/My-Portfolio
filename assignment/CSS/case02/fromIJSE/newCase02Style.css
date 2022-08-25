@@ -60,3 +60,11 @@ main {
 main>section:first-child{
     border: 2px solid   black;
 }
+
+main > nav {
+    position: absolute;
+    background: #24327f;
+    top: 0;
+    bottom: 0;
+    width: 270px;
+}
