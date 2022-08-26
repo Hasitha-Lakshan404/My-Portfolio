@@ -348,7 +348,7 @@ body{
     left: 37px;
     top: 1312px;
 
-    background: url(../imgme.jpg);
+    background: url(../images/imgme.jpg);
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
     border-radius: 22px;
 }
