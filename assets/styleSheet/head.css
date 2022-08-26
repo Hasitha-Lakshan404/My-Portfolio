@@ -19,31 +19,35 @@ Time :5:37 PM
 }
 
 /*======Theme icon and text and rectangle=====*/
-
+/*theme-container*/
+header>section:nth-child(1)>nav>div:first-child{
+    position: absolute;
+    right: 50vw;
+    top: 0;
+    z-index: 2;
+}
 
 .themeIcon{
-    position: absolute;
-    top: 20px;
-    left: 700px;
-    z-index: 1;
+    position: relative;
+    top: 17px;
+
 }
 
 .themeText{
-    position: absolute;
-    top: 11px;
-    left: 735px;
-    z-index: 1;
+    position: relative;
+    top: -35px;
+    left: 32px;
     color: #B79C8D;
     stroke: black;
 }
 
 .themeRectangle{
-    position: absolute;
+    position: relative;
     width: 103px;
     height: 29px;
 
-    left: 700px;
-    top: 25px;
+
+    top: -80px;
     z-index: 1;
 
     background: wheat;
