@@ -63,6 +63,19 @@ header>section:nth-child(1)>nav>div:first-child{
     color: #B79C8D;
     stroke: black;
     z-index: 1;
+    right: 10vw;
+}
+#OtherHeadTitles>ul>li{
+    display: inline-block;
+    padding: 5px;
+}
+
+/*
+#OtherHeadTitles{
+    position: absolute;
+    color: #B79C8D;
+    stroke: black;
+    z-index: 1;
     right: 96vw;
 }
 
@@ -95,4 +108,4 @@ header>section:nth-child(1)>nav>div:first-child{
     position: absolute;
     top: 3px;
     left: 1320px;
-}
+}*/
