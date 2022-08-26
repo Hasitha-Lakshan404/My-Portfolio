@@ -13,12 +13,14 @@ Time :5:37 PM
 
 .logo{
     position:absolute;
-    top: 15px;
-    left: 10px;
+    top: 1vh;
+    left: 1vw;
     z-index: 1;
 }
 
 /*======Theme icon and text and rectangle=====*/
+
+
 .themeIcon{
     position: absolute;
     top: 20px;
