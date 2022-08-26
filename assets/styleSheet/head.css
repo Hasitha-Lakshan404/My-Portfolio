@@ -4,6 +4,7 @@ Date :7/31/2022
 Time :5:37 PM
 */
 
+
 .ThemeHead{
     position:absolute;
     top: 0;
@@ -19,6 +20,10 @@ Time :5:37 PM
 }
 
 /*======Theme icon and text and rectangle=====*/
+a{
+    text-decoration: none;
+}
+
 /*theme-container*/
 header>section:nth-child(1)>nav>div:first-child{
     position: absolute;
