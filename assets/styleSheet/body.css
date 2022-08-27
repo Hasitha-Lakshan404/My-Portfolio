@@ -50,7 +50,8 @@ body{
 
 .pg1Hello {
     position: absolute;
-    top: 265px;
+    /*top: 265px;*/
+    top: 33.5vh;
     /*left: 160px;*/
     left: 11vw;
     z-index: 1;
@@ -62,7 +63,8 @@ body{
 
 .pg1Hasitha {
     position: absolute;
-    top: 250px;
+    /*top: 250px;*/
+    top: 32vh;
     /*left: 50px;*/
     left: 3vw;
     z-index: 1;
