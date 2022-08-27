@@ -117,7 +117,9 @@ body{
 
 .btnContactMe {
     position: absolute;
-    top: 475px;
+    /*top: 475px;*/
+    top: 62.5vh;
+    /*left: 60px;*/
     left: 60px;
     z-index: 1;
 
@@ -140,7 +142,7 @@ body{
     text-decoration: none;
 }
 
-.btnContactMe:hover {
+.btnContactMe:hover{
 
     /*Button*/
     background-color: #BA903A;
@@ -164,7 +166,9 @@ body{
 
 .btnSeeMore {
     position: absolute;
-    top: 475px;
+    /*top: 475px;*/
+    top: 62.6vh;
+    /*left: 300px;*/
     left: 300px;
     z-index: 1;
 
