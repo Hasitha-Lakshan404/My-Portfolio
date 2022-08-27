@@ -51,9 +51,11 @@ body{
 .pg1Hello {
     position: absolute;
     top: 265px;
-    left: 160px;
+    /*left: 160px;*/
+    left: 11vw;
     z-index: 1;
-    font-size: 37px;
+    /*font-size: 37px;*/
+    font-size: 2.5vw;
     font-family: "Inika";
     color: #ffffff;
 }
@@ -61,10 +63,12 @@ body{
 .pg1Hasitha {
     position: absolute;
     top: 250px;
-    left: 50px;
+    /*left: 50px;*/
+    left: 3vw;
     z-index: 1;
     color: #BA903A;
-    font-size: 129px;
+    /*font-size: 129px;*/
+    font-size: 9vw;
     font-family: "DM Serif Display";
     font-weight: bold;
 
