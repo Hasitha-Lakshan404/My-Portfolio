@@ -10,9 +10,14 @@ Time :1:22 AM
     margin: 0 auto;
     max-width: 36rem;
 
-    top:261px;
-    left: 500px;
-    font-size: 128px;
+    /*top:261px;*/
+    /*left: 500px;*/
+    top: 33.5vh;
+    /*left: 500px;*/
+    left: 35vw;
+    /*font-size: 128px;*/
+    font-size: 9vw;
+
     font-family: "DM Serif Display";
     font-weight: bold;
     -webkit-text-stroke:1px #BA903A;

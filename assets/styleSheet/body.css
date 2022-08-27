@@ -5,6 +5,7 @@ Time :7:12 PM
 */
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
+
 /*====Redesign ScrollBar=====*/
 ::-webkit-scrollbar {
     background: #192F35;
@@ -78,21 +79,24 @@ body{
 
 .pg1Im {
     position: absolute;
-    top: 265px;
-    left: 700px;
+    top: 33.5vh;
+    /*left: 700px;*/
+    left: 50vw;
     z-index: 1;
-    font-size: 37px;
+    /*font-size: 37px;*/
+    font-size: 2.5vw;
     font-family: "Inika";
     color: #ffffff;
 }
 
 .pg1Lakshan {
     position: absolute;
-    top: 250px;
-    left: 500px;
+    /*top: 33.5vh;*/
+    /*left: 500px;*/
+    /*left: 35vw;*/
     z-index: 1;
     color: #192F35;
-    font-size: 128px;
+    font-size: 9vw;
     -webkit-text-stroke: 1px #BA903A;
     font-family: "DM Serif Display";
     font-weight: bold;
