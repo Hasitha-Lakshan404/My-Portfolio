@@ -21,7 +21,8 @@ body {
 
 
     position: relative;
-    width: 100%;
+    /*width: 100%;*/
+    width: 99.7vw;
     height: 100vh;
     overflow: hidden;
 }
@@ -32,9 +33,22 @@ body {
 }
 
 .bubbles span{
-    position: relative;
+    /*position: relative;
     width: 30px;
     height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow:0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+
+    animation: animate 15s linear infinite;
+    animation-duration: calc(225s / var(--i));*/
+
+    position: relative;
+    width: 30vw;
+    height: 2vw;
     background: #4fc3dc;
     margin: 0 4px;
     border-radius: 50%;

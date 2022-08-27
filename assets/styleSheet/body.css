@@ -34,7 +34,8 @@ Time :7:12 PM
 body{
     /*background: #E7EBF8;*/
     /*background: #ffffff;*/
-    background: #242734;
+    /*background: #242734;*/
+    background: white;
 }
 
 /*==========================PAGE 01=======================*/
@@ -44,6 +45,7 @@ body{
     left: 0;
     z-index: 1; /*possession in the index */
     fill: #192F35;
+    width: 99.7vw;
 }
 
 .pg1Hello {
