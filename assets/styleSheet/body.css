@@ -104,8 +104,10 @@ body{
 
 .fullStackDev {
     position: absolute;
-    top: 425px;
-    left: 60px;
+    top: 55vh;
+    /*top: 425px;*/
+    left: 4vw;
+    /*left: 60px;*/
     z-index: 1;
     color: #4AB29B;
     font-size: 25px;
