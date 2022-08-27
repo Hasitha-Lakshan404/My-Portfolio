@@ -28,7 +28,7 @@ a{
 header>section:nth-child(1)>nav>div:first-child{
     position: absolute;
     right: 50vw;
-    top: 0;
+    top: 3px;
     z-index: 2;
 }
 
@@ -65,52 +65,25 @@ header>section:nth-child(1)>nav>div:first-child{
 /*=====home/about/skills/education/Project/hireMe=====*/
 #OtherHeadTitles{
     position: absolute;
-    color: #B79C8D;
     stroke: black;
     z-index: 1;
     right: 10vw;
 }
+/*list item*/
 #OtherHeadTitles>ul>li{
     display: inline-block;
-    padding: 5px;
-}
+    padding: 1vw;
 
-/*
-#OtherHeadTitles{
-    position: absolute;
+
+}
+/* for the list item*/
+#OtherHeadTitles>ul>li>a{
     color: #B79C8D;
-    stroke: black;
-    z-index: 1;
-    right: 96vw;
+    font-size: 1.3em;
+    /*background-color: #254871;*/
+    /*padding-top: 10px;*/
+    /*padding-left: 15px;*/
+    /*padding-bottom: 10px;*/
+    /*padding-right: 15px;*/
 }
 
-.headHome{
-    position: absolute;
-    top: 3px;
-    left: 820px;
-}
-.headAbout{
-    position: absolute;
-    top: 3px;
-    left: 920px;
-}
-.headSkill{
-    position: absolute;
-    top: 3px;
-    left: 1020px;
-}
-.headEducation{
-    position: absolute;
-    top: 3px;
-    left: 1100px;
-}
-.headProjects{
-    position: absolute;
-    top: 3px;
-    left: 1220px;
-}
-.headHireMe{
-    position: absolute;
-    top: 3px;
-    left: 1320px;
-}*/
