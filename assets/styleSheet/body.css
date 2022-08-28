@@ -304,21 +304,27 @@ body{
 /*======================PAGE 02=====================*/
 
 .headUnder {
+    width: 99.7vw;
+    height: 80vh;
     position: absolute;
     top: 753px;
     left: 0;
 }
 .quoteHead01{
     position: absolute;
-    width: 659px;
+    /*width: 659px;*/
+    width: 40vw;
     height: 138px;
-    left: 820px;
+    /*left: 820px;*/
+    right:5vw;
+    /*top: 820px;*/
     top: 820px;
 
     font-family: "Fanwood Text";
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    /*font-size: 25px;*/
+    font-size: 1.6vw;
     line-height: 39px;
     text-align: right;
     letter-spacing: 0.05em;
