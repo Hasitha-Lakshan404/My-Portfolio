@@ -316,7 +316,7 @@ body{
     width: 40vw;
     height: 138px;
     /*left: 820px;*/
-    right:5vw;
+    right:2vw;
     /*top: 820px;*/
     top: 820px;
 
@@ -334,15 +334,17 @@ body{
 }
 .quoteHead2{
     position: absolute;
-    width: 609px;
+    /*width: 609px;*/
+    width: 40vw;
     height: 50px;
-    left: 900px;
+    /*left: 900px;*/
+    right:2vw;
     top: 1000px;
 
     font-family: "Fanwood Text";
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.5vw;
     line-height: 29px;
     text-align: right;
     letter-spacing: 0.05em;
