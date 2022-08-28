@@ -40,6 +40,12 @@ body{
 }
 
 /*==========================PAGE 01=======================*/
+main>section:first-child,section:nth-child(2),section:nth-child(3),section:nth-child(4),section:nth-child(5){
+    position: relative;
+    width: 99.7vw;
+    height: 100vh;
+}
+
 .page01Background {
     position: absolute;
     top: 75px;

@@ -15,15 +15,22 @@
             margin: auto;
 
             display: grid;
-            border: 1px solid black;
+            /*border: 1px solid black;*/
             width: 98vw;
             height: 90vh;
             grid-template-rows: 1fr 1fr 1fr ;
             grid-template-columns: 1fr 1fr 1fr 1fr ;
             gap: 10px;
-
         }
-        main
+        main>section>div{
+            background-size: cover;
+            background-position: center;
+            box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);
+        }
+        main>section>div:hover{
+            box-shadow: none;
+        }
+
 
     </style>
 
