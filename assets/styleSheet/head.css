@@ -5,12 +5,12 @@ Time :5:37 PM
 */
 
 
-
+/*
 .ThemeHead{
     position:absolute;
     top: 0;
     left: 0;
-    z-index: 1; /*possession in the index */
+    z-index: 1; !*possession in the index *!
 }
 
 .logo{
@@ -20,12 +20,12 @@ Time :5:37 PM
     z-index: 1;
 }
 
-/*======Theme icon and text and rectangle=====*/
+!*======Theme icon and text and rectangle=====*!
 a{
     text-decoration: none;
 }
 
-/*theme-container*/
+!*theme-container*!
 header>section:nth-child(1)>nav>div:first-child{
     position: absolute;
     right: 50vw;
@@ -63,28 +63,49 @@ header>section:nth-child(1)>nav>div:first-child{
 }
 
 
-/*=====home/about/skills/education/Project/hireMe=====*/
+!*=====home/about/skills/education/Project/hireMe=====*!
 #OtherHeadTitles{
     position: absolute;
     stroke: black;
     z-index: 1;
     right: 10vw;
 }
-/*list item*/
+!*list item*!
 #OtherHeadTitles>ul>li{
     display: inline-block;
     padding: 1vw;
 
 
 }
-/* for the list item*/
+!* for the list item*!
 #OtherHeadTitles>ul>li>a{
     color: #B79C8D;
     font-size: 1.3em;
-    /*background-color: #254871;*/
-    /*padding-top: 10px;*/
-    /*padding-left: 15px;*/
-    /*padding-bottom: 10px;*/
-    /*padding-right: 15px;*/
+    !*background-color: #254871;*!
+    !*padding-top: 10px;*!
+    !*padding-left: 15px;*!
+    !*padding-bottom: 10px;*!
+    !*padding-right: 15px;*!
 }
 
+*/
+
+header{
+    width: 99.7vw;
+    height: 100vh;
+}
+
+/*header-box*/
+.themeHead>aside>div:first-child{
+    background-color: #323647;
+    width: 99.7vw;
+    height: 75px;
+}
+
+/*header-logo*/
+.themeHead>aside>img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
