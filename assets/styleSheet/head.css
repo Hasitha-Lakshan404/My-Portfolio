@@ -92,13 +92,13 @@ header>section:nth-child(1)>nav>div:first-child{
 
 header{
     width: 99.7vw;
-    height: 100vh;
+    height: 75px;
 }
 
 /*header-box*/
 .themeHead>aside>div:first-child{
     background-color: #323647;
-    width: 99.7vw;
+    width:100%;
     height: 75px;
 }
 
@@ -107,5 +107,14 @@ header{
     position: absolute;
     top: 10px;
     left: 10px;
-
+}
+/*for light theme*/
+.themeHead>nav>div:first-child{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    left: 40vw;
 }
