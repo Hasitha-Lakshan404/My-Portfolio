@@ -102,7 +102,7 @@ header>section:nth-child(1)>nav>div:first-child{
 
 ::-webkit-scrollbar-track {
     background: #192F35;
-    border-radius: 100vw;
+    /*border-radius: 100vw;*/
 
     /*scrollbar up and down margin*/
     /*margin-block: 2em;*/
@@ -111,7 +111,7 @@ header>section:nth-child(1)>nav>div:first-child{
 
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(rebeccapurple, blue);
-    border-radius: 100vw;
+    /*border-radius: 100vw;*/
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -121,8 +121,10 @@ header>section:nth-child(1)>nav>div:first-child{
 /*================================*/
 
 header{
+    position: fixed;
     width: 99.7vw;
     height: 75px;
+    z-index: 5;
 }
 
 /*header-box*/

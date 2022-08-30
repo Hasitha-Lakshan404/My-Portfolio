@@ -28,17 +28,19 @@ Time :1:22 AM
     font-family: "Alegreya", serif;
     font-size: 4rem;
     word-spacing: 0.2em;
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 0;
     line-height: 1;
     white-space: nowrap;
     color: transparent;
     background-color: #E8A95B;
     background-image: radial-gradient(ellipse farthest-corner at right bottom, white 0%, #F0BB7A 20%, #E8A95B 60%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, white 0%, #F0BB7A 50%, #DE9945 75%, #E8A95B 100%);
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: 100% 100%; /*Edited this*/
     background-clip: text;
     -webkit-background-clip: text;
-    margin: 0 0 0.5rem 0;
+    /*margin: 0 0 0.5rem 0;*/
+    margin: 0 0 0 0;  /*edited this*/
 }
 
 .gold-text:before {

@@ -20,7 +20,9 @@ body {
     min-height: 100vh;
 
 
-    position: relative;
+    position: absolute;
+    top: 75px;
+    left: 0;
     /*width: 100%;*/
     width: 99.7vw;
     height: 100vh;
@@ -29,7 +31,7 @@ body {
 .bubbles{
     position: relative;
     display: flex;
-    z-index: 1;
+    z-index: 10;
 }
 
 .bubbles span{
