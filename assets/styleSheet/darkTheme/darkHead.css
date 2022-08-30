@@ -90,6 +90,36 @@ header>section:nth-child(1)>nav>div:first-child{
 
 */
 
+/*============================*/
+
+/*====Redesign ScrollBar=====*/
+::-webkit-scrollbar {
+    background: #192F35;
+    width: 0.5em;
+    height: 0.5em;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #192F35;
+    border-radius: 100vw;
+
+    /*scrollbar up and down margin*/
+    /*margin-block: 2em;*/
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(rebeccapurple, blue);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(blue, rebeccapurple);
+}
+
+/*================================*/
+
 header{
     width: 99.7vw;
     height: 75px;

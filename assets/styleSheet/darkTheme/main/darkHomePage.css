@@ -10,3 +10,9 @@ body{
 main{
     width: 99.7vw;
 }
+
+.mainSecHome>div:first-child{
+    width:100%;
+    height: 100vh;
+    background-color: #323647;
+}
