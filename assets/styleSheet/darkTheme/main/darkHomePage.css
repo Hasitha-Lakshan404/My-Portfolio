@@ -13,7 +13,8 @@ main{
 
 .mainSecHome>div:first-child{
     /*width:99.5vw;*/
-    height: 100vh;
+    height: 90vh;
+    margin-top: 75px;
     background-color: #323647;
 }
 
