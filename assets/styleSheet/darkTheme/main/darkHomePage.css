@@ -8,11 +8,11 @@ body{
 }
 
 main{
-    width: 99.7vw;
+    /*width: 99.5vw;*/
 }
 
 .mainSecHome>div:first-child{
-    width:99.7vw;
+    /*width:99.5vw;*/
     height: 100vh;
     background-color: #323647;
 }
@@ -98,7 +98,7 @@ left: 60px;
     border-radius: 10px;
     width: 200px;
     height: 45px;
-    display: inline-block;
+    /*display: inline-block;*/
 
     /*!*Text*!*/
     font-family: 'Della Respira';
@@ -119,7 +119,7 @@ left: 60px;
     border-radius: 10px;
     width: 200px;
     height: 45px;
-    display: inline-block;
+    /*display: inline-block;*/
 
     /*!*Text*!*/
     font-family: 'Della Respira';
@@ -147,7 +147,7 @@ left: 300px;
     border-radius: 10px;
     width: 200px;
     height: 45px;
-    display: inline-block;
+    /*display: inline-block;*/
 
     /*!*Text*!*/
     font-family: 'Della Respira';
@@ -168,7 +168,7 @@ left: 300px;
     border-radius: 10px;
     width: 200px;
     height: 45px;
-    display: inline-block;
+    /*display: inline-block;*/
 
     /*!*Text*!*/
     font-family: 'Della Respira';
@@ -267,4 +267,11 @@ right: 0.7vw;
     top:700px;
     left: 48vw;
     z-index: 1;
+}
+#test{
+    height: 100px;
+    width: 100px;
+    background-color: #3C5B54;
+    border-radius: 45% 55% 35% 65% / 22% 18% 82% 78%;
+
 }

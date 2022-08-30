@@ -28,7 +28,7 @@ Time :1:22 AM
     font-family: "Alegreya", serif;
     font-size: 4rem;
     word-spacing: 0.2em;
-    /*display: inline-block;*/
+    /*display: unset;*/
     padding: 0;
     line-height: 1;
     white-space: nowrap;
