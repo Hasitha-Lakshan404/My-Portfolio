@@ -4,11 +4,11 @@ Date :8/30/2022
 Time :10:27 AM
 */
 
-.sec-center {
-    position: relative;
+/*.sec-center {
+    !*position: relative;
     max-width: 100%;
     text-align: center;
-    z-index: 200;
+    z-index: 200;*!
 }
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
@@ -70,8 +70,8 @@ Time :10:27 AM
     width: 46px;
     height: 46px;
     background-color: #282836;
-    /*background-color:#1f2029;*/
-    /*background-image: url("ht tps://assets.codepen.io/1462889/sun.svg");*/
+    !*background-color:#1f2029;*!
+    !*background-image: url("ht tps://assets.codepen.io/1462889/sun.svg");*!
     background-image: url("../images/toppng.com-sun-high-quality-png-800x800.png");
     background-size: 25px 25px;
     background-repeat: no-repeat;
@@ -345,8 +345,9 @@ a .uil {
 }
 .dark-light:checked ~ .logo img {
     filter: brightness(10%);
-}
+}*/
 
+/*
 @media screen and (max-width: 991px) {
     .logo {
         top: 30px;
@@ -357,4 +358,69 @@ a .uil {
         top: 20px;
         right: 20px;
     }
+}*/
+
+
+
+/*=======================================================*/
+
+.all
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+input[type="checkbox"]
+{
+    width:80px;
+    height: 30px;
+    background-color: #FFCC21;
+    -webkit-appearance:none;
+    border-radius: 50px;
+    border:2px solid black;
+    outline: none;
+}
+input:checked[type="checkbox"]
+{
+    background-color: black;
+    border:2px solid #FFCC21;
+}
+
+input[type="checkbox"]:before
+{
+    content: " ";
+    position: absolute;
+    width:35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 35px;
+    top:10px;
+    left:14px;
+    transition-duration: 0.5s;
+}
+
+input:checked[type="checkbox"]:before
+{
+    left:60px;
+    background-color: #FFCC21;
+}
+
+input[type="checkbox"]:after
+{
+    content: " ";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 35px;
+    top:10px;
+    left:2px;
+}
+input:checked[type="checkbox"]:after
+{
+    top:6px;
+    left:52px;
+    background-color: black;
 }

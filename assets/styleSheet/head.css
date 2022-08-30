@@ -110,12 +110,12 @@ header{
 }
 /*for light theme*/
 .themeHead>nav>div:first-child{
-    width: 50px;
-    height: 50px;
-    background-color: blueviolet;
-    border-radius: 50%;
+    /*width: 10px;*/
+    /*height: 50px;*/
+    /*background-color: blueviolet;*/
+    /*border-radius: 50%;*/
     position: absolute;
-    top: 12px;
+    top: 40px;
     left: 40vw;
 }
 

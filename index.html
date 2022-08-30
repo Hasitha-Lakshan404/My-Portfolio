@@ -29,6 +29,23 @@
             /*background-size: 80%;*/
         }
     </style>
+
+    <script>
+        function dark()
+        {
+            var a = document.getElementById("click");
+            var b = document.getElementsByTagName('body')[0];
+
+            if(a.checked == true)
+            {
+                b.style.background = "#000000c9";
+            }
+            else
+            {
+                b.style.background = "white";
+            }
+        }
+    </script>
 </head>
 <body>
 
@@ -42,15 +59,16 @@
             <div></div>
 <!--            <img class="ThemeHead" height="75" src="assets/images/light%20theme%20headLine.png" width="99.7%">-->
             <img class="logo" src="assets/images/logo.png">
+
+
         </aside>
         <!--for navigation Text-->
         <nav>
             <!--for Dark,LightThemeIcon and Text-->
             <div>
-                <input class="dark-light" type="checkbox" id="dark-light" name="dark-light" />
-                <label for="dark-light"></label>
-
-                <div class="light-back"></div>
+                <div class="all">
+                    <input type="checkbox" id="click" onclick ="dark()" />
+                </div>
                 <!--<img class="themeIcon" src="assets/images/lightThemeIcon.png">
 
                 <h3 class="themeText">Theme</h3>
