@@ -4,9 +4,10 @@ Date :8/30/2022
 Time :1:22 PM
 */
 
+/*wave*/
 .mainSecAbout>section:first-child>div:first-child{
     position: relative;
-    top: 0;
+    top: -0.5vh;
     left: 0;
     height: 100vh;
     background:url("../../../images/DarkheadUnder.png") no-repeat center;
