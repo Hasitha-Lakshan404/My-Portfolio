@@ -78,6 +78,7 @@ body {
 .card {
     position: relative;
     width: 400px;
+    /*top: 40px;*/
     left: 2.5vw;
 
 }
@@ -87,7 +88,7 @@ body {
     position: relative;
     padding: 15em 5em;
     transition: transform 3s;
-// background: pink;
+/*// background: pink;*/
     transform-style: preserve-3d;
 }
 
@@ -167,9 +168,11 @@ body {
 
     background-color: var(--clr);
     background-image: url(../images/hoveMe.jpg);
+    /*background: linear-gradient(rgba(177, 14, 236, 0.5), rgba(25, 8, 126, 0.2)), url("../images/hoveMe.jpg") no-repeat center;*/
+    /*background-size: 100% 100%;*/
     background-size: cover;
     background-position: center;
-    background-blend-mode: luminosity;
+    /*background-blend-mode: luminosity;*/
     color: #333;
 }
 
@@ -181,9 +184,20 @@ body {
     bottom: var(--spacer);
     left: var(--spacer);
     right: var(--spacer);
-    border: 5px solid #2196f3;
-    border-radius: 30px;
+    /*border: 5px solid #2196f3;*/
+    /*border-radius: 30px;*/
+    /*filter: blur(10px);*/
+    /*background: inhe;*/
     transform: var(--level-one);
+
+
+    /* From https://css.glass */
+    background: rgba(159, 168, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    border: 1px solid rgba(159, 168, 255, 0.99);
 }
 
 
