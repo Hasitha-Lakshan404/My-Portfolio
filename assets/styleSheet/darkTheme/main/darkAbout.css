@@ -296,3 +296,49 @@ padding-right: 10px;
 
     color: #BA903A;
 }
+
+#ad{
+    padding-right: 10px;
+    font-size: 1rem;
+
+    position: absolute;
+    width: 100px;
+    height: 31px;
+    left: 45vw;
+    top: 2000px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*font-size: 20px;*/
+    line-height: 31px;
+
+    color: #FDF9F9;
+}
+#adReal{
+
+}
+
+#tel{
+    padding-right: 10px;
+    font-size: 1rem;
+
+    position: absolute;
+    width: 100px;
+    height: 31px;
+    left: 45vw;
+    top: 2030px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*font-size: 20px;*/
+    line-height: 31px;
+
+    color: #FDF9F9;
+}
+#telReal{
+
+}
+
+
