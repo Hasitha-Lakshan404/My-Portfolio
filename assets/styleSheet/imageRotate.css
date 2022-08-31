@@ -110,7 +110,7 @@ body {
 }
 
 .card__front {
-    border-radius: 30px;
+    border-radius: 25px;
 
     background-color: var(--clr);
     background-image: url(../images/imgme.jpg);
@@ -160,7 +160,7 @@ body {
 
 
 .card__back {
-    border-radius: 20px;
+    border-radius: 25px;
     transform: rotateY(.5turn);
     /*color: var(--clr);*/
     /*background: #333;*/
