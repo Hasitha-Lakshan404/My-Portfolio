@@ -27,7 +27,7 @@
     <link href="assets/styleSheet/imageRotate.css" rel="stylesheet">
 
     <style>
-        body{
+        body {
             background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg");
             background-position: center;
             background-repeat: repeat;
@@ -36,17 +36,13 @@
     </style>
 
     <script>
-        function dark()
-        {
+        function dark() {
             var a = document.getElementById("click");
             var b = document.getElementsByTagName('body')[0];
 
-            if(a.checked === true)
-            {
+            if (a.checked === true) {
                 b.style.backgroundColor = "#242734";
-            }
-            else
-            {
+            } else {
                 b.style.backgroundColor = "white";
             }
         }
@@ -62,7 +58,7 @@
         <aside>
             <!--head-box-->
             <div></div>
-<!--            <img class="ThemeHead" height="75" src="assets/images/light%20theme%20headLine.png" width="99.7%">-->
+            <!--            <img class="ThemeHead" height="75" src="assets/images/light%20theme%20headLine.png" width="99.7%">-->
             <img class="logo" src="assets/images/logo.png">
 
 
@@ -73,7 +69,7 @@
             <div>
                 <!--for the theme change check box-->
                 <div class="all">
-                    <input type="checkbox" id="click" onclick ="dark()" checked />
+                    <input checked id="click" onclick="dark()" type="checkbox"/>
                 </div>
 
             </div>
@@ -263,12 +259,12 @@
                     <div class="card__content">
 
                         <div class="card__front">
-<!--                            <h3 class="card__title">The Fair</h3>-->
-<!--                            <p class="card__subtitle">Time for some fun</p>-->
+                            <!--                            <h3 class="card__title">The Fair</h3>-->
+                            <!--                            <p class="card__subtitle">Time for some fun</p>-->
                         </div>
 
                         <div class="card__back">
-<!--                            <p class="card__body">This would be some longer text that gives a description of the things from the other side I guess</p>-->
+                            <!--                            <p class="card__body">This would be some longer text that gives a description of the things from the other side I guess</p>-->
                         </div>
 
                     </div>
@@ -295,20 +291,24 @@
                     development, Flutter, UI / UX designing, database management and frameworks.
                 </p>
 
-<!--                <button class="btnSeeMore" id="btnDownload" type="button">Download Cv</button>-->
-
-                <label for="file" id="sin">Sinhala :</label>
-                <progress id="file" max="100" value="100"> 100%</progress>
-
-                <label for="file2" id="eng">English :</label>
-                <progress id="file2" max="100" value="70"> 70%</progress>
+                <!--                <button class="btnSeeMore" id="btnDownload" type="button">Download Cv</button>-->
 
 
             </article>
         </section>
         <!--for the language and extraDetails-->
         <section>
-            <div class="languages">Languages.</div>
+            <!--languages-->
+            <div>
+                <div class="languages">Languages.</div>
+                <label for="file" id="sin">Sinhala :</label>
+                <progress id="file" max="100" value="100"> 100%</progress>
+
+                <label for="file2" id="eng">English :</label>
+                <progress id="file2" max="100" style="" value="70"> 70%</progress>
+            </div>
+
+
         </section>
     </section>
 
@@ -367,7 +367,7 @@
 <!--site footer-->
 <footer>
     <!--back to top-->
-    <section></section  >
+    <section></section>
     <!--contact details(Middle Container)-->
     <section>
         <!--left corner-->
