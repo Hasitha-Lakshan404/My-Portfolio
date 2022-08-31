@@ -237,7 +237,7 @@ left: 300px;
     width: 25vw;
     height: 4vw;
     right: -7vw;
-    top: 82vh;
+    top: 83vh;
 
     font-family: "Esteban";
     font-style: normal;
@@ -254,8 +254,7 @@ left: 300px;
 
 
 #lineAndEmail{
-    /*width: 20vw;*/
-    /*height: 20vw;*/
+
 }
 .line{
     position: absolute;
