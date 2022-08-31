@@ -118,6 +118,9 @@ header>section:nth-child(1)>nav>div:first-child{
     background: linear-gradient(blue, rebeccapurple);
 }
 
+body{
+    background-color: #242734;
+}
 /*================================*/
 
 header{
