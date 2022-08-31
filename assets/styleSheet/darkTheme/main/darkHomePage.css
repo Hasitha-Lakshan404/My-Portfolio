@@ -234,10 +234,10 @@ left: 300px;
 }
 .email{
     position: absolute;
-    width: 205px;
-    height: 20px;
-    right: -2.3vw;
-    top: 530px;
+    width: 25vw;
+    height: 4vw;
+    right: -7vw;
+    top: 82vh;
 
     font-family: "Esteban";
     font-style: normal;
@@ -252,27 +252,25 @@ left: 300px;
     z-index:1;
 }
 
+
+#lineAndEmail{
+    /*width: 20vw;*/
+    /*height: 20vw;*/
+}
 .line{
     position: absolute;
-    top: 690px;
+    top: 94vh;
     /*!*left: 1409px;*!*/
-right: 0.7vw;
+right: 2.3vw;
     z-index: 1;
     color: white;
     transform: rotate(90deg);
-    width: 7em;
+    width: 4vw;
 }
 
 .falcon{
     position: absolute;
-    top:700px;
+    top:91vh;
     left: 48vw;
     z-index: 1;
-}
-#test{
-    height: 100px;
-    width: 100px;
-    background-color: #3C5B54;
-    border-radius: 45% 55% 35% 65% / 22% 18% 82% 78%;
-
 }
