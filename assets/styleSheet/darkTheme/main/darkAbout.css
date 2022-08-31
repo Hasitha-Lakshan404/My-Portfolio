@@ -3,3 +3,13 @@ Project :Portfolio
 Date :8/30/2022
 Time :1:22 PM
 */
+
+.mainSecAbout>section:first-child>div:first-child{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background:url("../../../images/DarkheadUnder.png") no-repeat center;
+    background-size: 100% 100%;
+
+}
