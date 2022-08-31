@@ -78,7 +78,7 @@ body {
 .card {
     position: relative;
     width: 400px;
-    /*top: 40px;*/
+    top: 23px;
     left: 2.5vw;
 
 }
