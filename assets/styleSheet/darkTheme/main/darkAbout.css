@@ -3,14 +3,58 @@ Project :Portfolio
 Date :8/30/2022
 Time :1:22 PM
 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
 /*wave*/
-.mainSecAbout>section:first-child>div:first-child{
+.mainSecAbout > section:first-child > div:first-child {
     position: relative;
     top: -0.5vh;
     left: 0;
     height: 100vh;
-    background:url("../../../images/DarkheadUnder.png") no-repeat center;
+    background: url("../../../images/DarkheadUnder.png") no-repeat center;
     background-size: 100% 100%;
 
+}
+
+.quoteHead01 {
+    position: absolute;
+    /*!*width: 659px;*!*/
+width: 40vw;
+    height: 138px;
+    /*!*left: 820px;*!*/
+right:2vw;
+    /*!*top: 820px;*!*/
+top: 820px;
+
+    /*font-family: "Roboto";*/
+    font-style: normal;
+    font-weight: 400;
+    /*!*font-size: 25px;*!*/
+font-size: 1.6vw;
+    line-height: 39px;
+    text-align: right;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+}
+
+.quoteHead2 {
+    position: absolute;
+    /*!*width: 609px;*!*/
+    width: 40vw;
+    height: 50px;
+    /*!*left: 900px;*!*/
+    right: 2vw;
+    top: 1000px;
+
+    /*font-family: "Roboto";*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
 }
