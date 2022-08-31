@@ -4,23 +4,23 @@ Date :8/3/2022
 Time :8:59 PM
 */
 
-.imageMeCard {
+/*.imageMeCard {
     align-content: center;
-    /*margin: 0;*/
+    !*margin: 0;*!
     position: absolute;
     width: 100px;
     height: 500px;
     background: black;
     top: 1312px;
     left: 37px;
-    /*filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));*/
-    /*border-radius: 22px;*/
+    !*filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));*!
+    !*border-radius: 22px;*!
     transition: transform 3s;
 
 }
 .imageMeCard:hover{
     align-content: center;
-    /*left: 100px;*/
+    !*left: 100px;*!
     transform: rotateY(.5turn);
 }
 
@@ -29,8 +29,8 @@ Time :8:59 PM
     position: relative;
     padding: 5em;
     left: 0;
-    /*filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));*/
-    /*border-radius: 22px;*/
+    !*filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));*!
+    !*border-radius: 22px;*!
 
 }
 .imageMeCard__front,.imageMeCard__back{
@@ -40,7 +40,7 @@ Time :8:59 PM
     left: 37px;
     top:0;
 
-    /*background: url(../imgme.jpg);*/
+    !*background: url(../imgme.jpg);*!
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
     border-radius: 22px;
 }
@@ -48,4 +48,142 @@ Time :8:59 PM
     width: 400px;
     height: 500px;
     left: 37px;
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+:root {
+    --level-one: translateZ(3rem);
+    --level-two: translateZ(6rem);
+    --level-three: translateZ(9rem);
+
+    --fw-normal: 400;
+    --fw-bold: 700;
+
+    --clr: #b7c9e5;
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    /*height: 100vh;*/
+    /*display: grid;*/
+    /*place-items: center;*/
+    /*font-family: 'Oswald', sans-serif;*/
+}
+
+.card {
+    position: relative;
+    width: 400px;
+    left: 2.5vw;
+
+}
+
+.card__content {
+    text-align: center;
+    position: relative;
+    padding: 15em 5em;
+    transition: transform 3s;
+// background: pink;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card__content {
+    transform: rotateY(.5turn);
+}
+
+.card__front,
+.card__back {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5em 3em;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    display: grid;
+    align-content: center;
+}
+
+.card__front {
+    border-radius: 30px;
+
+    background-color: var(--clr);
+    background-image: url(../images/imgme.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: #333;
+}
+
+.card__front::before {
+    content: '';
+    position: absolute;
+    --spacer: 1em;
+    top: var(--spacer);
+    bottom: var(--spacer);
+    left: var(--spacer);
+    right: var(--spacer);
+    border: 5px solid blue;
+    border-radius: 30px;
+    transform: var(--level-one);
+}
+
+.card__title {
+    font-size: 3.5rem;
+    transform: var(--level-three);
+    order: 2;
+    text-transform: uppercase;
+}
+
+.card__subtitle {
+    transform: var(--level-two);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: .75rem;
+    font-weight: var(--fw-bold);
+    opacity: .7;
+}
+
+.card__body {
+    transform: var(--level-two);
+    font-weight: var(fw-normal);
+    font-size: 1.5rem;
+    line-height: 1.6;
+
+
+}
+
+
+
+.card__back {
+    border-radius: 20px;
+    transform: rotateY(.5turn);
+    /*color: var(--clr);*/
+    /*background: #333;*/
+
+    background-color: var(--clr);
+    background-image: url(../images/hoveMe.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: #333;
+}
+
+.card__back::before {
+    content: '';
+    position: absolute;
+    --spacer: 1em;
+    top: var(--spacer);
+    bottom: var(--spacer);
+    left: var(--spacer);
+    right: var(--spacer);
+    border: 5px solid blue;
+    border-radius: 30px;
+    transform: var(--level-one);
+}
+
+
