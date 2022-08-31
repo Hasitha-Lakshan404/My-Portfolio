@@ -169,7 +169,7 @@ body {
     background-image: url(../images/hoveMe.jpg);
     background-size: cover;
     background-position: center;
-    background-blend-mode: multiply;
+    background-blend-mode: luminosity;
     color: #333;
 }
 
