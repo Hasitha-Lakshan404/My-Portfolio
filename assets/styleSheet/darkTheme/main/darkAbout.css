@@ -3,7 +3,7 @@ Project :Portfolio
 Date :8/30/2022
 Time :1:22 PM
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700;900&display=swap");
 
@@ -84,12 +84,12 @@ Time :1:22 PM
 /** name /se/ age *!*/
 .name {
     position: absolute;
-    width: 340px;
+    width: 412px;
     height: 37px;
     left: 693px;
     top: 1350px;
 
-    font-family: "Roboto";
+    font-family: "Space Mono";
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -105,12 +105,12 @@ Time :1:22 PM
 .se {
 
     position: absolute;
-    width: 259px;
+    width: 297px;
     height: 53px;
     left: 693px;
     top: 1410px;
 
-    font-family: 'Roboto';
+    font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -124,12 +124,12 @@ Time :1:22 PM
 
 .age {
     position: absolute;
-    width: 130px;
+    width: 162px;
     height: 49px;
     left: 693px;
     top: 1451px;
 
-    font-family: 'Roboto';
+    font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -145,15 +145,15 @@ Time :1:22 PM
 .hi {
 
     position: absolute;
-    width: 120px;
+    width: 125px;
     height: 42px;
     left: 693px;
     top: 1542px;
 
-    font-family: 'Roboto';
+    font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 42px;
     /*! *identical to box height *!*/
 
@@ -171,7 +171,7 @@ Time :1:22 PM
     left: 693px;
     top: 1578px;
 
-    font-family: 'Roboto';
+    font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -191,7 +191,7 @@ Time :1:22 PM
     left: 693px;
     top: 1689px;
 
-    font-family: 'Roboto';
+    font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -202,5 +202,81 @@ Time :1:22 PM
     color: #ffffff;
     opacity: 0.5;
 
+}
 
+.languages{
+    position: absolute;
+    width: 332px;
+    height: 50px;
+    left: 37px;
+    top: 1921px;
+
+    font-family: 'Familjen Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #BA903A;
+}
+#sin {
+    /*position: absolute;
+    top: 1923px;
+    left: 50px;*/
+padding-right: 10px;
+    font-size: 1rem;
+
+    position: absolute;
+    width: 100px;
+    height: 31px;
+    left: 42px;
+    top: 2000px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*font-size: 20px;*/
+    line-height: 31px;
+
+    color: #FDF9F9;
+
+}
+
+#file{
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 150px;
+    top: 2000px;
+}
+
+#eng {
+    /*position: absolute;
+    top: 1923px;
+    left: 50px;*/
+padding-right: 10px;
+    font-size: 1rem;
+
+    position: absolute;
+    width: 96px;
+    height: 31px;
+    left: 42px;
+    top: 2030px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*font-size: 20px;*/
+    line-height: 31px;
+
+    color: #FDF9F9;
+
+}
+
+#file2{
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 150px;
+    top: 2030px;
 }
