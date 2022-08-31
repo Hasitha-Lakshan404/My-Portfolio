@@ -280,3 +280,19 @@ padding-right: 10px;
     left: 150px;
     top: 2030px;
 }
+
+.extraDetails{
+    position: absolute;
+    width: 332px;
+    height: 50px;
+    left: 45vw;
+    top: 1921px;
+
+    font-family: 'Familjen Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #BA903A;
+}
