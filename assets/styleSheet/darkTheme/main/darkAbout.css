@@ -316,7 +316,22 @@ padding-right: 10px;
     color: #FDF9F9;
 }
 #adReal{
+    padding-right: 10px;
+    font-size: 1rem;
 
+    position: absolute;
+    width: 334px;
+    height: 31px;
+    left: 52vw;
+    top: 2000px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*font-size: 20px;*/
+    line-height: 31px;
+
+    color: #FDF9F9;
 }
 
 #tel{
@@ -338,7 +353,28 @@ padding-right: 10px;
     color: #FDF9F9;
 }
 #telReal{
+    padding-right: 10px;
+    font-size: 1rem;
 
+    position: absolute;
+    width: 150px;
+    height: 31px;
+    left: 52vw;
+    top: 2030px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*font-size: 20px;*/
+    line-height: 31px;
+
+    color: #FDF9F9;
 }
 
+#allAboutLangExtra{
+    /*position: relative;*/
+    /*top: -150vh;*/
+    /*left: 0;*/
+
+}
 
