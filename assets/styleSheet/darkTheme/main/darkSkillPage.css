@@ -81,8 +81,18 @@ Time :1:46 PM
 /*for the titles*/
 .mainSecSkill>section:nth-child(3)>section:first-child{
     font-family: "Space Mono";
-    font-size: 10px;
+    font-size: 1.5em;
     color: #FFFFFF;
+    position: relative;
+    top: 10px;
+
+}
+/*common li*/
+.mainSecSkill>section:nth-child(3)>section:first-child>ul>li{
+    display: inline-block;
+    margin-left: 12vw;
+    padding-bottom: 2px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
 
 
