@@ -38,6 +38,7 @@ Time :1:46 PM
     color: #4fc3dc;
 }
 
+/*for the skill quote*/
 .mainSecSkill>aside:nth-child(2)>p{
     position: absolute;
     color: #71727D;
@@ -48,12 +49,24 @@ Time :1:46 PM
 
 }
 
+/*for the Skill rounded container*/
 .mainSecSkill>section:nth-child(3){
     position: relative;
     top: 120px;
     left: 5vw;
-    border: 3px solid #CFD8DC;
-    border-radius: 100px;
+    /*border: 3px solid #CFD8DC;*/
+    /*border-radius: 100px;*/
     width: 90vw;
     height: 80vh;
+    /*background-color: #323647;*/
+    /*box-shadow:0px 0px 0 1px  white;*/
+
+    /* From https://css.glass */
+    background: rgba(50, 54, 71, 0.48);
+    border-radius: 100px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    border: 1px solid rgba(50, 54, 71, 0.3);
+
 }
