@@ -95,4 +95,8 @@ Time :1:46 PM
     border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
 
-
+/*for the Design*/
+.mainSecSkill>section:nth-child(3)>section:first-child>ul>li:first-child{
+    margin-left: 5vw;
+    /*margin-right: 5vw;*/
+}
