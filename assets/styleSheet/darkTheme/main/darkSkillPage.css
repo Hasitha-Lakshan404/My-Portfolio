@@ -4,6 +4,7 @@ Date :8/30/2022
 Time :1:46 PM
 */
 
+
 .mainSecSkill{
     position: relative;
     /*background-color: #2196f3;*/
@@ -12,7 +13,8 @@ Time :1:46 PM
     top: 40vh;
     left: 0;
     margin:auto;
-    z-index: 12;
+    z-index: 1;
+
 
 }
 /*.mainSecSkill>section:first-child>div{
@@ -34,5 +36,15 @@ Time :1:46 PM
     /*background: #CFD8DC;*/
 
     color: #4fc3dc;
+}
+
+.mainSecSkill>aside:nth-child(2)>p{
+    position: absolute;
+    color: #71727D;
+    display: inline-block;
+    font-size: 25px;
+    right: 20vw;
+    top: 125px;
+
 }
 
