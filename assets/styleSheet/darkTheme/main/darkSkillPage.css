@@ -78,4 +78,11 @@ Time :1:46 PM
     border: 1px solid rgba(50, 54, 71, 1);
 }
 
+/*for the titles*/
+.mainSecSkill>section:nth-child(3)>section:first-child{
+    font-family: "Space Mono";
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
 
