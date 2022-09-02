@@ -6,16 +6,35 @@
     <link href="../../../../assets/fonts/css/all.min.css" rel="stylesheet">
 
     <style>
+        main>div{
+            width: 100px;
+            height: 100px;
+            background-color: rgba(55,69,255,0.98);
+            transition-property: width,background-color;
+            transition-duration: 3s;
+        }
+        main>div:hover{
+            transition-property: width,background-color;
+            transition-duration: 3s;
+            width: 400px;
+            height: 100px;
+            background-color: rgba(38, 41, 82, 0.98);
+        }
+
     </style>
 
 </head>
 <body>
 
 <main>
-    <div><i class="fa-solid fa-address-book"></i></div>
+    <div><i class="fa-solid fa-address-book" style="size: 10px"></i></div>
+    <br>
     <div><i class="fa-solid fa-truck-medical"></i></div>
+    <br>
     <div><i class="fa-brands fa-cc-amazon-pay"></i></div>
+    <br>
     <div><i class="fa-solid fa-layer-group"></i></div>
+    <br>
     <div><i class="fa-solid fa-cart-shopping"></i></div>
 </main>
 
