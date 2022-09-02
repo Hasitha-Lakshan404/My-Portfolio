@@ -186,7 +186,7 @@ Time :1:46 PM
     top: 45vh;
     width: 40vw;
     height: 7vh;
-    /*border: 1px solid white;*/
+    border: 1px solid white;
     display: flex;
     flex-flow: row;
 
@@ -213,18 +213,52 @@ Time :1:46 PM
 }#skillLangFrameworks>div:nth-child(6){
     background:url("../../../images/css3.png") no-repeat center; background-size: 100% 100%;
 }#skillLangFrameworks>div:nth-child(7){
-    background:url("../../../images/hibernate.png") no-repeat center; background-size: 250% 200%;
+    background:url("../../../images/hibernate.png") no-repeat center; background-size: 250% 170%;
 }#skillLangFrameworks>div:nth-child(8){
     background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
 }
 
+ /*=========for the used tools*/
 #skillToolName{
+    position: relative;
+    top:50vh;
     /*height: 100px;*/
     /*border: 1px solid white;*/
+    /*display: flex;*/
+    /*flex-flow: row;*/
+
+    color: #CFD8DC;
+    font-family: Poppins;
+    font-size: 24px;
 
 }
+
+#skillToolName>hr{
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    top: 5px;
+}
+
 #skillTools{
+    position: relative;
+    top: 50vh;
+    width: 40vw;
+    height: 7vh;
+    border: 1px solid white;
+    display: flex;
+    flex-flow: row;
     /*height: 100px;*/
     /*border: 1px solid white;*/
 
 }
+
+#skillTools>div{
+    width: 28vw;
+    height:7vh;
+    margin-right: 20px;
+    border: 1px solid white;
+}
+
+
