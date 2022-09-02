@@ -195,9 +195,11 @@ Time :1:46 PM
     width: 28vw;
     height:10vh;
     border: 1px solid white;
-
 }
 
+#skillLangFrameworks>div:nth-child(1){
+    background:url("../../../images/java.png") no-repeat center; background-size: 100% 100%;
+}
 
 
 #skillToolName{
