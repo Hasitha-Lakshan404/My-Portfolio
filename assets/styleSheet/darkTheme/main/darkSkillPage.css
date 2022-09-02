@@ -149,7 +149,7 @@ Time :1:46 PM
 
 /*========================================*/
 
-/*main section of skill details*/
+/*===========main section of skill details*/
 #skillTitleNames{
 
     display: flex;
@@ -180,20 +180,21 @@ Time :1:46 PM
 }
 
 
-/*Language and Framework Container*/
+/*================Language and Framework Container*/
 #skillLangFrameworks{
     position: relative;
     top: 45vh;
-    height: 100px;
+    height: 10vh;
     border: 1px solid white;
+    display: flex;
+    flex-flow: row;
 
 }
 /*for the Framework container*/
 #skillLangFrameworks>div{
-    /*position: relative;*/
-    /*top: 45vh;*/
-    /*height: 100px;*/
-    /*border: 1px solid white;*/
+    width: 28vw;
+    height:10vh;
+    border: 1px solid white;
 
 }
 
