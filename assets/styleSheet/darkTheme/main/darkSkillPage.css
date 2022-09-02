@@ -184,8 +184,9 @@ Time :1:46 PM
 #skillLangFrameworks{
     position: relative;
     top: 45vh;
-    height: 10vh;
-    border: 1px solid white;
+    width: 40vw;
+    height: 7vh;
+    /*border: 1px solid white;*/
     display: flex;
     flex-flow: row;
 
@@ -193,14 +194,29 @@ Time :1:46 PM
 /*for the Framework container*/
 #skillLangFrameworks>div{
     width: 28vw;
-    height:10vh;
-    border: 1px solid white;
+    height:7vh;
+    margin-right: 20px;
+    /*border: 1px solid white;*/
 }
 
 #skillLangFrameworks>div:nth-child(1){
     background:url("../../../images/java.png") no-repeat center; background-size: 100% 100%;
 }
-
+#skillLangFrameworks>div:nth-child(2){
+    background:url("../../../images/Python.png") no-repeat center; background-size: 100% 100%;
+}#skillLangFrameworks>div:nth-child(3){
+    background:url("../../../images/js.png") no-repeat center; background-size: 100% 100%;
+}#skillLangFrameworks>div:nth-child(4){
+    background:url("../../../images/flutter.png") no-repeat center; background-size: 100% 100%;
+}#skillLangFrameworks>div:nth-child(5){
+    background:url("../../../images/htmlL.png") no-repeat center; background-size: 100% 100%;
+}#skillLangFrameworks>div:nth-child(6){
+    background:url("../../../images/css3.png") no-repeat center; background-size: 100% 100%;
+}#skillLangFrameworks>div:nth-child(7){
+    background:url("../../../images/hibernate.png") no-repeat center; background-size: 250% 200%;
+}#skillLangFrameworks>div:nth-child(8){
+    background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
+}
 
 #skillToolName{
     /*height: 100px;*/
