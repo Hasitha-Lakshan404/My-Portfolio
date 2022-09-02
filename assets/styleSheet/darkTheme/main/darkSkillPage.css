@@ -232,7 +232,7 @@ Time :1:46 PM
     font-size: 24px;
 
 }
-
+/*for the line*/
 #skillToolName>hr{
     display: inline-block;
     width: 200px;
@@ -241,6 +241,7 @@ Time :1:46 PM
     top: 5px;
 }
 
+/*flex container*/
 #skillTools{
     position: relative;
     top: 50vh;
@@ -254,11 +255,14 @@ Time :1:46 PM
 
 }
 
+/*flex -images -main- div*/
 #skillTools>div{
     width: 28vw;
     height:7vh;
     margin-right: 20px;
     border: 1px solid white;
 }
+
+
 
 
