@@ -22,21 +22,57 @@ Time :1:46 PM
 
 }*/
 .iss{
-    position: relative;
+    /*position: relative;
     top:0;
     left: 0;
     width: 99.5vw;
     height: 100px;
-    /*background :url("../../../images/skillRow1.png")no-repeat center;*/
-    /*background-size: 100% 100%;*/
+    !*background :url("../../../images/skillRow1.png")no-repeat center;*!
+    !*background-size: 100% 100%;*!
     background-image: url(../../../images/skillRow1.png);
     background-size: cover;
     background-position: center;
+    !*border: 3px solid #CFD8DC;*!
+    !*background: #CFD8DC;*!
+
+    color: #4fc3dc;*/
+}
+
+/*Left orange bar*/
+.mainSecSkill>section:first-child>div:first-child{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 40vw;
+    height: 80px;
+    background :url("../../../images/leftOrangeRow.png")no-repeat center;
+    background-size: 100% 100%;
+    /*background-image: url(../../../images/leftOrangeRow.png);*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
     /*border: 3px solid #CFD8DC;*/
     /*background: #CFD8DC;*/
 
     color: #4fc3dc;
 }
+
+.mainSecSkill>section:first-child>div:nth-child(2){
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 40vw;
+    height: 80px;
+    background :url("../../../images/rightPurpleRow.png")no-repeat center;
+    background-size: 100% 100%;
+    /*background-image: url(../../../images/leftOrangeRow.png);*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*border: 3px solid #CFD8DC;*/
+    /*background: #CFD8DC;*/
+
+    color: #4fc3dc;
+}
+
 
 /*for the skill quote*/
 .mainSecSkill>aside:nth-child(2)>p{
@@ -46,7 +82,6 @@ Time :1:46 PM
     font-size: 25px;
     right: 20vw;
     top: 125px;
-
 }
 
 /*for the Skill rounded container*/
