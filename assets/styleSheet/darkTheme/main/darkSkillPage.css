@@ -180,10 +180,12 @@ Time :1:46 PM
 }
 
 
-
+/*Language and Framework Container*/
 #skillLangFrameworks{
-    /*height: 100px;*/
-    /*border: 1px solid white;*/
+    position: relative;
+    top: 45vh;
+    height: 100px;
+    border: 1px solid white;
 
 }
 #skillToolName{
