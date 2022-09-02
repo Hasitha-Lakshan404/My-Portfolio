@@ -174,10 +174,12 @@ Time :1:46 PM
     border: 1px solid red;*/
     width: 28vw;
     height:70vh;
-    border: 2px solid #e70042;
+    /*border: 2px solid #e70042;*/
 }
-#skillTitleNames>div:nth-child(1){
-    
+#skillTitleNames>div>ul>li{
+    opacity: 0.8;
+    font-family: "Space Mono";
+    padding-bottom: 10px;
 }
 
 /*.contact_box{
