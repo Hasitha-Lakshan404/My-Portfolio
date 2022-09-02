@@ -188,6 +188,17 @@ Time :1:46 PM
     border: 1px solid white;
 
 }
+/*for the Framework container*/
+#skillLangFrameworks>div{
+    /*position: relative;*/
+    /*top: 45vh;*/
+    /*height: 100px;*/
+    /*border: 1px solid white;*/
+
+}
+
+
+
 #skillToolName{
     /*height: 100px;*/
     /*border: 1px solid white;*/
