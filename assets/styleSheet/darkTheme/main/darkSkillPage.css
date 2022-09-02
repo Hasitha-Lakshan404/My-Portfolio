@@ -263,6 +263,25 @@ Time :1:46 PM
     border: 1px solid white;
 }
 
+#skillTools>div:nth-child(1){
+    background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
+}#skillTools>div:nth-child(2){
+    background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
+}#skillTools>div:nth-child(3){
+    background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
+}#skillTools>div:nth-child(4){
+    background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
+}#skillTools>div:nth-child(5){
+    background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
+}#skillTools>div:nth-child(6){
+    background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
+}#skillTools>div:nth-child(7){
+    background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
+}#skillTools>div:nth-child(8){
+    background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
+}#skillTools>div:nth-child(9){
+    background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
+}
 
 
 
