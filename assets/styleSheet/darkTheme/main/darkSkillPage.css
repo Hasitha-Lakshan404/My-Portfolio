@@ -43,7 +43,7 @@ Time :1:46 PM
     position: relative;
     top:0;
     left: 0;
-    width: 40vw;
+    width: 51.7vw;
     height: 80px;
     background :url("../../../images/leftOrangeRow.png")no-repeat center;
     background-size: 100% 100%;
@@ -56,11 +56,12 @@ Time :1:46 PM
     color: #4fc3dc;
 }
 
+/*Right purple bar*/
 .mainSecSkill>section:first-child>div:nth-child(2){
     position: absolute;
-    top:0;
+    top:1.5em;
     right: 0;
-    width: 40vw;
+    width: 51.7vw;
     height: 80px;
     background :url("../../../images/rightPurpleRow.png")no-repeat center;
     background-size: 100% 100%;
@@ -71,6 +72,15 @@ Time :1:46 PM
     /*background: #CFD8DC;*/
 
     color: #4fc3dc;
+}
+
+/*My Skill Title*/
+.mainSecSkill>section:first-child>h1{
+    position: absolute;
+    color: #FFFFFF;
+    top: 3vh;
+    right: 40vw;
+
 }
 
 
