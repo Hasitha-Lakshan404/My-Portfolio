@@ -6,93 +6,99 @@ Time :1:50 PM
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Courier+Prime&family=Noto+Serif+JP:wght@200&family=Space+Mono&display=swap');
 
 /*for the Education Container*/
-.mainSecEducation{
-   position: relative;
-   top: 0;
-   right: 0;
-   height: 100vh;
-   /*background: white;*/
-   border: 1px solid white;
+.mainSecEducation {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    /*background: white;*/
+    border: 1px solid white;
 }
 
 /*Title left row*/
-.mainSecEducation>section:nth-child(1)>div:first-child{
-   background: url("../../../images/leftOrangeRow.png") no-repeat center;
-   background-size: 100% 100%;
-   position: relative;
-   top:0;
-   left: 0;
-   width: 51.7vw;
-   height: 80px;
+.mainSecEducation > section:nth-child(1) > div:first-child {
+    background: url("../../../images/leftOrangeRow.png") no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 51.7vw;
+    height: 80px;
 }
 
 /*Title right row*/
-.mainSecEducation>section:nth-child(1)>div:nth-child(2){
-   position: absolute;
-   top:1.5em;
-   right: 0;
-   width: 51.7vw;
-   height: 80px;
-   background :url("../../../images/rightPurpleRow.png")no-repeat center;
-   background-size: 100% 100%;
+.mainSecEducation > section:nth-child(1) > div:nth-child(2) {
+    position: absolute;
+    top: 1.5em;
+    right: 0;
+    width: 51.7vw;
+    height: 80px;
+    background: url("../../../images/rightPurpleRow.png") no-repeat center;
+    background-size: 100% 100%;
 }
 
 /*The Title*/
-.mainSecEducation>section:first-child>h1:nth-child(3){
-   position: absolute;
-   color: #FFFFFF;
-   top: 3.3vh;
-   right: 35vw;
-   font-family: "Courier Prime";
+.mainSecEducation > section:first-child > h1:nth-child(3) {
+    position: absolute;
+    color: #FFFFFF;
+    top: 3.3vh;
+    right: 35vw;
+    font-family: "Courier Prime";
 }
 
 /*quotes*/
-.mainSecEducation>aside:nth-child(2)>p{
-   position: absolute;
-   color: #71727D;
-   display: inline-block;
-   font-size: 25px;
-   right: 3vw;
-   top: 125px;
-   font-family: "Courier Prime";
+.mainSecEducation > aside:nth-child(2) > p {
+    position: absolute;
+    color: #71727D;
+    display: inline-block;
+    font-size: 25px;
+    right: 3vw;
+    top: 125px;
+    font-family: "Courier Prime";
 }
 
-/**/
-.mainSecEducation>section:nth-child(3)>div:nth-child(1){
-   /* From https://css.glass */
-   background: rgba(80, 41, 111, 0.41);
-   border-radius: 16px;
-   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-   backdrop-filter: blur(3.9px);
-   -webkit-backdrop-filter: blur(3.9px);
-   border: 1px solid rgba(80, 41, 111, 1);
-   height: 100px;
-   width: 60vw;
+/*education-glass-container*/
+.mainSecEducation > section:nth-child(3) > div:nth-child(1) {
+    background: rgba(80, 41, 111, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(80, 41, 111, 1);
+    height: 100px;
+    width: 60vw;
 
-   position: relative;
-   top: 100px;
-   left: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
 }
 
 /*container-line*/
-.mainSecEducation>section:nth-child(3)>div:nth-child(1)::before{
-   content: "";
-   width: 1px;
-   background: 5px  rgba(0, 0, 0, 0.7);
-   height: 100px;
-   position: absolute;
-   left: 250px;
+.mainSecEducation > section:nth-child(3) > div:nth-child(1)::before {
+    content: "";
+    width: 1px;
+    background: 5px rgba(0, 0, 0, 0.7);
+    height: 100px;
+    position: absolute;
+    left: 250px;
 }
 
-/**/
-.mainSecEducation>section:nth-child(3)>   div:nth-child(1)>p:nth-child(2){
-   color: white;
-   font-family: "Courier Prime";
-   opacity: 0.4;
+/*Date*/
+.mainSecEducation>section:nth-child(3)>div:nth-child(1)>h3:first-child{
+    color: white;
+    position: relative;
+    left: 10px;
 }
 
-/**/
-.mainSecEducation>section:nth-child(3)>div:nth-child(1)>p:nth-child(3){
-   color: white;
-   font-family: "Courier Prime";
+/*left-sub title*/
+.mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(2) {
+    color: white;
+    font-family: "Courier Prime";
+    opacity: 0.4;
+}
+
+/*right-Description*/
+.mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
+    color: white;
+    font-family: "Courier Prime";
 }
