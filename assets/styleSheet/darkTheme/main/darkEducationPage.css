@@ -3,3 +3,11 @@ Project :Portfolio
 Date :8/30/2022
 Time :1:50 PM
 */
+
+.mainSecEducation{
+   position: relative;
+   top: 0;
+   right: 0;
+   height: 100vh;
+   background: white;
+}
