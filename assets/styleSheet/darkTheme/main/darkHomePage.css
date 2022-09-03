@@ -76,21 +76,22 @@ z-index: 1;
     position: absolute;
     top: 55vh;
     /*!*top: 425px;*!*/
-left: 4vw;
+    left: 4vw;
     /*!*left: 60px;*!*/
-z-index: 1;
+    z-index: 1;
     color: #4AB29B;
     font-size: 25px;
-    font-family: "Della Respira";
+    /*font-family: "Della Respira";*/
+    font-family: "Courier Prime";
 }
 
 
 .btnContactMe {
     position: absolute;
     /*!*top: 475px;*!*/
-top: 62.5vh;
+    top: 62.5vh;
     /*!*left: 60px;*!*/
-left: 60px;
+    left: 60px;
     z-index: 1;
 
     /*!*Button*!*/
@@ -137,9 +138,9 @@ left: 60px;
 .btnSeeMore {
     position: absolute;
     /*!*top: 475px;*!*/
-top: 62.6vh;
+    top: 62.6vh;
     /*!*left: 300px;*!*/
-left: 300px;
+    left: 300px;
     z-index: 1;
 
     /*!*Button*!*/
@@ -162,7 +163,6 @@ left: 300px;
 }
 
 .btnSeeMore:hover {
-
     /*!*Button*!*/
     background-color: #BA903A;
     border: 2px solid #192F35;

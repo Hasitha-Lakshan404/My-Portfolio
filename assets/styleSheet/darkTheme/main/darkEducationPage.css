@@ -3,6 +3,7 @@ Project :Portfolio
 Date :8/30/2022
 Time :1:50 PM
 */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Courier+Prime&family=Noto+Serif+JP:wght@200&family=Space+Mono&display=swap');
 
 /*for the Education Container*/
 .mainSecEducation{
@@ -10,7 +11,8 @@ Time :1:50 PM
    top: 0;
    right: 0;
    height: 100vh;
-   background: white;
+   /*background: white;*/
+   border: 1px solid white;
 }
 
 /*Title left row*/
@@ -24,6 +26,20 @@ Time :1:50 PM
    height: 80px;
 }
 /*Title right row*/
-.mainSecEducation>section>div:first-child{
+.mainSecEducation>section>div:nth-child(2){
+   position: absolute;
+   top:1.5em;
+   right: 0;
+   width: 51.7vw;
+   height: 80px;
+   background :url("../../../images/rightPurpleRow.png")no-repeat center;
+   background-size: 100% 100%;
+}
 
+.mainSecEducation>section>h1{
+   position: absolute;
+   color: #FFFFFF;
+   top: 3.3vh;
+   right: 35vw;
+   font-family: "Courier Prime";
 }

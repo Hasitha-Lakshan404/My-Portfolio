@@ -79,7 +79,8 @@ Time :1:46 PM
     position: absolute;
     color: #FFFFFF;
     top: 3vh;
-    right: 40vw;
+    right: 35vw;
+    font-family: "Courier Prime";
 
 }
 
@@ -90,8 +91,9 @@ Time :1:46 PM
     color: #71727D;
     display: inline-block;
     font-size: 25px;
-    right: 20vw;
+    right: 5vw;
     top: 125px;
+    font-family: "Courier Prime";
 }
 
 /*=========================================*/
@@ -127,7 +129,8 @@ Time :1:46 PM
 
 /*for the titles*/
 .mainSecSkill>section:nth-child(3)>section:first-child{
-    font-family: "Space Mono";
+    /*font-family: "Space Mono";*/
+    font-family: "Courier Prime";
     font-size: 1.5em;
     color: #FFFFFF;
     position: relative;

@@ -29,6 +29,7 @@ Time :1:22 PM
     top: 820px;
 
     /*font-family: "Roboto";*/
+    font-family: "Courier Prime";
     font-style: normal;
     font-weight: 400;
     /*!*font-size: 25px;*!*/
@@ -52,6 +53,7 @@ Time :1:22 PM
     top: 1000px;
     opacity: 0.5;
     /*font-family: "Roboto";*/
+    font-family: "Courier Prime";
     font-style: normal;
     font-weight: 400;
     font-size: 1.4vw;
@@ -65,12 +67,13 @@ Time :1:22 PM
 
 .aboutMe {
     position: absolute;
-    width: 164px;
+    width: 195px;
     height: 49px;
     left: 37px;
     top: 1227px;
 
-    font-family: 'Della Respira';
+    /*font-family: 'Della Respira';*/
+    font-family: "Courier Prime";
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -211,7 +214,8 @@ Time :1:22 PM
     left: 37px;
     top: 1921px;
 
-    font-family: 'Familjen Grotesk';
+    /*font-family: 'Familjen Grotesk';*/
+    font-family: "Courier Prime";
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -288,7 +292,8 @@ padding-right: 10px;
     left: 45vw;
     top: 1921px;
 
-    font-family: 'Familjen Grotesk';
+    /*font-family: 'Familjen Grotesk';*/
+    font-family: "Courier Prime";
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
