@@ -288,3 +288,16 @@ Time :1:50 PM
     top: 27px;
     right: 0;
 }
+
+/*=====Edu Arrow====*/
+
+.mainSecEducation > section:nth-child(3) > div:nth-child(5) {
+    background: url("../../../images/eduArrow.png")no-repeat center;
+    background-size: 100% 100%;
+    width: 90px;
+    height: 175px;
+}
+
+.mainSecEducation > section:nth-child(3) > div:nth-child(5) {
+
+}
