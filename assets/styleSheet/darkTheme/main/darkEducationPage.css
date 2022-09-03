@@ -152,7 +152,7 @@ Time :1:50 PM
 }
 
 /*left-sub title*/
-.mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(2) {
+.mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(2) {
     color: white;
     font-family: "Courier Prime";
     opacity: 0.7;
@@ -163,7 +163,7 @@ Time :1:50 PM
 }
 
 /*right-Description*/
-.mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
+.mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(3) {
     color: white;
     font-family: "Courier Prime";
     position: absolute;
