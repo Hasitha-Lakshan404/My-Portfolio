@@ -16,7 +16,7 @@ Time :1:50 PM
 }
 
 /*Title left row*/
-.mainSecEducation>section>div:first-child{
+.mainSecEducation>section:nth-child(1)>div:first-child{
    background: url("../../../images/leftOrangeRow.png") no-repeat center;
    background-size: 100% 100%;
    position: relative;
@@ -27,7 +27,7 @@ Time :1:50 PM
 }
 
 /*Title right row*/
-.mainSecEducation>section>div:nth-child(2){
+.mainSecEducation>section:nth-child(1)>div:nth-child(2){
    position: absolute;
    top:1.5em;
    right: 0;
@@ -38,7 +38,7 @@ Time :1:50 PM
 }
 
 /*The Title*/
-.mainSecEducation>section>h1{
+.mainSecEducation>section:first-child>h1:nth-child(3){
    position: absolute;
    color: #FFFFFF;
    top: 3.3vh;
@@ -47,7 +47,7 @@ Time :1:50 PM
 }
 
 /*quotes*/
-.mainSecEducation>aside>p{
+.mainSecEducation>aside:nth-child(2)>p{
    position: absolute;
    color: #71727D;
    display: inline-block;
@@ -67,13 +67,14 @@ Time :1:50 PM
    -webkit-backdrop-filter: blur(3.9px);
    border: 1px solid rgba(80, 41, 111, 1);
    height: 100px;
+   width: 60vw;
 
    position: relative;
    top: 100px;
    left: 100px;
 }
 
-/**/
+/*container-line*/
 .mainSecEducation>section:nth-child(3)>div:nth-child(1)::before{
    content: "";
    width: 1px;
@@ -83,12 +84,14 @@ Time :1:50 PM
    left: 250px;
 }
 
-.mainSecEducation>section:nth-child(3)>div:nth-child(1)>p:nth-child(2){
+/**/
+.mainSecEducation>section:nth-child(3)>   div:nth-child(1)>p:nth-child(2){
    color: white;
    font-family: "Courier Prime";
    opacity: 0.4;
 }
 
+/**/
 .mainSecEducation>section:nth-child(3)>div:nth-child(1)>p:nth-child(3){
    color: white;
    font-family: "Courier Prime";
