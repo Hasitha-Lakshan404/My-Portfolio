@@ -301,6 +301,12 @@ Time :1:50 PM
     left: 21.4vw;
 }
 
-.mainSecEducation > section:nth-child(3) > div:nth-child(5) {
-
+.mainSecEducation > section:nth-child(3) > div:nth-child(6) {
+    background: url("../../../images/eduArrow.png")no-repeat center;
+    background-size: 100% 100%;
+    width: 90px;
+    height: 160px;
+    position: relative;
+    top:20vh;
+    left: 21.4vw;
 }
