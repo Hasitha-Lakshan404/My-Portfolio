@@ -4,10 +4,26 @@ Date :8/30/2022
 Time :1:50 PM
 */
 
+/*for the Education Container*/
 .mainSecEducation{
    position: relative;
    top: 0;
    right: 0;
    height: 100vh;
    background: white;
+}
+
+/*Title left row*/
+.mainSecEducation>section>div:first-child{
+   background: url("../../../images/leftOrangeRow.png") no-repeat center;
+   background-size: 100% 100%;
+   position: relative;
+   top:0;
+   left: 0;
+   width: 51.7vw;
+   height: 80px;
+}
+/*Title right row*/
+.mainSecEducation>section>div:first-child{
+
 }
