@@ -144,7 +144,7 @@ Time :1:50 PM
 }
 
 /*Date*/
-.mainSecEducation>section:nth-child(3)>div:nth-child(1)>h3:first-child{
+.mainSecEducation>section:nth-child(3)>div:nth-child(3)>h3:first-child{
     color: white;
     position: relative;
     top: 10px;
