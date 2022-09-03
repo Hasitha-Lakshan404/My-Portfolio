@@ -25,6 +25,7 @@ Time :1:50 PM
    width: 51.7vw;
    height: 80px;
 }
+
 /*Title right row*/
 .mainSecEducation>section>div:nth-child(2){
    position: absolute;
@@ -36,6 +37,7 @@ Time :1:50 PM
    background-size: 100% 100%;
 }
 
+/*The Title*/
 .mainSecEducation>section>h1{
    position: absolute;
    color: #FFFFFF;
@@ -43,3 +45,16 @@ Time :1:50 PM
    right: 35vw;
    font-family: "Courier Prime";
 }
+
+/*quotes*/
+.mainSecEducation>aside>p{
+   position: absolute;
+   color: #71727D;
+   display: inline-block;
+   font-size: 25px;
+   right: 3vw;
+   top: 125px;
+   font-family: "Courier Prime";
+}
+
+/**/
