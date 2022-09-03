@@ -87,7 +87,8 @@ Time :1:50 PM
 .mainSecEducation>section:nth-child(3)>div:nth-child(1)>h3:first-child{
     color: white;
     position: relative;
-    left: 10px;
+    top: 5px;
+    left: 40px;
 }
 
 /*left-sub title*/
@@ -95,10 +96,17 @@ Time :1:50 PM
     color: white;
     font-family: "Courier Prime";
     opacity: 0.4;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 200px;
 }
 
 /*right-Description*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
     color: white;
     font-family: "Courier Prime";
+    position: absolute;
+    width: 600px;
+    right: 0;
 }
