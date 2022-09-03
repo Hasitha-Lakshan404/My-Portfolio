@@ -60,7 +60,7 @@ Time :1:50 PM
 /*education-glass-container*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(1) {
     background: rgba(80, 41, 111, 0.41);
-    border-radius: 16px;
+    border-radius: 40px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.9px);
     -webkit-backdrop-filter: blur(3.9px);
