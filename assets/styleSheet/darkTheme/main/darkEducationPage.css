@@ -134,7 +134,7 @@ Time :1:50 PM
 }
 
 /*container-line*/
-.mainSecEducation > section:nth-child(3) > div:nth-child(1)::before {
+.mainSecEducation > section:nth-child(3) > div:nth-child(3)::before {
     content: "";
     width: 1px;
     background: 5px rgba(0, 0, 0, 0.7);
