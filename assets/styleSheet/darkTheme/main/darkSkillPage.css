@@ -154,7 +154,6 @@ Time :1:46 PM
 
 /*===========main section of skill details*/
 #skillTitleNames{
-
     display: flex;
     position: absolute;
     margin: auto;
@@ -170,7 +169,7 @@ Time :1:46 PM
 
 /*All the div of Skill Details*/
 #skillTitleNames>div{
-    width: 28vw;
+    width: 21vw;
     height:70vh;
     /*border: 2px solid #e70042;*/
 }
@@ -179,7 +178,9 @@ Time :1:46 PM
 #skillTitleNames>div>ul>li{
     opacity: 0.8;
     font-family: "Space Mono";
+    position: relative;
     padding-bottom: 10px;
+    left: 50px;
 }
 
 
