@@ -210,8 +210,8 @@ Time :1:50 PM
     -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
     padding: 0;
     border-radius: 15px;
-    font-family: "Courier Prime"
-    font-style;
+    font-family: "Courier Prime";
+    ;
 }
 .btn-76:disabled {
     cursor: default;
@@ -237,7 +237,7 @@ Time :1:50 PM
     overflow: hidden;
     padding: 1.2rem 3rem;
     position: relative;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     transition: 0.2s linear 0.1s;
 }
 .btn-76:hover {
