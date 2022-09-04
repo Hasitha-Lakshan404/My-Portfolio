@@ -28,13 +28,13 @@ Time :1:50 PM
 
 #animationContainer {
     /*background: linear-gradient(to right, red, blue);*/
-    height: 100vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     position: relative;
-    top: 40px;
+    top: 150px;
 }
 
 .slider {
