@@ -84,3 +84,61 @@ Time :1:50 PM
 
 /*===END ROTATE=====*/
 
+/*Left orange bar*/
+.mainSecProject>section:first-child>div:first-child{
+    /*height: 100px;*/
+    /*background: black;*/
+    position: relative;
+    top:0;
+    left: 0;
+    width: 51.7vw;
+    height: 80px;
+    background :url("../../../images/leftOrangeRow.png")no-repeat center;
+    background-size: 100% 100%;
+}
+
+
+/*.mainSecSkill>section:first-child{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 51.7vw;
+    height: 80px;
+    background :url("../../../images/leftOrangeRow.png")no-repeat center;
+    background-size: 100% 100%;
+    !*background-image: url(../../../images/leftOrangeRow.png);*!
+    !*background-size: cover;*!
+    !*background-position: center;*!
+    !*border: 3px solid #CFD8DC;*!
+    !*background: #CFD8DC;*!
+
+    color: #4fc3dc;
+}*/
+
+/*Right purple bar*/
+.mainSecSkill>section:first-child>div:nth-child(2){
+    position: absolute;
+    top:1.5em;
+    right: 0;
+    width: 51.7vw;
+    height: 80px;
+    background :url("../../../images/rightPurpleRow.png")no-repeat center;
+    background-size: 100% 100%;
+    /*background-image: url(../../../images/leftOrangeRow.png);*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*border: 3px solid #CFD8DC;*/
+    /*background: #CFD8DC;*/
+
+    color: #4fc3dc;
+}
+
+/*My Skill Title*/
+.mainSecSkill>section:first-child>h1{
+    position: absolute;
+    color: #FFFFFF;
+    top: 3vh;
+    right: 35vw;
+    font-family: "Courier Prime";
+
+}
