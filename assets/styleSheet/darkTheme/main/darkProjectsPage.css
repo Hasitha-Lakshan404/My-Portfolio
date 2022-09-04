@@ -116,7 +116,7 @@ Time :1:50 PM
 }*/
 
 /*Right purple bar*/
-.mainSecSkill>section:first-child>div:nth-child(2){
+.mainSecProject>section:first-child>div:nth-child(2){
     position: absolute;
     top:1.5em;
     right: 0;
@@ -134,7 +134,7 @@ Time :1:50 PM
 }
 
 /*My Skill Title*/
-.mainSecSkill>section:first-child>h1{
+.mainSecProject>section:first-child>h1{
     position: absolute;
     color: #FFFFFF;
     top: 3vh;
