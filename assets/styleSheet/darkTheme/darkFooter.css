@@ -6,7 +6,7 @@ Time :9:47 PM
 
 .footer{
     position: relative;
-    height: 100vh;
+    height: 90vh;
     border: 1px solid white;
 }
 
@@ -16,20 +16,21 @@ Time :9:47 PM
 }
 
 /*for the footer Title*/
-.footer>section>div:nth-child(1){
+.footer>section:nth-child(1)>div:nth-child(1){
 
     font-family: "Courier Prime";
     color: #FFFFFF;
 }
 
 /*for the footer back to top*/
-.footer>section>div:nth-child(1)>h3{
+.footer>section:nth-child(1)>div:nth-child(1)>h3{
     position: absolute;
     top: 3.7vh;
     right: 47vw;
 }
 
-.footer>section>div:nth-child(2){
+/*for the upArrow*/
+.footer>section:nth-child(1)>div:nth-child(2){
     position: absolute;
     top: 0;
     right: 40vw;
@@ -38,4 +39,26 @@ Time :9:47 PM
     background: url("../../images/upArrow.gif") no-repeat center;
     background-size: 150% 150%;
     transform: rotate(180deg);
+}
+
+/*===========MIDDLE============*/
+
+/*center*/
+.footer>section:nth-child(2){
+    height: 70vh;
+    background: #FFFFFF;
+    display: flex;
+    flex-flow: row;
+}
+.footer>section:nth-child(2)>div{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+
+/*============BOTTOM===============*/
+.footer>section:nth-child(3){
+    height: 10vh;
+    background: #192F35;
 }
