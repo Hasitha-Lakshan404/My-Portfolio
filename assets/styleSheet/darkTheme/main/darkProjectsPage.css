@@ -11,7 +11,7 @@ Time :1:50 PM
     /*top: 0;*/
     /*right: 0;*/
 
-    height: 120vh;
+    height: 140vh;
     /*width: 95vw;*/
     /*background: white;*/
     border: 1px solid white;
@@ -34,7 +34,7 @@ Time :1:50 PM
     justify-content: center;
     overflow: hidden;
     position: relative;
-    top: 150px;
+    top: 40px;
 }
 
 .slider {
@@ -166,6 +166,7 @@ Time :1:50 PM
     font-size: 20px;
     font-family: "Courier Prime";
     display: inline-block;
+    /*height: 500px;*/
 }
 
 /*Catch the hr*/
@@ -177,6 +178,7 @@ Time :1:50 PM
     top: -3px;
 }
 
+
 /*
 .mainSecProject>aside:nth-child(3)>div:nth-child(2)>button{
     position: relative;
@@ -185,6 +187,7 @@ Time :1:50 PM
 
 }*/
 /*=====================NEON BUTTON==============*/
+
 .btn-76,
 .btn-76 *,
 .btn-76 :after,
@@ -197,7 +200,7 @@ Time :1:50 PM
 .btn-76 {
     -webkit-tap-highlight-color: transparent;
     -webkit-appearance: button;
-    background-color: transparent;
+    background-color: #00788C;
     background-image: none;
     color: #fff;
     cursor: pointer;
@@ -206,12 +209,13 @@ Time :1:50 PM
     /*Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;*/
     font-size: 100%;
     line-height: 1.5;
-    margin: 0;
-    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+    /*margin: 0;*/
+    -webkit-mask-image: -webkit-radial-gradient(rgba(0, 0, 0, 0), #fff);
     padding: 0;
     border-radius: 15px;
     font-family: "Courier Prime";
-    ;
+    margin: 15px;
+
 }
 .btn-76:disabled {
     cursor: default;
@@ -227,19 +231,30 @@ Time :1:50 PM
     display: none;
 }
 .btn-76 {
-    --neon: #0ea5e9;
+    /*--neon: #0ea5e9;*/
+    --neon: #B026FF ;
     box-sizing: border-box;
     display: block;
-    font-weight: 900;
+    /*font-weight: 900;*/
     -webkit-mask-image: none;
-    outline: 4px solid #fff;
+    outline: 4px solid #988db0;
     outline-offset: -4px;
     overflow: hidden;
     padding: 1.2rem 3rem;
     position: relative;
     /*text-transform: uppercase;*/
     transition: 0.2s linear 0.1s;
+    /*width: 300px;*/
+    height: 50px;
+    left: 20vw;
+
 }
+
+.btn-76>p{
+    position: relative;
+    top: -6px;
+}
+
 .btn-76:hover {
     background: var(--neon);
     box-shadow: 0 0 5px var(--neon), 0 0 25px var(--neon), 0 0 50px var(--neon),
