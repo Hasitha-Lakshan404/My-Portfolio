@@ -5,13 +5,21 @@ Time :8:56 PM
 */
 
 .mainSecQuote{
-    position: relative;
-    height: 100px;
+    margin: 0;
+    /*position: relative;*/
+    height: 25vh;
+    width: 98.5vw;
     border: 1px solid #CFD8DC;
     font-family:"Courier Prime";
     font-style:normal;
     font-weight: bolder;
     color: #B3B3B3;
-
+    font-size: 1.7em;
+}
+.mainSecQuote>h1{
+    position: relative;
+    top: 5vh;
+    left: 1vw;
+    /*margin: auto;*/
 }
 
