@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case01</title>
+</head>
+<style>
+    div{
+        width: 150px;
+        height: 70px;
+        border-radius: 15px;
+        animation-name: boxRotate;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes boxRotate {
+        0%{
+            transform: rotate(0deg);
+            background: #6f88e8;
+            margin: 0 0 0 0;/*top,right,bottom,left*/
+        }
+        25%{
+            transform: rotate(360deg);
+            background: blue;
+            margin:0 0 0 1200px;
+        }
+        50%{
+            background: #d2e011;
+            margin:500px 0 0 1200px;
+        }
+        75%{
+            background: red;
+            margin:500px 0 0 0;
+        }
+        100%{
+            background: #088d12;
+            margin:0 0 0 0;
+        }
+    }
+</style>
+<body>
+<div>
+</div>
+</body>
+</html>
