@@ -312,3 +312,12 @@ Time :1:50 PM
     opacity: 1;
     transition: transform 0.2s linear 0.6s;
 }
+
+/**/
+#seeMoreNavButton{
+    position: relative;
+    left: 20vw;
+    top: 20vh;
+    margin: 0;
+    width: 350px;
+}
