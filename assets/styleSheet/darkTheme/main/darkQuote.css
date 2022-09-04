@@ -9,7 +9,7 @@ Time :8:56 PM
     /*position: relative;*/
     height: 25vh;
     width: 98.5vw;
-    border: 1px solid #CFD8DC;
+    /*border: 1px solid #CFD8DC;*/
     font-family:"Courier Prime";
     font-style:normal;
     font-weight: bolder;
@@ -22,4 +22,5 @@ Time :8:56 PM
     left: 1vw;
     /*margin: auto;*/
 }
+
 
