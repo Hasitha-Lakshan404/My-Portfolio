@@ -133,7 +133,7 @@ Time :1:50 PM
     color: #4fc3dc;
 }
 
-/*My Skill Title*/
+/*Project Title*/
 .mainSecProject>section:first-child>h1{
     position: absolute;
     color: #FFFFFF;
@@ -141,4 +141,15 @@ Time :1:50 PM
     right: 35vw;
     font-family: "Courier Prime";
 
+}
+
+/*for the Project quote*/
+.mainSecProject>aside:nth-child(2)>p{
+    position: absolute;
+    color: #71727D;
+    display: inline-block;
+    font-size: 25px;
+    right: 5vw;
+    top: 125px;
+    font-family: "Courier Prime";
 }
