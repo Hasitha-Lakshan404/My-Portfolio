@@ -11,7 +11,7 @@ Time :1:50 PM
     /*top: 0;*/
     /*right: 0;*/
 
-    height: 100vh;
+    height: 120vh;
     /*width: 95vw;*/
     /*background: white;*/
     border: 1px solid white;
@@ -33,6 +33,8 @@ Time :1:50 PM
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    position: relative;
+    top: 15vh;
 }
 
 .slider {
@@ -152,4 +154,21 @@ Time :1:50 PM
     right: 5vw;
     top: 125px;
     font-family: "Courier Prime";
+}
+
+/**/
+.mainSecProject>aside:nth-child(3){
+    position: relative;
+    left: 23vw;
+    top: 20vh;
+    color: #CFD8DC;
+    font-size: 20px;
+    font-family: "Courier Prime";
+}
+
+/*Catch the hr*/
+.mainSecProject>aside:nth-child(3)>hr{
+    display: inline-block;
+    width: 100px;
+    background: black;
 }
