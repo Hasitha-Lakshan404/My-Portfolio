@@ -193,6 +193,7 @@ Time :1:46 PM
     /*border: 1px solid white;*/
     display: flex;
     flex-flow: row;
+    left: 30px;
 
 }
 /*for the Framework container*/
@@ -200,6 +201,7 @@ Time :1:46 PM
     width: 28vw;
     height:7vh;
     margin-right: 20px;
+    left: 10px;
     /*border: 1px solid white;*/
 }
 
@@ -235,6 +237,8 @@ Time :1:46 PM
     font-family: Poppins;
     font-size: 24px;
     margin-bottom: 20px;
+    left: 30px;
+
 
 
 }
@@ -256,6 +260,7 @@ Time :1:46 PM
     /*border: 1px solid white;*/
     display: flex;
     flex-flow: row;
+    left: 30px;
     /*height: 100px;*/
     /*border: 1px solid white;*/
 
