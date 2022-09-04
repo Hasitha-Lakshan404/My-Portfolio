@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Anaheim);
 
 /**@author : Hasitha Lakshan
 Project :Portfolio
@@ -6,6 +5,7 @@ Date :8/30/2022
 Time :1:50 PM
 */
 
+/*=main section=*/
 .mainSecProject{
     position: relative;
     /*top: 0;*/
@@ -17,6 +17,8 @@ Time :1:50 PM
     border: 1px solid white;
 
 }
+
+/*===========ROTATE ANIMATION=======*/
 
 * {
     margin: 0;
@@ -79,3 +81,6 @@ Time :1:50 PM
 .slider span:hover img{
     transform: translateY(-50px) scale(1.2);
 }
+
+/*===END ROTATE=====*/
+
