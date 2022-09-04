@@ -6,37 +6,88 @@
     <link href="../../../../assets/fonts/css/all.min.css" rel="stylesheet">
 
     <style>
-        main>div{
-            width: 100px;
-            height: 100px;
-            background-color: rgba(55,69,255,0.98);
-            transition-property: width,background-color;
-            transition-duration: 3s;
-        }
-        main>div:hover{
-            transition-property: width,background-color;
-            transition-duration: 3s;
-            width: 400px;
-            height: 100px;
-            background-color: rgba(38, 41, 82, 0.98);
+
+        section {
+            width: 230px;
+            height: 500px;
+            position: relative;
+            top: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-family: Ubuntu;
+            right: 175px;
         }
 
+        section > div {
+            left: 0;
+            position: relative;
+            height: 50px;
+            width: 100%;
+            background-color: #8715b4;
+            color: white;
+            box-shadow: 3px 2px 5px 1px #2b1d9e9e;
+            cursor: pointer;
+            transition-property: all;
+            transition-duration: 1s;
+        }
+
+        section > div > h3 {
+            padding-left: 10px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            height: max-content;
+        }
+
+        section > div > i {
+            position: absolute;
+            right: 15px;
+            top: 0;
+            bottom: 0;
+            height: max-content;
+            margin: auto;
+            font-size: 25px;
+        }
+
+        section>div:hover{
+            /*background-color: #722df0;*/
+            left: 175px;
+            transition-property: all;
+            transition-duration: 1s;
+        }
     </style>
 
 </head>
 <body>
 
-<main>
-    <div><i class="fa-solid fa-address-book" style="size: 10px"></i></div>
-    <br>
-    <div><i class="fa-solid fa-truck-medical"></i></div>
-    <br>
-    <div><i class="fa-brands fa-cc-amazon-pay"></i></div>
-    <br>
-    <div><i class="fa-solid fa-layer-group"></i></div>
-    <br>
-    <div><i class="fa-solid fa-cart-shopping"></i></div>
-</main>
+<section>
+    <div>
+        <h3>Menu One</h3>
+        <i class="fa-solid fa-address-book"></i>
+    </div>
+
+    <div>
+        <h3>Menu Two</h3>
+        <i class="fa-solid fa-truck-medical"></i>
+    </div>
+
+    <div>
+        <h3>Menu Three</h3>
+        <i class="fa-solid fa-book-atlas"></i>
+    </div>
+
+    <div>
+        <h3>Menu Four</h3>
+        <i class="fa-solid fa-layer-group"></i>
+    </div>
+
+    <div>
+        <h3>Menu Five</h3>
+        <i class="fa-solid fa-cart-arrow-down"></i>
+    </div>
+</section>
 
 </body>
 </html>
