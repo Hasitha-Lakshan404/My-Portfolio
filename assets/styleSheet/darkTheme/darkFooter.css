@@ -58,10 +58,19 @@ Time :9:47 PM
 
 
 /*============BOTTOM===============*/
+/*row*/
 .footer>section:nth-child(3){
     height: 10vh;
     background: #192F35;
     font-family: "Courier Prime";
     font-style: normal;
     color: white;
+}
+
+/*Copyright text*/
+.footer>section:nth-child(3){
+    position: relative;
+    display: inline-block;
+
+
 }
