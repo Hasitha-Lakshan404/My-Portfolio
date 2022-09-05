@@ -46,14 +46,15 @@ Time :9:47 PM
 /*center*/
 .footer>section:nth-child(2){
     height: 70vh;
-    background: #FFFFFF;
+    background: #051622;
     display: flex;
     flex-flow: row;
 }
+/*footer middle flex div*/
 .footer>section:nth-child(2)>div{
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 
