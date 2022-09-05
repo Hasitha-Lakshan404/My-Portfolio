@@ -4,33 +4,33 @@ Date :9/4/2022
 Time :9:47 PM
 */
 
-.footer{
+.footer {
     position: relative;
     height: 10vh;
     /*border: 1px solid white;*/
 }
 
-.footer>section:nth-child(1){
+.footer > section:nth-child(1) {
     height: 10vh;
     background-color: #151C2E;
 }
 
 /*for the footer Title*/
-.footer>section:nth-child(1)>div:nth-child(1){
+.footer > section:nth-child(1) > div:nth-child(1) {
 
     font-family: "Courier Prime";
     color: #FFFFFF;
 }
 
 /*for the footer back to top*/
-.footer>section:nth-child(1)>div:nth-child(1)>h3{
+.footer > section:nth-child(1) > div:nth-child(1) > h3 {
     position: absolute;
     top: 3.7vh;
     right: 47vw;
 }
 
 /*for the upArrow*/
-.footer>section:nth-child(1)>div:nth-child(2){
+.footer > section:nth-child(1) > div:nth-child(2) {
     position: absolute;
     top: 0;
     right: 40vw;
@@ -44,43 +44,93 @@ Time :9:47 PM
 /*===========MIDDLE============*/
 
 /*center*/
-.footer>section:nth-child(2){
+.footer > section:nth-child(2) {
     height: 50vh;
     background: #051622;
     display: flex;
     flex-flow: row;
 }
+
 /*footer middle flex div*/
-.footer>section:nth-child(2)>div{
+.footer > section:nth-child(2) > div {
     width: 100%;
     height: 100%;
-    /*border: 1px solid white;*/
+    border: 1px solid white;
 }
+
 
 /*===middle-left====*/
 /*left details container*/
-#footerMiddleLeftSide{
+#footerMiddleLeftSide {
     color: #FFFFFF;
     font-family: "Roboto";
-    font-style:normal;
+    font-style: normal;
     margin-top: 10vh;
 }
-#footerMiddleLeftSide>ul>li{
+
+#footerMiddleLeftSide > ul > li {
     margin-bottom: 10px;
 }
 
 /*Anchor*/
-#footerMiddleLeftSide>ul>li>a{
+#footerMiddleLeftSide > ul > li > a {
     color: white;
 }
-#footerMiddleLeftSide>ul>li>a:hover{
-     color: #BA903A;
- }
+
+#footerMiddleLeftSide > ul > li > a:hover {
+    color: #BA903A;
+}
+
+/*===footer middle right===*/
+/*flex container*/
+#footerRightIcon {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    margin-left: 2vw;
+}
+
+/*flex child*/
+#footerRightIcon > div {
+    display: inline-block;
+    /*border: 1px solid white;*/
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-left: 30px;
+}
+
+#footerRightIcon > div:nth-child(1) {
+    background: url("../../images/github1.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#footerRightIcon > div:nth-child(2) {
+    background: url("../../images/Instagram.png") no-repeat center;
+    background-size: 90% 90%;
+
+}
+
+#footerRightIcon > div:nth-child(3) {
+    background: url("../../images/twitter1.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#footerRightIcon > div:nth-child(4) {
+    background: url("../../images/in.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#footerRightIcon > div:nth-child(5) {
+    background: url("../../images/whatsapp.png") no-repeat center;
+    background-size: 95% 95%;
+}
+
+
 
 
 /*============BOTTOM===============*/
 /*row*/
-.footer>section:nth-child(3){
+.footer > section:nth-child(3) {
     height: 10vh;
     background: #192F35;
     font-family: "Courier Prime";
@@ -89,7 +139,7 @@ Time :9:47 PM
 }
 
 /*Copyright text*/
-.footer>section:nth-child(3)>h5{
+.footer > section:nth-child(3) > h5 {
     position: relative;
     display: inline-block;
     top: 4vh;
@@ -97,11 +147,11 @@ Time :9:47 PM
 }
 
 
-#footerArrowImage{
+#footerArrowImage {
     position: absolute;
     top: 45vh;
     right: 10vw;
-    width:40vw;
+    width: 40vw;
     height: 25vh;
     background: url("../../images/ftArrow.png") no-repeat center;
     background-size: 100% 100%;
