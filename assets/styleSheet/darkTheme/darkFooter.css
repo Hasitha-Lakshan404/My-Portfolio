@@ -55,7 +55,7 @@ Time :9:47 PM
 .footer > section:nth-child(2) > div {
     width: 100%;
     height: 100%;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
 
 
@@ -84,19 +84,18 @@ Time :9:47 PM
 /*===footer middle right===*/
 /*flex container*/
 #footerRightIcon {
-    width: 100%;
     display: flex;
     flex-flow: row;
-    margin-left: 2vw;
+    margin-left: 5.4vw;
 }
 
 /*flex child*/
 #footerRightIcon > div {
-    display: inline-block;
+    /*display: inline-block;*/
     /*border: 1px solid white;*/
     width: 2.5vw;
     height: 2.5vw;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 #footerRightIcon > div:nth-child(1) {
