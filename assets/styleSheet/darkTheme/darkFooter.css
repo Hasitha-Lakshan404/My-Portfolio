@@ -69,6 +69,15 @@ Time :9:47 PM
     margin-bottom: 10px;
 }
 
+/*Anchor*/
+#footerMiddleLeftSide>ul>li>a{
+    color: white;
+}
+#footerMiddleLeftSide>ul>li>a:hover{
+     color: #BA903A;
+ }
+
+
 /*============BOTTOM===============*/
 /*row*/
 .footer>section:nth-child(3){
@@ -85,5 +94,5 @@ Time :9:47 PM
     display: inline-block;
     top: 4vh;
     left: 36.5vw;
-
 }
+
