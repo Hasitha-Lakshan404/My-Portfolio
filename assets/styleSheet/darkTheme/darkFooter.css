@@ -141,8 +141,9 @@ Time :9:47 PM
 .footer > section:nth-child(3) > h5 {
     position: relative;
     display: inline-block;
-    top: 4vh;
+    top: 2vh;
     left: 36.5vw;
+    opacity: 0.6;
 }
 
 
