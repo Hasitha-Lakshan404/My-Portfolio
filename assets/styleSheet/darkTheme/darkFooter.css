@@ -6,7 +6,7 @@ Time :9:47 PM
 
 .footer {
     position: relative;
-    height: 10vh;
+    height: 66vh;
     /*border: 1px solid white;*/
 }
 
@@ -130,7 +130,7 @@ Time :9:47 PM
 /*============BOTTOM===============*/
 /*row*/
 .footer > section:nth-child(3) {
-    height: 10vh;
+    height: 6vh;
     background: #192F35;
     font-family: "Courier Prime";
     font-style: normal;
