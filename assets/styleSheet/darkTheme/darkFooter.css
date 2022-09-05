@@ -56,10 +56,14 @@ Time :9:47 PM
     height: 100%;
     border: 1px solid white;
 }
+
+/*===middle-left====*/
+/*left details container*/
 #footerMiddleLeftSide{
     color: #FFFFFF;
     font-family: "Courier Prime";
     font-style:normal;
+    margin-top: 5vh;
 }
 
 
