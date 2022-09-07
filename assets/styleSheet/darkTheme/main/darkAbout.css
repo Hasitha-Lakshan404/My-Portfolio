@@ -406,24 +406,50 @@ padding-right: 10px;
 
 /*================================== 1440->Laptop large ================================== */
 @media all and (min-width: 1025px) and (max-width: 1440px){
-    .hi {
-
+    .quoteHead01 {
         position: absolute;
-        width: 125px;
-        height: 42px;
-        left: 693px;
-        top: 1542px;
+        /*!*width: 659px;*!*/
+        width: 40vw;
+        height: 138px;
+        /*!*left: 820px;*!*/
+        right: 2vw;
+        /*!*top: 820px;*!*/
+        top: 720px;
 
-        font-family: 'Space Mono';
+        /*font-family: "Roboto";*/
+        font-family: "Courier Prime";
         font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 42px;
-        /*! *identical to box height *!*/
+        font-weight: 400;
+        /*!*font-size: 25px;*!*/
+        font-size: 1.6vw;
+        line-height: 39px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        opacity: 0.5;
 
-        /*color: #254871;*/
-        color: #86e026;
-        opacity: 0.6;
+        color: #FFFFFF;
+
+    }
+
+    .quoteHead2 {
+        position: absolute;
+        /*!*width: 609px;*!*/
+        width: 40vw;
+        height: 50px;
+        /*!*left: 900px;*!*/
+        right: 2vw;
+        top: 900px;
+        opacity: 0.5;
+        /*font-family: "Roboto";*/
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4vw;
+        line-height: 29px;
+        text-align: right;
+        letter-spacing: 0.05em;
+
+        color: #FFFFFF;
     }
 }
 
