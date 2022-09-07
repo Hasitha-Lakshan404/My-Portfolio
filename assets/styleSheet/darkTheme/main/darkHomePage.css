@@ -3,15 +3,15 @@ Project :Portfolio
 Date :8/30/2022
 Time :1:22 PM
 */
-body{
+body {
 
 }
 
-main{
+main {
     /*width: 99.5vw;*/
 }
 
-.mainSecHome>div:first-child{
+.mainSecHome > div:first-child {
     /*width:99.5vw;*/
     height: 90vh;
     margin-top: 75px;
@@ -21,12 +21,12 @@ main{
 .pg1Hello {
     position: absolute;
     /*!*top: 265px;*!*/
-top: 33.5vh;
+    top: 33.5vh;
     /*!*left: 160px;*!*/
-left: 11vw;
+    left: 11vw;
     z-index: 1;
     /*!*font-size: 37px;*!*/
-font-size: 2.5vw;
+    font-size: 2.5vw;
     font-family: "Inika";
     color: #ffffff;
 }
@@ -34,13 +34,13 @@ font-size: 2.5vw;
 .pg1Hasitha {
     position: absolute;
     /*!*top: 250px;*!*/
-top: 32vh;
+    top: 32vh;
     /*!*left: 50px;*!*/
-left: 3vw;
+    left: 3vw;
     z-index: 1;
     color: #BA903A;
     /*!*font-size: 129px;*!*/
-font-size: 9vw;
+    font-size: 9vw;
     font-family: "DM Serif Display";
     font-weight: bold;
 }
@@ -49,10 +49,10 @@ font-size: 9vw;
     position: absolute;
     top: 33.5vh;
     /*!*left: 700px;*!*/
-left: 50vw;
+    left: 50vw;
     z-index: 1;
     /*!*font-size: 37px;*!*/
-font-size: 2.5vw;
+    font-size: 2.5vw;
     font-family: "Inika";
     color: #ffffff;
 }
@@ -60,16 +60,15 @@ font-size: 2.5vw;
 .pg1Lakshan {
     position: absolute;
     /*!*top: 33.5vh;*!*/
-/*!*left: 500px;*!*/
-/*!*left: 35vw;*!*/
-z-index: 1;
+    /*!*left: 500px;*!*/
+    /*!*left: 35vw;*!*/
+    z-index: 1;
     color: #192F35;
     font-size: 9vw;
     -webkit-text-stroke: 1px #BA903A;
     font-family: "DM Serif Display";
     font-weight: bold;
 }
-
 
 
 .fullStackDev {
@@ -113,7 +112,7 @@ z-index: 1;
     text-decoration: none;
 }
 
-.btnContactMe:hover{
+.btnContactMe:hover {
 
     /*!*Button*!*/
     background-color: #BA903A;
@@ -187,15 +186,15 @@ z-index: 1;
 
 
 /*!*======icons======*!*/
- .github {
-     width: 35px;
-     height: 35px;
-     position: absolute;
-     top: 100px;
-     /*!*left: 1450px;*!*/
+.github {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 100px;
+    /*!*left: 1450px;*!*/
     right: 3vw;
-     z-index: 1;
- }
+    z-index: 1;
+}
 
 .inst {
     position: absolute;
@@ -232,7 +231,8 @@ z-index: 1;
     height: 35px;
     z-index: 1;
 }
-.email{
+
+.email {
     position: absolute;
     width: 25vw;
     height: 4vw;
@@ -249,63 +249,131 @@ z-index: 1;
     color: #FFFFFF;
 
     transform: rotate(90deg);
-    z-index:1;
+    z-index: 1;
 }
 
 
-#lineAndEmail{
+#lineAndEmail {
 
 }
-.line{
+
+.line {
     position: absolute;
     top: 94vh;
     /*!*left: 1409px;*!*/
-right: 2.3vw;
+    right: 2.3vw;
     z-index: 1;
     color: white;
     transform: rotate(90deg);
     width: 4vw;
 }
 
-.falcon{
+.falcon {
     position: absolute;
-    top:91vh;
+    top: 91vh;
     left: 48vw;
     z-index: 1;
 }
 
 
 /*================================== 320->Mobile -S ==================================*/
-@media all and (max-width: 320px){
+@media all and (max-width: 320px) {
 
 }
 
 /*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 321px) and (max-width: 375px){
+@media all and (min-width: 321px) and (max-width: 375px) {
 
 }
 
 /*================================== 425->Mobile -L ================================== */
-@media all and (min-width: 376px) and (max-width: 425px){
+@media all and (min-width: 376px) and (max-width: 425px) {
 
 }
 
 /*================================== 768->Tablet ================================== */
-@media all and (min-width: 426px) and (max-width: 768px){
+@media all and (min-width: 426px) and (max-width: 768px) {
 
 }
 
 /*================================== 1024->Laptop ================================== */
-@media all and (min-width: 769px) and (max-width: 1024px){
+@media all and (min-width: 769px) and (max-width: 1024px) {
 
 }
 
 /*================================== 1440->Laptop large ================================== */
-@media all and (min-width: 1025px) and (max-width: 1440px){
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+
+    /*!*======icons======*!*/
+    .github {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 100px;
+        /*!*left: 1450px;*!*/
+        right: 3vw;
+        z-index: 1;
+    }
+
+    .inst {
+        position: absolute;
+        top: 155px;
+        right: 3.1vw;
+        width: 30px;
+        height: 30px;
+        z-index: 1;
+    }
+
+    .whatsapp {
+        position: absolute;
+        top: 210px;
+        right: 3vw;
+        width: 35px;
+        height: 35px;
+        z-index: 1;
+    }
+
+    .linkedIn {
+        position: absolute;
+        top: 270px;
+        right: 3vw;
+        width: 35px;
+        height: 35px;
+        z-index: 1;
+    }
+
+    .twitter {
+        position: absolute;
+        top: 330px;
+        right: 3vw;
+        width: 35px;
+        height: 35px;
+        z-index: 1;
+    }
+
+    .email {
+        position: absolute;
+        width: 25vw;
+        height: 4vw;
+        right: -7vw;
+        top: 83vh;
+
+        font-family: "Esteban";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+
+        color: #FFFFFF;
+
+        transform: rotate(90deg);
+        z-index: 1;
+    }
 
 }
 
 /* ================================== 4K ================================== */
-@media all and (min-width: 1441px) and (max-width: 2560px){
+@media all and (min-width: 1441px) and (max-width: 2560px) {
 
 }
