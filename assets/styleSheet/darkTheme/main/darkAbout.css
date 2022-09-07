@@ -578,7 +578,7 @@ padding-right: 10px;
         position: absolute;
         width: 332px;
         height: 50px;
-        left: 45vw;
+        left: 48vw;
         top: 1740px;
         /* font-family: 'Familjen Grotesk'; */
         font-family: "Courier Prime";
@@ -639,7 +639,7 @@ padding-right: 10px;
         position: absolute;
         width: 100px;
         height: 31px;
-        left: 45vw;
+        left: 48vw;
         top: 1798px;
         font-family: "Space Mono";
         font-style: normal;
@@ -653,7 +653,7 @@ padding-right: 10px;
         position: absolute;
         width: 100px;
         height: 31px;
-        left: 45vw;
+        left: 48vw;
         top: 1845px;
         font-family: 'Space Mono';
         font-style: normal;
@@ -662,6 +662,37 @@ padding-right: 10px;
         line-height: 31px;
         color: #FDF9F9;
     }
+    #adReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 334px;
+        height: 31px;
+        left: 55vw;
+        top: 1798px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+    #telReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 150px;
+        height: 31px;
+        left: 55vw;
+        top: 1845px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
 }
 
 /* ================================== 4K ================================== */

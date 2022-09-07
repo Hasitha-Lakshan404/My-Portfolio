@@ -353,7 +353,28 @@ Time :1:50 PM
 
 /*================================== 1440->Laptop large ================================== */
 @media all and (min-width: 1025px) and (max-width: 1440px){
+    .mainSecProject>aside:nth-child(3) {
+        position: relative;
+        left: 19vw;
+        top: 20vh;
+        width: 71vw;
+        color: #CFD8DC;
+        font-size: 20px;
+        font-family: "Courier Prime";
+        display: inline-block;
+        /* height: 500px; */
+    }
 
+    #animationContainer {
+        /* background: linear-gradient(to right, red, blue); */
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        top: 145px;
+    }
 }
 
 /* ================================== 4K ================================== */
