@@ -382,6 +382,8 @@ padding-right: 10px;
 @media all and (max-width: 320px){
 
 }
+
+
 /*================================== 375 ->Mobile -M ==================================*/
 @media all and (min-width: 321px) and (max-width: 375px){
 
@@ -404,7 +406,25 @@ padding-right: 10px;
 
 /*================================== 1440->Laptop large ================================== */
 @media all and (min-width: 1025px) and (max-width: 1440px){
+    .hi {
 
+        position: absolute;
+        width: 125px;
+        height: 42px;
+        left: 693px;
+        top: 1542px;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 42px;
+        /*! *identical to box height *!*/
+
+        /*color: #254871;*/
+        color: #86e026;
+        opacity: 0.6;
+    }
 }
 
 /* ================================== 4K ================================== */
