@@ -401,7 +401,48 @@ padding-right: 10px;
 
 /*================================== 1024->Laptop ================================== */
 @media all and (min-width: 769px) and (max-width: 1024px){
-
+    .mainSecAbout > section:first-child > div:first-child {
+        position: relative;
+        top: -0.5vh;
+        left: 0;
+        height: 59vh;
+        background: url(../../../images/DarkheadUnder.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .quoteHead01 {
+        position: absolute;
+        width: 40vw;
+        height: 138px;
+        right: 2vw;
+        top: 664px;
+        /* font-family: "Roboto"; */
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6vw;
+        line-height: 39px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        opacity: 0.5;
+        color: #FFFFFF;
+    }
+    .quoteHead2 {
+        position: absolute;
+        width: 40vw;
+        height: 50px;
+        right: 2vw;
+        top: 849px;
+        opacity: 0.5;
+        /* font-family: "Roboto"; */
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4vw;
+        line-height: 29px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
 }
 
 /*================================== 1440->Laptop large ================================== */

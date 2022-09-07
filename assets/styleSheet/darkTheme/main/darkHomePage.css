@@ -401,22 +401,30 @@ main {
         position: absolute;
         width: 25vw;
         height: 4vw;
-        right: -7vw;
-        top: 83vh;
-
+        right: -6.5vw;
+        top: 73vh;
         font-family: "Esteban";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
         letter-spacing: 0.1em;
-
         color: #FFFFFF;
-
         transform: rotate(90deg);
         z-index: 1;
     }
+
+    .line {
+        position: absolute;
+        top: 94vh;
+        right: 3.1vw;
+        z-index: 1;
+        color: white;
+        transform: rotate(90deg);
+        width: 4vw;
+    }
 }
+
 
 /*================================== 1440->Laptop large ================================== */
 @media all and (min-width: 1025px) and (max-width: 1440px) {
