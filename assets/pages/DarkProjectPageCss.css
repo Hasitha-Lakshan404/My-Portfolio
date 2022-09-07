@@ -63,3 +63,9 @@ Time :5:39 PM
     font-size: 20px;
     margin-left: 5vw;
 }
+.projectPageMain > div:nth-child(1) > p:nth-child(5) {
+    color: #B3B3B3;
+    font-family: "Space Mono";
+    font-size: 20px;
+    margin-left: 10vw;
+}
