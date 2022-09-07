@@ -618,6 +618,50 @@ padding-right: 10px;
         line-height: 31px;
         color: #FDF9F9;
     }
+
+    #file {
+        position: absolute;
+        width: 200px;
+        height: 31px;
+        left: 150px;
+        top: 1799px;
+    }
+    #file2 {
+        position: absolute;
+        width: 200px;
+        height: 31px;
+        left: 150px;
+        top: 1845px;
+    }
+    #ad {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 45vw;
+        top: 1798px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        color: rgb(253, 249, 249);
+    }
+    #tel {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 45vw;
+        top: 1845px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
 }
 
 /* ================================== 4K ================================== */
