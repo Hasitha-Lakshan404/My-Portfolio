@@ -5,23 +5,24 @@ Time :1:46 PM
 */
 
 
-.mainSecSkill{
+.mainSecSkill {
     position: relative;
     /*background-color: #2196f3;*/
     /*width: 99.5vw;*/
     height: 155vh;
     top: 40vh;
     left: 0;
-    margin:auto;
+    margin: auto;
     z-index: 1;
 
 
 }
+
 /*.mainSecSkill>section:first-child>div{
 
 
 }*/
-.iss{
+.iss {
     /*position: relative;
     top:0;
     left: 0;
@@ -39,13 +40,13 @@ Time :1:46 PM
 }
 
 /*Left orange bar*/
-.mainSecSkill>section:first-child>div:first-child{
+.mainSecSkill > section:first-child > div:first-child {
     position: relative;
-    top:0;
+    top: 0;
     left: 0;
     width: 51.7vw;
     height: 80px;
-    background :url("../../../images/leftOrangeRow.png")no-repeat center;
+    background: url("../../../images/leftOrangeRow.png") no-repeat center;
     background-size: 100% 100%;
     /*background-image: url(../../../images/leftOrangeRow.png);*/
     /*background-size: cover;*/
@@ -57,13 +58,13 @@ Time :1:46 PM
 }
 
 /*Right purple bar*/
-.mainSecSkill>section:first-child>div:nth-child(2){
+.mainSecSkill > section:first-child > div:nth-child(2) {
     position: absolute;
-    top:1.5em;
+    top: 1.5em;
     right: 0;
     width: 51.7vw;
     height: 80px;
-    background :url("../../../images/rightPurpleRow.png")no-repeat center;
+    background: url("../../../images/rightPurpleRow.png") no-repeat center;
     background-size: 100% 100%;
     /*background-image: url(../../../images/leftOrangeRow.png);*/
     /*background-size: cover;*/
@@ -75,7 +76,7 @@ Time :1:46 PM
 }
 
 /*My Skill Title*/
-.mainSecSkill>section:first-child>h1{
+.mainSecSkill > section:first-child > h1 {
     position: absolute;
     color: #FFFFFF;
     top: 3vh;
@@ -86,7 +87,7 @@ Time :1:46 PM
 
 
 /*for the skill quote*/
-.mainSecSkill>aside:nth-child(2)>p{
+.mainSecSkill > aside:nth-child(2) > p {
     position: absolute;
     color: #71727D;
     display: inline-block;
@@ -99,7 +100,7 @@ Time :1:46 PM
 /*=========================================*/
 
 /*for the Skill rounded container*/
-.mainSecSkill>section:nth-child(3){
+.mainSecSkill > section:nth-child(3) {
     position: relative;
     top: 120px;
     left: 5vw;
@@ -111,12 +112,12 @@ Time :1:46 PM
     /*box-shadow:0px 0px 0 1px  white;*/
 
 
-   /* background: rgba(50, 54, 71, 0.48);
-    border-radius: 100px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3.1px);
-    -webkit-backdrop-filter: blur(3.1px);
-    border: 1px solid rgba(50, 54, 71, 0.3);*/
+    /* background: rgba(50, 54, 71, 0.48);
+     border-radius: 100px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(3.1px);
+     -webkit-backdrop-filter: blur(3.1px);
+     border: 1px solid rgba(50, 54, 71, 0.3);*/
 
 
     background: rgba(50, 54, 71, 0.52);
@@ -128,7 +129,7 @@ Time :1:46 PM
 }
 
 /*for the titles*/
-.mainSecSkill>section:nth-child(3)>section:first-child{
+.mainSecSkill > section:nth-child(3) > section:first-child {
     /*font-family: "Space Mono";*/
     font-family: "Courier Prime";
     font-size: 1.5em;
@@ -136,8 +137,9 @@ Time :1:46 PM
     position: relative;
     top: 10px;
 }
+
 /*common li*/
-.mainSecSkill>section:nth-child(3)>section:first-child>ul>li{
+.mainSecSkill > section:nth-child(3) > section:first-child > ul > li {
     display: inline-block;
     margin-left: 12vw;
     padding-bottom: 2px;
@@ -145,7 +147,7 @@ Time :1:46 PM
 }
 
 /*for the Design*/
-.mainSecSkill>section:nth-child(3)>section:first-child>ul>li:first-child{
+.mainSecSkill > section:nth-child(3) > section:first-child > ul > li:first-child {
     margin-left: 5vw;
     /*margin-right: 5vw;*/
 }
@@ -153,7 +155,7 @@ Time :1:46 PM
 /*========================================*/
 
 /*===========main section of skill details*/
-#skillTitleNames{
+#skillTitleNames {
     display: flex;
     position: absolute;
     margin: auto;
@@ -168,14 +170,14 @@ Time :1:46 PM
 }
 
 /*All the div of Skill Details*/
-#skillTitleNames>div{
+#skillTitleNames > div {
     width: 21vw;
-    height:70vh;
+    height: 70vh;
     /*border: 2px solid #e70042;*/
 }
 
 /*All li*/
-#skillTitleNames>div>ul>li{
+#skillTitleNames > div > ul > li {
     opacity: 0.8;
     font-family: "Space Mono";
     position: relative;
@@ -185,7 +187,7 @@ Time :1:46 PM
 
 
 /*================Language and Framework Container*/
-#skillLangFrameworks{
+#skillLangFrameworks {
     position: relative;
     top: 45vh;
     width: 40vw;
@@ -196,38 +198,60 @@ Time :1:46 PM
     left: 30px;
 
 }
+
 /*for the Framework container*/
-#skillLangFrameworks>div{
+#skillLangFrameworks > div {
     width: 28vw;
-    height:7vh;
+    height: 7vh;
     margin-right: 20px;
     left: 10px;
     /*border: 1px solid white;*/
 }
 
-#skillLangFrameworks>div:nth-child(1){
-    background:url("../../../images/java.png") no-repeat center; background-size: 100% 100%;
-}
-#skillLangFrameworks>div:nth-child(2){
-    background:url("../../../images/Python.png") no-repeat center; background-size: 100% 100%;
-}#skillLangFrameworks>div:nth-child(3){
-    background:url("../../../images/js.png") no-repeat center; background-size: 100% 100%;
-}#skillLangFrameworks>div:nth-child(4){
-    background:url("../../../images/flutter.png") no-repeat center; background-size: 100% 100%;
-}#skillLangFrameworks>div:nth-child(5){
-    background:url("../../../images/htmlL.png") no-repeat center; background-size: 100% 100%;
-}#skillLangFrameworks>div:nth-child(6){
-    background:url("../../../images/css3.png") no-repeat center; background-size: 100% 100%;
-}#skillLangFrameworks>div:nth-child(7){
-    background:url("../../../images/hibernate.png") no-repeat center; background-size: 250% 170%;
-}#skillLangFrameworks>div:nth-child(8){
-    background:url("../../../images/mysql.png") no-repeat center; background-size: 120% 120%;
+#skillLangFrameworks > div:nth-child(1) {
+    background: url("../../../images/java.png") no-repeat center;
+    background-size: 100% 100%;
 }
 
- /*=========for the used tools*/
-#skillToolName{
+#skillLangFrameworks > div:nth-child(2) {
+    background: url("../../../images/Python.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#skillLangFrameworks > div:nth-child(3) {
+    background: url("../../../images/js.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#skillLangFrameworks > div:nth-child(4) {
+    background: url("../../../images/flutter.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#skillLangFrameworks > div:nth-child(5) {
+    background: url("../../../images/htmlL.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#skillLangFrameworks > div:nth-child(6) {
+    background: url("../../../images/css3.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#skillLangFrameworks > div:nth-child(7) {
+    background: url("../../../images/hibernate.png") no-repeat center;
+    background-size: 250% 170%;
+}
+
+#skillLangFrameworks > div:nth-child(8) {
+    background: url("../../../images/mysql.png") no-repeat center;
+    background-size: 120% 120%;
+}
+
+/*=========for the used tools*/
+#skillToolName {
     position: relative;
-    top:50vh;
+    top: 50vh;
     /*height: 100px;*/
     /*border: 1px solid white;*/
     /*display: flex;*/
@@ -240,10 +264,10 @@ Time :1:46 PM
     left: 30px;
 
 
-
 }
+
 /*for the line*/
-#skillToolName>hr{
+#skillToolName > hr {
     display: inline-block;
     width: 200px;
     margin: 10px;
@@ -252,7 +276,7 @@ Time :1:46 PM
 }
 
 /*flex container*/
-#skillTools{
+#skillTools {
     position: relative;
     top: 50vh;
     width: 45vw;
@@ -267,31 +291,92 @@ Time :1:46 PM
 }
 
 /*flex -images -main- div*/
-#skillTools>div{
+#skillTools > div {
     width: 28vw;
-    height:7vh;
+    height: 7vh;
     margin-right: 20px;
     /*border: 1px solid white;*/
 }
 
-#skillTools>div:nth-child(1){
-    background:url("../../../images/intelij-removebg-preview.png") no-repeat center; background-size: 100% 90%;
-}#skillTools>div:nth-child(2){
-    background:url("../../../images/As-removebg-preview.png") no-repeat center; background-size: 100% 100%;
-}#skillTools>div:nth-child(3){
-    background:url("../../../images/eclips-removebg-preview.png") no-repeat center; background-size: 120% 120%;
-}#skillTools>div:nth-child(4){
-    background:url("../../../images/VSC-removebg-preview.png") no-repeat center; background-size: 100% 100%;
-}#skillTools>div:nth-child(5){
-    background:url("../../../images/pngwing.com.png") no-repeat center; background-size: 100% 100%;
-}#skillTools>div:nth-child(6){
-    background:url("../../../images/fignew.png") no-repeat center; background-size: 50% 80%;
-}#skillTools>div:nth-child(7){
-    background:url("../../../images/NetBeans.png") no-repeat center; background-size: 150% 100%;
-}#skillTools>div:nth-child(8){
-    background:url("../../../images/icons8-scene-builder-240.png") no-repeat center; background-size: 100% 100%;
-}#skillTools>div:nth-child(9){
-    background:url("../../../images/gtnew.png") no-repeat center; background-size: 120% 120%;
+#skillTools > div:nth-child(1) {
+    background: url("../../../images/intelij-removebg-preview.png") no-repeat center;
+    background-size: 100% 90%;
+}
+
+#skillTools > div:nth-child(2) {
+    background: url("../../../images/As-removebg-preview.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#skillTools > div:nth-child(3) {
+    background: url("../../../images/eclips-removebg-preview.png") no-repeat center;
+    background-size: 120% 120%;
+}
+
+#skillTools > div:nth-child(4) {
+    background: url("../../../images/VSC-removebg-preview.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#skillTools > div:nth-child(5) {
+    background: url("../../../images/pngwing.com.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#skillTools > div:nth-child(6) {
+    background: url("../../../images/fignew.png") no-repeat center;
+    background-size: 50% 80%;
+}
+
+#skillTools > div:nth-child(7) {
+    background: url("../../../images/NetBeans.png") no-repeat center;
+    background-size: 150% 100%;
+}
+
+#skillTools > div:nth-child(8) {
+    background: url("../../../images/icons8-scene-builder-240.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#skillTools > div:nth-child(9) {
+    background: url("../../../images/gtnew.png") no-repeat center;
+    background-size: 120% 120%;
+}
+
+
+/*================================== 320->Mobile -S ==================================*/
+@media all and (max-width: 320px){
+
+}
+
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 321px) and (max-width: 375px){
+
+}
+
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 376px) and (max-width: 425px){
+
+}
+
+/*================================== 768->Tablet ================================== */
+@media all and (min-width: 426px) and (max-width: 768px){
+
+}
+
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 769px) and (max-width: 1024px){
+
+}
+
+/*================================== 1440->Laptop large ================================== */
+@media all and (min-width: 1025px) and (max-width: 1440px){
+
+}
+
+/* ================================== 4K ================================== */
+@media all and (min-width: 1441px) and (max-width: 2560px){
+
 }
 
 
