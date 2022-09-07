@@ -191,3 +191,55 @@ Time :1:22 AM
         opacity: 1;
     }
 }
+
+
+/*================================== 320->Mobile -S ==================================*/
+@media all and (max-width: 320px){
+
+}
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 321px) and (max-width: 375px){
+
+}
+
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 376px) and (max-width: 425px){
+
+}
+
+/*================================== 768->Tablet ================================== */
+@media all and (min-width: 426px) and (max-width: 768px){
+
+}
+
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 769px) and (max-width: 1024px){
+    .gold-container {
+        position: absolute;
+        display: block;
+        /* margin: 0 auto; */
+        max-width: 36rem;
+        /* top: 261px; */
+        /* left: 500px; */
+        top: 33vh;
+        /* left: 500px; */
+        left: 35vw;
+        /* font-size: 128px; */
+        font-size: 9vw;
+        font-family: "DM Serif Display";
+        font-weight: bold;
+        -webkit-text-stroke: 1px #BA903A;
+    }
+
+
+}
+
+/*================================== 1440->Laptop large ================================== */
+@media all and (min-width: 1025px) and (max-width: 1440px){
+
+}
+
+/* ================================== 4K ================================== */
+@media all and (min-width: 1441px) and (max-width: 2560px){
+
+}
