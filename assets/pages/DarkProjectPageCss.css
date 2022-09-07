@@ -5,13 +5,14 @@ Time :5:39 PM
 */
 
 /*Main page*/
-.projectPageMain{
+.projectPageMain {
     height: 80vh;
     /*background: #FFFFFF;*/
     border: 2px solid white;
 }
+
 /*main curve*/
-.projectPageMain>div{
+.projectPageMain > div {
     position: relative;
     top: 20vh;
     left: 10vw;
@@ -27,7 +28,7 @@ Time :5:39 PM
 }
 
 /*two orange rows*/
-.projectPageMain>div:nth-child(1)>div:nth-child(1){
+.projectPageMain > div:nth-child(1) > div:nth-child(1) {
     position: relative;
     top: 5vh;
     left: 5vw;
@@ -36,7 +37,8 @@ Time :5:39 PM
     background: url("../images/leftToRight.png") no-repeat center;
     background-size: 100% 100%;
 }
-.projectPageMain>div:nth-child(1)>div:nth-child(2){
+
+.projectPageMain > div:nth-child(1) > div:nth-child(2) {
     position: absolute;
     bottom: 5vh;
     right: 5vw;
@@ -45,10 +47,19 @@ Time :5:39 PM
     background: url("../images/rightToLeft.png") no-repeat center;
     background-size: 100% 100%;
 }
+
 /*Welcome*/
-.projectPageMain h1{
+.projectPageMain h1 {
     color: #3C5B54;
     font-family: Ubuntu;
     margin-top: 8vh;
+    margin-left: 5vw;
+}
+
+/*Three para*/
+.projectPageMain > div:nth-child(1) > p:nth-child(4) {
+    color: #B3B3B3;
+    font-family: "Space Mono";
+    font-size: 20px;
     margin-left: 5vw;
 }
