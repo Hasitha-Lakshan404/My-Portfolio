@@ -3,12 +3,13 @@ Project :Portfolio
 Date :9/6/2022
 Time :5:39 PM
 */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Courier+Prime&family=Noto+Serif+JP:wght@200&family=Roboto+Slab:wght@300&family=Space+Mono&display=swap');
 
 /*Main page*/
 .projectPageMain {
     height: 80vh;
     /*background: #FFFFFF;*/
-    border: 2px solid white;
+    /*border: 2px solid white;*/
 }
 
 /*main curve*/
