@@ -25,3 +25,14 @@ Time :5:39 PM
     -webkit-backdrop-filter: blur(7.6px);
     border: 1px solid rgba(50, 54, 71, 1);
 }
+
+/*two orange rows*/
+.projectPageMain>div:nth-child(1)>div:nth-child(1){
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    height: .7em;
+    width: 75%;
+    background: url("../images/leftToRight.png") no-repeat center;
+    background-size: 100% 100%;
+}
