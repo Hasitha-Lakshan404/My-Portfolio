@@ -36,3 +36,19 @@ Time :5:39 PM
     background: url("../images/leftToRight.png") no-repeat center;
     background-size: 100% 100%;
 }
+.projectPageMain>div:nth-child(1)>div:nth-child(2){
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+    height: .7em;
+    width: 75%;
+    background: url("../images/rightToLeft.png") no-repeat center;
+    background-size: 100% 100%;
+}
+/*Welcome*/
+.projectPageMain h1{
+    color: #3C5B54;
+    font-family: Ubuntu;
+    margin-top: 8vh;
+    margin-left: 5vw;
+}
