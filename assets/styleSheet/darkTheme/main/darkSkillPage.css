@@ -9,9 +9,11 @@ Time :1:46 PM
     position: relative;
     /*background-color: #2196f3;*/
     /*width: 99.5vw;*/
-    height: 155vh;
+    /*height: 155vh;*/
+    height: 1178px;
     /*top: 50vh;*/
-    top: 40vh;
+    /*top: 40vh;*/
+    top: 304px;
     left: 0;
     margin: auto;
     z-index: 1;
@@ -78,7 +80,8 @@ Time :1:46 PM
 .mainSecSkill > section:first-child > h1 {
     position: absolute;
     color: #FFFFFF;
-    top: 3vh;
+    /*top: 3vh;*/
+    top: 22.8px;
     right: 35vw;
     font-family: "Courier Prime";
 
@@ -106,7 +109,8 @@ Time :1:46 PM
     /*border: 3px solid #CFD8DC;*/
     /*border-radius: 100px;*/
     width: 90vw;
-    height: 80vh;
+    /*height: 80vh;*/
+    height: 608px;
     /*background-color: #323647;*/
     /*box-shadow:0px 0px 0 1px  white;*/
 
@@ -162,7 +166,8 @@ Time :1:46 PM
     bottom: 0;
     left: 0;
     right: 0;
-    height: 80vh;
+    /*height: 80vh;*/
+    height: 608px;
     align-items: center;
     justify-content: space-around;
      /*border: 2px solid limegreen;*/
@@ -171,7 +176,8 @@ Time :1:46 PM
 /*All the div of Skill Details*/
 #skillTitleNames > div {
     width: 21vw;
-    height: 70vh;
+    /*height: 70vh;*/
+    height: 532px;
     /*border: 2px solid #e70042;*/
 }
 
@@ -188,9 +194,11 @@ Time :1:46 PM
 /*================Language and Framework Container*/
 #skillLangFrameworks {
     position: relative;
-    top: 45vh;
+    /*top: 45vh;*/
+    top: 342px;
     width: 40vw;
-    height: 7vh;
+    /*height: 7vh;*/
+    height:  53.2px;
     /*border: 1px solid white;*/
     display: flex;
     flex-flow: row;
@@ -201,7 +209,8 @@ Time :1:46 PM
 /*for the Framework container*/
 #skillLangFrameworks > div {
     width: 28vw;
-    height: 7vh;
+    /*height: 7vh;*/
+    height:  53.2px;
     margin-right: 20px;
     left: 10px;
     /*border: 1px solid white;*/
@@ -250,7 +259,8 @@ Time :1:46 PM
 /*=========for the used tools*/
 #skillToolName {
     position: relative;
-    top: 50vh;
+    /*top: 50vh;*/
+    top: 380px;
     /*height: 100px;*/
     /*border: 1px solid white;*/
     /*display: flex;*/
@@ -277,9 +287,11 @@ Time :1:46 PM
 /*flex container*/
 #skillTools {
     position: relative;
-    top: 50vh;
+    /*top: 50vh;*/
+    top: 380px;
     width: 45vw;
-    height: 7vh;
+    /*height: 7vh;*/
+    height: 53.2px;
     /*border: 1px solid white;*/
     display: flex;
     flex-flow: row;
@@ -292,7 +304,8 @@ Time :1:46 PM
 /*flex -images -main- div*/
 #skillTools > div {
     width: 28vw;
-    height: 7vh;
+    /*height: 7vh;*/
+    height: 53.2px;
     margin-right: 20px;
     /*border: 1px solid white;*/
 }
@@ -370,8 +383,10 @@ Time :1:46 PM
         position: relative;
         /*background-color: #2196f3;*/
         /*width: 99.5vw;*/
-        height: 155vh;
-        top: 50vh;
+        /*height: 155vh;*/
+        height: 1178px;
+        /*top: 50vh;*/
+        top:  380px;
         /*top: 40vh;*/
         left: 0;
         margin: auto;
@@ -418,7 +433,8 @@ Time :1:46 PM
     .mainSecSkill > section:first-child > h1 {
         position: absolute;
         color: #FFFFFF;
-        top: 3vh;
+        /*top: 3vh;*/
+        top: 22.8px;
         right: 37vw;
         font-family: "Courier Prime";
         font-size: 22px;
@@ -438,22 +454,26 @@ Time :1:46 PM
     /*Flex div*/
     #skillTitleNames > div {
         width: 21vw;
-        height: 70vh;
+        /*height: 70vh;*/
+        height: 532px;
         /* border: 2px solid #e70042; */
     }
 
     #skillTitleNames > div:nth-child(1) {
         width: 20vw;
-        height: 70vh;
+        /*height: 70vh;*/
+        height: 532px;
         /* border: 2px solid #e70042; */
     }
 
     /*Lang & Framework*/
     #skillLangFrameworks {
         position: relative;
-        top: 51vh;
+        /*top: 51vh;*/
+        top: 387.6px;
         width: 50vw;
-        height: 7vh;
+        /*height: 7vh;*/
+        height: 53.2px;
         /* border: 1px solid white; */
         display: flex;
         flex-flow: row;
@@ -465,7 +485,8 @@ Time :1:46 PM
     /*Tool Title*/
     #skillToolName {
         position: relative;
-        top: 56vh;
+        /*top: 56vh;*/
+        top: 425.6px;
         /* height: 100px; */
         /* border: 1px solid white; */
         /* display: flex; */
@@ -478,9 +499,11 @@ Time :1:46 PM
     }
     #skillTools {
         position: relative;
-        top: 55vh;
+        /*top: 55vh;*/
+        top: 418px;
         width: 60vw;
-        height: 7vh;
+        /*height: 7vh;*/
+        height:  53.2px;
         /* border: 1px solid white; */
         display: flex;
         flex-flow: row;
@@ -497,7 +520,8 @@ Time :1:46 PM
         /* border: 3px solid #CFD8DC; */
         /* border-radius: 100px; */
         width: 90vw;
-        height: 81vh;
+        /*height: 81vh;*/
+        height: 615.6px;
         /* background-color: #323647; */
         /* box-shadow: 0px 0px 0 1px white; */
         background: rgba(50, 54, 71, 0.52);
@@ -516,7 +540,8 @@ Time :1:46 PM
         bottom: 0;
         left: 0;
         right: 0;
-        height: 80vh;
+        /*height: 80vh;*/
+        height: 608px;
         align-items: center;
         justify-content: space-around;
         /* border: 2px solid limegreen; */
