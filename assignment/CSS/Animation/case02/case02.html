@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>water Drop</title>
+    <!--    <link href="../assets/styleSheet/normalize.css" rel="stylesheet">-->
+    <!--    <meta content="width=device-width initial-scale=1 maximum-scale=1 minimum-scale=1 user-scalable=no" name="viewport">-->
+
+    <style>
+        section > div:nth-child(1) {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 5px solid blue;
+            animation-name: water-Drop;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+        }
+
+
+        @keyframes water-Drop {
+            from {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+            }
+            to {
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                opacity: 0;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+<section>
+    <div></div>
+    <div></div>
+</section>
+
+</body>
+</html>
