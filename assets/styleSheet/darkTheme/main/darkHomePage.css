@@ -13,7 +13,8 @@ main {
 
 .mainSecHome > div:first-child {
     /*width:99.5vw;*/
-    height: 90vh;
+    /*height: 90vh;*/
+    height: 684px;
     margin-top: 75px;
     background-color: #323647;
 }
@@ -21,7 +22,9 @@ main {
 .pg1Hello {
     position: absolute;
     /*!*top: 265px;*!*/
-    top: 33.5vh;
+    /*top: 33.5vh;*/
+    top: 254.6px;
+    /*top: 200px;*/
     /*!*left: 160px;*!*/
     left: 11vw;
     z-index: 1;
@@ -34,7 +37,8 @@ main {
 .pg1Hasitha {
     position: absolute;
     /*!*top: 250px;*!*/
-    top: 32vh;
+    /*top: 32vh;*/
+    top: 243.2px;
     /*!*left: 50px;*!*/
     left: 3vw;
     z-index: 1;
@@ -47,7 +51,8 @@ main {
 
 .pg1Im {
     position: absolute;
-    top: 33.5vh;
+    /*top: 33.5vh;*/
+    top: 254.6px;
     /*!*left: 700px;*!*/
     left: 50vw;
     z-index: 1;
@@ -73,7 +78,8 @@ main {
 
 .fullStackDev {
     position: absolute;
-    top: 55vh;
+    /*top: 55vh;*/
+    top: 418px;
     /*!*top: 425px;*!*/
     left: 4vw;
     /*!*left: 60px;*!*/
@@ -88,7 +94,8 @@ main {
 .btnContactMe {
     position: absolute;
     /*!*top: 475px;*!*/
-    top: 62.5vh;
+    /*top: 62.5vh;*/
+    top: 475px;
     /*!*left: 60px;*!*/
     left: 60px;
     z-index: 1;
@@ -137,7 +144,8 @@ main {
 .btnSeeMore {
     position: absolute;
     /*!*top: 475px;*!*/
-    top: 62.6vh;
+    /*top: 62.6vh;*/
+    top: 475.76px;
     /*!*left: 300px;*!*/
     left: 300px;
     z-index: 1;
@@ -237,7 +245,8 @@ main {
     width: 25vw;
     height: 4vw;
     right: -7vw;
-    top: 83vh;
+    /*top: 83vh;*/
+    top:  630.8px;
 
     font-family: "Esteban";
     font-style: normal;
@@ -259,7 +268,8 @@ main {
 
 .line {
     position: absolute;
-    top: 94vh;
+    /*top: 94vh;*/
+    top: 714.4px;
     /*!*left: 1409px;*!*/
     right: 2.3vw;
     z-index: 1;
@@ -270,7 +280,8 @@ main {
 
 .falcon {
     position: absolute;
-    top: 91vh;
+    /*top: 91vh;*/
+    top: 691.6px;
     left: 48vw;
     z-index: 1;
 }
@@ -300,7 +311,8 @@ main {
 @media all and (min-width: 769px) and (max-width: 1024px) {
     .fullStackDev {
         position: absolute;
-        top: 51vh;
+        /*top: 51vh;*/
+        top: 387.6px;
         left: 4vw;
         z-index: 1;
         color: #4AB29B;
@@ -310,7 +322,8 @@ main {
     }
     .btnContactMe {
         position: absolute;
-        top: 59.5vh;
+        /*top: 59.5vh;*/
+        top: 452.2px;
         left: 34px;
         z-index: 1;
         background-color: #323647;
@@ -331,7 +344,8 @@ main {
 
     .btnSeeMore {
         position: absolute;
-        top: 59.6vh;
+        /*top: 59.6vh;*/
+        top: 452.96px;
         left: 271px;
         z-index: 1;
         background-color: #00788C;
@@ -402,7 +416,8 @@ main {
         width: 25vw;
         height: 4vw;
         right: -6.5vw;
-        top: 73vh;
+        /*top: 73vh;*/
+        top: 554.8px;
         font-family: "Esteban";
         font-style: normal;
         font-weight: 400;
@@ -416,7 +431,8 @@ main {
 
     .line {
         position: absolute;
-        top: 94vh;
+        /*top: 94vh;*/
+        top: 714.4px;
         right: 3.1vw;
         z-index: 1;
         color: white;
@@ -481,7 +497,7 @@ main {
         width: 25vw;
         height: 4vw;
         right: -7vw;
-        top: 83vh;
+        top: 630.8px;
 
         font-family: "Esteban";
         font-style: normal;
