@@ -566,7 +566,7 @@ Time :1:22 PM
         width: 332px;
         height: 50px;
         left: 37px;
-        top: 1716px;
+        top: 1744px;
         /* font-family: 'Familjen Grotesk'; */
         font-family: "Courier Prime";
         font-style: normal;
@@ -583,7 +583,7 @@ Time :1:22 PM
         width: 100px;
         height: 31px;
         left: 42px;
-        top: 1765px;
+        top: 1793px;
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
@@ -599,7 +599,7 @@ Time :1:22 PM
         width: 100px;
         height: 31px;
         left: 42px;
-        top: 1801px;
+        top: 1829px;
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
@@ -613,21 +613,21 @@ Time :1:22 PM
         width: 200px;
         height: 31px;
         left: 150px;
-        top: 1767px;
+        top: 1795px;
     }
     #file2 {
         position: absolute;
         width: 200px;
         height: 31px;
         left: 150px;
-        top: 1802px;
+        top: 1830px;
     }
     .extraDetails {
         position: absolute;
         width: 332px;
         height: 50px;
         left: 50vw;
-        top: 1716px;
+        top: 1744px;
         /* font-family: 'Familjen Grotesk'; */
         font-family: "Courier Prime";
         font-style: normal;
@@ -644,7 +644,7 @@ Time :1:22 PM
         width: 100px;
         height: 31px;
         left: 50vw;
-        top: 1765px;
+        top: 1793px;
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
@@ -659,7 +659,7 @@ Time :1:22 PM
         width: 334px;
         height: 31px;
         left: 60vw;
-        top: 1765px;
+        top: 1793px;
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
@@ -670,11 +670,11 @@ Time :1:22 PM
     #tel {
         padding-right: 10px;
         font-size: 1rem;
-        position: absolute;x
+        position: absolute;
         width: 100px;
         height: 31px;
         left: 50vw;
-        top: 1805px;
+        top: 1833px;
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
@@ -689,7 +689,7 @@ Time :1:22 PM
         width: 150px;
         height: 31px;
         left: 60vw;
-        top: 1805px;
+        top: 1833px;
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
