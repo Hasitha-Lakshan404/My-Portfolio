@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SlideShow</title>
+
+    <style>
+        main{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            box-shadow: 1px 2px 3px 1px rgba(189, 199, 217,0.56);
+            width: 800px;
+            height: 400px;
+            overflow: hidden;
+
+        }
+
+        main>section{
+            height: 100%;
+            width: 400%;
+            display: flex;
+            animation-name: my-animation;
+            animation-duration: 15s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        main>section>div{
+            height: 100%;
+            width: 100%;
+        }
+
+        main>section>div:first-child{
+            background: url("../../../../assets/images/river.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        main>section>div:nth-child(2){
+            background: url("../../../../assets/images/water1.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        main>section>div:nth-child(3){
+            background: url("../../../../assets/images/water2.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        main>section>div:nth-child(4){
+            background: url("../../../../assets/images/water3.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        @keyframes my-animation {
+            0%,20%{
+                transform: translateX(0);
+            }
+            25%,40%{
+                transform: translateX(-25%);
+            }
+            45%,70%{
+                transform: translateX(-50%);
+            }
+            75%,100%{
+                transform: translateX(-75%);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+<main>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</main>
+
+</body>
+</html>
