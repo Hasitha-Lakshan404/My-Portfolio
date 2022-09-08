@@ -206,7 +206,7 @@ Time :1:22 PM
 
 }
 
-.languages{
+.languages {
     position: absolute;
     width: 332px;
     height: 50px;
@@ -222,11 +222,12 @@ Time :1:22 PM
 
     color: #BA903A;
 }
+
 #sin {
     /*position: absolute;
     top: 1923px;
     left: 50px;*/
-padding-right: 10px;
+    padding-right: 10px;
     font-size: 1rem;
 
     position: absolute;
@@ -245,7 +246,7 @@ padding-right: 10px;
 
 }
 
-#file{
+#file {
     position: absolute;
     width: 200px;
     height: 31px;
@@ -257,7 +258,7 @@ padding-right: 10px;
     /*position: absolute;
     top: 1923px;
     left: 50px;*/
-padding-right: 10px;
+    padding-right: 10px;
     font-size: 1rem;
 
     position: absolute;
@@ -276,7 +277,7 @@ padding-right: 10px;
 
 }
 
-#file2{
+#file2 {
     position: absolute;
     width: 200px;
     height: 31px;
@@ -284,7 +285,7 @@ padding-right: 10px;
     top: 2030px;
 }
 
-.extraDetails{
+.extraDetails {
     position: absolute;
     width: 332px;
     height: 50px;
@@ -301,7 +302,7 @@ padding-right: 10px;
     color: #BA903A;
 }
 
-#ad{
+#ad {
     padding-right: 10px;
     font-size: 1rem;
 
@@ -319,7 +320,8 @@ padding-right: 10px;
 
     color: #FDF9F9;
 }
-#adReal{
+
+#adReal {
     padding-right: 10px;
     font-size: 1rem;
 
@@ -338,7 +340,7 @@ padding-right: 10px;
     color: #FDF9F9;
 }
 
-#tel{
+#tel {
     padding-right: 10px;
     font-size: 1rem;
 
@@ -356,7 +358,8 @@ padding-right: 10px;
 
     color: #FDF9F9;
 }
-#telReal{
+
+#telReal {
     padding-right: 10px;
     font-size: 1rem;
 
@@ -376,30 +379,29 @@ padding-right: 10px;
 }
 
 
-
 /*================================== 320->Mobile -S ==================================*/
-@media all and (max-width: 320px){
+@media all and (max-width: 320px) {
 
 }
 
 
 /*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 321px) and (max-width: 375px){
+@media all and (min-width: 321px) and (max-width: 375px) {
 
 }
 
 /*================================== 425->Mobile -L ================================== */
-@media all and (min-width: 376px) and (max-width: 425px){
+@media all and (min-width: 376px) and (max-width: 425px) {
 
 }
 
 /*================================== 768->Tablet ================================== */
-@media all and (min-width: 426px) and (max-width: 768px){
+@media all and (min-width: 426px) and (max-width: 768px) {
 
 }
 
 /*================================== 1024->Laptop ================================== */
-@media all and (min-width: 769px) and (max-width: 1024px){
+@media all and (min-width: 769px) and (max-width: 1024px) {
     .mainSecAbout > section:first-child > div:first-child {
         position: relative;
         top: -0.5vh;
@@ -408,6 +410,7 @@ padding-right: 10px;
         background: url(../../../images/DarkheadUnder.png) no-repeat center;
         background-size: 100% 100%;
     }
+
     .quoteHead01 {
         position: absolute;
         width: 40vw;
@@ -425,6 +428,7 @@ padding-right: 10px;
         opacity: 0.5;
         color: #FFFFFF;
     }
+
     .quoteHead2 {
         position: absolute;
         width: 40vw;
@@ -473,6 +477,7 @@ padding-right: 10px;
         color: #BA903A;
         text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     }
+
     .se {
         position: absolute;
         width: 297px;
@@ -489,11 +494,12 @@ padding-right: 10px;
         color: #ffffff;
         opacity: 0.7;
     }
+
     .age {
         position: absolute;
         width: 162px;
         height: 49px;
-        left: 518px;
+        left: 516px;
         top: 1239px;
         font-family: 'Courier Prime';
         font-style: normal;
@@ -509,7 +515,7 @@ padding-right: 10px;
         position: absolute;
         width: 125px;
         height: 42px;
-        left: 522px;
+        left: 516px;
         top: 1306px;
         font-family: 'Space Mono';
         font-style: normal;
@@ -520,11 +526,12 @@ padding-right: 10px;
         color: #ffffff;
         opacity: 0.6;
     }
+
     .desMe1 {
         position: absolute;
         width: 502px;
         height: 87px;
-        left: 522px;
+        left: 516px;
         top: 1357px;
         font-family: 'Courier Prime';
         font-style: normal;
@@ -536,11 +543,12 @@ padding-right: 10px;
         color: #ffffff;
         opacity: 0.5;
     }
+
     .desMe2 {
         position: absolute;
         width: 498px;
         height: 87px;
-        left: 522px;
+        left: 516px;
         top: 1511px;
         font-family: 'Courier Prime';
         font-style: normal;
@@ -552,12 +560,13 @@ padding-right: 10px;
         color: #ffffff;
         opacity: 0.5;
     }
+
     .languages {
         position: absolute;
         width: 332px;
         height: 50px;
         left: 37px;
-        top: 1707px;
+        top: 1716px;
         /* font-family: 'Familjen Grotesk'; */
         font-family: "Courier Prime";
         font-style: normal;
@@ -566,6 +575,7 @@ padding-right: 10px;
         line-height: 45px;
         color: #BA903A;
     }
+
     #sin {
         padding-right: 10px;
         font-size: 1rem;
@@ -573,7 +583,7 @@ padding-right: 10px;
         width: 100px;
         height: 31px;
         left: 42px;
-        top: 1759px;
+        top: 1765px;
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
@@ -581,6 +591,7 @@ padding-right: 10px;
         line-height: 31px;
         color: #FDF9F9;
     }
+
     #eng {
         padding-right: 10px;
         font-size: 1rem;
@@ -588,7 +599,7 @@ padding-right: 10px;
         width: 100px;
         height: 31px;
         left: 42px;
-        top: 1795px;
+        top: 1801px;
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
@@ -596,17 +607,101 @@ padding-right: 10px;
         line-height: 31px;
         color: #FDF9F9;
     }
+
     #file {
         position: absolute;
         width: 200px;
         height: 31px;
         left: 150px;
-        top: 1761px;
+        top: 1767px;
     }
+    #file2 {
+        position: absolute;
+        width: 200px;
+        height: 31px;
+        left: 150px;
+        top: 1802px;
+    }
+    .extraDetails {
+        position: absolute;
+        width: 332px;
+        height: 50px;
+        left: 50vw;
+        top: 1716px;
+        /* font-family: 'Familjen Grotesk'; */
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+
+    #ad {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 50vw;
+        top: 1765px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+    #adReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 334px;
+        height: 31px;
+        left: 60vw;
+        top: 1765px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+    #tel {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;x
+        width: 100px;
+        height: 31px;
+        left: 50vw;
+        top: 1805px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+    #telReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 150px;
+        height: 31px;
+        left: 60vw;
+        top: 1805px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
 }
 
 /*================================== 1440->Laptop large ================================== */
-@media all and (min-width: 1025px) and (max-width: 1440px){
+@media all and (min-width: 1025px) and (max-width: 1440px) {
     .quoteHead01 {
         position: absolute;
         /*!*width: 659px;*!*/
@@ -714,6 +809,7 @@ padding-right: 10px;
         color: rgb(255, 255, 255);
         opacity: 0.7;
     }
+
     .hi {
         position: absolute;
         width: 125px;
@@ -729,6 +825,7 @@ padding-right: 10px;
         color: #ffffff;
         opacity: 0.6;
     }
+
     .desMe1 {
         position: absolute;
         width: 713px;
@@ -745,6 +842,7 @@ padding-right: 10px;
         color: #ffffff;
         opacity: 0.5;
     }
+
     .desMe2 {
         position: absolute;
         width: 713px;
@@ -775,6 +873,7 @@ padding-right: 10px;
         line-height: 45px;
         color: rgb(186, 144, 58);
     }
+
     .extraDetails {
         position: absolute;
         width: 332px;
@@ -804,6 +903,7 @@ padding-right: 10px;
         line-height: 31px;
         color: rgb(253, 249, 249);
     }
+
     #eng {
         padding-right: 10px;
         font-size: 1rem;
@@ -827,6 +927,7 @@ padding-right: 10px;
         left: 150px;
         top: 1799px;
     }
+
     #file2 {
         position: absolute;
         width: 200px;
@@ -834,6 +935,7 @@ padding-right: 10px;
         left: 150px;
         top: 1845px;
     }
+
     #ad {
         padding-right: 10px;
         font-size: 1rem;
@@ -848,6 +950,7 @@ padding-right: 10px;
         line-height: 31px;
         color: rgb(253, 249, 249);
     }
+
     #tel {
         padding-right: 10px;
         font-size: 1rem;
@@ -863,6 +966,7 @@ padding-right: 10px;
         line-height: 31px;
         color: #FDF9F9;
     }
+
     #adReal {
         padding-right: 10px;
         font-size: 1rem;
@@ -878,6 +982,7 @@ padding-right: 10px;
         line-height: 31px;
         color: #FDF9F9;
     }
+
     #telReal {
         padding-right: 10px;
         font-size: 1rem;
@@ -897,6 +1002,6 @@ padding-right: 10px;
 }
 
 /* ================================== 4K ================================== */
-@media all and (min-width: 1441px) and (max-width: 2560px){
+@media all and (min-width: 1441px) and (max-width: 2560px) {
 
 }
