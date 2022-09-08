@@ -451,7 +451,7 @@ Time :1:46 PM
     /*Lang & Framework*/
     #skillLangFrameworks {
         position: relative;
-        top: 49vh;
+        top: 51vh;
         width: 50vw;
         height: 7vh;
         /* border: 1px solid white; */
@@ -460,10 +460,12 @@ Time :1:46 PM
         left: 30px;
     }
 
+
+
     /*Tool Title*/
     #skillToolName {
         position: relative;
-        top: 53vh;
+        top: 56vh;
         /* height: 100px; */
         /* border: 1px solid white; */
         /* display: flex; */
@@ -476,7 +478,7 @@ Time :1:46 PM
     }
     #skillTools {
         position: relative;
-        top: 53vh;
+        top: 55vh;
         width: 60vw;
         height: 7vh;
         /* border: 1px solid white; */
@@ -495,7 +497,7 @@ Time :1:46 PM
         /* border: 3px solid #CFD8DC; */
         /* border-radius: 100px; */
         width: 90vw;
-        height: 90vh;
+        height: 81vh;
         /* background-color: #323647; */
         /* box-shadow: 0px 0px 0 1px white; */
         background: rgba(50, 54, 71, 0.52);
@@ -506,7 +508,19 @@ Time :1:46 PM
         border: 1px solid rgba(50, 54, 71, 1);
     }
 
-
+    skillTitleNames {
+        display: flex;
+        position: absolute;
+        margin: auto;
+        top: -14px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 80vh;
+        align-items: center;
+        justify-content: space-around;
+        /* border: 2px solid limegreen; */
+    }
 
 }
 
