@@ -15,7 +15,6 @@ Time :1:22 PM
     height: 75vh;
     background: url("../../../images/DarkheadUnder.png") no-repeat center;
     background-size: 100% 100%;
-
 }
 
 .quoteHead01 {
@@ -489,6 +488,120 @@ padding-right: 10px;
         /* color: #254871; */
         color: #ffffff;
         opacity: 0.7;
+    }
+    .age {
+        position: absolute;
+        width: 162px;
+        height: 49px;
+        left: 518px;
+        top: 1239px;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 42px;
+        /* color: #254871; */
+        color: #ffffff;
+        opacity: 0.7;
+    }
+
+    .hi {
+        position: absolute;
+        width: 125px;
+        height: 42px;
+        left: 522px;
+        top: 1306px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 42px;
+        /* color: #254871; */
+        color: #ffffff;
+        opacity: 0.6;
+    }
+    .desMe1 {
+        position: absolute;
+        width: 502px;
+        height: 87px;
+        left: 522px;
+        top: 1357px;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        /* color: #254871; */
+        color: #ffffff;
+        opacity: 0.5;
+    }
+    .desMe2 {
+        position: absolute;
+        width: 498px;
+        height: 87px;
+        left: 522px;
+        top: 1511px;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        /* color: #254871; */
+        color: #ffffff;
+        opacity: 0.5;
+    }
+    .languages {
+        position: absolute;
+        width: 332px;
+        height: 50px;
+        left: 37px;
+        top: 1707px;
+        /* font-family: 'Familjen Grotesk'; */
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+    #sin {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 42px;
+        top: 1759px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+    #eng {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 42px;
+        top: 1795px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+    #file {
+        position: absolute;
+        width: 200px;
+        height: 31px;
+        left: 150px;
+        top: 1761px;
     }
 }
 

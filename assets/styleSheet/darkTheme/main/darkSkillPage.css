@@ -10,18 +10,16 @@ Time :1:46 PM
     /*background-color: #2196f3;*/
     /*width: 99.5vw;*/
     height: 155vh;
-    top: 40vh;
+    top: 50vh;
     left: 0;
     margin: auto;
     z-index: 1;
-
-
 }
 
 /*.mainSecSkill>section:first-child>div{
 
-
 }*/
+
 .iss {
     /*position: relative;
     top:0;
@@ -166,7 +164,7 @@ Time :1:46 PM
     height: 80vh;
     align-items: center;
     justify-content: space-around;
-    /* border: 2px solid limegreen;*/
+     /*border: 2px solid limegreen;*/
 }
 
 /*All the div of Skill Details*/
