@@ -408,8 +408,33 @@ Time :1:46 PM
         right: 37vw;
         font-family: "Courier Prime";
         font-size: 22px;
-
     }
+
+    /*Skill-Quote*/
+    .mainSecSkill > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 17px;
+        right: 6vw;
+        top: 91px;
+        font-family: "Courier Prime";
+    }
+
+    /*Flex div*/
+    #skillTitleNames > div {
+        width: 21vw;
+        height: 70vh;
+        /* border: 2px solid #e70042; */
+    }
+
+    #skillTitleNames > div:nth-child(1) {
+        width: 20vw;
+        height: 70vh;
+        /* border: 2px solid #e70042; */
+    }
+
+
 
 }
 
