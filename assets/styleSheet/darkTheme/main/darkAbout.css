@@ -702,6 +702,93 @@ Time :1:22 PM
         color: #FDF9F9;
     }
 
+    #fullAboutDetailContainer{
+        position: relative;
+        top: -1563px;
+        left: -50px;
+    }
+
+    #allAboutLangExtra{
+        position: relative;
+        top:-1550px;
+        left: 0;
+    }
+    .extraDetails {
+        position: absolute;
+        width: 332px;
+        height: 50px;
+        left: 44.5vw;
+        top: 1740px;
+        /* font-family: 'Familjen Grotesk'; */
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+    #ad {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 44.5vw;
+        top: 1798px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        color: rgb(253, 249, 249);
+    }
+
+    #tel {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 44.5vw;
+        top: 1845px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+    #adReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 334px;
+        height: 31px;
+        left: 53.9vw;
+        top: 1798px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+    #telReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 150px;
+        height: 31px;
+        left: 53.9vw;
+        top: 1845px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 20px; */
+        line-height: 31px;
+        color: #FDF9F9;
+    }
 
 }
 
@@ -1018,6 +1105,16 @@ Time :1:22 PM
         color: #FDF9F9;
     }
 
+    #fullAboutDetailContainer{
+        position: relative;
+        top: -1700px;
+        left: -50px;
+    }
+    #allAboutLangExtra{
+        position: relative;
+        top:-1700px;
+        left: 0;
+    }
 }
 
 /* ================================== 4K ================================== */

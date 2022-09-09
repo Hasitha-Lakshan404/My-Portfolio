@@ -242,16 +242,6 @@ body {
         top: -17px;
         left: 2.5vw;
     }
-    #fullAboutDetailContainer{
-        position: relative;
-        top: -1700px;
-        left: -50px;
-    }
-    #allAboutLangExtra{
-        position: relative;
-        top:-1700px;
-        left: 0;
-    }
 
 
 }
