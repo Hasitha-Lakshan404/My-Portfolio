@@ -496,22 +496,28 @@ main {
         position: absolute;
         width: 25vw;
         height: 4vw;
-        right: -7vw;
-        top: 630.8px;
-
+        right: -6.7vw;
+        top: 542px;
         font-family: "Esteban";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
         letter-spacing: 0.1em;
-
         color: #FFFFFF;
-
         transform: rotate(90deg);
         z-index: 1;
     }
-
+    .line {
+        position: absolute;
+        /* top: 94vh; */
+        top: 636px;
+        right: 2.0999999999999996vw;
+        z-index: 1;
+        color: white;
+        transform: rotate(90deg);
+        width: 5vw;
+    }
 }
 
 /* ================================== 4K ================================== */
