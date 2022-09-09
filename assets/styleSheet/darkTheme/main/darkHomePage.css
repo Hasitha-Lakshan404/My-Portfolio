@@ -416,8 +416,8 @@ main {
         width: 25vw;
         height: 4vw;
         right: -6.5vw;
-        /*top: 73vh;*/
-        top: 554.8px;
+        /* top: 73vh; */
+        top: 502.79999999999995px;
         font-family: "Esteban";
         font-style: normal;
         font-weight: 400;
@@ -431,14 +431,28 @@ main {
 
     .line {
         position: absolute;
-        /*top: 94vh;*/
-        top: 714.4px;
-        right: 3.1vw;
+        /* top: 94vh; */
+        top: 644.4px;
+        right: 2.5vw;
         z-index: 1;
         color: white;
         transform: rotate(90deg);
-        width: 4vw;
+        width: 5vw;
     }
+    .falcon {
+        position: absolute;
+        /* top: 91vh; */
+        top: 636.6px;
+        left: 48vw;
+        z-index: 1;
+    }
+    #homeNameSide{
+        position: relative;
+        top: -790px;
+        left: 0;
+    }
+
+
 }
 
 
