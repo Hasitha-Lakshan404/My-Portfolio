@@ -100,12 +100,12 @@
             <!--For other Headers/Titles-->
             <div id="OtherHeadTitles">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skill</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="assets/pages/DarkThemeproject.html">Projects</a></li>
-                    <li><a href="#">HireMe</a></li>
+                    <li><a href="#Home-section">Home</a></li>
+                    <li><a href="#AboutMe-section">About</a></li>
+                    <li><a href="#Skill-Section">Skill</a></li>
+                    <li><a href="#Education-Section">Education</a></li>
+                    <li><a href="#Project-Section">Projects</a></li>
+                    <li><a href="#Contact-me">HireMe</a></li>
                 </ul>
             </div>
         </nav>
@@ -118,7 +118,10 @@
 
     <!--===================================================-->
     <!--first rectangle/page-->
-    <section class="mainSecHome">
+<!--    <dfn id="Home-section"></dfn>-->
+    <section class="mainSecHome" id="Home-section">
+
+
         <!--BackgroundRectangle-->
         <!--<svg class="page01Background" height="680" width="99.2vw">
             <rect height="680" width="99.2vw"/>
@@ -242,7 +245,9 @@
 
     <!--===================================================-->
     <!--second page/wave and about-->
-    <section class="mainSecAbout">
+<!--    <dfn id="AboutMe-section"></dfn>-->
+    <section class="mainSecAbout" id="AboutMe-section">
+
         <!--for the wave and quote-->
         <section>
             <div class="headUnder">
@@ -350,7 +355,9 @@
 
     <!--===================================================-->
     <!--Third page/Skills-->
-    <section class="mainSecSkill">
+<!--    <dfn id="Skill-Section"></dfn>-->
+    <section class="mainSecSkill" id="Skill-Section">
+
         <!--skill Title-->
         <section>
             <div data-aos="fade-right"
@@ -450,7 +457,9 @@
 
     <!--===================================================-->
     <!--Fourth Page/Education-->
-    <section class="mainSecEducation">
+<!--    <dfn id="Education-Section"></dfn>-->
+    <section class="mainSecEducation" id="Education-Section">
+
         <!--for the Education Title-->
         <section>
             <!--left row-->
@@ -507,7 +516,9 @@
 
     <!--=====================================================-->
     <!--Fifth page/projects-->
-    <section class="mainSecProject">
+<!--    <dfn id="Project-Section"></dfn>-->
+    <section class="mainSecProject" id="Project-Section">
+
         <!--project title-->
         <section>
             <div></div>
@@ -583,8 +594,10 @@
 
 </main>
 
+<!--<dfn id="Contact-me"></dfn>-->
 <!--site footer-->
-<footer class="footer">
+<footer class="footer" id="Contact-me">
+
     <!--back to top-->
     <section>
         <div><h3>Back to Top</h3></div>
@@ -670,6 +683,39 @@
 
 <script>
     AOS.init();
+</script>
+
+
+<!--===============-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    // scrollTop: $(hash).offset().top
+                    scrollTop: $(hash).offset().top
+                        // sc
+                }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
 </script>
 
 </html>

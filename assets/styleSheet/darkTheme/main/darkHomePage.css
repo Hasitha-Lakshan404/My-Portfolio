@@ -518,6 +518,13 @@ main {
         transform: rotate(90deg);
         width: 5vw;
     }
+    .falcon {
+        position: absolute;
+        /* top: 91vh; */
+        top: 632.6px;
+        left: 48vw;
+        z-index: 1;
+    }
 }
 
 /* ================================== 4K ================================== */
