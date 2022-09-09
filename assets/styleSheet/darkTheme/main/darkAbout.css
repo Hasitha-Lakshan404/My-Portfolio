@@ -751,14 +751,12 @@ Time :1:22 PM
     }
     .quoteHead2 {
         position: absolute;
-        /*!*width: 609px;*!*/
         width: 40vw;
         height: 50px;
-        /*!*left: 900px;*!*/
         right: 2vw;
-        top: 900px;
+        top: 976px;
         opacity: 0.5;
-        /*font-family: "Roboto";*/
+        /* font-family: "Roboto"; */
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 400;
@@ -766,7 +764,6 @@ Time :1:22 PM
         line-height: 29px;
         text-align: right;
         letter-spacing: 0.05em;
-
         color: #FFFFFF;
     }
 
@@ -775,14 +772,14 @@ Time :1:22 PM
         width: 195px;
         height: 49px;
         left: 37px;
-        top: 1130px;
+        top: 1217px;
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 500;
         font-size: 36px;
         line-height: 49px;
         color: rgb(186, 144, 58);
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     }
 
     .name {
