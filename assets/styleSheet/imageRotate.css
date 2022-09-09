@@ -235,6 +235,24 @@ body {
 
 /*================================== 1440->Laptop large ================================== */
 @media all and (min-width: 1025px) and (max-width: 1440px){
+    .card {
+        position: relative;
+        width: 400px;
+        /* height: 100px; */
+        top: -17px;
+        left: 2.5vw;
+    }
+    #fullAboutDetailContainer{
+        position: relative;
+        top: -1700px;
+        left: -50px;
+    }
+    #allAboutLangExtra{
+        position: relative;
+        top:-1700px;
+        left: 0;
+    }
+
 
 }
 
