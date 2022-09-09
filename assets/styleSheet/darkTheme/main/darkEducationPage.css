@@ -10,7 +10,8 @@ Time :1:50 PM
     position: relative;
     top: 0;
     right: 0;
-    height: 110vh;
+    /*height: 110vh;*/
+    height: 836px;
     /*background: white;*/
     /*border: 1px solid white;*/
 }
@@ -41,7 +42,8 @@ Time :1:50 PM
 .mainSecEducation > section:first-child > h1:nth-child(3) {
     position: absolute;
     color: #FFFFFF;
-    top: 3.3vh;
+    /*top: 3.3vh;*/
+    top: 25.08px;
     right: 35vw;
     font-family: "Courier Prime";
 }
@@ -297,7 +299,8 @@ Time :1:50 PM
     width: 90px;
     height: 160px;
     position: relative;
-    top:3vh;
+    /*top:3vh;*/
+    top:22.8px;
     left: 21.4vw;
 }
 
@@ -307,7 +310,8 @@ Time :1:50 PM
     width: 90px;
     height: 160px;
     position: relative;
-    top:20vh;
+    /*top:20vh;*/
+    top:152px;
     left: 21.4vw;
 }
 

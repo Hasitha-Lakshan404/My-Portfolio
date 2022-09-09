@@ -6,12 +6,14 @@ Time :9:47 PM
 
 .footer {
     position: relative;
-    height: 66vh;
+    /*height: 66vh;*/
+    height: 501.6px;
     /*border: 1px solid white;*/
 }
 
 .footer > section:nth-child(1) {
-    height: 10vh;
+    /*height: 10vh;*/
+    height: 76px;
     background-color: #151C2E;
 }
 
@@ -25,7 +27,8 @@ Time :9:47 PM
 /*for the footer back to top*/
 .footer > section:nth-child(1) > div:nth-child(1) > h3 {
     position: absolute;
-    top: 3.7vh;
+    /*top: 3.7vh;*/
+    top: 28.12px;
     right: 47vw;
 }
 
@@ -45,7 +48,8 @@ Time :9:47 PM
 
 /*center*/
 .footer > section:nth-child(2) {
-    height: 50vh;
+    /*height: 50vh;*/
+    height: 380px;
     background: #051622;
     display: flex;
     flex-flow: row;
@@ -65,7 +69,8 @@ Time :9:47 PM
     color: #FFFFFF;
     font-family: "Roboto";
     font-style: normal;
-    margin-top: 10vh;
+    /*margin-top: 10vh;*/
+    margin-top: 76px;
 }
 
 #footerMiddleLeftSide > ul > li {
@@ -130,7 +135,8 @@ Time :9:47 PM
 /*============BOTTOM===============*/
 /*row*/
 .footer > section:nth-child(3) {
-    height: 6vh;
+    /*height: 6vh;*/
+    height: 45.6px;
     background: #192F35;
     font-family: "Courier Prime";
     font-style: normal;
@@ -141,7 +147,8 @@ Time :9:47 PM
 .footer > section:nth-child(3) > h5 {
     position: relative;
     display: inline-block;
-    top: 2vh;
+    /*top: 2vh;*/
+    top: 15.2px;
     left: 36.5vw;
     opacity: 0.6;
 }
@@ -149,10 +156,12 @@ Time :9:47 PM
 
 #footerArrowImage {
     position: absolute;
-    top: 45vh;
+    /*top: 45vh;*/
+    top: 342px;
     right: 10vw;
     width: 40vw;
-    height: 25vh;
+    /*height: 25vh;*/
+    height: 190px;
     background: url("../../images/ftArrow.png") no-repeat center;
     background-size: 100% 100%;
     /*transform: rotate(15deg);*/

@@ -11,7 +11,8 @@ Time :1:50 PM
     /*top: 0;*/
     /*right: 0;*/
 
-    height: 140vh;
+    /*height: 140vh;*/
+    height: 1064px;
     /*width: 95vw;*/
     /*background: white;*/
     /*border: 1px solid white;*/
@@ -32,7 +33,8 @@ Time :1:50 PM
 
 #animationContainer {
     /*background: linear-gradient(to right, red, blue);*/
-    height: 70vh;
+    /*height: 70vh;*/
+    height: 532px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,7 +145,8 @@ Time :1:50 PM
 .mainSecProject>section:first-child>h1{
     position: absolute;
     color: #FFFFFF;
-    top: 3vh;
+    /*top: 3vh;*/
+    top: 22.8px;
     right: 35vw;
     font-family: "Courier Prime";
 
@@ -164,7 +167,8 @@ Time :1:50 PM
 .mainSecProject>aside:nth-child(3){
     position: relative;
     left: 19vw;
-    top: 20vh;
+    /*top: 20vh;*/
+    top: 152px;
     width: 60vw;
     color: #CFD8DC;
     font-size: 20px;
@@ -321,7 +325,8 @@ Time :1:50 PM
 #seeMoreNavButton{
     position: relative;
     left: 24.5vw;
-    top: 20vh;
+    /*top: 20vh;*/
+    top: 152px;
     margin: 0;
     width: 350px;
 }
@@ -356,7 +361,8 @@ Time :1:50 PM
     .mainSecProject>aside:nth-child(3) {
         position: relative;
         left: 19vw;
-        top: 20vh;
+        /*top: 20vh;*/
+        top: 152px;
         width: 71vw;
         color: #CFD8DC;
         font-size: 20px;
@@ -367,7 +373,8 @@ Time :1:50 PM
 
     #animationContainer {
         /* background: linear-gradient(to right, red, blue); */
-        height: 80vh;
+        /*height: 80vh;*/
+        height: 608px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -378,7 +385,8 @@ Time :1:50 PM
     #seeMoreNavButton {
         position: relative;
         left: 24.5vw;
-        top: 20vh;
+        /*top: 20vh;*/
+        top: 152px;
         margin: 0;
         width: 350px;
     }
