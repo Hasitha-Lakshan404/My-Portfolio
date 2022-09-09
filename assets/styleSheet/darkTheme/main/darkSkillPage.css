@@ -469,15 +469,16 @@ Time :1:46 PM
     /*Lang & Framework*/
     #skillLangFrameworks {
         position: relative;
-        /*top: 51vh;*/
+        /* top: 51vh; */
         top: 387.6px;
-        width: 50vw;
-        /*height: 7vh;*/
+        width: 64vw;
+        /* height: 7vh; */
         height: 53.2px;
         /* border: 1px solid white; */
         display: flex;
         flex-flow: row;
         left: 30px;
+        flex-direction: row;
     }
 
 
@@ -499,11 +500,11 @@ Time :1:46 PM
     }
     #skillTools {
         position: relative;
-        /*top: 55vh;*/
-        top: 418px;
-        width: 60vw;
-        /*height: 7vh;*/
-        height:  53.2px;
+        /* top: 55vh; */
+        top: 421px;
+        width: 65vw;
+        /* height: 7vh; */
+        height: 53.2px;
         /* border: 1px solid white; */
         display: flex;
         flex-flow: row;
@@ -513,14 +514,32 @@ Time :1:46 PM
     }
 
     /*Glass Container*/
-    .mainSecSkill > section:nth-child(3) {
+    /*.mainSecSkill > section:nth-child(3) {
         position: relative;
         top: 120px;
+        left: 5vw;
+        !* border: 3px solid #CFD8DC; *!
+        !* border-radius: 100px; *!
+        width: 90vw;
+        !*height: 81vh;*!
+        height: 615.6px;
+        !* background-color: #323647; *!
+        !* box-shadow: 0px 0px 0 1px white; *!
+        background: rgba(50, 54, 71, 0.52);
+        border-radius: 100px;
+        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border: 1px solid rgba(50, 54, 71, 1);
+    }*/
+    .mainSecSkill > section:nth-child(3) {
+        position: relative;
+        top: 88px;
         left: 5vw;
         /* border: 3px solid #CFD8DC; */
         /* border-radius: 100px; */
         width: 90vw;
-        /*height: 81vh;*/
+        /* height: 81vh; */
         height: 615.6px;
         /* background-color: #323647; */
         /* box-shadow: 0px 0px 0 1px white; */
@@ -531,7 +550,6 @@ Time :1:46 PM
         -webkit-backdrop-filter: blur(4px);
         border: 1px solid rgba(50, 54, 71, 1);
     }
-
     skillTitleNames {
         display: flex;
         position: absolute;
