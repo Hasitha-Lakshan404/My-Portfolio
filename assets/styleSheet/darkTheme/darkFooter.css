@@ -165,6 +165,17 @@ Time :9:47 PM
     /*transform: rotate(15deg);*/
 }
 
+#rightCornerTitle {
+    color: #FFFFFF;
+    font-family: 'Courier Prime';
+    font-style: normal;
+    position: relative;
+    left: 7vw;
+    opacity: 1;
+    display: inline-block;
+    margin: 3.5vh 0 3.5vh 0;
+}
+
 /*================================== 320->Mobile -S ==================================*/
 @media all and (max-width: 320px) {
 
@@ -187,17 +198,34 @@ Time :9:47 PM
 
 /*================================== 1024->Laptop ================================== */
 @media all and (min-width: 769px) and (max-width: 1024px) {
-    #contactMeEmail{
+    #contactMeEmail {
         display: inline-block;
         position: relative;
         left: 14px;
     }
 
-    #contactMeEmailMe{
+    #contactMeEmailMe {
         display: inline-block;
         position: relative;
         left: 20px;
         top: 1px;
+    }
+
+    #rightCornerTitle {
+        color: #FFFFFF;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        position: relative;
+        left: 2vw;
+        opacity: 1;
+        width: 307px;
+        display: inline-block;
+        margin: 3.5vh 0 3.5vh 0;
+    }
+    #footerRightIcon {
+        display: flex;
+        flex-flow: row;
+        margin-left: 2.4000000000000004vw;
     }
 
 }
