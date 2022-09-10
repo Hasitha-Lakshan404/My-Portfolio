@@ -477,17 +477,16 @@ Time :1:50 PM
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) {
         background: rgba(76, 135, 135, 0.54);
         border-radius: 40px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
         backdrop-filter: blur(6.7px);
         -webkit-backdrop-filter: blur(6.7px);
         border: 1px solid rgba(76, 135, 135, 1);
         height: 100px;
         width: 66vw;
-
         position: absolute;
-        top: 332px;
-        right: 6vw;
-        /*left: 100px;*/
+        top: 301px;
+        right: 1vw;
+        /* left: 273px; */
     }
 
 
@@ -531,7 +530,6 @@ Time :1:50 PM
         right: 6vw;
         /*left: 100px;*/
     }
-
 
 
     /*left-sub title*/
