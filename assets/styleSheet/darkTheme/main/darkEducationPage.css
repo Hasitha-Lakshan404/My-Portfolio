@@ -368,6 +368,114 @@ Time :1:50 PM
         font-family: "Courier Prime";
         font-size: 22px;
     }
+    /*quotes*/
+    .mainSecEducation > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 17px;
+        right: 3vw;
+        top: 125px;
+        font-family: "Courier Prime";
+    }
+
+    .mainSecEducation > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 17px;
+        right: 1.8vw;
+        top: 91px;
+        font-family: "Courier Prime";
+    }
+
+    /*========FIRST EDUCATION (BLUE)==============*/
+
+    /*education-glass-container*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(1) {
+        background: rgba(80, 41, 111, 0.41);
+        border-radius: 40px;
+        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        backdrop-filter: blur(3.9px);
+        -webkit-backdrop-filter: blur(3.9px);
+        border: 1px solid rgba(80, 41, 111, 1);
+        height: 100px;
+        width: 66vw;
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }}
+
+    /*container-line*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(1)::before {
+        content: "";
+        width: 1px;
+        background: 5px rgba(0, 0, 0, 0.7);
+        height: 100px;
+        position: absolute;
+        left: 250px;
+    }
+
+    /*Date*/
+    .mainSecEducation>section:nth-child(3)>div:nth-child(1)>h3:first-child{
+        color: white;
+        position: relative;
+        top: 10px;
+        left: 40px;
+    }
+
+    /*left-sub title*/
+.mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(2) {
+    color: white;
+    font-family: "Courier Prime";
+    opacity: 0.7;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 200px;
+}
+
+    /*right-Description*/
+.mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
+    color: white;
+    font-family: "Courier Prime";
+    position: absolute;
+    width: 399px;
+    top: 25px;
+    right: 0;
+}
+
+    /*.mainSecEducation > section:nth-child(3) > div:nth-child(1) {
+        background: rgba(80, 41, 111, 0.41);
+        border-radius: 40px;
+        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        backdrop-filter: blur(3.9px);
+        -webkit-backdrop-filter: blur(3.9px);
+        border: 1px solid rgba(80, 41, 111, 1);
+        height: 100px;
+        width: 68vw;
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }*/
+    /*!*Skill-Quote*!
+    .mainSecSkill > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 17px;
+        right: 6vw;
+        top: 91px;
+        font-family: "Courier Prime";
+    }*/
+    /*section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
+        color: white;
+        font-family: "Courier Prime";
+        position: absolute;
+        width: 389px;
+        top: 20px;
+        right: 20px;
+    }*/
 
 }
 
