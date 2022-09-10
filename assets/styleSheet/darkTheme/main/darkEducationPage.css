@@ -337,6 +337,18 @@ Time :1:50 PM
 
 /*================================== 1024->Laptop ================================== */
 @media all and (min-width: 769px) and (max-width: 1024px) {
+
+    .mainSecEducation {
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        right: 0;
+        /* height: 110vh; */
+        height: 836px;
+        /* background: white; */
+        /* border: 1px solid white; */
+    }
+
     /*Title left row*/
     .mainSecEducation > section:nth-child(1) > div:first-child {
         background: url("../../../images/leftOrangeRow.png") no-repeat center;
