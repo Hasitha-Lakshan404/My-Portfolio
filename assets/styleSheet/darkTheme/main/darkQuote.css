@@ -4,20 +4,21 @@ Date :9/4/2022
 Time :8:56 PM
 */
 
-.mainSecQuote{
+.mainSecQuote {
     margin: 0;
     /*position: relative;*/
     /*height: 25vh;*/
-    height:  190px;
+    height: 190px;
     width: 98.5vw;
     /*border: 1px solid #CFD8DC;*/
-    font-family:"Courier Prime";
-    font-style:normal;
+    font-family: "Courier Prime";
+    font-style: normal;
     font-weight: bolder;
     color: #B3B3B3;
     font-size: 1.7em;
 }
-.mainSecQuote>h1{
+
+.mainSecQuote > h1 {
     display: inline-block;
     position: relative;
     /*top: 5vh;*/
@@ -27,27 +28,27 @@ Time :8:56 PM
 }
 
 /*================================== 320->Mobile -S ==================================*/
-@media all and (max-width: 320px){
+@media all and (max-width: 320px) {
 
 }
 
 /*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 321px) and (max-width: 375px){
+@media all and (min-width: 321px) and (max-width: 375px) {
 
 }
 
 /*================================== 425->Mobile -L ================================== */
-@media all and (min-width: 376px) and (max-width: 425px){
+@media all and (min-width: 376px) and (max-width: 425px) {
 
 }
 
 /*================================== 768->Tablet ================================== */
-@media all and (min-width: 426px) and (max-width: 768px){
+@media all and (min-width: 426px) and (max-width: 768px) {
 
 }
 
 /*================================== 1024->Laptop ================================== */
-@media all and (min-width: 769px) and (max-width: 1024px){
+@media all and (min-width: 769px) and (max-width: 1024px) {
     .mainSecQuote {
         margin: 0;
         /* position: relative; */
@@ -61,7 +62,8 @@ Time :8:56 PM
         color: #B3B3B3;
         font-size: 1.2em;
     }
-    .mainSecQuote>h1 {
+
+    .mainSecQuote > h1 {
         display: inline-block;
         position: relative;
         /* top: 5vh; */
@@ -69,14 +71,34 @@ Time :8:56 PM
         left: 3.5vw;
         /* margin: auto; */
     }
+
+    .mainSecQuote {
+        margin: 0;
+        /* position: relative; */
+        /* height: 25vh; */
+        height: 130px;
+        width: 94.5vw;
+        /* border: 1px solid #CFD8DC; */
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: bolder;
+        color: #B3B3B3;
+        font-size: 1.2em;
+    }
+
+    #projectAside {
+        position: relative;
+        left: 100px;
+        width: 888px;
+    }
 }
 
 /*================================== 1440->Laptop large ================================== */
-@media all and (min-width: 1025px) and (max-width: 1440px){
+@media all and (min-width: 1025px) and (max-width: 1440px) {
 
 }
 
 /* ================================== 4K ================================== */
-@media all and (min-width: 1441px) and (max-width: 2560px){
+@media all and (min-width: 1441px) and (max-width: 2560px) {
 
 }
