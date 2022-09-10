@@ -377,7 +377,37 @@ Time :1:50 PM
         right: 37vw;
         font-family: "Courier Prime";
         font-size: 22px
+    }
 
+    /*Project-Quote*/
+    .mainSecProject>aside:nth-child(2)>p{
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 17px;
+        right: 8vw;
+        top: 91px;
+        font-family: "Courier Prime";
+    }
+    /*main container for the all project*/
+    .mainSecProject>aside:nth-child(3) {
+        position: relative;
+        left: 11vw;
+        /* top: 20vh; */
+        top: 137px;
+        width: 94vw;
+        color: #CFD8DC;
+        font-size: 20px;
+        font-family: "Courier Prime";
+        display: inline-block;
+        /* height: 500px; */
+    }
+    .mainSecProject>aside:nth-child(3)>hr {
+        display: inline-block;
+        width: 54px;
+        background: black;
+        position: relative;
+        top: -3px;
     }
 }
 
