@@ -304,7 +304,26 @@ main {
 
 /*================================== 768->Tablet ================================== */
 @media all and (min-width: 426px) and (max-width: 768px) {
-
+    .pg1Hello {
+        position: absolute;
+        /* top: 33.5vh; */
+        /*top: 254.6px;*/
+        top: 128px;
+        left: 35vw;
+        z-index: 1;
+        font-size: 5vw;
+        font-family: "Inika";
+    }
+    .pg1Im {
+        position: absolute;
+        /* top: 33.5vh; */
+        top: 128px;
+        left: 55vw;
+        z-index: 1;
+        font-size: 5vw;
+        font-family: "Inika";
+        color: #ffffff;
+    }
 }
 
 /*================================== 1024->Laptop ================================== */
