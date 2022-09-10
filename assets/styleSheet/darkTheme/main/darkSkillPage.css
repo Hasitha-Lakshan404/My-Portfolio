@@ -497,6 +497,7 @@ Time :1:46 PM
         font-size: 24px;
         margin-bottom: 20px;
         left: 30px;
+        width: 516px;
     }
     #skillTools {
         position: relative;
@@ -564,6 +565,16 @@ Time :1:46 PM
         justify-content: space-around;
         /* border: 2px solid limegreen; */
     }
+
+    #apDev{
+        width: 155px;
+    }
+    #frontendDes{
+        width: 130px;
+    }
+
+
+
 
 }
 
