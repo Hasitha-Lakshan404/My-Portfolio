@@ -88,7 +88,7 @@ Time :1:50 PM
 }
 
 /*Date*/
-.mainSecEducation>section:nth-child(3)>div:nth-child(1)>h3:first-child{
+.mainSecEducation > section:nth-child(3) > div:nth-child(1) > h3:first-child {
     color: white;
     position: relative;
     top: 10px;
@@ -146,7 +146,7 @@ Time :1:50 PM
 }
 
 /*Date*/
-.mainSecEducation>section:nth-child(3)>div:nth-child(3)>h3:first-child{
+.mainSecEducation > section:nth-child(3) > div:nth-child(3) > h3:first-child {
     color: white;
     position: relative;
     top: 10px;
@@ -205,7 +205,7 @@ Time :1:50 PM
 }
 
 /*Date*/
-.mainSecEducation>section:nth-child(3)>div:nth-child(2)>h3:first-child{
+.mainSecEducation > section:nth-child(3) > div:nth-child(2) > h3:first-child {
     color: white;
     position: relative;
     top: 20px;
@@ -263,7 +263,7 @@ Time :1:50 PM
 }
 
 /*Date*/
-.mainSecEducation>section:nth-child(3)>div:nth-child(4)>h3:first-child{
+.mainSecEducation > section:nth-child(3) > div:nth-child(4) > h3:first-child {
     color: white;
     position: relative;
     top: 20px;
@@ -294,48 +294,49 @@ Time :1:50 PM
 /*=====Edu Arrow====*/
 
 .mainSecEducation > section:nth-child(3) > div:nth-child(5) {
-    background: url("../../../images/eduArrow.png")no-repeat center;
+    background: url("../../../images/eduArrow.png") no-repeat center;
     background-size: 100% 100%;
     width: 90px;
     height: 160px;
     position: relative;
     /*top:3vh;*/
-    top:22.8px;
+    top: 22.8px;
     left: 21.4vw;
 }
 
 .mainSecEducation > section:nth-child(3) > div:nth-child(6) {
-    background: url("../../../images/eduArrow.png")no-repeat center;
+    background: url("../../../images/eduArrow.png") no-repeat center;
     background-size: 100% 100%;
     width: 90px;
     height: 160px;
     position: relative;
     /*top:20vh;*/
-    top:152px;
+    top: 152px;
     left: 21.4vw;
 }
 
 /*================================== 320->Mobile -S ==================================*/
-@media all and (max-width: 320px){
+@media all and (max-width: 320px) {
 
 }
+
 /*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 321px) and (max-width: 375px){
+@media all and (min-width: 321px) and (max-width: 375px) {
 
 }
 
 /*================================== 425->Mobile -L ================================== */
-@media all and (min-width: 376px) and (max-width: 425px){
+@media all and (min-width: 376px) and (max-width: 425px) {
 
 }
 
 /*================================== 768->Tablet ================================== */
-@media all and (min-width: 426px) and (max-width: 768px){
+@media all and (min-width: 426px) and (max-width: 768px) {
 
 }
 
 /*================================== 1024->Laptop ================================== */
-@media all and (min-width: 769px) and (max-width: 1024px){
+@media all and (min-width: 769px) and (max-width: 1024px) {
     /*Title left row*/
     .mainSecEducation > section:nth-child(1) > div:first-child {
         background: url("../../../images/leftOrangeRow.png") no-repeat center;
@@ -368,6 +369,7 @@ Time :1:50 PM
         font-family: "Courier Prime";
         font-size: 22px;
     }
+
     /*quotes*/
     .mainSecEducation > aside:nth-child(2) > p {
         position: absolute;
@@ -390,7 +392,6 @@ Time :1:50 PM
     }
 
     /*========FIRST EDUCATION (BLUE)==============*/
-
     /*education-glass-container*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) {
         background: rgba(80, 41, 111, 0.41);
@@ -404,27 +405,28 @@ Time :1:50 PM
         position: relative;
         top: 100px;
         left: 100px;
-    }}
-
-    /*container-line*/
-    .mainSecEducation > section:nth-child(3) > div:nth-child(1)::before {
-        content: "";
-        width: 1px;
-        background: 5px rgba(0, 0, 0, 0.7);
-        height: 100px;
-        position: absolute;
-        left: 250px;
     }
+}
 
-    /*Date*/
-    .mainSecEducation>section:nth-child(3)>div:nth-child(1)>h3:first-child{
-        color: white;
-        position: relative;
-        top: 10px;
-        left: 40px;
-    }
+/*container-line*/
+.mainSecEducation > section:nth-child(3) > div:nth-child(1)::before {
+    content: "";
+    width: 1px;
+    background: 5px rgba(0, 0, 0, 0.7);
+    height: 100px;
+    position: absolute;
+    left: 250px;
+}
 
-    /*left-sub title*/
+/*Date*/
+.mainSecEducation > section:nth-child(3) > div:nth-child(1) > h3:first-child {
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+/*left-sub title*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(2) {
     color: white;
     font-family: "Courier Prime";
@@ -435,7 +437,7 @@ Time :1:50 PM
     width: 200px;
 }
 
-    /*right-Description*/
+/*right-Description*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
     color: white;
     font-family: "Courier Prime";
@@ -445,46 +447,15 @@ Time :1:50 PM
     right: 0;
 }
 
-    /*.mainSecEducation > section:nth-child(3) > div:nth-child(1) {
-        background: rgba(80, 41, 111, 0.41);
-        border-radius: 40px;
-        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
-        backdrop-filter: blur(3.9px);
-        -webkit-backdrop-filter: blur(3.9px);
-        border: 1px solid rgba(80, 41, 111, 1);
-        height: 100px;
-        width: 68vw;
-        position: relative;
-        top: 100px;
-        left: 100px;
-    }*/
-    /*!*Skill-Quote*!
-    .mainSecSkill > aside:nth-child(2) > p {
-        position: absolute;
-        color: #71727D;
-        display: inline-block;
-        font-size: 17px;
-        right: 6vw;
-        top: 91px;
-        font-family: "Courier Prime";
-    }*/
-    /*section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
-        color: white;
-        font-family: "Courier Prime";
-        position: absolute;
-        width: 389px;
-        top: 20px;
-        right: 20px;
-    }*/
 
 }
 
 /*================================== 1440->Laptop large ================================== */
-@media all and (min-width: 1025px) and (max-width: 1440px){
+@media all and (min-width: 1025px) and (max-width: 1440px) {
 
 }
 
 /* ================================== 4K ================================== */
-@media all and (min-width: 1441px) and (max-width: 2560px){
+@media all and (min-width: 1441px) and (max-width: 2560px) {
 
 }
