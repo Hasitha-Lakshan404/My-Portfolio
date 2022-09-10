@@ -409,6 +409,16 @@ Time :1:50 PM
         position: relative;
         top: -3px;
     }
+    #seeMoreNavButton {
+        position: relative;
+        left: 17.5vw;
+        /* top: 20vh; */
+        top: 152px;
+        margin: 0;
+        width: 350px;
+    }
+
+
 }
 
 /*================================== 1440->Laptop large ================================== */
