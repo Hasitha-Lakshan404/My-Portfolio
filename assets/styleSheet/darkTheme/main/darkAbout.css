@@ -400,6 +400,94 @@ Time :1:22 PM
 /*================================== 768->Tablet ================================== */
 @media all and (min-width: 426px) and (max-width: 768px) {
 
+    .quoteHead01 {
+        position: absolute;
+        width: 63vw;
+        height: 138px;
+        right: 2vw;
+        top: 691px;
+        /* font-family: "Roboto"; */
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        /*font-size: 1.vw;*/
+        text-align: right;
+        letter-spacing: 0.05em;
+        opacity: 0.5;
+        color: #FFFFFF;
+    }
+
+    .quoteHead2 {
+        position: absolute;
+        width: 58vw;
+        height: 50px;
+        right: 2vw;
+        top: 837px;
+        opacity: 0.5;
+        /* font-family: "Roboto"; */
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 29px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+    .mainSecAbout > section:first-child > div:first-child {
+        position: relative;
+        /* top: -0.5vh; */
+        top: -3.8px;
+        left: 0;
+        /* height: 75vh; */
+        height: 268px;
+        background: url(../../../images/DarkheadUnder.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+
+    /*.card__content{
+        width: 100px;
+        display: none;
+    }
+
+
+    .card{
+        width: 100px;
+        height: 100px;
+        background: url(../../../images/imgme.jpg) no-repeat center;
+        background-size: 100% 100%;
+    }*/
+
+    .card{!important;
+        width: 400px!important;
+        /* height: 100px; */
+        top: 128px !important;
+        left: 22.5vw !important;
+    }
+    .aboutMe {
+        position: absolute;
+        width: 195px;
+        height: 49px;
+        left: 272px;
+        top: 1034px;
+        /* font-family: 'Della Respira'; */
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 49px;
+        color: #BA903A;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+
+    .mainSecAbout{
+        height: 1500px;
+        background-color: brown;
+    }
+
+
 }
 
 /*================================== 1024->Laptop ================================== */
