@@ -418,6 +418,17 @@ main {
         font-family: "DM Serif Display";
         font-weight: bold;
     }
+    .fullStackDev {
+        position: absolute;
+        /* top: 55vh; */
+        top: 387px;
+        left: 28vw;
+        z-index: 1;
+        color: #4AB29B;
+        font-size: 25px;
+        /* font-family: "Della Respira"; */
+        font-family: "Courier Prime";
+    }
 }
 
 /*================================== 1024->Laptop ================================== */
