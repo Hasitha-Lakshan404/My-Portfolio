@@ -330,15 +330,15 @@ main {
         width: 35px;
         height: 35px;
         position: absolute;
-        top: 542px;
-        right: 71vw;
+        top: 540px;
+        right: 66vw;
         z-index: 1;
     }
 
     .inst {
         position: absolute;
         top: 542px;
-        right: 65vw;
+        right: 58vw;
         width: 30px;
         height: 30px;
         z-index: 1;
@@ -346,8 +346,8 @@ main {
 
     .whatsapp {
         position: absolute;
-        top: 542px;
-        right: 60vw;
+        top: 539px;
+        right: 50vw;
         width: 35px;
         height: 35px;
         z-index: 1;
@@ -355,8 +355,8 @@ main {
 
     .linkedIn {
         position: absolute;
-        top: 542px;
-        right: 55vw;
+        top: 540px;
+        right: 42vw;
         width: 35px;
         height: 35px;
         z-index: 1;
@@ -365,13 +365,14 @@ main {
     .twitter {
         position: absolute;
         top: 542px;
-        right: 50vw;
+        right: 34vw;
         width: 35px;
         height: 35px;
         z-index: 1;
     }
 
     .email {
+        /*display: none;*/
         position: absolute;
         width: 25vw;
         height: 4vw;
@@ -393,17 +394,19 @@ main {
         position: absolute;
         /* top: 94vh; */
         top: 644.4px;
-        right: 2.5vw;
+        right: 2.9vw;
         z-index: 1;
         color: white;
         transform: rotate(90deg);
         width: 5vw;
     }
+
+
     .falcon {
         position: absolute;
         /* top: 91vh; */
-        top: 636.6px;
-        left: 48vw;
+        top: 630px;
+        left: 45vw;
         z-index: 1;
     }
 
@@ -447,6 +450,27 @@ main {
         font-size: 24px;
         line-height: 34px;
         color: #8086F1;
+        text-align: center;
+        text-decoration: none;
+    }
+    .btnSeeMore {
+        position: absolute;
+        /* top: 62.6vh; */
+        top: 434px;
+        left: 387px;
+        z-index: 1;
+        background-color: #00788C;
+        border: 2px solid #8086F1;
+        border-radius: 10px;
+        width: 200px;
+        height: 45px;
+        /* display: inline-block; */
+        font-family: 'Della Respira';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 34px;
+        color: #ffffff;
         text-align: center;
         text-decoration: none;
     }
