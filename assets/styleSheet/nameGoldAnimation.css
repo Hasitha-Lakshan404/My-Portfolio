@@ -210,7 +210,23 @@ Time :1:22 AM
 
 /*================================== 768->Tablet ================================== */
 @media all and (min-width: 426px) and (max-width: 768px){
-
+    .gold-container {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        max-width: 36rem;
+        /* top: 261px; */
+        /* left: 500px; */
+        /* top: 33.5vh; */
+        top: 194.60000000000002px;
+        /* left: 500px; */
+        left: 48vw;
+        /* font-size: 128px; */
+        font-size: 12vw;
+        font-family: "DM Serif Display";
+        font-weight: bolder;
+        -webkit-text-stroke: 1px #BA903A;
+    }
 }
 
 /*================================== 1024->Laptop ================================== */

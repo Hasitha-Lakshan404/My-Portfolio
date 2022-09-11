@@ -406,6 +406,18 @@ main {
         left: 48vw;
         z-index: 1;
     }
+
+    .pg1Hasitha {
+        position: absolute;
+        /* top: 32vh; */
+        top: 187.2px;
+        left: 4vw;
+        z-index: 1;
+        color: #BA903A;
+        font-size: 12vw;
+        font-family: "DM Serif Display";
+        font-weight: bold;
+    }
 }
 
 /*================================== 1024->Laptop ================================== */
