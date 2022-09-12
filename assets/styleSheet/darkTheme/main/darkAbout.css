@@ -45,21 +45,22 @@ Time :1:22 PM
     background-size: 100% 100%;
 }
 
+/*
 .quoteHead01 {
     position: absolute;
-    /*!*!*width: 659px;*!*!*/
+    !*!*!*width: 659px;*!*!*!
     width: 40vw;
     height: 138px;
-    /*!*!*left: 820px;*!*!*/
+    !*!*!*left: 820px;*!*!*!
     right: 2vw;
-    /*!*!*top: 820px;*!*!*/
+    !*!*!*top: 820px;*!*!*!
     top: 10px;
 
-    /*!*font-family: "Roboto";*!*/
+    !*!*font-family: "Roboto";*!*!
     font-family: "Courier Prime";
     font-style: normal;
     font-weight: 400;
-    /*!*!*font-size: 25px;*!*!*/
+    !*!*!*font-size: 25px;*!*!*!
     font-size: 1.6vw;
     line-height: 39px;
     text-align: right;
@@ -69,17 +70,50 @@ Time :1:22 PM
     color: #FFFFFF;
 
 }
-
+*/
+.quoteHead01 {
+    position: absolute;
+    width: 40vw;
+    height: 138px;
+    right: 2vw;
+    top: 81px;
+    font-family: "Courier Prime";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 39px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    opacity: 0.5;
+    color: #FFFFFF;
+}
 .quoteHead2 {
     position: absolute;
-    /*!*!*width: 609px;*!*!*/
+    width: 31vw;
+    height: 50px;
+    right: 2vw;
+    top: 276px;
+    opacity: 0.5;
+    font-family: "Courier Prime";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+/*.quoteHead2 {
+    position: absolute;
+    !*!*!*width: 609px;*!*!*!
     width: 40vw;
     height: 50px;
-    /*!*!*left: 900px;*!*!*/
+    !*!*!*left: 900px;*!*!*!
     right: 2vw;
     top: 200px;
     opacity: 0.5;
-    /*!*font-family: "Roboto";*!*/
+    !*!*font-family: "Roboto";*!*!
     font-family: "Courier Prime";
     font-style: normal;
     font-weight: 400;
@@ -89,7 +123,7 @@ Time :1:22 PM
     letter-spacing: 0.05em;
 
     color: #FFFFFF;
-}
+}*/
 
 .aboutMe {
     position: absolute;
@@ -529,7 +563,7 @@ Time :1:22 PM
 
     .mainSecAbout > section {
         height: 100%;
-        border: 5px solid green;
+        /*border: 5px solid green;*/
     }
 
     .mainSecAbout > section:nth-child(1) {
@@ -548,6 +582,7 @@ Time :1:22 PM
         background: url("../../../images/DarkheadUnder.png") no-repeat center;
         background-size: 100% 100%;
     }
+
     .quoteHead01 {
         position: absolute;
         width: 63vw;
@@ -587,8 +622,229 @@ Time :1:22 PM
         display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
+    }
+    .aboutMe {
+        position: absolute;
+        width: 195px;
+        height: 49px;
+        left: 37px;
+        top: 219px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 49px;
+        color: #BA903A;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     }
 
+    #aboutLangFlex {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #aboutLangFlex > div:nth-child(1) {
+        /*border: 1px solid #6f88e8;*/
+        width: 70%;
+        /*height: 100%;*/
+    }
+
+    #aboutLangFlex > div {
+        /*border: 1px solid #6f88e8;*/
+        /*width: 100%;*/
+        height: 100%;
+    }
+
+
+    .languages {
+        position: relative;
+        width: 15vw;
+        /*height: 50px;*/
+        left: 5px;
+        top: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+
+        /*!*font-family: 'Familjen Grotesk';*!*/
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+
+        color: #BA903A;
+    }
+
+    #sin {
+        display: inline-block;
+        /*position: absolute;
+        /*top: 1923px;*/
+        /*left: 50px;*!*/
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        left: 5px;
+        /*top: 2000px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+
+    }
+
+    #file {
+        display: inline-block;
+        position: relative;
+        /*width: 200px;*/
+        /*height: 31px;*/
+        left: 10px;
+        top: 3px;
+    }
+
+    #eng {
+        /*display: inline-block;*/
+        /*display: inline-block;*/
+        /*!*position: absolute;*/
+        /*top: 1923px;*/
+        /*left: 50px;*!*/
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        left: 5px;
+        /*top: 2030px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+
+    #file2 {
+        position: relative;
+        /*width: 200px;*/
+        /*height: 31px;*/
+        left: 10px;
+        top: 3px;
+    }
+
+    .extraDetails {
+        margin-top: 30px;
+        display: block;
+        margin-bottom: 15px;
+        position: relative;
+        width: 287px;
+        height: 50px;
+        /* left: 45vw; */
+        top: 10px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+
+    #ad {
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        /*left: 45vw;*/
+        /*top: 2000px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+    #adReal {
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 1rem;
+
+        /*position: relative;*/
+        width: 46VW;
+        /*height: 31px;*/
+        /*left: 52vw;*/
+        top: -63px;
+        right: 0;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+    #tel {
+        display:block ;
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        /*left: 45vw;*/
+        /*top: 2030px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+        margin-right: 20px;
+
+        color: #FDF9F9;
+    }
+
+    #telReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        width: 150px;
+        /* height: 31px; */
+        left: 13vw;
+        top: -60px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+
+
+    /*.aboutMiddle4to > aside:nth-child(1) {
+        width: 100%;
+        height: 100%;
+        !*border: 1px solid white;*!
+    }*/
     /*.quoteHead01 {
         position: absolute;
         width: 63vw;

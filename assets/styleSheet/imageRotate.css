@@ -235,11 +235,12 @@ body {
 /*================================== 768->Tablet ================================== */
 @media all and (min-width: 426px) and (max-width: 768px){
     .card {
-        position: relative;
+        /*position: relative;*/
         /*width: 378px;*/
         /* height: 100px; */
         /*top: 23px;*/
-        left:-2vw;
+        /*left:-2vw;*/
+        align-items: center;
     }}
 
 /*================================== 1024->Laptop ================================== */
