@@ -556,7 +556,7 @@ Time :1:22 PM
 
     .mainSecAbout {
         position: relative;
-        height: 1600px;
+        height: 1500px;
         display: flex;
         flex-direction: column;
     }
