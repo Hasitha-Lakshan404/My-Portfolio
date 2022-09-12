@@ -79,8 +79,8 @@ body {
     position: relative;
     width: 400px;
     /*height: 100px;*/
-    top: 23px;
-    left: 2.5vw;
+    /*top: 23px;*/
+    right:-2vw;
 
 }
 
@@ -202,32 +202,55 @@ body {
 
 /*================================== 320->Mobile -S ==================================*/
 @media all and (max-width: 320px){
-
+    .card {
+        position: relative;
+        /*width: 378px;*/
+        /* height: 100px; */
+        /*top: 23px;*/
+        left:-2vw;
+    }
 }
 /*================================== 375 ->Mobile -M ==================================*/
 @media all and (min-width: 321px) and (max-width: 375px){
-
+    .card {
+        position: relative;
+        /*width: 378px;*/
+        /* height: 100px; */
+        /*top: 23px;*/
+        left:-2vw;
+    }
 }
 
 /*================================== 425->Mobile -L ================================== */
 @media all and (min-width: 376px) and (max-width: 425px){
-
+    .card {
+        position: relative;
+        /*width: 378px;*/
+        /* height: 100px; */
+        /*top: 23px;*/
+        left:-2vw;
+    }
 }
 
 /*================================== 768->Tablet ================================== */
 @media all and (min-width: 426px) and (max-width: 768px){
-
-}
+    .card {
+        position: relative;
+        /*width: 378px;*/
+        /* height: 100px; */
+        /*top: 23px;*/
+        left:-2vw;
+    }}
 
 /*================================== 1024->Laptop ================================== */
 @media all and (min-width: 769px) and (max-width: 1024px){
 
     .card {
         position: relative;
-        width: 378px;
+        /*width: 378px;*/
         /* height: 100px; */
-        top: 23px;
-        left: 2.5vw;
+        /*top: 23px;*/
+        left:-2vw;
     }
 
 
@@ -237,10 +260,10 @@ body {
 @media all and (min-width: 1025px) and (max-width: 1440px){
     .card {
         position: relative;
-        width: 400px;
+        /*width: 400px;*/
         /* height: 100px; */
-        top: -17px;
-        left: 2.5vw;
+        /*top: -17px;*/
+        right: -2vw;
     }
 
 

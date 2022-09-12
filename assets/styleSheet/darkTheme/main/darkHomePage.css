@@ -10,7 +10,10 @@ body {
 main {
     /*width: 99.5vw;*/
 }
-
+.mainSecHome{
+    /*background-color: #FFFFFF;*/
+    height: 686px;
+}
 .mainSecHome > div:first-child {
     /*width:99.5vw;*/
     /*height: 90vh;*/

@@ -7,33 +7,59 @@ Time :1:22 PM
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700;900&display=swap");
 
-/*wave*/
+.mainSecAbout {
+    position: relative;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    /*top: 0;*/
+    /*left: 0;*/
+}
+
+.mainSecAbout > section {
+    height: 100%;
+    border: 5px solid green;
+}
+
+/*.mainSecAbout > section:nth-child(1) {
+    height: 500px;
+}
+.mainSecAbout > section:nth-child(2) {
+    height: 500px;
+
+}
+.mainSecAbout > section:nth-child(3) {
+    height: 500px;
+
+}*/
+
 .mainSecAbout > section:first-child > div:first-child {
     position: relative;
-    /*top: -0.5vh;*/
+    /*!*top: -0.5vh;*!*/
     top: -3.8px;
     left: 0;
-    /*height: 75vh;*/
-    height: 570px;
+    /*!*height: 75vh;*!*/
+    /*height: 570px;*/
+    height: 500px;
     background: url("../../../images/DarkheadUnder.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 .quoteHead01 {
     position: absolute;
-    /*!*width: 659px;*!*/
+    /*!*!*width: 659px;*!*!*/
     width: 40vw;
     height: 138px;
-    /*!*left: 820px;*!*/
+    /*!*!*left: 820px;*!*!*/
     right: 2vw;
-    /*!*top: 820px;*!*/
-    top: 820px;
+    /*!*!*top: 820px;*!*!*/
+    top: 10px;
 
-    /*font-family: "Roboto";*/
+    /*!*font-family: "Roboto";*!*/
     font-family: "Courier Prime";
     font-style: normal;
     font-weight: 400;
-    /*!*font-size: 25px;*!*/
+    /*!*!*font-size: 25px;*!*!*/
     font-size: 1.6vw;
     line-height: 39px;
     text-align: right;
@@ -46,14 +72,14 @@ Time :1:22 PM
 
 .quoteHead2 {
     position: absolute;
-    /*!*width: 609px;*!*/
+    /*!*!*width: 609px;*!*!*/
     width: 40vw;
     height: 50px;
-    /*!*left: 900px;*!*/
+    /*!*!*left: 900px;*!*!*/
     right: 2vw;
-    top: 1000px;
+    top: 200px;
     opacity: 0.5;
-    /*font-family: "Roboto";*/
+    /*!*font-family: "Roboto";*!*/
     font-family: "Courier Prime";
     font-style: normal;
     font-weight: 400;
@@ -65,15 +91,14 @@ Time :1:22 PM
     color: #FFFFFF;
 }
 
-
 .aboutMe {
     position: absolute;
     width: 195px;
     height: 49px;
     left: 37px;
-    top: 1227px;
+    top: 400px;
 
-    /*font-family: 'Della Respira';*/
+    /*!*font-family: 'Della Respira';*!*/
     font-family: "Courier Prime";
     font-style: normal;
     font-weight: 500;
@@ -83,36 +108,62 @@ Time :1:22 PM
     color: #BA903A;
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
-/** name /se/ age *!*/
-.name {
-    position: absolute;
-    width: 412px;
-    height: 37px;
-    left: 693px;
-    top: 1350px;
+.aboutMiddle4to {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
 
+.aboutMiddle4to > aside:nth-child(1), article:nth-child(2) {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.aboutMiddle4to > aside:nth-child(1) {
+    width: 50vw;
+    height: 100%;
+    border: 1px solid white;
+}
+
+
+/*.aboutMiddle4to>article{*/
+/*    border: 1px solid white;*/
+/*}*/
+
+
+/*!** name /se/ age *!*!*/
+.name {
+    /*position: relative;*/
+    /*width: 412px;*/
+    /*height: 37px;*/
+    /*right: 693px;*/
+    /*top: 100px;*/
+
+    margin-top: 10px;
     font-family: "Courier Prime";
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
-    /*! *identical to box height *!*/
+    margin-bottom: 20px;
+    /*!*! *identical to box height *!*!*/
 
 
-    /*color: #254871;*/
+    /*!*color: #254871;*!*/
     color: #ffffff;
     opacity: 0.8;
 }
 
 .se {
-
-    position: absolute;
-    width: 297px;
-    height: 53px;
-    left: 693px;
-    top: 1410px;
+    /*position: absolute;*/
+    /*width: 297px;*/
+    /*height: 53px;*/
+    /*left: 693px;*/
+    /*top: 1410px;*/
 
     font-family: 'Courier Prime';
     font-style: normal;
@@ -121,59 +172,98 @@ Time :1:22 PM
     line-height: 53px;
     letter-spacing: 0.01em;
 
-    /*color: #254871;*/
+    /*!*color: #254871;*!*/
     color: #ffffff;
     opacity: 0.7;
 }
 
 .age {
-    position: absolute;
-    width: 162px;
-    height: 49px;
-    left: 693px;
-    top: 1451px;
+    position: relative;
+    /*width: 162px;*/
+    /*height: 49px;*/
+    /*left: 693px;*/
+    /*top: 1451px;*/
+    top: -15px;
+
+    font-family: 'Courier Prime';
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42px;
+    /*!*! *identical to box height *!*!*/
+    /*!*color: #254871;*!*/
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.se {
+    /*position: absolute;*/
+    /*width: 297px;*/
+    /*height: 53px;*/
+    /*left: 693px;*/
+    /*top: 1410px;*/
+
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 53px;
+    letter-spacing: 0.01em;
+
+    /*!*color: #254871;*!*/
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.age {
+    /*position: absolute;*/
+    /*width: 162px;*/
+    /*height: 49px;*/
+    /*left: 693px;*/
+    /*top: 1451px;*/
 
     font-family: 'Courier Prime';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 42px;
-    /*! *identical to box height *!*/
+    /*!*! *identical to box height *!*!*/
 
 
-    /*color: #254871;*/
+    /*!*color: #254871;*!*/
     color: #ffffff;
     opacity: 0.7;
 }
 
-.hi {
 
-    position: absolute;
-    width: 125px;
-    height: 42px;
-    left: 693px;
-    top: 1542px;
+.hi {
+    /*position: absolute;*/
+    /*width: 125px;*/
+    /*height: 42px;*/
+    /*left: 693px;*/
+    /*top: 1542px;*/
 
     font-family: 'Space Mono';
+
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 42px;
-    /*! *identical to box height *!*/
+    /*!*! *identical to box height *!*!*/
 
 
-    /*color: #254871;*/
+    /*!*color: #254871;*!*/
     color: #ffffff;
     opacity: 0.6;
 }
 
-/*!*About description/paras *!*/
 .desMe1 {
-    position: absolute;
-    width: 713px;
-    height: 87px;
-    left: 693px;
-    top: 1578px;
+    /*position: absolute;*/
+    /*width: 713px;*/
+    /*height: 87px;*/
+    /*left: 693px;*/
+    /*top: 1578px;*/
 
     font-family: 'Courier Prime';
     font-style: normal;
@@ -181,19 +271,20 @@ Time :1:22 PM
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.01em;
+    margin-bottom: 30px;
 
-    /*color: #254871;*/
+    /*!*color: #254871;*!*/
     color: #ffffff;
     opacity: 0.5;
 
 }
 
 .desMe2 {
-    position: absolute;
-    width: 713px;
-    height: 87px;
-    left: 693px;
-    top: 1689px;
+    /*position: absolute;*/
+    /*width: 713px;*/
+    /*height: 87px;*/
+    /*left: 693px;*/
+    /*top: 1689px;*/
 
     font-family: 'Courier Prime';
     font-style: normal;
@@ -202,20 +293,35 @@ Time :1:22 PM
     line-height: 33px;
     letter-spacing: 0.01em;
 
-    /*color: #254871;*/
+    /*!*color: #254871;*!*/
     color: #ffffff;
     opacity: 0.5;
 
 }
 
-.languages {
-    position: absolute;
-    width: 332px;
-    height: 50px;
-    left: 37px;
-    top: 1921px;
+/**/
+#aboutLangFlex {
+    display: flex;
+    flex-direction: row;
+}
 
-    /*font-family: 'Familjen Grotesk';*/
+#aboutLangFlex > div {
+    border: 1px solid #6f88e8;
+    width: 100%;
+    height: 100%;
+}
+
+
+.languages {
+    position: relative;
+    width: 15vw;
+    /*height: 50px;*/
+    left: 37px;
+    top: 10px;
+    margin-bottom: 20px;
+
+
+    /*!*font-family: 'Familjen Grotesk';*!*/
     font-family: "Courier Prime";
     font-style: normal;
     font-weight: 500;
@@ -226,22 +332,23 @@ Time :1:22 PM
 }
 
 #sin {
+    display: inline-block;
     /*position: absolute;
-    top: 1923px;
-    left: 50px;*/
+    /*top: 1923px;*/
+    /*left: 50px;*!*/
     padding-right: 10px;
     font-size: 1rem;
 
-    position: absolute;
-    width: 100px;
-    height: 31px;
+    position: relative;
+    /*width: 100px;*/
+    /*height: 31px;*/
     left: 42px;
-    top: 2000px;
+    /*top: 2000px;*/
 
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
-    /*font-size: 20px;*/
+    /*!*font-size: 20px;*!*/
     line-height: 31px;
 
     color: #FDF9F9;
@@ -249,52 +356,56 @@ Time :1:22 PM
 }
 
 #file {
-    position: absolute;
-    width: 200px;
-    height: 31px;
-    left: 150px;
-    top: 2000px;
+    display: inline-block;
+    position: relative;
+    /*width: 200px;*/
+    /*height: 31px;*/
+    left: 33px;
+    top: 3px;
 }
 
 #eng {
-    /*position: absolute;
-    top: 1923px;
-    left: 50px;*/
+    /*display: inline-block;*/
+    /*display: inline-block;*/
+    /*!*position: absolute;*/
+    /*top: 1923px;*/
+    /*left: 50px;*!*/
     padding-right: 10px;
     font-size: 1rem;
 
-    position: absolute;
-    width: 100px;
-    height: 31px;
+    position: relative;
+    /*width: 100px;*/
+    /*height: 31px;*/
     left: 42px;
-    top: 2030px;
+    /*top: 2030px;*/
 
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
-    /*font-size: 20px;*/
+    /*!*font-size: 20px;*!*/
     line-height: 31px;
 
     color: #FDF9F9;
-
 }
 
+
 #file2 {
-    position: absolute;
-    width: 200px;
-    height: 31px;
-    left: 150px;
-    top: 2030px;
+    position: relative;
+    /*width: 200px;*/
+    /*height: 31px;*/
+    left: 34px;
+    top: 3px;
 }
 
 .extraDetails {
-    position: absolute;
+    margin-bottom: 10px;
+    position: relative;
     width: 332px;
     height: 50px;
-    left: 45vw;
-    top: 1921px;
+    /*left: 45vw;*/
+    top:10px;
 
-    /*font-family: 'Familjen Grotesk';*/
+    /*!*font-family: 'Familjen Grotesk';*!*/
     font-family: "Courier Prime";
     font-style: normal;
     font-weight: 500;
@@ -307,17 +418,16 @@ Time :1:22 PM
 #ad {
     padding-right: 10px;
     font-size: 1rem;
-
-    position: absolute;
-    width: 100px;
-    height: 31px;
-    left: 45vw;
-    top: 2000px;
+    position: relative;
+    /*width: 100px;*/
+    /*height: 31px;*/
+    /*left: 45vw;*/
+    /*top: 2000px;*/
 
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
-    /*font-size: 20px;*/
+    /*!*font-size: 20px;*!*/
     line-height: 31px;
 
     color: #FDF9F9;
@@ -327,16 +437,17 @@ Time :1:22 PM
     padding-right: 10px;
     font-size: 1rem;
 
-    position: absolute;
-    width: 334px;
-    height: 31px;
-    left: 52vw;
-    top: 2000px;
+    position: relative;
+    width: 340px;
+    /*height: 31px;*/
+    /*left: 52vw;*/
+    top: -63px;
+    left: 95px;
 
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
-    /*font-size: 20px;*/
+    /*!*font-size: 20px;*!*/
     line-height: 31px;
 
     color: #FDF9F9;
@@ -346,16 +457,16 @@ Time :1:22 PM
     padding-right: 10px;
     font-size: 1rem;
 
-    position: absolute;
-    width: 100px;
-    height: 31px;
-    left: 45vw;
-    top: 2030px;
+    /*position: absolute;*/
+    /*width: 100px;*/
+    /*height: 31px;*/
+    /*left: 45vw;*/
+    /*top: 2030px;*/
 
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
-    /*font-size: 20px;*/
+    /*!*font-size: 20px;*!*/
     line-height: 31px;
 
     color: #FDF9F9;
@@ -365,20 +476,29 @@ Time :1:22 PM
     padding-right: 10px;
     font-size: 1rem;
 
-    position: absolute;
+    position: relative;
     width: 150px;
-    height: 31px;
-    left: 52vw;
-    top: 2030px;
+    /*height: 31px;*/
+    left: 9vw;
+    top: -60px;
 
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
-    /*font-size: 20px;*/
+    /*!*font-size: 20px;*!*/
     line-height: 31px;
 
     color: #FDF9F9;
 }
+
+/*
+
+
+!*!*About description/paras *!*!
+
+
+
+*/
 
 
 /*================================== 320->Mobile -S ==================================*/
@@ -397,7 +517,9 @@ Time :1:22 PM
 
 }
 
-/*================================== 768->Tablet ================================== */
+/*
+
+!*================================== 768->Tablet ================================== *!
 @media all and (min-width: 426px) and (max-width: 768px) {
 
     .quoteHead01 {
@@ -406,12 +528,12 @@ Time :1:22 PM
         height: 138px;
         right: 2vw;
         top: 691px;
-        /* font-family: "Roboto"; */
+        !* font-family: "Roboto"; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 400;
         font-size: 2vw;
-        /*font-size: 1.vw;*/
+        !*font-size: 1.vw;*!
         text-align: right;
         letter-spacing: 0.05em;
         opacity: 0.5;
@@ -425,7 +547,7 @@ Time :1:22 PM
         right: 2vw;
         top: 837px;
         opacity: 0.5;
-        /* font-family: "Roboto"; */
+        !* font-family: "Roboto"; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 400;
@@ -437,17 +559,17 @@ Time :1:22 PM
     }
     .mainSecAbout > section:first-child > div:first-child {
         position: relative;
-        /* top: -0.5vh; */
+        !* top: -0.5vh; *!
         top: -3.8px;
         left: 0;
-        /* height: 75vh; */
+        !* height: 75vh; *!
         height: 268px;
         background: url(../../../images/DarkheadUnder.png) no-repeat center;
         background-size: 100% 100%;
     }
 
 
-    /*.card__content{
+    !*.card__content{
         width: 100px;
         display: none;
     }
@@ -458,11 +580,11 @@ Time :1:22 PM
         height: 100px;
         background: url(../../../images/imgme.jpg) no-repeat center;
         background-size: 100% 100%;
-    }*/
+    }*!
 
     .card{!important;
         width: 400px!important;
-        /* height: 100px; */
+        !* height: 100px; *!
         top: 128px !important;
         left: 22.5vw !important;
     }
@@ -472,7 +594,7 @@ Time :1:22 PM
         height: 49px;
         left: 272px;
         top: 1034px;
-        /* font-family: 'Della Respira'; */
+        !* font-family: 'Della Respira'; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 500;
@@ -488,16 +610,22 @@ Time :1:22 PM
     }
 
 
+    #fullAboutDetailContainer {
+        position: relative;
+        top: -1171px;
+        left: -658px;
+    }
+
 }
 
-/*================================== 1024->Laptop ================================== */
+!*================================== 1024->Laptop ================================== *!
 @media all and (min-width: 769px) and (max-width: 1024px) {
     .mainSecAbout > section:first-child > div:first-child {
         position: relative;
-        /*top: -0.5vh;*/
+        !*top: -0.5vh;*!
         top: -3.8px;
         left: 0;
-        /*height: 59vh;*/
+        !*height: 59vh;*!
         height: 448.4px;
         background: url(../../../images/DarkheadUnder.png) no-repeat center;
         background-size: 100% 100%;
@@ -509,7 +637,7 @@ Time :1:22 PM
         height: 138px;
         right: 2vw;
         top: 731px;
-        /* font-family: "Roboto"; */
+        !* font-family: "Roboto"; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 400;
@@ -528,7 +656,7 @@ Time :1:22 PM
         right: 2vw;
         top: 920px;
         opacity: 0.5;
-        /* font-family: "Roboto"; */
+        !* font-family: "Roboto"; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 400;
@@ -560,7 +688,7 @@ Time :1:22 PM
         height: 49px;
         left: 37px;
         top: 1120px;
-        /* font-family: 'Della Respira'; */
+        !* font-family: 'Della Respira'; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 500;
@@ -582,7 +710,7 @@ Time :1:22 PM
         font-size: 28px;
         line-height: 53px;
         letter-spacing: 0.01em;
-        /* color: #254871; */
+        !* color: #254871; *!
         color: #ffffff;
         opacity: 0.7;
     }
@@ -598,7 +726,7 @@ Time :1:22 PM
         font-weight: 400;
         font-size: 22px;
         line-height: 42px;
-        /* color: #254871; */
+        !* color: #254871; *!
         color: #ffffff;
         opacity: 0.7;
     }
@@ -614,7 +742,7 @@ Time :1:22 PM
         font-weight: 700;
         font-size: 20px;
         line-height: 42px;
-        /* color: #254871; */
+        !* color: #254871; *!
         color: #ffffff;
         opacity: 0.6;
     }
@@ -631,7 +759,7 @@ Time :1:22 PM
         font-size: 22px;
         line-height: 33px;
         letter-spacing: 0.01em;
-        /* color: #254871; */
+        !* color: #254871; *!
         color: #ffffff;
         opacity: 0.5;
     }
@@ -648,7 +776,7 @@ Time :1:22 PM
         font-size: 22px;
         line-height: 33px;
         letter-spacing: 0.01em;
-        /* color: #254871; */
+        !* color: #254871; *!
         color: #ffffff;
         opacity: 0.5;
     }
@@ -659,7 +787,7 @@ Time :1:22 PM
         height: 50px;
         left: 37px;
         top: 1744px;
-        /* font-family: 'Familjen Grotesk'; */
+        !* font-family: 'Familjen Grotesk'; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 500;
@@ -679,7 +807,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -695,7 +823,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -720,7 +848,7 @@ Time :1:22 PM
         height: 50px;
         left: 50vw;
         top: 1744px;
-        /* font-family: 'Familjen Grotesk'; */
+        !* font-family: 'Familjen Grotesk'; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 500;
@@ -740,7 +868,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -755,7 +883,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -770,7 +898,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -785,7 +913,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -797,9 +925,10 @@ Time :1:22 PM
     }
 
     #allAboutLangExtra{
-        position: relative;
-        top:-1550px;
-        left: 0;
+        !*height: 200px;*!
+        !*position: relative;*!
+        !*top:-1550px;*!
+        !*left: 0;*!
     }
     .extraDetails {
         position: absolute;
@@ -807,7 +936,7 @@ Time :1:22 PM
         height: 50px;
         left: 44.5vw;
         top: 1740px;
-        /* font-family: 'Familjen Grotesk'; */
+        !* font-family: 'Familjen Grotesk'; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 500;
@@ -841,7 +970,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -857,7 +986,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -873,16 +1002,16 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
 
 }
 
-/*================================== 1440->Laptop large ================================== */
+!*================================== 1440->Laptop large ================================== *!
 @media all and (min-width: 1025px) and (max-width: 1440px) {
-    /*.quoteHead01 {
+    !*.quoteHead01 {
         position: absolute;
         !*!*width: 659px;*!*!
         width: 40vw;
@@ -905,7 +1034,7 @@ Time :1:22 PM
 
         color: #FFFFFF;
 
-    }*/
+    }*!
 
     .quoteHead01 {
         position: absolute;
@@ -913,7 +1042,7 @@ Time :1:22 PM
         height: 138px;
         right: 2vw;
         top: 780px;
-        /* font-family: "Roboto"; */
+        !* font-family: "Roboto"; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 400;
@@ -931,7 +1060,7 @@ Time :1:22 PM
         right: 2vw;
         top: 976px;
         opacity: 0.5;
-        /* font-family: "Roboto"; */
+        !* font-family: "Roboto"; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 400;
@@ -968,7 +1097,7 @@ Time :1:22 PM
         font-weight: 400;
         font-size: 32px;
         line-height: 37px;
-        /* color: #254871; */
+        !* color: #254871; *!
         color: #ffffff;
         opacity: 0.8;
     }
@@ -1015,7 +1144,7 @@ Time :1:22 PM
         font-weight: 700;
         font-size: 20px;
         line-height: 42px;
-        /* color: #254871; */
+        !* color: #254871; *!
         color: #ffffff;
         opacity: 0.6;
     }
@@ -1032,7 +1161,7 @@ Time :1:22 PM
         font-size: 22px;
         line-height: 33px;
         letter-spacing: 0.01em;
-        /* color: #254871; */
+        !* color: #254871; *!
         color: #ffffff;
         opacity: 0.5;
     }
@@ -1049,7 +1178,7 @@ Time :1:22 PM
         font-size: 22px;
         line-height: 33px;
         letter-spacing: 0.01em;
-        /* color: #254871; */
+        !* color: #254871; *!
         color: #ffffff;
         opacity: 0.5;
     }
@@ -1074,7 +1203,7 @@ Time :1:22 PM
         height: 50px;
         left: 44.5vw;
         top: 1740px;
-        /* font-family: 'Familjen Grotesk'; */
+        !* font-family: 'Familjen Grotesk'; *!
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 500;
@@ -1109,7 +1238,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -1156,7 +1285,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -1172,7 +1301,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -1188,7 +1317,7 @@ Time :1:22 PM
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /* font-size: 20px; */
+        !* font-size: 20px; *!
         line-height: 31px;
         color: #FDF9F9;
     }
@@ -1205,7 +1334,7 @@ Time :1:22 PM
     }
 }
 
-/* ================================== 4K ================================== */
+!* ================================== 4K ================================== *!
 @media all and (min-width: 1441px) and (max-width: 2560px) {
 
-}
+}*/
