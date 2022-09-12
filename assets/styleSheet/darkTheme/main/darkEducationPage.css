@@ -9,7 +9,7 @@ Time :1:50 PM
 .mainSecEducation {
     background-color: #088d12;
     position: relative;
-    top: 0;
+    /*top: 0;*/
     right: 0;
     /*height: 110vh;*/
     height: 836px;
@@ -85,7 +85,8 @@ Time :1:50 PM
     background: 5px rgba(0, 0, 0, 0.7);
     height: 100px;
     position: absolute;
-    left: 250px;
+    /*left: 250px;*/
+    left: 14vw;
 }
 
 /*Date*/
@@ -143,7 +144,7 @@ Time :1:50 PM
     background: 5px rgba(0, 0, 0, 0.7);
     height: 100px;
     position: absolute;
-    left: 250px;
+    left: 14vw;
 }
 
 /*Date*/
@@ -162,7 +163,7 @@ Time :1:50 PM
     position: relative;
     top: 15px;
     left: 40px;
-    width: 200px;
+    width: 180px;
 }
 
 /*right-Description*/
@@ -202,7 +203,7 @@ Time :1:50 PM
     background: 5px rgba(0, 0, 0, 0.7);
     height: 100px;
     position: absolute;
-    left: 250px;
+    left: 14vw;
 }
 
 /*Date*/
@@ -260,7 +261,7 @@ Time :1:50 PM
     background: 5px rgba(0, 0, 0, 0.7);
     height: 100px;
     position: absolute;
-    left: 250px;
+    left: 14vw;
 }
 
 /*Date*/
@@ -342,7 +343,7 @@ Time :1:50 PM
     .mainSecEducation {
         overflow-x: hidden;
         position: relative;
-        top: 0;
+        /*top: 0;*/
         right: 0;
         /* height: 110vh; */
         height: 836px;
