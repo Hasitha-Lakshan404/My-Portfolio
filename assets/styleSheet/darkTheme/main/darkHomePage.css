@@ -12,14 +12,15 @@ main {
 }
 .mainSecHome{
     /*background-color: #FFFFFF;*/
-    height: 686px;
+    height: 600px;
 }
 .mainSecHome > div:first-child {
     /*width:99.5vw;*/
     /*height: 90vh;*/
-    height: 684px;
+    height: 600px;
     margin-top: 75px;
     background-color: #323647;
+    /*background-color: white;*/
 }
 
 .pg1Hello {
@@ -307,6 +308,11 @@ main {
 
 /*================================== 768->Tablet ================================== */
 @media all and (min-width: 426px) and (max-width: 768px) {
+    .mainSecHome{
+        /*background-color: #FFFFFF;*/
+        height: 600px;
+    }
+
     .pg1Hello {
         position: absolute;
         /* top: 33.5vh; */
