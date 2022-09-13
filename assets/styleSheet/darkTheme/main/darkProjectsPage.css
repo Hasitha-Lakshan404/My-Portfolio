@@ -332,9 +332,29 @@ Time :1:50 PM
 }
 
 /*================================== 768->Tablet ================================== */
-@media all and (min-width: 426px) and (max-width: 768px){
+@media all and (min-width: 426px) and (max-width: 768px) {
+
+
+    .mainSecProject {
+        /* background-color: #151C2E; */
+        position: relative;
+        /* top: 0; */
+        /* right: 0; */
+        /* height: 140vh; */
+        height: 943px;
+        /* width: 95vw; */
+        /* background: white; */
+        /* border: 1px solid white; */
+        /* background: #323647; */
+        background: black;
+        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg);
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 80%;
+    }
+
     /*Left orange bar*/
-    .mainSecProject>section:first-child>div:first-child{
+    .mainSecProject > section:first-child > div:first-child {
         background: url("../../../images/leftOrangeRow.png") no-repeat center;
         background-size: 100% 100%;
         position: relative;
@@ -346,7 +366,7 @@ Time :1:50 PM
 
 
     /*Right purple bar*/
-    .mainSecProject>section:first-child>div:nth-child(2){
+    .mainSecProject > section:first-child > div:nth-child(2) {
         position: absolute;
         top: 1.5em;
         right: 0;
@@ -357,7 +377,7 @@ Time :1:50 PM
     }
 
     /*Project Title*/
-    .mainSecProject>section:first-child>h1{
+    .mainSecProject > section:first-child > h1 {
         position: absolute;
         color: #FFFFFF;
         /*top: 3.3vh;*/
@@ -368,7 +388,8 @@ Time :1:50 PM
 
     }
 
-    .mainSecProject>aside:nth-child(2)>p {
+
+    .mainSecProject > aside:nth-child(2) > p {
         position: absolute;
         color: #71727D;
         display: inline-block;
@@ -378,18 +399,19 @@ Time :1:50 PM
         font-family: "Courier Prime";
     }
 
-    .mainSecProject>aside:nth-child(3) {
+    .mainSecProject > aside:nth-child(3) {
         position: relative;
         left: 2vw;
         /* top: 20vh; */
         top: 152px;
-        width: 121vw;
+        width: 96vw;
         color: #CFD8DC;
         font-size: 15px;
         font-family: "Courier Prime";
         display: inline-block;
         /* height: 500px; */
     }
+
     .btn-76 {
         /* --neon: #0ea5e9; */
         --neon: #B026FF;
@@ -418,10 +440,25 @@ Time :1:50 PM
         width: 350px;
     }
 
+    #rightCornerTitle {
+        color: #FFFFFF;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        position: relative;
+        left: 7vw;
+        opacity: 1;
+        display: inline-block;
+        margin: 3.5vh 0 3.5vh 0;
+        width: 150px;
+    }
+
 }
 
 /*================================== 1024->Laptop ================================== */
 @media all and (min-width: 769px) and (max-width: 1024px){
+
+
+
     /*Left orange bar*/
     .mainSecProject>section:first-child>div:first-child{
         /*height: 100px;*/

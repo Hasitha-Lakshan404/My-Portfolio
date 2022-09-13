@@ -45,7 +45,21 @@ Time :8:56 PM
 
 /*================================== 768->Tablet ================================== */
 @media all and (min-width: 426px) and (max-width: 768px) {
-
+    .mainSecQuote {
+        /* background-color: #6f88e8; */
+        margin: 0;
+        /* position: relative; */
+        /* height: 25vh; */
+        height: 190px;
+        width: 89.5vw;
+        /* border: 1px solid #CFD8DC; */
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: bolder;
+        color: #B3B3B3;
+        font-size: 1.1em;
+        text-align: center;
+    }
 }
 
 /*================================== 1024->Laptop ================================== */

@@ -193,7 +193,32 @@ Time :9:47 PM
 
 /*================================== 768->Tablet ================================== */
 @media all and (min-width: 426px) and (max-width: 768px) {
+    .footer > section:nth-child(1) > div:nth-child(1) > h3 {
+        position: absolute;
+        /* top: 3.7vh; */
+        top: 28.12px;
+        right: 46vw;
+    }
 
+    .footer > section:nth-child(1) > div:nth-child(2) {
+        position: absolute;
+        top: 0;
+        right: 34vw;
+        width: 80px;
+        height: 80px;
+        background: url(../../images/upArrow.gif) no-repeat center;
+        background-size: 150% 150%;
+        transform: rotate(180deg);
+    }
+
+    #footerRightIcon {
+        display: flex;
+        flex-flow: row;
+        margin-left: 0.40000000000000036vw;
+    }
+    #footerMiddleLeftSide>ul>li{
+        font-size: 0.9em;
+    }
 }
 
 /*================================== 1024->Laptop ================================== */
