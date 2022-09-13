@@ -333,6 +333,90 @@ Time :1:50 PM
 
 /*================================== 768->Tablet ================================== */
 @media all and (min-width: 426px) and (max-width: 768px){
+    /*Left orange bar*/
+    .mainSecProject>section:first-child>div:first-child{
+        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background-size: 100% 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 51.7vw;
+        height: 50px;
+    }
+
+
+    /*Right purple bar*/
+    .mainSecProject>section:first-child>div:nth-child(2){
+        position: absolute;
+        top: 1.5em;
+        right: 0;
+        width: 51.7vw;
+        height: 50px;
+        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    /*Project Title*/
+    .mainSecProject>section:first-child>h1{
+        position: absolute;
+        color: #FFFFFF;
+        /*top: 3.3vh;*/
+        top: 25.08px;
+        right: 32vw;
+        font-family: "Courier Prime";
+        font-size: 22px;;
+
+    }
+
+    .mainSecProject>aside:nth-child(2)>p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 25px;
+        right: 5vw;
+        top: 107px;
+        font-family: "Courier Prime";
+    }
+
+    .mainSecProject>aside:nth-child(3) {
+        position: relative;
+        left: 2vw;
+        /* top: 20vh; */
+        top: 152px;
+        width: 121vw;
+        color: #CFD8DC;
+        font-size: 15px;
+        font-family: "Courier Prime";
+        display: inline-block;
+        /* height: 500px; */
+    }
+    .btn-76 {
+        /* --neon: #0ea5e9; */
+        --neon: #B026FF;
+        box-sizing: border-box;
+        display: block;
+        /* font-weight: 900; */
+        -webkit-mask-image: none;
+        outline: 4px solid #988db0;
+        outline-offset: -4px;
+        overflow: hidden;
+        padding: 1.2rem 3rem;
+        position: relative;
+        /* text-transform: uppercase; */
+        transition: 0.2s linear 0.1s;
+        width: 270px;
+        height: 50px;
+        left: 27vw;
+    }
+
+    #seeMoreNavButton {
+        position: relative;
+        left: 1.5vw;
+        /* top: 20vh; */
+        top: 152px;
+        margin: 0;
+        width: 350px;
+    }
 
 }
 
