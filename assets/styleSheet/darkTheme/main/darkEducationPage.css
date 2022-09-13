@@ -335,6 +335,17 @@ Time :1:50 PM
 /*================================== 768->Tablet ================================== */
 @media all and (min-width: 426px) and (max-width: 768px) {
 
+    .mainSecEducation {
+        /*background-color: #088d12;*/
+        position: relative;
+        /*top: 0;*/
+        right: 0;
+        /*height: 110vh;*/
+        height: 783px;
+        /*background: white;*/
+        border: 1px solid white;
+    }
+
     /*Title left row*/
     .mainSecEducation > section:nth-child(1) > div:first-child {
         background: url("../../../images/leftOrangeRow.png") no-repeat center;
@@ -393,7 +404,7 @@ Time :1:50 PM
         position: relative;
         top: 104px;
         left: 28px;
-        left: 28px;
+        /*left: 28px;*/
     }
 
     /*container-line*/
