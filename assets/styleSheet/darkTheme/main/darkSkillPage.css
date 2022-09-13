@@ -380,7 +380,7 @@ Time :1:46 PM
         /*background-color: #2196f3;*/
         /*width: 99.5vw;*/
         /*height: 155vh;*/
-        height: 800px;
+        height: 1200px;
         /*top: 50vh;*/
         /*top:  380px;*/
         /*top: 40vh;*/
@@ -483,7 +483,53 @@ Time :1:46 PM
         width: 30vw;
         left: 50px;
     }
+    /*Lang & Framework*/
+    #skillLangFrameworks {
+        position: relative;
+        /* align-items: center; */
+        /* top: 51vh; */
+        top: 75.60000000000002px;
+        width: 82vw;
+        /* height: 7vh; */
+        height: 53.2px;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-flow: row;
+        left: 30px;
+        flex-direction: row;
+    }
 
+
+    /*Tool Title*/
+    #skillToolName {
+        position: relative;
+        /* top: 56vh; */
+        top: 131.60000000000002px;
+        /* height: 100px; */
+        /* border: 1px solid white; */
+        /* display: flex; */
+        /* flex-flow: row; */
+        color: #CFD8DC;
+        font-family: Poppins;
+        font-size: 24px;
+        margin-bottom: 20px;
+        left: 100px;
+        width: 516px;
+    }
+    #skillTools {
+        position: relative;
+        /* top: 55vh; */
+        top: 165px;
+        width: 86vw;
+        /* height: 7vh; */
+        height: 53.2px;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-flow: row;
+        left: 30px;
+        /* height: 100px; */
+        /* border: 1px solid white; */
+    }
 
 
 
