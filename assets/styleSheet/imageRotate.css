@@ -201,7 +201,7 @@ body {
 
 
 /*================================== 320->Mobile -S ==================================*/
-@media all and (max-width: 320px){
+@media all and (max-width: 321px){
     .card {
         position: relative;
         /*width: 378px;*/
@@ -211,7 +211,7 @@ body {
     }
 }
 /*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 321px) and (max-width: 375px){
+@media all and (min-width: 322px) and (max-width: 376px){
     .card {
         position: relative;
         /*width: 378px;*/
@@ -222,13 +222,18 @@ body {
 }
 
 /*================================== 425->Mobile -L ================================== */
-@media all and (min-width: 376px) and (max-width: 425px){
-    .card {
-        position: relative;
-        /*width: 378px;*/
-        /* height: 100px; */
-        /*top: 23px;*/
-        left:-2vw;
+@media all and (min-width: 377px) and (max-width: 426px){
+    .card__content {
+        display: none;
+    }
+    .card{
+        border-radius: 20px;
+        width: 50vw;
+        height: 250px;
+        background:url("../images/imgme.jpg")no-repeat center;
+        background-size: 100% 100%;
+        background-blend-mode: multiply;
+        align-items: center;
     }
 }
 
