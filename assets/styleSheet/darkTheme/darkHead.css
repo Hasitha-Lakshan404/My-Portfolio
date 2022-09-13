@@ -193,38 +193,88 @@ a{
     transition-duration: 1s;
 }
 
+/*Hamburger*/
+#hamburgerIcon>i{
+    display: block;
+    color: white;
+    position: absolute;
+    top:35px;
+    right: 20px;
+}
+
+
+
+
 
 /*================================== 320->Mobile -S ==================================*/
-@media all and (max-width: 320px){
+@media all and (max-width: 321px){
+    /*Hamburger*/
+    #hamburgerIcon>i{
+        display:block;
 
+    }
+    #OtherHeadTitles{
+        display: none;
+    }
 }
 
 /*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 321px) and (max-width: 375px){
+@media all and (min-width: 322px) and (max-width: 376px){
+    #hamburgerIcon>i{
+        display:inline;
 
+    }
+    #OtherHeadTitles{
+        display: none;
+    }
+
+    .themeHead>nav>div:nth-child(2)>ul {
+        display: none; !important;
+        position: absolute;
+        top: 25px;
+        right: 5vw;
+    }
 }
 
 /*================================== 425->Mobile -L ================================== */
-@media all and (min-width: 376px) and (max-width: 425px){
+@media all and (min-width: 377px) and (max-width: 426px){
+    /*Hamburger*/
+    #hamburgerIcon>i{
+        display: block; !important;
+    }
+    #OtherHeadTitles{
+        display: none;
+    }
 
 }
 
 /*================================== 768->Tablet ================================== */
-@media all and (min-width: 426px) and (max-width: 768px){
+@media all and (min-width: 427px) and (max-width: 768px){
+    #hamburgerIcon>i{
+        display: none; !important;
+    }
 
 }
 
 /*================================== 1024->Laptop ================================== */
 @media all and (min-width: 769px) and (max-width: 1024px){
-
+    #hamburgerIcon>i{
+        display: none; !important;
+    }
 }
 
 /*================================== 1440->Laptop large ================================== */
 @media all and (min-width: 1025px) and (max-width: 1440px){
+    #hamburgerIcon>i{
+        display: none; !important;
 
+    }
 }
 
 /* ================================== 4K ================================== */
 @media all and (min-width: 1441px) and (max-width: 2560px){
+    #hamburgerIcon>i{
+        display: none; !important;
 
+    }
 }
