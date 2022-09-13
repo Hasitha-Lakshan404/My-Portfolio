@@ -219,6 +219,16 @@ Time :9:47 PM
     #footerMiddleLeftSide>ul>li{
         font-size: 0.9em;
     }
+    .footer > section:nth-child(3) > h5 {
+        position: relative;
+        display: inline-block;
+        /* top: 2vh; */
+        top: 15.2px;
+        left: 24.5vw;
+        opacity: 0.6;
+        /* text-align: center; */
+    }
+
 }
 
 /*================================== 1024->Laptop ================================== */
