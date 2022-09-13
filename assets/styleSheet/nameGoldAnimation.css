@@ -195,17 +195,65 @@ Time :1:22 AM
 
 
 /*================================== 320->Mobile -S ==================================*/
-@media all and (max-width: 320px){
-
+@media all and (max-width: 321px){
+    .gold-container {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        max-width: 36rem;
+        /* top: 261px; */
+        /* left: 500px; */
+        /* top: 33.5vh; */
+        top: 194.60000000000002px;
+        /* left: 500px; */
+        left: 48vw;
+        /* font-size: 128px; */
+        font-size: 12vw;
+        font-family: "DM Serif Display";
+        font-weight: bolder;
+        -webkit-text-stroke: 1px #BA903A;
+    }
 }
 /*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 321px) and (max-width: 375px){
-
+@media all and (min-width: 322px) and (max-width: 376px){
+    .gold-container {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        max-width: 36rem;
+        /* top: 261px; */
+        /* left: 500px; */
+        /* top: 33.5vh; */
+        top: 194.60000000000002px;
+        /* left: 500px; */
+        left: 48vw;
+        /* font-size: 128px; */
+        font-size: 12vw;
+        font-family: "DM Serif Display";
+        font-weight: bolder;
+        -webkit-text-stroke: 1px #BA903A;
+    }
 }
 
 /*================================== 425->Mobile -L ================================== */
-@media all and (min-width: 376px) and (max-width: 425px){
-
+@media all and (min-width: 377px) and (max-width: 426px){
+    .gold-container {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        max-width: 36rem;
+        /* top: 261px; */
+        /* left: 500px; */
+        /* top: 33.5vh; */
+        top: 191.60000000000002px;
+        /* left: 500px; */
+        left: 48vw;
+        /* font-size: 128px; */
+        font-size: 12vw;
+        font-family: "DM Serif Display";
+        font-weight: bolder;
+        -webkit-text-stroke: 1px #BA903A;
+    }
 }
 
 /*================================== 768->Tablet ================================== */
