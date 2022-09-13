@@ -216,6 +216,13 @@ a{
     #OtherHeadTitles{
         display: none;
     }
+    .themeHead>aside>img {
+        position: absolute;
+        width: 40px;
+        top: 16px;
+        height: 40px;
+        left: 10px;
+    }
 }
 
 /*================================== 375 ->Mobile -M ==================================*/
@@ -234,6 +241,13 @@ a{
         top: 25px;
         right: 5vw;
     }
+    .themeHead>aside>img {
+        position: absolute;
+        width: 40px;
+        top: 16px;
+        height: 40px;
+        left: 10px;
+    }
 }
 
 /*================================== 425->Mobile -L ================================== */
@@ -244,6 +258,13 @@ a{
     }
     #OtherHeadTitles{
         display: none;
+    }
+    .themeHead>aside>img {
+        position: absolute;
+        width: 40px;
+        top: 16px;
+        height: 40px;
+        left: 10px;
     }
 
 }
