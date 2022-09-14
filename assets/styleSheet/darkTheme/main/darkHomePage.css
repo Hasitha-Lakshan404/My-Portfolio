@@ -421,30 +421,31 @@ main {
     .fullStackDev {
         position: absolute;
         /* top: 55vh; */
-        top: 301px;
-        left: 10vw;
+        top: 300px;
+        left: 14vw;
+        width: 90vw;
         z-index: 1;
         color: #4AB29B;
-        font-size: 25px;
+        font-size: 20px;
         /* font-family: "Della Respira"; */
         font-family: "Courier Prime";
     }
     .btnContactMe {
         position: absolute;
         /* top: 62.5vh; */
-        top: 344px;
-        left: 88px;
+        top: 354px;
+        left: 92px;
         z-index: 1;
         background-color: #323647;
         border: 2px solid #8086F1;
         border-radius: 10px;
-        width: 200px;
-        height: 45px;
+        width: 136px;
+        height: 39px;
         /* display: inline-block; */
         font-family: 'Della Respira';
         font-style: normal;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 34px;
         color: #8086F1;
         text-align: center;
