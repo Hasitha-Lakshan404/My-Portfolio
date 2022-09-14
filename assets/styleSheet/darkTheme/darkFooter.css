@@ -333,7 +333,26 @@ Time :9:47 PM
         margin-left: 25px;
     }
 
+    #rightCornerTitle {
+        color: #FFFFFF;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        position: relative;
+        left: 10px;
+        opacity: 1;
+        width: 307px;
+        display: inline-block;
+        margin: 3.5vh 0 3.5vh 0;
+    }
+
+    #footerRightIcon {
+        display: flex;
+        flex-flow: row;
+        margin-left: 2.4000000000000004vw;
+    }
+
     #footerRightIcon > div:nth-child(1) {
+        margin-left: 0;
         background: url("../../images/github1.png") no-repeat center;
         background-size: 100% 100%;
     }
@@ -357,6 +376,7 @@ Time :9:47 PM
         background: url("../../images/whatsapp.png") no-repeat center;
         background-size: 95% 95%;
     }
+
 }
 
 /*================================== 768->Tablet ================================== */
