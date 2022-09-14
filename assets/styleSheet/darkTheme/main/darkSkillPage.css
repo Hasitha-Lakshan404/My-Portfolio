@@ -567,19 +567,18 @@ Time :1:46 PM
 
 
     #skillTools {
-        /*position: relative;*/
+        /* position: relative; */
         /* top: 55vh; */
         top: 327px;
-        width: 94vw;
+        width: 50vw;
         /* height: 7vh; */
-        height: 59.2px;
+        height: 188.2px;
         /* border: 1px solid white; */
-        /*display: flex;*/
-        /*flex-flow: row;*/
-        left: 47px;
+        /* display: flex; */
+        /* flex-flow: row; */
+        left: 76px;
         /* height: 100px; */
         /* border: 1px solid white; */
-
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -594,6 +593,7 @@ Time :1:46 PM
         /* height: 7vh; */
         height: 40px;
         margin-bottom: 20px;
+        margin-right: 40px;
         /* border: 1px solid white; */
     }
 }
