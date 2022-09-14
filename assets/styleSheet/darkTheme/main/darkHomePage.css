@@ -3,6 +3,9 @@ Project :Portfolio
 Date :8/30/2022
 Time :1:22 PM
 */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
 body {
 
 }
@@ -459,6 +462,8 @@ main {
 
 /*================================== 425->Mobile -L ================================== */
 @media all and (min-width: 377px) and (max-width: 426px) {
+
+
     .mainSecHome{
         /*background-color: #FFFFFF;*/
         height: 600px;

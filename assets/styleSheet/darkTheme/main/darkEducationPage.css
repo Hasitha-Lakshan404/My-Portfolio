@@ -323,8 +323,356 @@ Time :1:50 PM
 }
 
 /*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 322px) and (max-width: 374px) {
+@media all and (min-width: 322px) and (max-width: 375px) {
+    .mainSecEducation {
+        /*background-color: #088d12;*/
+        position: relative;
+        /*top: 0;*/
+        right: 0;
+        /*height: 110vh;*/
+        height: 950px;
+        /*background: white;*/
+        /*border: 1px solid white;*/
+    }
 
+    /*Title left row*/
+    .mainSecEducation > section:nth-child(1) > div:first-child {
+        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background-size: 100% 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 51.7vw;
+        height: 38px;
+    }
+
+    /*Title right row*/
+    .mainSecEducation > section:nth-child(1) > div:nth-child(2) {
+        position: absolute;
+        top: 1.8em;
+        right: 0;
+        width: 51.7vw;
+        height: 38px;
+        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    /*The Title*/
+    .mainSecEducation > section:first-child > h1:nth-child(3) {
+        position: absolute;
+        color: #FFFFFF;
+        /*top: -4.700000000000003vh;*/
+        top: 23.08px;
+        right: 21vw;
+        font-family: "Courier Prime";
+        font-size: 20px;
+    }
+    .mainSecEducation > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        right: 3vw;
+        top: 73px;
+        font-family: "Courier Prime";
+    }
+
+    /*========FIRST EDUCATION (BLUE)==============*/
+
+    /*education-glass-container*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(1) {
+        background: rgba(80, 41, 111, 0.41);
+        border-radius: 40px;
+        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        backdrop-filter: blur(3.9px);
+        -webkit-backdrop-filter: blur(3.9px);
+        border: 1px solid rgba(80, 41, 111, 1);
+        height: 100px;
+        position: relative;
+        top: 104px;
+        width: 96vw;
+        left: 9px;
+        /* left: 28px; */
+    }
+
+    /*container-line*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(1)::before {
+        content: "";
+        width: 1px;
+        background: 5px rgba(0, 0, 0, 0.7);
+        height: 100px;
+        position: absolute;
+        /* left: 250px; */
+        left: 32vw;
+    }
+
+    /*Date*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(1) > h3:first-child {
+        color: white;
+        position: relative;
+        top: 10px;
+        left: 25px;
+        width: 101px;
+    }
+
+    /*left-sub title*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(2) {
+        color: white;
+        font-family: "Courier Prime";
+        opacity: 0.7;
+        position: relative;
+        font-size: 13px;
+        top: 15px;
+        left: 22px;
+        text-align: center;
+        width: 88px;
+    }
+    }
+
+    /*right-Description*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
+        color: white; */
+    font-family: "Courier Prime";
+        font-size: 12px;
+        position: absolute;
+        text-align: right;
+        width: 222px;
+        top: 23px;
+        right: 13px;
+    }
+
+
+
+    /*========THIRD EDUCATION (BLUE)==============*/
+
+    /*education-glass-container*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(3) {
+        background: rgba(80, 41, 111, 0.41);
+        border-radius: 40px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.9px);
+        -webkit-backdrop-filter: blur(3.9px);
+        border: 1px solid rgba(80, 41, 111, 1);
+        height: 100px;
+        width: 96vw;
+        left: 9px;
+
+        position: relative;
+        top: 440px;
+    }
+
+    /*container-line*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(3)::before {
+        content: "";
+        width: 1px;
+        background: 5px rgba(0, 0, 0, 0.7);
+        height: 100px;
+        position: absolute;
+        left: 37vw;
+    }
+
+    /*Date*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(3) > h3:first-child {
+        color: white;
+        position: relative;
+        top: 10px;
+        left: 25px;
+        width: 101px;
+    }
+
+    /*left-sub title*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(2) {
+        color: white;
+        font-family: "Courier Prime";
+        opacity: 0.7;
+        position: relative;
+        font-size: 13px;
+        top: 30px;
+        left: 22px;
+        text-align: center;
+        width: 126px;
+    }
+
+    /*right-Description*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(3) {
+        color: white;
+        font-family: "Courier Prime";
+        font-size: 13px;
+        position: absolute;
+        text-align: right;
+        width: 247px;
+        top: 37px;
+        right: 13px;
+    }
+
+
+    /*========SECOND EDUCATION (GREEN)==============*/
+
+    /*education-glass-container*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(2) {
+        background: rgba(76, 135, 135, 0.54);
+        border-radius: 40px;
+        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        backdrop-filter: blur(6.7px);
+        -webkit-backdrop-filter: blur(6.7px);
+        border: 1px solid rgba(76, 135, 135, 1);
+        height: 100px;
+        width: 96vw;
+        left: 9px;
+        position: absolute;
+        top: 364px;
+        /*top: 298px;*/
+        /* left: 167px; */
+    }
+
+    /*container-line*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(2)::before {
+        content: "";
+        width: 1px;
+        background: 5px rgba(0, 0, 0, 0.7);
+        height: 100px;
+        position: absolute;
+        left: 33vw;
+    }
+
+    /*Date*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(2) > h3:first-child {
+        color: white;
+        position: relative;
+        top: 10px;
+        left: 25px;
+        width: 101px;
+    }
+
+    /*left-sub title*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(2) {
+        color: white;
+        font-family: "Courier Prime";
+        opacity: 0.7;
+        position: relative;
+        font-size: 13px;
+        top: 30px;
+        left: 22px;
+        text-align: center;
+        width: 120px;
+    }
+
+    /*right-Description*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(3) {
+        /*color: white;
+        font-family: "Courier Prime";
+        position: absolute;
+        width: 386px;
+        top: 27px;
+        right: 0;*/
+        color: white;
+        font-family: "Courier Prime";
+        font-size: 13px;
+        position: absolute;
+        text-align: right;
+        width: 261px;
+        top: 37px;
+        right: 13px;
+    }
+
+    /*========FOURTH EDUCATION (GREEN)==============*/
+
+    /*education-glass-container*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(4) {
+        background: rgba(76, 135, 135, 0.54);
+        border-radius: 40px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.7px);
+        -webkit-backdrop-filter: blur(6.7px);
+        border: 1px solid rgba(76, 135, 135, 1);
+        height: 100px;
+        width: 96vw;
+        left: 9px;
+
+        position: absolute;
+        top: 792px;
+        /*right: 6vw;*/
+        /*left: 100px;*/
+    }
+
+    /*container-line*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(4)::before {
+        content: "";
+        width: 1px;
+        background: 5px rgba(0, 0, 0, 0.7);
+        height: 100px;
+        position: absolute;
+        left: 37vw;
+    }
+
+    /*Date*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(4) > h3:first-child {
+        color: white;
+        position: relative;
+        top: 10px;
+        left: 25px;
+        width: 101px;
+    }
+
+    /*left-sub title*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(2) {
+        color: white;
+        font-family: "Courier Prime";
+        opacity: 0.7;
+        position: relative;
+        font-size: 13px;
+        top: 30px;
+        left: 17px;
+        text-align: center;
+        width: 126px;
+    }
+
+    /*right-Description*/
+    .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(3) {
+        color: white;
+        font-family: "Courier Prime";
+        font-size: 13px;
+        position: absolute;
+        text-align: right;
+        width: 247px;
+        top: 37px;
+        right: 13px;
+    }
+    /*=====Edu Arrow====*/
+
+    .mainSecEducation > section:nth-child(3) > div:nth-child(5) {
+        background: url(../../../images/upArrowforMobile.png) no-repeat center;
+        background-size: 100% 100%;
+        width: 30px;
+        height: 90px;
+        position: relative;
+        /* top: 3vh; */
+        top: 21.799999999999997px;
+        left: 47vw;
+    }
+
+    .mainSecEducation > section:nth-child(3) > div:nth-child(6) {
+        background: url(../../../images/upArrowforMobile.png) no-repeat center;
+        background-size: 100% 100%;
+        width: 30px;
+        height: 90px;
+        position: relative;
+        /* top: 20vh; */
+        top: 145px;
+        left: 47vw;
+    }
+
+    .mainSecEducation > section:nth-child(3) > div:nth-child(7){
+        background: url(../../../images/upArrowforMobile.png) no-repeat center;
+        background-size: 100% 100%;
+        width: 30px;
+        height: 90px;
+        position: relative;
+        /* top: 20vh; */
+        top: 271px;
+        left: 47vw;
+    }
 }
 
 /*================================== 425->Mobile -L ================================== */
