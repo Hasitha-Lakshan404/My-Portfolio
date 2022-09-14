@@ -360,7 +360,241 @@ Time :1:46 PM
 
 /*================================== 320->Mobile -S ==================================*/
 @media all and (max-width: 321px) {
+    .mainSecSkill {
+        position: relative;
+        /*background-color: #2196f3;*/
+        /*width: 99.5vw;*/
+        /*height: 155vh;*/
+        height: 1400px;
+        /*top: 50vh;*/
+        /*top:  380px;*/
+        /*top: 40vh;*/
+        left: 0;
+        margin: auto;
+        z-index: 1;
+    }
 
+    /*Left orange bar*/
+    .mainSecSkill > section:first-child > div:first-child {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 51.7vw;
+        height: 38px;
+        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background-size: 100% 100%;
+        /*background-image: url(../../../images/leftOrangeRow.png);*/
+        /*background-size: cover;*/
+        /*background-position: center;*/
+        /*border: 3px solid #CFD8DC;*/
+        /*background: #CFD8DC;*/
+
+        color: #4fc3dc;
+    }
+
+    /*Right purple bar*/
+    .mainSecSkill > section:first-child > div:nth-child(2) {
+        position: absolute;
+        top: 0.8em;
+        right: 0;
+        width: 51.7vw;
+        height: 38px;
+        background: url(../../../images/rightPurpleRow.png) no-repeat center;
+        background-size: 100% 100%;
+        /* background-image: url(../../../images/leftOrangeRow.png); */
+        /* background-size: cover; */
+        /* background-position: center; */
+        /* border: 3px solid #CFD8DC; */
+        /* background: #CFD8DC; */
+        color: #4fc3dc;
+    }
+
+    /*My Skill Title*/
+    .mainSecSkill > section:first-child > h1 {
+        position: absolute;
+        color: #FFFFFF;
+        /* top: 3vh; */
+        top: 8.8px;
+        right: 24vw;
+        font-family: "Courier Prime";
+        font-size: 20px;
+    }
+
+    /*Skill-Quote*/
+    .mainSecSkill > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 14px;
+        right: 6vw;
+        top: 63px;
+        font-family: "Courier Prime";
+        text-align: center;
+    }
+
+
+    .mainSecSkill > section:nth-child(3) {
+        position: relative;
+        top: 69px;
+        left: 5vw;
+        /* border: 3px solid #CFD8DC; */
+        /* border-radius: 100px; */
+        width: 90vw;
+        /* height: 80vh; */
+        height: 850px;
+        /* background-color: #323647; */
+        /* box-shadow: 0px 0px 0 1px white; */
+        background: rgba(50, 54, 71, 0.52);
+        border-radius: 100px;
+        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border: 1px solid rgba(50, 54, 71, 1);
+    }
+
+
+    /*===========main section of skill details*/
+    #skillTitleNames {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        position: relative;
+        align-items: center;
+        justify-content: space-around;
+        /*border: 2px solid limegreen;*/
+    }
+
+    /*All the div of Skill Details*/
+    #skillTitleNames > div {
+        /*width: 21vw;*/
+        /*height: 70vh;*/
+        /*height: 532px;*/
+        width: 100%;
+        height: 100%;
+        /*border: 2px solid #e70042;*/
+        text-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+
+    }
+
+    /*for The underline Headers*/
+    #skillTitleNames > div > h3:first-child {
+        text-decoration: underline
+    }
+
+    #skillTitleNames > div > ul > li {
+        opacity: 0.8;
+        font-family: "Space Mono";
+        position: relative;
+        padding-bottom: 10px;
+        width: 80vw;
+        left: 25px;
+
+    }
+
+    #skillLangFrameworks > div {
+        width: 35px;
+        height: 35px;
+        /*width: 24vw;*/
+        /* height: 7vh; */
+        /*height: 39.2px;*/
+        /*margin-right: 20px;*/
+        /*left: 10px;*/
+        /* border: 1px solid white; */
+    }
+
+    /*Lang & Framework*/
+    #skillLangFrameworks {
+        position: relative;
+        /* align-items: center; */
+        /* top: 51vh; */
+        /* top: 75.60000000000002px; */
+        top: 273px;
+        width: 80vw;
+        /* height: 7vh; */
+        height: 100px;
+        /* border: 1px solid white; */
+        /* display: flex; */
+        /* flex-flow: row; */
+        left: 35px;
+        /* flex-direction: row; */
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        position: relative;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    /* border: 2px solid limegreen;
+    }
+
+    #skillToolName > hr {
+        display: inline-block;
+        width: 86px;
+        margin: 10px;
+        position: relative;
+        top: 5px;
+    }
+
+
+
+    /*Tool Title*/
+    #skillToolName {
+        position: relative;
+        /* top: 56vh; */
+        top: 305.6px;
+        /* height: 100px; */
+        /* border: 1px solid white; */
+        /* display: flex; */
+        /* flex-flow: row; */
+        color: #CFD8DC;
+        font-family: Poppins;
+        font-size: 24px;
+        margin-bottom: 20px;
+        left: 56px;
+        width: 290px;
+    }
+    #skillToolName > hr {
+        display: inline-block;
+        width: 65px;
+        margin: 10px;
+        position: relative;
+        top: 5px;
+    }
+
+
+    #skillTools {
+        /*position: relative;*/
+        /* top: 55vh; */
+        top: 327px;
+        width: 94vw;
+        /* height: 7vh; */
+        height: 59.2px;
+        /* border: 1px solid white; */
+        /*display: flex;*/
+        /*flex-flow: row;*/
+        left: 47px;
+        /* height: 100px; */
+        /* border: 1px solid white; */
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        position: relative;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    #skillTools > div {
+        width: 40px;
+        /* height: 7vh; */
+        height: 40px;
+        margin-bottom: 20px;
+        /* border: 1px solid white; */
+    }
 }
 
 /*================================== 375 ->Mobile -M ==================================*/
