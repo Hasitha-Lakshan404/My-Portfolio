@@ -556,7 +556,7 @@ Time :1:46 PM
         left: 22px;
         width: 242px;
     }
-    }
+
     #skillToolName > hr {
         display: inline-block;
         width: 65px;
@@ -796,6 +796,7 @@ Time :1:46 PM
         left: 56px;
         width: 290px;
     }
+
     #skillToolName > hr {
         display: inline-block;
         width: 65px;
