@@ -375,8 +375,131 @@ Time :1:50 PM
         right: 21vw;
         font-family: "Courier Prime";
         font-size: 20px;
-
     }
+    .mainSecProject > aside:nth-child(2) > p {
+         position: absolute;
+         color: #71727D;
+         display: inline-block;
+         font-size: 15px;
+         right: 5vw;
+         text-align: center;
+         top: 93px;
+         font-family: "Courier Prime";
+     }
+
+    /*all project line*/
+    .mainSecProject > aside:nth-child(3) > hr {
+        display:none;
+        width: 25px;
+        background: black;
+        position: relative;
+        top: -3px;
+    }
+
+    .mainSecProject > aside:nth-child(3) {
+        position: relative;
+        left: 19vw;
+        /* top: 20vh; */
+        top: 114px;
+        width: 63vw;
+        color: #CFD8DC;
+        text-align: center;
+        font-size: 17px;
+        font-family: "Courier Prime";
+        display: inline-block;
+        /* height: 500px; */
+    }
+    .btn-76 {
+        /* --neon: #0ea5e9; */
+        --neon: #B026FF;
+        box-sizing: border-box;
+        display: block;
+        /* font-weight: 900; */
+        -webkit-mask-image: none;
+        outline: 4px solid #988db0;
+        font-size: 13px;
+        outline-offset: -4px;
+        overflow: hidden;
+        padding: 1.2rem 3rem;
+        position: relative;
+        /* text-transform: uppercase; */
+        text-align: center;
+        transition: 0.2s linear 0.1s;
+        width: 181px;
+        height: 60px;
+        left: 6.5vw;
+    }
+
+    /*===========ROTATE ANIMATION=======*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #animationContainer {
+        /*background: linear-gradient(to right, red, blue);*/
+        /*height: 70vh;*/
+        height: 532px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        top: 150px;
+    }
+
+    .slider {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        transform-style: preserve-3d;
+        animation: rotate 30s linear infinite;
+    }
+
+    .slider:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: perspective(1000px) rotateY(0deg);
+        }
+        100% {
+            transform: perspective(1000px) rotateY(360deg)
+        }
+    }
+
+    .slider span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: center;
+        transform-style: preserve-3d;
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
+    }
+
+    .slider span img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        transition: 2s;
+        -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #0004);
+    }
+
+    .slider span:hover img {
+        transform: translateY(-50px) scale(1.2);
+    }
+
+    /*===END ROTATE=====*/
+
 }
 
 /*================================== 768->Tablet ================================== */
