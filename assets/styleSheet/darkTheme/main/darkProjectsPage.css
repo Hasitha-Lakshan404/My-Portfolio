@@ -506,11 +506,11 @@ Time :1:50 PM
 
     #seeMoreNavButton {
         position: relative;
-        left: 20.5vw;
+        left: 15.5vw;
         /* top: 20vh; */
         top: 152px;
         margin: 0;
-        width: 246px;
+        width: 234px;
     }
 }
 
