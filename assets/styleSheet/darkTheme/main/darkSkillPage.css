@@ -479,6 +479,11 @@ Time :1:46 PM
         border: 2px solid #e70042;
         text-align: center;
         align-items: center;
+
+    }
+    /*for The underline Headers*/
+    #skillTitleNames>div>h3:first-child{
+        text-decoration: underline
     }
 
     #skillTitleNames > div > ul > li {
@@ -488,6 +493,7 @@ Time :1:46 PM
         padding-bottom: 10px;
         width: 80vw;
         left: 25px;
+
     }
 
     #skillLangFrameworks > div {
@@ -504,7 +510,8 @@ Time :1:46 PM
         position: relative;
         /* align-items: center; */
         /* top: 51vh; */
-        top: 75.60000000000002px;
+        /*top: 75.60000000000002px;*/
+        top: 300px;
         width: 93vw;
         /* height: 7vh; */
         height: 53.2px;
@@ -527,6 +534,7 @@ Time :1:46 PM
 
     /*Tool Title*/
     #skillToolName {
+        display: none;
         position: relative;
         /* top: 56vh; */
         top: 97.60000000000002px;
@@ -545,7 +553,7 @@ Time :1:46 PM
     #skillTools {
         position: relative;
         /* top: 55vh; */
-        top: 112px;
+        top: 500px;
         width: 94vw;
         /* height: 7vh; */
         height: 59.2px;
