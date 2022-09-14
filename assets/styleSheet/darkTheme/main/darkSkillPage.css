@@ -468,14 +468,6 @@ Time :1:46 PM
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
         position: relative;
-        /*margin: auto;*/
-        /*top: 30px;*/
-        /*bottom: 0;*/
-        /*left: 0;*/
-        /*right: 0;*/
-        /*height: 80vh;*/
-        /*width: 500px;*/
-        /*height: 608px;*/
         align-items: center;
         justify-content: space-around;
         border: 2px solid limegreen;
