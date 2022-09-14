@@ -343,6 +343,7 @@ Time :1:50 PM
 
 /*================================== 425->Mobile -L ================================== */
 @media all and (min-width: 377px) and (max-width: 426px) {
+
     /*Left orange bar*/
     .mainSecProject > section:first-child > div:first-child {
         background: url("../../../images/leftOrangeRow.png") no-repeat center;
@@ -499,6 +500,15 @@ Time :1:50 PM
     }
 
     /*===END ROTATE=====*/
+
+    #seeMoreNavButton {
+        position: relative;
+        left: 20.5vw;
+        /* top: 20vh; */
+        top: 152px;
+        margin: 0;
+        width: 246px;
+    }
 
 }
 
