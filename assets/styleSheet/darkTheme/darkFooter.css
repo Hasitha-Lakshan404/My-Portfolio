@@ -177,17 +177,17 @@ Time :9:47 PM
 }
 
 /*================================== 320->Mobile -S ==================================*/
-@media all and (max-width: 320px) {
+@media all and (max-width: 321px) {
 
 }
 
 /*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 321px) and (max-width: 375px) {
+@media all and (min-width: 322px) and (max-width: 376px) {
 
 }
 
 /*================================== 425->Mobile -L ================================== */
-@media all and (min-width: 376px) and (max-width: 425px) {
+@media all and (min-width: 377px) and (max-width: 426px) {
 
 }
 
