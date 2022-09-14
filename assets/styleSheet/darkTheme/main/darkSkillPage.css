@@ -359,18 +359,86 @@ Time :1:46 PM
 
 
 /*================================== 320->Mobile -S ==================================*/
-@media all and (max-width: 320px){
+@media all and (max-width: 321px){
 
 }
 
 /*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 321px) and (max-width: 375px){
+@media all and (min-width: 322px) and (max-width: 376px){
 
 }
 
 /*================================== 425->Mobile -L ================================== */
-@media all and (min-width: 376px) and (max-width: 425px){
+@media all and (min-width: 377px) and (max-width: 426px){
+    .mainSecSkill {
+        position: relative;
+        /*background-color: #2196f3;*/
+        /*width: 99.5vw;*/
+        /*height: 155vh;*/
+        height: 1130px;
+        /*top: 50vh;*/
+        /*top:  380px;*/
+        /*top: 40vh;*/
+        left: 0;
+        margin: auto;
+        z-index: 1;
+    }
 
+    /*Left orange bar*/
+    .mainSecSkill > section:first-child > div:first-child {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 51.7vw;
+        height: 38px;
+        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background-size: 100% 100%;
+        /*background-image: url(../../../images/leftOrangeRow.png);*/
+        /*background-size: cover;*/
+        /*background-position: center;*/
+        /*border: 3px solid #CFD8DC;*/
+        /*background: #CFD8DC;*/
+
+        color: #4fc3dc;
+    }
+
+    /*Right purple bar*/
+    .mainSecSkill > section:first-child > div:nth-child(2) {
+        position: absolute;
+        top: 0.8em;
+        right: 0;
+        width: 51.7vw;
+        height: 38px;
+        background: url(../../../images/rightPurpleRow.png) no-repeat center;
+        background-size: 100% 100%;
+        /* background-image: url(../../../images/leftOrangeRow.png); */
+        /* background-size: cover; */
+        /* background-position: center; */
+        /* border: 3px solid #CFD8DC; */
+        /* background: #CFD8DC; */
+        color: #4fc3dc;
+    }
+
+    /*My Skill Title*/
+    .mainSecSkill > section:first-child > h1 {
+        position: absolute;
+        color: #FFFFFF;
+        /* top: 3vh; */
+        top: 8.8px;
+        right: 24vw;
+        font-family: "Courier Prime";
+        font-size: 20px;
+    }
+    /*Skill-Quote*/
+    .mainSecSkill > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 13px;
+        right: 6vw;
+        top: 63px;
+        font-family: "Courier Prime";
+    }
 }
 
 /*================================== 768->Tablet ================================== */
