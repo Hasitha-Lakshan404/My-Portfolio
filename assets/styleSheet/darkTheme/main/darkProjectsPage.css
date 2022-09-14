@@ -343,7 +343,9 @@ Time :1:50 PM
 
 /*================================== 425->Mobile -L ================================== */
 @media all and (min-width: 377px) and (max-width: 426px) {
-
+    .mainSecProject{
+        height: 1000px;
+    }
     /*Left orange bar*/
     .mainSecProject > section:first-child > div:first-child {
         background: url("../../../images/leftOrangeRow.png") no-repeat center;
