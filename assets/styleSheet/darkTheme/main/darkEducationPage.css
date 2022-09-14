@@ -384,7 +384,7 @@ Time :1:50 PM
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) {
         background: rgba(80, 41, 111, 0.41);
         border-radius: 40px;
-        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        box-shadow: 0 4px 30px rgba(0 0 0 0.3);
         backdrop-filter: blur(3.9px);
         -webkit-backdrop-filter: blur(3.9px);
         border: 1px solid rgba(80, 41, 111, 1);
@@ -428,11 +428,11 @@ Time :1:50 PM
         text-align: center;
         width: 88px;
     }
-    }
+
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
-        color: white; */
+        color: white;
     font-family: "Courier Prime";
         font-size: 12px;
         position: absolute;
@@ -513,7 +513,7 @@ Time :1:50 PM
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) {
         background: rgba(76, 135, 135, 0.54);
         border-radius: 40px;
-        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        box-shadow: 0 4px 30px rgba(0 0 0 0.3);
         backdrop-filter: blur(6.7px);
         -webkit-backdrop-filter: blur(6.7px);
         border: 1px solid rgba(76, 135, 135, 1);
@@ -667,6 +667,7 @@ Time :1:50 PM
         top: 271px;
         left: 47vw;
     }
+
 }
 
 /*================================== 425->Mobile -L ================================== */
@@ -731,7 +732,7 @@ Time :1:50 PM
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) {
         background: rgba(80, 41, 111, 0.41);
         border-radius: 40px;
-        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        box-shadow: 0 4px 30px rgba(0 0 0 0.3);
         backdrop-filter: blur(3.9px);
         -webkit-backdrop-filter: blur(3.9px);
         border: 1px solid rgba(80, 41, 111, 1);
@@ -857,7 +858,7 @@ Time :1:50 PM
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) {
         background: rgba(76, 135, 135, 0.54);
         border-radius: 40px;
-        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        box-shadow: 0 4px 30px rgba(0 0 0 0.3);
         backdrop-filter: blur(6.7px);
         -webkit-backdrop-filter: blur(6.7px);
         border: 1px solid rgba(76, 135, 135, 1);
@@ -1081,7 +1082,7 @@ Time :1:50 PM
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) {
         background: rgba(80, 41, 111, 0.41);
         border-radius: 40px;
-        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        box-shadow: 0 4px 30px rgba(0 0 0 0.3);
         backdrop-filter: blur(3.9px);
         -webkit-backdrop-filter: blur(3.9px);
         border: 1px solid rgba(80, 41, 111, 1);
@@ -1199,7 +1200,7 @@ Time :1:50 PM
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) {
         background: rgba(76, 135, 135, 0.54);
         border-radius: 40px;
-        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        box-shadow: 0 4px 30px rgba(0 0 0 0.3);
         backdrop-filter: blur(6.7px);
         -webkit-backdrop-filter: blur(6.7px);
         border: 1px solid rgba(76, 135, 135, 1);
@@ -1406,7 +1407,7 @@ Time :1:50 PM
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) {
         background: rgba(80, 41, 111, 0.41);
         border-radius: 40px;
-        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        box-shadow: 0 4px 30px rgba(0 0 0 0.3);
         backdrop-filter: blur(3.9px);
         -webkit-backdrop-filter: blur(3.9px);
         border: 1px solid rgba(80, 41, 111, 1);
@@ -1487,7 +1488,7 @@ Time :1:50 PM
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) {
         background: rgba(76, 135, 135, 0.54);
         border-radius: 40px;
-        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        box-shadow: 0 4px 30px rgba(0 0 0 0.3);
         backdrop-filter: blur(6.7px);
         -webkit-backdrop-filter: blur(6.7px);
         border: 1px solid rgba(76, 135, 135, 1);
@@ -1527,7 +1528,7 @@ Time :1:50 PM
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) {
         background: rgba(76, 135, 135, 0.54);
         border-radius: 40px;
-        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        box-shadow: 0 4px 30px rgba(0 0 0 0.3);
         backdrop-filter: blur(6.7px);
         -webkit-backdrop-filter: blur(6.7px);
         border: 1px solid rgba(76, 135, 135, 1);
