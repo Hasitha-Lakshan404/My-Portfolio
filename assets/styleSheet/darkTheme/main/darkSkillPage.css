@@ -497,29 +497,39 @@ Time :1:46 PM
     }
 
     #skillLangFrameworks > div {
-        width: 24vw;
+        width: 100%;
+        height: 100%;
+        /*width: 24vw;*/
         /* height: 7vh; */
-        height: 39.2px;
-        margin-right: 20px;
-        left: 10px;
+        /*height: 39.2px;*/
+        /*margin-right: 20px;*/
+        /*left: 10px;*/
         /* border: 1px solid white; */
     }
 
     /*Lang & Framework*/
     #skillLangFrameworks {
-        position: relative;
+        /*position: relative;*/
         /* align-items: center; */
         /* top: 51vh; */
         /*top: 75.60000000000002px;*/
         top: 300px;
-        width: 93vw;
+        width: 90vw;
         /* height: 7vh; */
-        height: 53.2px;
+        height:100px;
         /* border: 1px solid white; */
-        display: flex;
-        flex-flow: row;
+        /*display: flex;*/
+        /*flex-flow: row;*/
         left: 7px;
-        flex-direction: row;
+        /*flex-direction: row;*/
+
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        position: relative;
+        align-items: center;
+        justify-content: space-around;
+        border: 2px solid limegreen;
     }
 
     #skillToolName > hr {
