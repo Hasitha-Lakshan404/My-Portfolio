@@ -327,14 +327,14 @@ main {
         width: 35px;
         height: 35px;
         position: absolute;
-        top: 540px;
-        right: 72vw;
+        top: 355px;
+        right: 77vw;
         z-index: 1;
     }
 
     .inst {
         position: absolute;
-        top: 542px;
+        top: 359px;
         right: 60vw;
         width: 30px;
         height: 30px;
@@ -343,8 +343,8 @@ main {
 
     .whatsapp {
         position: absolute;
-        top: 539px;
-        right: 48vw;
+        top: 355px;
+        right: 43vw;
         width: 35px;
         height: 35px;
         z-index: 1;
@@ -352,8 +352,8 @@ main {
 
     .linkedIn {
         position: absolute;
-        top: 540px;
-        right: 36vw;
+        top: 355px;
+        right: 27vw;
         width: 35px;
         height: 35px;
         z-index: 1;
@@ -361,8 +361,8 @@ main {
 
     .twitter {
         position: absolute;
-        top: 542px;
-        right: 24vw;
+        top: 355px;
+        right: 10vw;
         width: 35px;
         height: 35px;
         z-index: 1;
@@ -433,7 +433,7 @@ main {
     .btnContactMe {
         position: absolute;
         /* top: 62.5vh; */
-        top: 354px;
+        top: 464px;
         left: 92px;
         z-index: 1;
         background-color: #323647;
