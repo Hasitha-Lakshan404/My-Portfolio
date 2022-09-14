@@ -415,7 +415,7 @@ Time :1:46 PM
         color: #FFFFFF;
         /* top: 3vh; */
         top: 8.8px;
-        right: 24vw;
+        right: 16vw;
         font-family: "Courier Prime";
         font-size: 20px;
     }
@@ -517,7 +517,7 @@ Time :1:46 PM
         /* border: 1px solid white; */
         /* display: flex; */
         /* flex-flow: row; */
-        left: 35px;
+        left: 25px;
         /* flex-direction: row; */
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -553,8 +553,9 @@ Time :1:46 PM
         font-family: Poppins;
         font-size: 24px;
         margin-bottom: 20px;
-        left: 56px;
-        width: 290px;
+        left: 22px;
+        width: 242px;
+    }
     }
     #skillToolName > hr {
         display: inline-block;
