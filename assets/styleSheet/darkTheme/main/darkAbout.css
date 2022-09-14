@@ -547,12 +547,12 @@ Time :1:22 PM
         height: 1500px;
         display: flex;
         flex-direction: column;
-        border: 1px solid green;
+        /*border: 1px solid green;*/
 
     }
     .mainSecAbout > section {
         height: 100%;
-        border: 2px solid green;
+        /*border: 2px solid green;*/
     }
 
     .mainSecAbout > section:first-child > div:first-child {
@@ -602,7 +602,7 @@ Time :1:22 PM
     }
 
     #aboutLangFlex > div:nth-child(1) {
-        border: 1px solid #6f88e8;
+        /*border: 1px solid #6f88e8;*/
         /*width: 70%;*/
         /*height: 100%;*/
     }
@@ -758,23 +758,19 @@ Time :1:22 PM
     }
 
     #tel {
-        display:block ;
+        display: block;
         padding-right: 10px;
         font-size: 1rem;
-
         position: relative;
-        /*width: 100px;*/
-        /*height: 31px;*/
-        /*left: 45vw;*/
-        /*top: 2030px;*/
-
+        /* width: 100px; */
+        /* height: 31px; */
+        /* left: 45vw; */
+        top: 31px;
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
-        /*!*font-size: 20px;*!*/
         line-height: 31px;
         margin-right: 20px;
-
         color: #FDF9F9;
     }
 
@@ -784,7 +780,7 @@ Time :1:22 PM
         position: relative;
         width: 150px;
         /* height: 31px; */
-        left: 23vw;
+        left: 26vw;
         top: -60px;
         font-family: 'Space Mono';
         font-style: normal;
