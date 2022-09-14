@@ -423,8 +423,8 @@ main {
     .fullStackDev {
         position: absolute;
         /* top: 55vh; */
-        top: 295px;
-        left: 16vw;
+        top: 301px;
+        left: 10vw;
         z-index: 1;
         color: #4AB29B;
         font-size: 25px;
@@ -435,7 +435,7 @@ main {
         position: absolute;
         /* top: 62.5vh; */
         top: 344px;
-        left: 110px;
+        left: 88px;
         z-index: 1;
         background-color: #323647;
         border: 2px solid #8086F1;
