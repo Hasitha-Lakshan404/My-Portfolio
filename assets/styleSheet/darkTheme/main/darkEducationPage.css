@@ -462,7 +462,7 @@ Time :1:50 PM
         left: 9px;
 
         position: relative;
-        top: 500px;
+        top: 440px;
     }
 
     /*container-line*/
@@ -472,7 +472,7 @@ Time :1:50 PM
         background: 5px rgba(0, 0, 0, 0.7);
         height: 100px;
         position: absolute;
-        left: 26vw;
+        left: 37vw;
     }
 
     /*Date*/
@@ -489,19 +489,23 @@ Time :1:50 PM
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
-        top: 15px;
-        left: 40px;
-        width: 180px;
+        font-size: 13px;
+        top: 30px;
+        left: 22px;
+        text-align: center;
+        width: 126px;
     }
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(3) {
         color: white;
         font-family: "Courier Prime";
+        font-size: 13px;
         position: absolute;
-        width: 452px;
+        text-align: right;
+        width: 247px;
         top: 37px;
-        right: 0;
+        right: 13px;
     }
 
 
@@ -519,7 +523,7 @@ Time :1:50 PM
         width: 96vw;
         left: 9px;
         position: absolute;
-        top: 400px;
+        top: 364px;
         /*top: 298px;*/
         /* left: 167px; */
     }
@@ -588,7 +592,7 @@ Time :1:50 PM
         left: 9px;
 
         position: absolute;
-        top: 763px;
+        top: 792px;
         /*right: 6vw;*/
         /*left: 100px;*/
     }
@@ -600,7 +604,7 @@ Time :1:50 PM
         background: 5px rgba(0, 0, 0, 0.7);
         height: 100px;
         position: absolute;
-        left: 20vw;
+        left: 37vw;
     }
 
     /*Date*/
@@ -617,42 +621,57 @@ Time :1:50 PM
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
-        top: 25px;
-        left: 40px;
-        width: 200px;
+        font-size: 13px;
+        top: 30px;
+        left: 17px;
+        text-align: center;
+        width: 126px;
     }
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(3) {
         color: white;
         font-family: "Courier Prime";
+        font-size: 13px;
         position: absolute;
-        width: 395px;
-        top: 29px;
-        right: 0;
+        text-align: right;
+        width: 247px;
+        top: 37px;
+        right: 13px;
     }
     /*=====Edu Arrow====*/
 
     .mainSecEducation > section:nth-child(3) > div:nth-child(5) {
         background: url(../../../images/upArrowforMobile.png) no-repeat center;
         background-size: 100% 100%;
-        width: 63px;
-        height: 113px;
+        width: 30px;
+        height: 90px;
         position: relative;
         /* top: 3vh; */
-        top: 39.8px;
-        left: 9.399999999999999vw;
+        top: 21.799999999999997px;
+        left: 47vw;
     }
 
     .mainSecEducation > section:nth-child(3) > div:nth-child(6) {
-        background: url("../../../images/upArrowforMobile.png") no-repeat center;
+        background: url(../../../images/upArrowforMobile.png) no-repeat center;
         background-size: 100% 100%;
-        width: 63px;
-        height: 113px;
+        width: 30px;
+        height: 90px;
         position: relative;
-        /*top:20vh;*/
-        top: 231px;
-        left: 9.399999999999999vw;
+        /* top: 20vh; */
+        top: 145px;
+        left: 47vw;
+    }
+
+    .mainSecEducation > section:nth-child(3) > div:nth-child(7){
+        background: url(../../../images/upArrowforMobile.png) no-repeat center;
+        background-size: 100% 100%;
+        width: 30px;
+        height: 90px;
+        position: relative;
+        /* top: 20vh; */
+        top: 271px;
+        left: 47vw;
     }
 
 }
