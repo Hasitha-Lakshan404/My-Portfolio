@@ -44,6 +44,27 @@ Time :9:47 PM
     transform: rotate(180deg);
 }
 
+/*contact desc*/
+#contactOnlineDescription > h2:nth-child(1) {
+    color: #FFFFFF;
+    font-family: 'Courier Prime';
+    font-style: normal;
+    position: relative;
+    left: 30px;
+    margin: 3.5vh 0 3.5vh 0;
+    opacity: 1;
+}
+
+/*online des*/
+#contactOnlineDescription > p:nth-child(2) {
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-family: 'Space Mono';
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    width: 30vw;
+}
 
 /*===========MIDDLE============*/
 
@@ -188,6 +209,14 @@ Time :9:47 PM
 
 /*================================== 425->Mobile -L ================================== */
 @media all and (min-width: 377px) and (max-width: 426px) {
+    .footer {
+        position: relative;
+        /*height: 66vh;*/
+        height: 600px;
+        /*border: 1px solid white;*/
+    }
+
+
     .footer > section:nth-child(1) > div:nth-child(1) > h3 {
         position: absolute;
         /* top: 3.7vh; */
@@ -206,22 +235,127 @@ Time :9:47 PM
         transform: rotate(180deg);
     }
 
+    /*===========MIDDLE============*/
+    /*center*/
+    .footer > section:nth-child(2) {
+        /*height: 50vh;*/
+        height: 100%;
+        background: #051622;
+        display: flex;
+        flex-flow: column;
+    }
+
+    /*footer middle flex div*/
+    .footer > section:nth-child(2) > div {
+        width: 100%;
+        height: 100%;
+        border: 1px solid white;
+    }
+
+    .footer > section:nth-child(2) > div:nth-child(2) {
+        width: 100%;
+        height: 90%;
+        /*border: 1px solid white;*/
+    }
+
+    /*contact desc*/
+    #contactOnlineDescription > h2:nth-child(1) {
+        color: #FFFFFF;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        position: relative;
+        left: 10px;
+        margin: 3.5vh 0 3.5vh 0;
+        opacity: 1;
+    }
+
+    /*online des*/
+    #contactOnlineDescription > p:nth-child(2) {
+        color: #FFFFFF;
+        opacity: 0.7;
+        font-family: 'Space Mono';
+        display: inline-block;
+        position: relative;
+        left: 10px;
+        width: 91vw;
+    }
+
+    /*===middle-left====*/
+    /*left details container*/
+    #footerMiddleLeftSide {
+        color: #FFFFFF;
+        font-family: "Roboto";
+        font-style: normal;
+        /*margin-top: 10vh;*/
+        margin-top: 40px;
+    }
+
+    #footerMiddleLeftSide > ul > li {
+        margin-bottom: 10px;
+    }
+
+    /*Anchor*/
+    #footerMiddleLeftSide > ul > li > a {
+        color: white;
+    }
+
+    #footerMiddleLeftSide > ul > li > a:hover {
+        color: #BA903A;
+    }
+
+    /*===footer middle right===*/
+    /*flex container*/
     #footerRightIcon {
         display: flex;
         flex-flow: row;
-        margin-left: 0.40000000000000036vw;
+        margin-left: 5.4vw;
     }
-    #footerMiddleLeftSide>ul>li{
-        font-size: 0.9em;
-    }
-    .footer > section:nth-child(3) > h5 {
-        position: relative;
+
+    #contactMeEmail {
         display: inline-block;
-        /* top: 2vh; */
-        top: 15.2px;
-        left: 24.5vw;
-        opacity: 0.6;
-        /* text-align: center; */
+        position: relative;
+        left: 14px;
+    }
+
+    #contactMeEmailMe {
+        display: inline-block;
+        position: relative;
+        left: 20px;
+        top: 1px;
+    }
+
+    /*flex child*/
+    #footerRightIcon > div {
+        /*display: inline-block;*/
+        /*border: 1px solid white;*/
+        width: 7.5vw;
+        height: 7.5vw;
+        margin-left: 25px;
+    }
+
+    #footerRightIcon > div:nth-child(1) {
+        background: url("../../images/github1.png") no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    #footerRightIcon > div:nth-child(2) {
+        background: url("../../images/Instagram.png") no-repeat center;
+        background-size: 90% 90%;
+    }
+
+    #footerRightIcon > div:nth-child(3) {
+        background: url("../../images/twitter1.png") no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    #footerRightIcon > div:nth-child(4) {
+        background: url("../../images/in.png") no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    #footerRightIcon > div:nth-child(5) {
+        background: url("../../images/whatsapp.png") no-repeat center;
+        background-size: 95% 95%;
     }
 }
 
@@ -250,9 +384,11 @@ Time :9:47 PM
         flex-flow: row;
         margin-left: 0.40000000000000036vw;
     }
-    #footerMiddleLeftSide>ul>li{
+
+    #footerMiddleLeftSide > ul > li {
         font-size: 0.9em;
     }
+
     .footer > section:nth-child(3) > h5 {
         position: relative;
         display: inline-block;
@@ -291,6 +427,7 @@ Time :9:47 PM
         display: inline-block;
         margin: 3.5vh 0 3.5vh 0;
     }
+
     #footerRightIcon {
         display: flex;
         flex-flow: row;
