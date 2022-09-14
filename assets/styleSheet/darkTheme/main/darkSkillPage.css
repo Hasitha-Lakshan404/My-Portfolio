@@ -370,7 +370,7 @@ Time :1:46 PM
         /*background-color: #2196f3;*/
         /*width: 99.5vw;*/
         /*height: 155vh;*/
-        height: 1000px;
+        height: 1500px;
         /*top: 50vh;*/
         /*top:  380px;*/
         /*top: 40vh;*/
@@ -429,10 +429,11 @@ Time :1:46 PM
         position: absolute;
         color: #71727D;
         display: inline-block;
-        font-size: 13px;
+        font-size: 14px;
         right: 6vw;
         top: 63px;
         font-family: "Courier Prime";
+        text-align: center;
     }
 
 
@@ -444,7 +445,7 @@ Time :1:46 PM
         /* border-radius: 100px; */
         width: 90vw;
         /* height: 80vh; */
-        height: 608px;
+        height: 778px;
         /* background-color: #323647; */
         /* box-shadow: 0px 0px 0 1px white; */
         background: rgba(50, 54, 71, 0.52);
@@ -460,7 +461,7 @@ Time :1:46 PM
     /*===========main section of skill details*/
     #skillTitleNames {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(2,1fr);
         position: relative;
         align-items: center;
@@ -476,6 +477,8 @@ Time :1:46 PM
         width: 100%;
         height: 100%;
         border: 2px solid #e70042;
+        text-align: center;
+        align-items: center;
     }
 
     #skillTitleNames > div > ul > li {
@@ -483,7 +486,7 @@ Time :1:46 PM
         font-family: "Space Mono";
         position: relative;
         padding-bottom: 10px;
-        width: 20vw;
+        width: 80vw;
         left: 25px;
     }
 
