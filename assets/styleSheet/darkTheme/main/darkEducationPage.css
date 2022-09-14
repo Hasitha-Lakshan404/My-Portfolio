@@ -399,7 +399,7 @@ Time :1:50 PM
         height: 100px;
         position: absolute;
         /* left: 250px; */
-        left: 32vw;
+        left: 39vw;
     }
 
     /*Date*/
@@ -432,7 +432,7 @@ Time :1:50 PM
         font-size: 12px;
         position: absolute;
         text-align: right;
-        width: 222px;
+        width: 191px;
         top: 23px;
         right: 13px;
     }
@@ -528,7 +528,7 @@ Time :1:50 PM
         background: 5px rgba(0, 0, 0, 0.7);
         height: 100px;
         position: absolute;
-        left: 33vw;
+        left: 43vw;
     }
 
     /*Date*/
@@ -560,8 +560,8 @@ Time :1:50 PM
         font-size: 13px;
         position: absolute;
         text-align: right;
-        width: 227px;
-        top: 27px;
+        width: 175px;
+        top: 21px;
         right: 13px;
     }
 
