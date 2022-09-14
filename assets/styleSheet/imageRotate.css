@@ -202,12 +202,17 @@ body {
 
 /*================================== 320->Mobile -S ==================================*/
 @media all and (max-width: 321px){
-    .card {
-        position: relative;
-        /*width: 378px;*/
-        /* height: 100px; */
-        /*top: 23px;*/
-        left:-2vw;
+    .card__content {
+        display: none;
+    }
+    .card{
+        border-radius: 20px;
+        width: 50vw;
+        height: 200px;
+        background:url("../images/imgme.jpg")no-repeat center;
+        background-size: 100% 100%;
+        background-blend-mode: multiply;
+        align-items: center;
     }
 }
 /*================================== 375 ->Mobile -M ==================================*/
