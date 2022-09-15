@@ -1041,12 +1041,12 @@ Time :1:22 PM
         height: 1500px;
         display: flex;
         flex-direction: column;
-        border: 1px solid green;
+        /*border: 1px solid green;*/
 
     }
     .mainSecAbout > section {
         height: 100%;
-        border: 2px solid green;
+        /*border: 2px solid green;*/
     }
 
     .mainSecAbout > section:first-child > div:first-child {
@@ -1096,7 +1096,7 @@ Time :1:22 PM
     }
 
     #aboutLangFlex > div:nth-child(1) {
-        border: 1px solid #6f88e8;
+        /*border: 1px solid #6f88e8;*/
         /*width: 70%;*/
         /*height: 100%;*/
     }
