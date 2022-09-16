@@ -665,7 +665,7 @@ Time :1:50 PM
 }
 
 /*================================== 375 ->Mobile -M ==================================*/
-@media all and (min-width: 322px) and (max-width: 375px) {
+@media all and (min-width: 322px) and (max-width: 376px) {
     .mainSecEducation {
         /*background-color: #088d12;*/
         position: relative;
@@ -1011,6 +1011,9 @@ Time :1:50 PM
     }
 
 }
+
+
+
 
 /*================================== 425->Mobile -L ================================== */
 @media all and (min-width: 377px) and (max-width: 426px) {

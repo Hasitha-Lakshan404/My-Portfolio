@@ -331,6 +331,26 @@ Time :1:50 PM
     width: 350px;
 }
 
+
+/*=====FOR THE ASSIGNMENTS======*/
+
+#assignment-Section{
+    height: 950px;
+}
+
+/*Assignment Description*/
+#assignment-Section>aside:nth-child(3){
+    text-align: center;
+    width: 61vw;
+}
+/*assignment Name*/
+#assignment-Section>section:nth-child(1)>h1:nth-child(3){
+    position: absolute;
+    right: 34vw;
+}
+
+
+
 /*================================== 320->Mobile -S ==================================*/
 @media all and (max-width: 321px) {
     body{
@@ -506,6 +526,14 @@ Time :1:50 PM
         margin: 0;
         width: 344px;
     }
+
+
+    /*assignment Name*/
+    #assignment-Section>section:nth-child(1)>h1:nth-child(3){
+        position: absolute;
+        right: 5vw;
+    }
+
 }
 
 /*================================== 375 ->Mobile -M ==================================*/
@@ -684,6 +712,18 @@ Time :1:50 PM
         margin: 0;
         width: 234px;
     }
+
+    /*Assignment Description*/
+    #assignment-Section>aside:nth-child(3){
+        text-align: center;
+        width: 61vw;
+    }
+    /*assignment Name*/
+    #assignment-Section>section:nth-child(1)>h1:nth-child(3){
+        position: absolute;
+        right: 10vw;
+    }
+
 }
 
 /*================================== 425->Mobile -L ================================== */
@@ -863,6 +903,14 @@ Time :1:50 PM
         width: 246px;
     }
 
+
+    /*assignment Name*/
+    #assignment-Section>section:nth-child(1)>h1:nth-child(3){
+        position: absolute;
+        right: 15vw;
+    }
+
+
 }
 
 /*================================== 768->Tablet ================================== */
@@ -946,6 +994,8 @@ Time :1:50 PM
         font-family: "Courier Prime";
         display: inline-block;
         /* height: 500px; */
+        text-align: center;
+
     }
 
     .btn-76 {
@@ -987,6 +1037,22 @@ Time :1:50 PM
         margin: 3.5vh 0 3.5vh 0;
         width: 150px;
     }
+
+
+    /*assignment Name*/
+    #assignment-Section>section:nth-child(1)>h1:nth-child(3){
+        position: absolute;
+        right: 28vw;
+    }
+
+    /*Assignment Description*/
+    #assignment-Section>aside:nth-child(3)>p:nth-child(1){
+        text-align: center;
+        position: relative;
+        left: 10vw;
+        width: 75vw;
+    }
+
 
 }
 
@@ -1054,12 +1120,13 @@ Time :1:50 PM
         left: 11vw;
         /* top: 20vh; */
         top: 137px;
-        width: 94vw;
+        width: 80vw;
         color: #CFD8DC;
         font-size: 20px;
         font-family: "Courier Prime";
         display: inline-block;
         /* height: 500px; */
+        text-align: center;
     }
 
     .mainSecProject > aside:nth-child(3) > hr {
@@ -1082,6 +1149,15 @@ Time :1:50 PM
     .projectBtnRepo {
         width: 100px;
     }
+
+    /*Assignment Description*/
+    #assignment-Section>aside:nth-child(3)>p:nth-child(1){
+        text-align: center;
+        position: relative;
+        left: 2vw;
+        width: 75vw;
+    }
+
 
 }
 
@@ -1139,6 +1215,12 @@ Time :1:50 PM
         height: 50px;
         left: 18vw;
     }
+    #assignment-Section>aside:nth-child(3){
+        text-align: center;
+    }
+
+
+
 }
 
 /* ================================== 4K ================================== */
@@ -1147,8 +1229,5 @@ Time :1:50 PM
 }
 
 
-#assignment-Section{
-    height: 950px;
-}
 
 
