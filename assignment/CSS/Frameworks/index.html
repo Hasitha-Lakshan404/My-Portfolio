@@ -86,10 +86,59 @@
                 </form>
             </div>
 
-            <!--Order Detail Row -->
+            <!--Order Detail Title Row -->
             <div class="p-3 rounded-3  bg-primary text-light fw-bolder mt-4">Order Details</div>
 
+            <!--Order Detail Body-->
+            <div class="px-3 rounded-3 mt-4 p-3 border mb-lg-0 mb-sm-4 mb-4 shadow-sm" >
+                <!--First Row-->
+                <div class="row gx-3">
+                    <div class="col-5 col-lg col-sm-6 ">
+                        <div class="mb-4">
+                            <label for="orderId" class="form-label">Order ID</label>
+                            <input type="text" class="form-control" id="orderId" placeholder="O001" disabled>
+                        </div>
+                    </div>
+                    <div class="col-7 col-lg  col-sm-6">
+                        <div class="mb-4">
+                            <label for="OrderDate" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="OrderDate" disabled>
+                        </div>
+                    </div>
 
+                    <div class="col col-lg col-sm-12 ">
+                        <div class="mb-4">
+                            <label for="customerName" class="form-label">Customer Name</label>
+                            <input type="text" class="form-control" id="customerName" placeholder="Dasun" disabled>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Second Row-->
+                <div class="row gx-3">
+                    <div class="col">
+                        <div class="mb-2">
+                            <label for="discount" class="form-label">Discount</label>
+                            <input type="text" class="form-control" id="discount" placeholder="00.00" disabled>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-2">
+                            <label for="cost" class="form-label">Cost</label>
+                            <input type="text" class="form-control" id="cost" placeholder="0000.00" disabled>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Third Row/Button-->
+                <div class="row">
+                    <div class=" gap-2 d-flex justify-content-center justify-content-md-end justify-content-sm-center  mt-4">
+                        <button type="button" class="btn btn-secondary">Clear</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </section>
