@@ -4,3 +4,10 @@
 </div>
 
 <H3>01.Home view</H3>
+<img src="../../../assignment/CSS/Frameworks/asserts/images/Fullsite/home1.png">
+<img src="../../../assignment/CSS/Frameworks/asserts/images/Fullsite/Home2.png"><br><br>
+
+
+<H3>02.Order Form</H3>
+<img src="../../../assignment/CSS/Frameworks/asserts/images/Fullsite/order1.png">
+<img src="../../../assignment/CSS/Frameworks/asserts/images/Fullsite/order2.png">
