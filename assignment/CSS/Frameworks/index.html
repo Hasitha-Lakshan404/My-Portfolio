@@ -54,17 +54,43 @@
 <!--Site Body-->
 <main class="container position-relative">
 
+    <!--Head/Dashboard Title-->
     <div>
         <div class="row ">
-
+            <div class="p-1 px-3 rounded-1 fw-bolder text-light fs-3 mt-4 shadow-sm" style="background-color: #264259"><i class="fas fa-shopping-cart me-2"></i>
+                Order
+            </div>
         </div>
     </div>
+
+
+    <!--Main Dashboard-->
+    <section>
+
+        <div class="row">
+            <!--Selector field-->
+            <div class="col-5 col-sm-3 col-lg-2">
+                <select class="form-select form-select-ls mt-4" aria-label=".form-select-lg example">
+                    <option selected>ID</option>
+                    <option value="1">Name</option>
+                    <option value="2">Date</option>
+                </select>
+            </div>
+
+            <!--Search bar with button-->
+            <div class="col-12 col-sm-9 col-lg-10">
+                <form class="d-flex mt-3 mt-sm-4">
+                    <input class="form-control me-2" type="search" placeholder="Search Item" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
 
 </main>
 
 
-<!--Site Footer-->
-<footer></footer>
 
 </body>
 <script src="../Frameworks/asserts/bootstrap/js/bootstrap.min.js"></script>
