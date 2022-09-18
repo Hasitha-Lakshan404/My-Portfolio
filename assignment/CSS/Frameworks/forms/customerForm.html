@@ -85,9 +85,28 @@
 
             <!--Add Customer Button and Open Add Window-->
             <div class="col-xl col-lg col-sm-12 col-md-4 d-grid justify-content-md-end">
+
+                <!--Button-->
                 <button type="button" class="btn btn-primary mt-4 d-grid  col-6 col-md-12 col-sm-6 mx-auto" data-bs-toggle="modal"
                         data-bs-target="#addItemModal">+Add Customer</button>
 
+
+                <!--fade Container-->
+                <div class="modal fade" id="addItemModal" tabindex="-1" aria-labelledby="addItemModalLabel" aria-hidden="true">
+                    <div class="modal-dialog-centered modal-dialog">
+
+                        <!--Main message Container-->
+                        <div class="modal-content">
+
+                            <!--Message Header-->
+                            <div class="modal-header bg-success text-light">
+                                <h5 class="modal-title " id="addItemModalLabel">Add New Customer</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
