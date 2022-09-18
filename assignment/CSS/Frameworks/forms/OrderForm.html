@@ -174,6 +174,59 @@
                 <div class="col-xl col-lg-5 col-sm-6">
                     <!--Title-->
                     <div class="p-3 rounded-3  text-light fw-bolder " style="background-color: #264259">Payment Details</div>
+
+                    <!--Container-->
+                    <div class="px-3 rounded-3 mt-4 p-3 border shadow-sm">
+                        <div class="row px-lg-0 px-xxl-4 px-sm-5 mt-0 mt-lg-2 mt-xl-1 mt-xxl-3 ">
+                            <div class="col-5">
+                                <div class="mb-2 mb-lg-3 mb-xxl-3">
+                                    <label for="total" class="form-label fs-5">Total(RS)</label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-2">
+                                    <input type="number" readonly class="form-control p-1 fs-6 fw-bolder " id="total" value="00000.00">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row px-lg-0 px-sm-5 px-xxl-4">
+                            <div class="col-5">
+                                <div class="mb-2">
+                                    <label for="subTotal" class="form-label fs-5">Sub Total(RS)</label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-2">
+                                    <input type="number" readonly class="form-control p-1 fs-6 fw-bolder " id="subTotal" value="00000.00">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row gx-3 mt-4">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="cash" class="form-label">Cash</label>
+                                    <input type="text" class="form-control" id="cash" placeholder="0000.00">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-3 mb-xxl-4" >
+                                    <label for="discount" class="form-label">Discount</label>
+                                    <input type="number" class="form-control" id="discount" placeholder="10">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="mb-3 mb-xl-5 mb-xxl-4">
+                                <label for="balance" class="form-label">Balance</label>
+                                <input type="text" class="form-control" id="balance" placeholder="0000.00">
+                            </div>
+                            <div class="mt-1 d-grid col-6 mt-xl-2 mx-auto">
+                                <button type="button" class="btn btn-primary">Purchase</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 
