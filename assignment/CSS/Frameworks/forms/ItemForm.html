@@ -151,6 +151,51 @@
         <div class="p-3 rounded-3  text-light fw-bolder mt-4" style="background-color: #264259">Item Details</div>
 
 
+        <!--Item Detail Body-->
+        <div class="px-3 rounded-3 mt-4 p-3 border mb-lg-0 mb-sm-4 mb-4 shadow-sm">
+
+            <!--First Row-->
+            <div class="row gx-3">
+                <!--Item-->
+                <div class="col-5 col-sm-5 col-lg">
+                    <div class="mb-4">
+                        <label class="form-label" for="itemId">Item Code</label>
+                        <input class="form-control" disabled id="itemId" placeholder="P001" type="text">
+                    </div>
+                </div>
+                <!--Name-->
+                <div class="col-7 col-sm-7 col-lg">
+                    <div class="mb-4">
+                        <label class="form-label" for="itemName">Name</label>
+                        <input class="form-control" disabled id="itemName" placeholder="Sunlight" type="text">
+                    </div>
+                </div>
+                <!--QTY-->
+                <div class="col col-lg">
+                    <div class="mb-2">
+                        <label class="form-label" for="qtyOnHand">Quantity</label>
+                        <input class="form-control" disabled id="qtyOnHand" placeholder="00" type="number">
+                    </div>
+                </div>
+                <!--UP-->
+                <div class="col col-lg">
+                    <div class="mb-2">
+                        <label class="form-label" for="price">Unit Price</label>
+                        <input class="form-control" disabled id="price" placeholder="0000.00" type="text">
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Second Row/Buttons-->
+            <div class="row">
+                <div class=" gap-2 d-flex justify-content-center justify-content-md-end justify-content-sm-center  mt-4 mt-lg-2">
+                    <button class="btn btn-secondary" type="button">Clear</button>
+                    <button class="btn btn-danger" type="button">Delete</button>
+                    <button class="btn btn-primary" type="button">Update</button>
+                </div>
+            </div>
+        </div>
     </section>
 
 
