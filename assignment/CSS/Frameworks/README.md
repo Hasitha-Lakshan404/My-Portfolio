@@ -10,4 +10,9 @@
 
 <H3>02.Order Form</H3>
 <img src="../../../assignment/CSS/Frameworks/asserts/images/Fullsite/order1.png">
-<img src="../../../assignment/CSS/Frameworks/asserts/images/Fullsite/order2.png">
+<img src="../../../assignment/CSS/Frameworks/asserts/images/Fullsite/order2.png"><br><br>
+
+
+<H3>02.Customer Form</H3>
+<img src="../../../assignment/CSS/Frameworks/asserts/images/Fullsite/cusMobi1.png">
+<img src="../../../assignment/CSS/Frameworks/asserts/images/Fullsite/cusMobi2.png">
