@@ -70,8 +70,10 @@
 
                 <!--First Column-->
                 <div class="col-xl col-lg-5 col-sm-6">
+                    <!--Title-->
                     <div class="p-3 rounded-3 text-light fw-bolder" style="background-color: #264259">Invoice Details</div>
 
+                    <!--Container-->
                     <div class="rounded-3 mt-4 p-3 border mb-lg-0 mb-sm-4 mb-4 shadow-sm">
                         <div class="row gx-3">
                             <div class="col">
@@ -120,12 +122,57 @@
 
                 <!--Second Column-->
                 <div class="col-xl col-lg-5 col-sm-6">
+                    <!--Title-->
                     <div class="p-3 rounded-3  text-light fw-bolder " style="background-color: #264259">Item Details</div>
+
+                    <!--Container-->
+                    <div class="px-3 rounded-3 mt-4 p-3 border mb-lg-0 mb-sm-4 mb-4 shadow-sm">
+                        <div class="row gx-3">
+                            <div class="col">
+                                <div class="mb-4">
+                                    <label for="itemId" class="form-label">Item ID</label>
+                                    <select class="form-select form-select-ls" id="itemId" aria-label=".form-select-lg example">
+                                        <option selected>P001</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-4">
+                                    <label for="item" class="form-label">Item</label>
+                                    <input type="text" class="form-control" id="item" placeholder="Sunlight">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-3">
+                            <div class="col">
+                                <div class="mb-4">
+                                    <label for="price" class="form-label">Price</label>
+                                    <input type="text" class="form-control" id="price" placeholder="0000.00">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-5">
+                                    <label for="qtyOnHand" class="form-label">QyOnHand</label>
+                                    <input type="number" class="form-control" id="qtyOnHand" placeholder="10">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="mb-lg-2 mb-md-2 mb-sm-5">
+                                <label for="orderQty" class="form-label">Order Quantity</label>
+                                <input type="number" class="form-control" id="orderQty" placeholder="00">
+                            </div>
+                            <div class="mt-5 d-grid  col-6 mx-auto">
+                                <button type="button" class="btn btn-primary">Add Item</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 
                 <!--Third Column-->
                 <div class="col-xl col-lg-5 col-sm-6">
+                    <!--Title-->
                     <div class="p-3 rounded-3  text-light fw-bolder " style="background-color: #264259">Payment Details</div>
                 </div>
 
