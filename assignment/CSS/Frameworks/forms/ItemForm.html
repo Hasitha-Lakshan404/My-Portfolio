@@ -17,7 +17,8 @@
         <nav class="navbar navbar-expand-lg bg-light" style="background-color: #e3f2fd;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
-                <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler"
                         data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -42,7 +43,8 @@
             <!--Added Main Header-->
             <div class="container-fluid">
                 <a class="navbar-brand fw-bold  fs-3" href="#">
-                    <img alt="Logo" class="fas fa-balance-scale-right  fs-3 me-2" height="35" src="../../Frameworks/asserts/images/ppCC.png"
+                    <img alt="Logo" class="fas fa-balance-scale-right  fs-3 me-2" height="35"
+                         src="../../Frameworks/asserts/images/ppCC.png"
                          width="55">
                     POS System
                 </a>
@@ -67,10 +69,87 @@
     <!--Item Main-->
     <section>
 
+        <div class="row">
+
+            <!--Selector Field-->
+            <div class="col-5 col-xl-2 col-sm-3 col-md-2 col-lg-2">
+                <select aria-label=".form-select-lg example" class="form-select form-select-ls  mt-4">
+                    <option selected>ID</option>
+                    <option value="1">Code</option>
+                </select>
+            </div>
+
+            <!--Search Bar with Button-->
+            <div class="col-12 col-xl col-sm-9 col-md-6 col-lg">
+                <form class="d-flex mt-3 mt-sm-4 mt-lg-4">
+                    <input aria-label="Search" class="form-control me-2" placeholder="Search Item" type="search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+
+            <!--Add Item Button and Open Add Window-->
+            <div class="col-xl col-lg col-sm-12 col-md-4 d-grid justify-content-md-end ">
+
+                <!--Button-->
+                <button class="btn btn-primary mt-4 d-grid  col-6 col-md-12 col-sm-6 mx-auto"
+                        data-bs-target="#addItemModal"
+                        data-bs-toggle="modal"
+                        type="button">+Add Item
+                </button>
+
+                <!--Fade Container-->
+                <div aria-hidden="true" aria-labelledby="addItemModalLabel" class="modal fade" id="addItemModal"
+                     tabindex="-1">
+
+                    <div class="modal-dialog-centered modal-dialog">
+
+                        <!--Main Message Container-->
+                        <div class="modal-content">
+
+                            <!--Message Container-->
+                            <div class="modal-header bg-primary text-light">
+                                <h5 class="modal-title " id="addItemModalLabel">Add New Item</h5>
+                                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                        type="button"></button>
+                            </div>
+
+                            <!--Message/Modal Body-->
+                            <div class="modal-body">
+                                <form>
+                                    <div>
+                                        <label class="col-form-label" for="item-id">Item Code:</label>
+                                        <input class="form-control" id="item-id" type="text">
+                                    </div>
+                                    <div>
+                                        <label class="col-form-label" for="item-name">Item Name:</label>
+                                        <input class="form-control" id="item-name" type="text">
+                                    </div>
+                                    <div>
+                                        <label class="col-form-label" for="item-address">Item Price:</label>
+                                        <input class="form-control" id="item-address" type="text">
+                                    </div>
+                                    <div>
+                                        <label class="col-form-label" for="item-salary">Item Quantity:</label>
+                                        <input class="form-control" id="item-salary" type="number">
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!--Message Footer/Button-->
+                            <div class="modal-footer">
+                                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                                <button class="btn btn-primary" type="button">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
 
     </section>
-
-
 
 
 </main>
