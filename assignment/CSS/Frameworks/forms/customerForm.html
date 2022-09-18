@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>CustomerForm</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../../Frameworks/asserts/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../../assets/fonts/css/all.min.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="../../Frameworks/asserts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../assets/fonts/css/all.min.css" rel="stylesheet">
 </head>
 
 
@@ -17,13 +17,14 @@
         <nav class="navbar navbar-expand-lg bg-light" style="background-color: #e3f2fd;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                        data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a aria-current="page" class="nav-link active" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Order</a>
@@ -41,7 +42,8 @@
             <!--Added Main Header-->
             <div class="container-fluid">
                 <a class="navbar-brand fw-bold  fs-3" href="#">
-                    <img src="../../Frameworks/asserts/images/ppCC.png" alt="Logo" width="55" height="35" class="fas fa-balance-scale-right  fs-3 me-2">
+                    <img alt="Logo" class="fas fa-balance-scale-right  fs-3 me-2" height="35" src="../../Frameworks/asserts/images/ppCC.png"
+                         width="55">
                     POS System
                 </a>
             </div>
@@ -53,10 +55,12 @@
 <main class="container">
 
     <!--customer title-->
-    <div >
+    <div>
         <div class="row ">
-            <div class="p-1 px-3 col rounded-3 fw-bolder bg-primary text-light fs-3 mt-4 shadow-sm"><i class="fa-solid fa-users"></i>
-                Customer</div>
+            <div class="p-1 px-3 col rounded-3 fw-bolder bg-primary text-light fs-3 mt-4 shadow-sm"><i
+                    class="fa-solid fa-user-tie"></i>
+                Customer
+            </div>
         </div>
     </div>
 
@@ -68,7 +72,7 @@
 
             <!--Selector Field-->
             <div class="col-5 col-xl-2 col-sm-3 col-md-2 col-lg-2">
-                <select class="form-select form-select-ls mt-4" aria-label=".form-select-lg example">
+                <select aria-label=".form-select-lg example" class="form-select form-select-ls mt-4">
                     <option selected>ID</option>
                     <option value="1">Name</option>
                 </select>
@@ -77,8 +81,8 @@
             <!--Search Bar with Button-->
             <div class="col-12 col-xl col-sm-9 col-md-6 col-lg">
                 <form class="d-flex mt-3 mt-sm-4 mt-lg-4">
-                    <input class="form-control me-2" type="search" placeholder="Search Customer" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit" >Search</button>
+                    <input aria-label="Search" class="form-control me-2" placeholder="Search Customer" type="search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
                 </form>
             </div>
 
@@ -87,12 +91,15 @@
             <div class="col-xl col-lg col-sm-12 col-md-4 d-grid justify-content-md-end">
 
                 <!--Button-->
-                <button type="button" class="btn btn-primary mt-4 d-grid  col-6 col-md-12 col-sm-6 mx-auto" data-bs-toggle="modal"
-                        data-bs-target="#addItemModal">+Add Customer</button>
+                <button class="btn btn-primary mt-4 d-grid  col-6 col-md-12 col-sm-6 mx-auto" data-bs-target="#addItemModal"
+                        data-bs-toggle="modal"
+                        type="button">+Add Customer
+                </button>
 
 
                 <!--fade Container-->
-                <div class="modal fade" id="addItemModal" tabindex="-1" aria-labelledby="addItemModalLabel" aria-hidden="true">
+                <div aria-hidden="true" aria-labelledby="addItemModalLabel" class="modal fade" id="addItemModal"
+                     tabindex="-1">
 
                     <div class="modal-dialog-centered modal-dialog">
 
@@ -102,35 +109,36 @@
                             <!--Message Header-->
                             <div class="modal-header text-light" style="background-color: #58828a">
                                 <h5 class="modal-title " id="addItemModalLabel">Add New Customer</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                        type="button"></button>
                             </div>
 
                             <!--Message Box Body-->
                             <div class="modal-body">
                                 <form>
                                     <div>
-                                        <label for="customerId" class="col-form-label">Customer ID:</label>
-                                        <input type="text" class="form-control" id="customerId">
+                                        <label class="col-form-label" for="customerId">Customer ID:</label>
+                                        <input class="form-control" id="customerId" type="text">
                                     </div>
-                                    <div >
-                                        <label for="customerName" class="col-form-label">Customer Name:</label>
-                                        <input type="text" class="form-control" id="customerName">
+                                    <div>
+                                        <label class="col-form-label" for="customerName">Customer Name:</label>
+                                        <input class="form-control" id="customerName" type="text">
                                     </div>
-                                    <div >
-                                        <label for="customerAddress" class="col-form-label">Address:</label>
-                                        <input type="text" class="form-control" id="customerAddress">
+                                    <div>
+                                        <label class="col-form-label" for="customerAddress">Address:</label>
+                                        <input class="form-control" id="customerAddress" type="text">
                                     </div>
-                                    <div >
-                                        <label for="customerSalary" class="col-form-label">Salary:</label>
-                                        <input type="text" class="form-control" id="customerSalary">
+                                    <div>
+                                        <label class="col-form-label" for="customerSalary">Salary:</label>
+                                        <input class="form-control" id="customerSalary" type="text">
                                     </div>
                                 </form>
                             </div>
 
                             <!--Message Box Footer/buttons-->
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save</button>
+                                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                                <button class="btn btn-primary" type="button">Save</button>
                             </div>
 
                         </div>
@@ -139,7 +147,8 @@
             </div>
 
             <!--Customer Details Title Row-->
-            <div class="p-3 rounded-3 text-light fw-bolder mt-4" style="background-color: #264259">Customer Details</div>
+            <div class="p-3 rounded-3 text-light fw-bolder mt-4" style="background-color: #264259">Customer Details
+            </div>
 
             <!--Customer Detail Body-->
             <div class="px-3 rounded-3 mt-4 p-3 border mb-lg-0 mb-sm-4 mb-4 shadow-sm">
@@ -148,22 +157,22 @@
                 <div class="row gx-3">
                     <div class="col-5 col-sm-5 col-lg">
                         <div class="mb-4">
-                            <label for="Id" class="form-label">Customer ID</label>
-                            <input type="text" class="form-control" id="Id" placeholder="C001" disabled>
+                            <label class="form-label" for="Id">Customer ID</label>
+                            <input class="form-control" disabled id="Id" placeholder="C001" type="text">
                         </div>
                     </div>
 
                     <div class="col-7 col-sm-7 col-lg">
                         <div class="mb-4">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Hasitha" disabled>
+                            <label class="form-label" for="name">Name</label>
+                            <input class="form-control" disabled id="name" placeholder="Hasitha" type="text">
                         </div>
                     </div>
 
                     <div class="col">
                         <div class="mb-4">
-                            <label for="salary" class="form-label">Salary(Rs)</label>
-                            <input type="text" class="form-control" id="salary" placeholder="0000.00" disabled>
+                            <label class="form-label" for="salary">Salary(Rs)</label>
+                            <input class="form-control" disabled id="salary" placeholder="0000.00" type="text">
                         </div>
                     </div>
 
@@ -173,8 +182,8 @@
                 <div class="row gx-3">
                     <div class="col">
                         <div class="mb-2">
-                            <label for="address" class="form-label">Address</label>
-                            <input type="text" class="form-control" id="address" placeholder="Bandaragama" disabled>
+                            <label class="form-label" for="address">Address</label>
+                            <input class="form-control" disabled id="address" placeholder="Bandaragama" type="text">
                         </div>
                     </div>
                 </div>
@@ -182,17 +191,71 @@
                 <!--Third row/buttons-->
                 <div class="row">
                     <div class="gap-2 d-flex justify-content-center justify-content-md-end justify-content-sm-center  mt-4">
-                        <button type="button" class="btn btn-secondary">Clear</button>
-                        <button type="button" class="btn btn-danger">Delete</button>
-                        <button type="button" class="btn btn-primary">Update</button>
+                        <button class="btn btn-secondary" type="button">Clear</button>
+                        <button class="btn btn-danger" type="button">Delete</button>
+                        <button class="btn btn-primary" type="button">Update</button>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </section>
 
+    <hr class="mt-4">
+
+    <!--All Customer Details Main-->
+    <section>
+        <!--All Customer Title-->
+        <div>
+            <div class="row ">
+                <div class="p-1 px-3 col rounded-3 fw-bolder bg-primary text-light fs-3 mt-1 shadow-sm"><i
+                        class="fa-solid fa-users-viewfinder"></i>
+                    All Customers
+                </div>
+            </div>
+        </div>
+
+
+        <!--All Customer Details Table-->
+        <div class="mb-5 mt-4 table-wrapper-scroll-y my-custom-scrollbar">
+            <table class="table table-hover table-borderless table-striped">
+                <thead class="text-light" style="background-color: #264259">
+                <tr>
+                    <th scope="col">Customer ID</th>
+                    <th scope="col">Customer Name</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Salary(Rs)</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Hasitha</td>
+                    <td>Bandaragama</td>
+                    <td>200000</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Samantha</td>
+                    <td>Badulle</td>
+                    <td>350000</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>piyal</td>
+                    <td>Panadura</td>
+                    <td>12000</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Sirimath</td>
+                    <td>Bandaragama</td>
+                    <td>26000</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
 
 
 </main>
