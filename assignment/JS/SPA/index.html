@@ -24,16 +24,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a aria-current="page" class="nav-link active" href="#">Home</a>
+                            <a aria-current="page" class="nav-link active" href="">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="forms/OrderForm.html">Order</a>
+                            <a class="nav-link" href="">Order</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="forms/ItemForm.html">Item</a>
+                            <a class="nav-link" href="">Item</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="forms/customerForm.html">Customer</a>
+                            <a class="nav-link" href="">Customer</a>
                         </li>
                     </ul>
 
@@ -43,7 +43,7 @@
             <!--Added Main Header-->
             <div class="container-fluid">
                 <a class="navbar-brand fw-bold  fs-3" href="#">
-                    <img alt="Logo" class="fas fa-balance-scale-right  fs-3 me-2" height="35" src="../Frameworks/asserts/images/ppCC.png"
+                    <img alt="Logo" class="fas fa-balance-scale-right  fs-3 me-2" height="35" src="../SPA/assets/images/ppCC.png"
                          width="55">
                     POS System
                 </a>
@@ -51,6 +51,170 @@
         </nav>
     </section>
 </header>
+
+
+<!--Site Dashboard-->
+<main class="container position-relative">
+
+    <!--Head/Dashboard Title-->
+    <div>
+        <div class="row ">
+            <div class="p-1 px-3 rounded-1 fw-bolder text-light fs-3 mt-4 shadow-sm" style="background-color: #264259"><i class="fas fa-shopping-cart me-2"></i>
+                Order
+            </div>
+        </div>
+    </div>
+
+
+    <!--Main Dashboard-->
+    <section>
+
+        <div class="row">
+            <!--Selector field-->
+            <div class="col-5 col-sm-3 col-lg-2">
+                <select class="form-select form-select-ls mt-4" aria-label=".form-select-lg example">
+                    <option selected>ID</option>
+                    <option value="1">Name</option>
+                    <option value="2">Date</option>
+                </select>
+            </div>
+
+            <!--Search bar with button-->
+            <div class="col-12 col-sm-9 col-lg-10">
+                <form class="d-flex mt-3 mt-sm-4">
+                    <input class="form-control me-2" type="search" placeholder="Search Item" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search
+                    </button>
+                </form>
+            </div>
+
+            <!--Order Detail Title Row -->
+            <div class="p-3 rounded-3  bg-primary text-light fw-bolder mt-4">Order Details</div>
+
+            <!--Order Detail Body-->
+            <div class="px-3 rounded-3 mt-4 p-3 border mb-lg-0 mb-sm-4 mb-4 shadow-sm" >
+                <!--First Row-->
+                <div class="row gx-3">
+                    <div class="col-5 col-lg col-sm-6 ">
+                        <div class="mb-4">
+                            <label for="orderId" class="form-label">Order ID</label>
+                            <input type="text" class="form-control" id="orderId" placeholder="O001" disabled>
+                        </div>
+                    </div>
+                    <div class="col-7 col-lg  col-sm-6">
+                        <div class="mb-4">
+                            <label for="OrderDate" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="OrderDate" disabled>
+                        </div>
+                    </div>
+
+                    <div class="col col-lg col-sm-12 ">
+                        <div class="mb-4">
+                            <label for="customerName" class="form-label">Customer Name</label>
+                            <input type="text" class="form-control" id="customerName" placeholder="Dasun" disabled>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Second Row-->
+                <div class="row gx-3">
+                    <div class="col">
+                        <div class="mb-2">
+                            <label for="discount" class="form-label">Discount</label>
+                            <input type="text" class="form-control" id="discount" placeholder="00.00" disabled>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-2">
+                            <label for="cost" class="form-label">Cost</label>
+                            <input type="text" class="form-control" id="cost" placeholder="0000.00" disabled>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Third Row/Button-->
+                <div class="row">
+                    <div class=" gap-2 d-flex justify-content-center justify-content-md-end justify-content-sm-center  mt-4">
+                        <button type="button" class="btn btn-secondary">Clear</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Line-->
+        <hr class="mt-4">
+
+        <!--All Order Title-->
+        <div>
+            <div class="row ">
+                <div class="p-1 px-3 col rounded-3 fw-bolder text-light fs-3 mt-1 shadow-sm" style="background-color:#264259 "><i class="fas fa-chart-line me-2"></i>
+                    All Orders</div>
+            </div>
+        </div>
+
+
+        <div class="mb-5 mt-4 table-wrapper-scroll-y my-custom-scrollbar " >
+            <table class="table table-hover table-borderless table-striped ">
+                <thead class="bg-primary text-light">
+                <tr>
+                    <th scope="col">Order ID</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Customer Name</th>
+                    <th scope="col">Discount</th>
+                    <th scope="col">Cost(Rs)</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">O001</th>
+                    <td>18/09/2022</td>
+                    <td>Kasun</td>
+                    <td>100.00</td>
+                    <td>3000</td>
+                </tr>
+                <tr>
+                    <th scope="row">O002</th>
+                    <td>17/09/2022</td>
+                    <td>Siril</td>
+                    <td>100.00</td>
+                    <td>2500</td>
+                </tr>
+                <tr>
+                    <th scope="row">O003</th>
+
+                    <td>12/09/2022</td>
+                    <td>Jade</td>
+                    <td>500.00</td>
+                    <td>5400</td>
+                </tr>
+                <tr>
+                    <th scope="row">O004</th>
+                    <td>10/09/2022</td>
+                    <td>Traliziya</td>
+                    <td>120.00</td>
+                    <td>2555</td>
+                </tr>
+                <tr>
+                    <th scope="row">O005</th>
+                    <td>10/08/2022</td>
+                    <td>Anil</td>
+                    <td>200.00</td>
+                    <td>1420</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+</main>
+
+
+
+
 
 </body>
 </html>
