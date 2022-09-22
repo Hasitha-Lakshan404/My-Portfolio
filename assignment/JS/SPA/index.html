@@ -97,21 +97,21 @@
                 <div class="row gx-3">
                     <div class="col-5 col-lg col-sm-6 ">
                         <div class="mb-4">
-                            <label for="orderId" class="form-label">Order ID</label>
-                            <input type="text" class="form-control" id="orderId" placeholder="O001" disabled>
+                            <label for="orderIdDash" class="form-label">Order ID</label>
+                            <input type="text" class="form-control" id="orderIdDash" placeholder="O001" disabled>
                         </div>
                     </div>
                     <div class="col-7 col-lg  col-sm-6">
                         <div class="mb-4">
-                            <label for="OrderDate" class="form-label">Date</label>
-                            <input type="date" class="form-control" id="OrderDate" disabled>
+                            <label for="OrderDateDash" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="OrderDateDash" disabled>
                         </div>
                     </div>
 
                     <div class="col col-lg col-sm-12 ">
                         <div class="mb-4">
-                            <label for="customerName" class="form-label">Customer Name</label>
-                            <input type="text" class="form-control" id="customerName" placeholder="Dasun" disabled>
+                            <label for="customerNameDash" class="form-label">Customer Name</label>
+                            <input type="text" class="form-control" id="customerNameDash" placeholder="Dasun" disabled>
                         </div>
                     </div>
 
@@ -121,8 +121,8 @@
                 <div class="row gx-3">
                     <div class="col">
                         <div class="mb-2">
-                            <label for="discount" class="form-label">Discount</label>
-                            <input type="text" class="form-control" id="discount" placeholder="00.00" disabled>
+                            <label for="discountDash" class="form-label">Discount</label>
+                            <input type="text" class="form-control" id="discountDash" placeholder="00.00" disabled>
                         </div>
                     </div>
                     <div class="col">
@@ -252,27 +252,27 @@
                         <div class="row gx-3">
                             <div class="col">
                                 <div class="mb-lg-4 mb-sm-3 mb-3">
-                                    <label for="customerId" class="form-label">Customer ID</label>
-                                    <select class="form-select form-select-ls" id="customerId" aria-label=".form-select-lg example">
+                                    <label for="customerIdOrd" class="form-label">Customer ID</label>
+                                    <select class="form-select form-select-ls" id="customerIdOrd" aria-label=".form-select-lg example">
                                         <option selected>C001</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-lg-4 mb-sm-3 mb-3">
-                                    <label for="customerName" class="form-label">Customer</label>
-                                    <input type="text" class="form-control" id="customerName" placeholder="Hasitha">
+                                    <label for="customerNameOrd" class="form-label">Customer</label>
+                                    <input type="text" class="form-control" id="customerNameOrd" placeholder="Hasitha">
                                 </div>
                             </div>
                         </div>
                         <div class="row gx-3">
                             <div class="mb-lg-4 mb-sm-3 mb-3">
-                                <label for="salary" class="form-label">Salary</label>
-                                <input type="text" class="form-control" id="salary" placeholder="0000.00">
+                                <label for="salaryOrd" class="form-label">Salary</label>
+                                <input type="text" class="form-control" id="salaryOrd" placeholder="0000.00">
                             </div>
                             <div class="mb-lg-4 mb-md-5 ">
-                                <label for="address" class="form-label">Address</label>
-                                <input type="text" class="form-control" id="address" placeholder="Bandaragama">
+                                <label for="addressOrd" class="form-label">Address</label>
+                                <input type="text" class="form-control" id="addressOrd" placeholder="Bandaragama">
                             </div>
                         </div>
                     </div>
@@ -290,8 +290,8 @@
                         <div class="row gx-3">
                             <div class="col">
                                 <div class="mb-4">
-                                    <label for="itemId" class="form-label">Item ID</label>
-                                    <select class="form-select form-select-ls" id="itemId" aria-label=".form-select-lg example">
+                                    <label for="itemIdOrd" class="form-label">Item ID</label>
+                                    <select class="form-select form-select-ls" id="itemIdOrd" aria-label=".form-select-lg example">
                                         <option selected>P001</option>
                                     </select>
                                 </div>
@@ -306,14 +306,14 @@
                         <div class="row gx-3">
                             <div class="col">
                                 <div class="mb-4">
-                                    <label for="price" class="form-label">Price</label>
-                                    <input type="text" class="form-control" id="price" placeholder="0000.00">
+                                    <label for="priceOrd" class="form-label">Price</label>
+                                    <input type="text" class="form-control" id="priceOrd" placeholder="0000.00">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-5">
-                                    <label for="qtyOnHand" class="form-label">QyOnHand</label>
-                                    <input type="number" class="form-control" id="qtyOnHand" placeholder="10">
+                                    <label for="qtyOnHandOrd" class="form-label">QyOnHand</label>
+                                    <input type="number" class="form-control" id="qtyOnHandOrd" placeholder="10">
                                 </div>
                             </div>
                         </div>
@@ -478,13 +478,13 @@
 
                 <!--Button-->
                 <button class="btn btn-primary mt-4 d-grid  col-6 col-md-12 col-sm-6 mx-auto"
-                        data-bs-target="#addItemModal"
+                        data-bs-target="#addItemModalItem"
                         data-bs-toggle="modal"
                         type="button">+Add Item
                 </button>
 
                 <!--Fade Container-->
-                <div aria-hidden="true" aria-labelledby="addItemModalLabel" class="modal fade" id="addItemModal"
+                <div aria-hidden="true" aria-labelledby="addItemModalLabelItem" class="modal fade" id="addItemModalItem"
                      tabindex="-1">
 
                     <div class="modal-dialog-centered modal-dialog">
@@ -494,7 +494,7 @@
 
                             <!--Message Container-->
                             <div class="modal-header bg-primary text-light">
-                                <h5 class="modal-title " id="addItemModalLabel">Add New Item</h5>
+                                <h5 class="modal-title " id="addItemModalLabelItem">Add New Item</h5>
                                 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
                                         type="button"></button>
                             </div>
