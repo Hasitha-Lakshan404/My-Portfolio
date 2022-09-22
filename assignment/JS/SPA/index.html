@@ -439,6 +439,220 @@
 
 </main>
 
+<!--Item-->
+<main class="container position-relative">
+    <!--customer title-->
+    <div>
+        <div class="row ">
+            <div class="p-1 px-3 col rounded-3 fw-bolder bg-primary text-light fs-3 mt-4 shadow-sm"><i
+                    class="fas fa-box-open me-2 fs-4"></i>
+                Item
+            </div>
+        </div>
+    </div>
+
+
+    <!--Item Main-->
+    <section>
+
+        <div class="row">
+
+            <!--Selector Field-->
+            <div class="col-5 col-xl-2 col-sm-3 col-md-2 col-lg-2">
+                <select aria-label=".form-select-lg example" class="form-select form-select-ls  mt-4">
+                    <option selected>ID</option>
+                    <option value="1">Code</option>
+                </select>
+            </div>
+
+            <!--Search Bar with Button-->
+            <div class="col-12 col-xl col-sm-9 col-md-6 col-lg">
+                <form class="d-flex mt-3 mt-sm-4 mt-lg-4">
+                    <input aria-label="Search" class="form-control me-2" placeholder="Search Item" type="search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+
+            <!--Add Item Button and Open Add Window-->
+            <div class="col-xl col-lg col-sm-12 col-md-4 d-grid justify-content-md-end ">
+
+                <!--Button-->
+                <button class="btn btn-primary mt-4 d-grid  col-6 col-md-12 col-sm-6 mx-auto"
+                        data-bs-target="#addItemModal"
+                        data-bs-toggle="modal"
+                        type="button">+Add Item
+                </button>
+
+                <!--Fade Container-->
+                <div aria-hidden="true" aria-labelledby="addItemModalLabel" class="modal fade" id="addItemModal"
+                     tabindex="-1">
+
+                    <div class="modal-dialog-centered modal-dialog">
+
+                        <!--Main Message Container-->
+                        <div class="modal-content">
+
+                            <!--Message Container-->
+                            <div class="modal-header bg-primary text-light">
+                                <h5 class="modal-title " id="addItemModalLabel">Add New Item</h5>
+                                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                        type="button"></button>
+                            </div>
+
+                            <!--Message/Modal Body-->
+                            <div class="modal-body">
+                                <form>
+                                    <div>
+                                        <label class="col-form-label" for="item-id">Item Code:</label>
+                                        <input class="form-control" id="item-id" type="text">
+                                    </div>
+                                    <div>
+                                        <label class="col-form-label" for="item-name">Item Name:</label>
+                                        <input class="form-control" id="item-name" type="text">
+                                    </div>
+                                    <div>
+                                        <label class="col-form-label" for="item-address">Item Price:</label>
+                                        <input class="form-control" id="item-address" type="text">
+                                    </div>
+                                    <div>
+                                        <label class="col-form-label" for="item-salary">Item Quantity:</label>
+                                        <input class="form-control" id="item-salary" type="number">
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!--Message Footer/Button-->
+                            <div class="modal-footer">
+                                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                                <button class="btn btn-primary" type="button">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Item Details Title Row-->
+        <div class="p-3 rounded-3  text-light fw-bolder mt-4" style="background-color: #264259">Item Details</div>
+
+
+        <!--Item Detail Body-->
+        <div class="px-3 rounded-3 mt-4 p-3 border mb-lg-0 mb-sm-4 mb-4 shadow-sm">
+
+            <!--First Row-->
+            <div class="row gx-3">
+                <!--Item-->
+                <div class="col-5 col-sm-5 col-lg">
+                    <div class="mb-4">
+                        <label class="form-label" for="itemId">Item Code</label>
+                        <input class="form-control" disabled id="itemId" placeholder="P001" type="text">
+                    </div>
+                </div>
+                <!--Name-->
+                <div class="col-7 col-sm-7 col-lg">
+                    <div class="mb-4">
+                        <label class="form-label" for="itemName">Name</label>
+                        <input class="form-control" disabled id="itemName" placeholder="Sunlight" type="text">
+                    </div>
+                </div>
+                <!--QTY-->
+                <div class="col col-lg">
+                    <div class="mb-2">
+                        <label class="form-label" for="qtyOnHand">Quantity</label>
+                        <input class="form-control" disabled id="qtyOnHand" placeholder="00" type="number">
+                    </div>
+                </div>
+                <!--UP-->
+                <div class="col col-lg">
+                    <div class="mb-2">
+                        <label class="form-label" for="price">Unit Price</label>
+                        <input class="form-control" disabled id="price" placeholder="0000.00" type="text">
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Second Row/Buttons-->
+            <div class="row">
+                <div class=" gap-2 d-flex justify-content-center justify-content-md-end justify-content-sm-center  mt-4 mt-lg-2">
+                    <button class="btn btn-secondary" type="button">Clear</button>
+                    <button class="btn btn-danger" type="button">Delete</button>
+                    <button class="btn btn-primary" type="button">Update</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--line-->
+    <hr class="mt-4">
+
+
+    <!--All Item Details Main-->
+    <section>
+        <!--Item Title Row-->
+        <div>
+            <div class="row ">
+                <div class="p-1 px-3 col rounded-3 fw-bolder bg-primary text-light fs-3 mt-1 shadow-sm"><i class="fa-solid fa-boxes-packing"></i>&nbsp;&nbsp;All Items
+                </div>
+            </div>
+        </div>
+
+
+        <!--All Item Detail Table-->
+        <div class="mb-5 mt-4 table-wrapper-scroll-y my-custom-scrollbar">
+            <table class="table table-hover table-borderless table-striped">
+                <thead class="text-light" style="background-color: #264259">
+                <tr>
+                    <th scope="col">Item Code</th>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Unit Price(Rs)</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Sunlight</td>
+                    <td>10</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Rice</td>
+                    <td>50</td>
+                    <td>320</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Life Boy</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Sugar</td>
+                    <td>76</td>
+                    <td>530</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Biscuit</td>
+                    <td>100</td>
+                    <td>150</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+    </section>
+
+
+</main>
+
+
 
 </body>
 </html>
