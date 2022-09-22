@@ -1,0 +1,19 @@
+/**@author : Hasitha Lakshan
+Project :Portfolio
+Date :9/18/2022
+Time :7:51 PM
+*/
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 500px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+table {
+    border-collapse: collapse;
+    border-radius: 0.3em;
+    overflow: hidden;
+}
