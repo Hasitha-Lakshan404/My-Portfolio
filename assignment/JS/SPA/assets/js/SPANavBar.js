@@ -1,15 +1,28 @@
-$('#dashboardPage').click(function (){
 
+$('#btnDash').click(function (){
+    $('#dashboardPage').css('display','block');
+    $('#orderPage').css('display','none');
+    $('#itemPage').css('display','none');
+    $('#customerPage').css('display','none');
 });
 
-$('#orderPage').click(function (){
-
+$('#btnOrder').click(function (){
+    $('#dashboardPage').css('display','none');
+    $('#orderPage').css('display','block');
+    $('#itemPage').css('display','none');
+    $('#customerPage').css('display','none');
 });
 
-$('#itemPage').click(function (){
-
+$('#btnItem').click(function (){
+    $('#dashboardPage').css('display','none');
+    $('#orderPage').css('display','none');
+    $('#itemPage').css('display','block');
+    $('#customerPage').css('display','none');
 });
 
-$('#customerPage').click(function (){
-
+$('#btnCustomer').click(function (){
+    $('#dashboardPage').css('display','none');
+    $('#orderPage').css('display','none');
+    $('#itemPage').css('display','none');
+    $('#customerPage').css('display','block');
 });

@@ -21,19 +21,20 @@
                         data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a aria-current="page" class="nav-link " style="cursor: pointer">Home</a>
+                            <div id="btnDash" aria-current="page" class="nav-link " style="cursor: pointer">Home</div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="cursor: pointer">Order</a>
+                            <div id="btnOrder" class="nav-link" style="cursor: pointer">Order</div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="cursor: pointer">Item</a>
+                            <div id="btnItem" class="nav-link" style="cursor: pointer">Item</div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="cursor: pointer">Customer</a>
+                            <div id="btnCustomer" class="nav-link" style="cursor: pointer">Customer</div>
                         </li>
                     </ul>
 
@@ -54,8 +55,7 @@
 
 
 <!--Site Dashboard-->
-<main id="dashboardPage" class="container position-relative">
-
+<main id="dashboardPage" style="display: block" class="container position-relative">
     <!--Head/Dashboard Title-->
     <div>
         <div class="row ">
@@ -213,7 +213,7 @@
 </main>
 
 <!--Order-->
-<main id="orderPage" class="container position-relative">
+<main id="orderPage" style="display: none" class="container position-relative">
     <!--Place Order Title-->
     <div>
         <div class="row ">
@@ -440,7 +440,7 @@
 </main>
 
 <!--Item-->
-<main id="itemPage" class="container position-relative">
+<main id="itemPage" style="display: none" class="container position-relative">
     <!--customer title-->
     <div>
         <div class="row ">
@@ -653,7 +653,7 @@
 </main>
 
 <!--Customer-->
-<main id="customerPage" class="container position-relative">
+<main id="customerPage" style="display: none" class="container position-relative">
     <!--customer title-->
     <div>
         <div class="row ">
