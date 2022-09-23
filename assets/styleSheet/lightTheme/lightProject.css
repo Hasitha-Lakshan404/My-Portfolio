@@ -3,3 +3,1227 @@ Project :Portfolio
 Date :9/23/2022
 Time :8:01 PM
 */
+
+/*=main section=*/
+.mainSecProject {
+    /*background-color: #151C2E;*/
+    position: relative;
+    /*top: 0;*/
+    /*right: 0;*/
+
+    /*height: 140vh;*/
+    height: 1064px;
+    /*width: 95vw;*/
+    /*background: white;*/
+    /*border: 1px solid white;*/
+    background: #323647;
+    /*background: black;*/
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 80%;
+}
+
+/*===========ROTATE ANIMATION=======*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#animationContainer {
+    /*background: linear-gradient(to right, red, blue);*/
+    /*height: 70vh;*/
+    height: 532px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    top: 150px;
+}
+
+.slider {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+}
+
+.slider:hover {
+    animation-play-state: paused;
+}
+
+@keyframes rotate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg)
+    }
+}
+
+.slider span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
+}
+
+.slider span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 2s;
+    -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #0004);
+}
+
+.slider span:hover img {
+    transform: translateY(-50px) scale(1.2);
+}
+
+/*===END ROTATE=====*/
+
+/*Left orange bar*/
+.mainSecProject > section:first-child > div:first-child {
+    /*height: 100px;*/
+    /*background: black;*/
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 51.7vw;
+    height: 80px;
+    background: url("../../../images/leftOrangeRow.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+
+/*Right purple bar*/
+.mainSecProject > section:first-child > div:nth-child(2) {
+    position: absolute;
+    top: 1.5em;
+    right: 0;
+    width: 51.7vw;
+    height: 80px;
+    background: url("../../../images/rightPurpleRow.png") no-repeat center;
+    background-size: 100% 100%;
+    /*background-image: url(../../../images/leftOrangeRow.png);*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*border: 3px solid #CFD8DC;*/
+    /*background: #CFD8DC;*/
+
+    color: #4fc3dc;
+}
+
+/*Project Title*/
+.mainSecProject > section:first-child > h1 {
+    position: absolute;
+    color: #FFFFFF;
+    /*top: 3vh;*/
+    top: 22.8px;
+    right: 35vw;
+    font-family: "Courier Prime";
+
+}
+
+/*for the Project quote*/
+.mainSecProject > aside:nth-child(2) > p {
+    position: absolute;
+    color: #71727D;
+    display: inline-block;
+    font-size: 25px;
+    right: 5vw;
+    top: 125px;
+    font-family: "Courier Prime";
+}
+
+/*intro git hub*/
+.mainSecProject > aside:nth-child(3) {
+    position: relative;
+    left: 19vw;
+    /*top: 20vh;*/
+    top: 152px;
+    width: 60vw;
+    color: #CFD8DC;
+    font-size: 20px;
+    font-family: "Courier Prime";
+    display: inline-block;
+    /*height: 500px;*/
+}
+
+/*Catch the hr*/
+.mainSecProject > aside:nth-child(3) > hr {
+    display: inline-block;
+    width: 100px;
+    background: black;
+    position: relative;
+    top: -3px;
+}
+
+
+/*
+.mainSecProject>aside:nth-child(3)>div:nth-child(2)>button{
+    position: relative;
+    top: -500px;
+    left: 120px;
+
+}*/
+/*=====================NEON BUTTON==============*/
+
+.btn-76,
+.btn-76 *,
+.btn-76 :after,
+.btn-76 :before,
+.btn-76:after,
+.btn-76:before {
+    border: 0 solid;
+    box-sizing: border-box;
+}
+
+.btn-76 {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button;
+    background-color: #00788C;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    /*font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,*/
+    /*Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,*/
+    /*Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;*/
+    font-size: 100%;
+    line-height: 1.5;
+    /*margin: 0;*/
+    -webkit-mask-image: -webkit-radial-gradient(rgba(0, 0, 0, 0), #fff);
+    padding: 0;
+    border-radius: 15px;
+    font-family: "Courier Prime";
+    margin: 15px;
+
+}
+
+.btn-76:disabled {
+    cursor: default;
+}
+
+.btn-76:-moz-focusring {
+    outline: auto;
+}
+
+.btn-76 svg {
+    display: block;
+    vertical-align: middle;
+}
+
+.btn-76 [hidden] {
+    display: none;
+}
+
+.btn-76 {
+    /*--neon: #0ea5e9;*/
+    --neon: #B026FF;
+    box-sizing: border-box;
+    display: block;
+    /*font-weight: 900;*/
+    -webkit-mask-image: none;
+    outline: 4px solid #988db0;
+    outline-offset: -4px;
+    overflow: hidden;
+    padding: 1.2rem 3rem;
+    position: relative;
+    /*text-transform: uppercase;*/
+    transition: 0.2s linear 0.1s;
+    /*width: 300px;*/
+    height: 50px;
+    left: 20vw;
+
+}
+
+.btn-76 > p {
+    position: relative;
+    top: -6px;
+}
+
+.btn-76:hover {
+    background: var(--neon);
+    box-shadow: 0 0 5px var(--neon), 0 0 25px var(--neon), 0 0 50px var(--neon),
+    0 0 100px var(--neon);
+    color: #fff;
+    outline-color: transparent;
+    transition: 0.2s linear 0.6s;
+}
+
+.btn-76 span {
+    display: block;
+    inset: 0;
+    position: absolute;
+}
+
+.btn-76 .top {
+    border-top: 4px solid var(--neon);
+    opacity: 0;
+    transform: translateX(calc(-100% + var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-76:hover .top {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear;
+}
+
+.btn-76 .right {
+    border-right: 4px solid var(--neon);
+    opacity: 0;
+    transform: translateY(calc(-100% + var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-76:hover .right {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear 0.2s;
+}
+
+.btn-76 .bottom {
+    border-bottom: 4px solid var(--neon);
+    opacity: 0;
+    transform: translateX(calc(100% - var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-76:hover .bottom {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear 0.4s;
+}
+
+.btn-76 .left {
+    border-left: 4px solid var(--neon);
+    opacity: 0;
+    transform: translateY(calc(100% - var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-76:hover .left {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear 0.6s;
+}
+
+/**/
+#seeMoreNavButton {
+    position: relative;
+    left: 24.5vw;
+    /*top: 20vh;*/
+    top: 152px;
+    margin: 0;
+    width: 350px;
+}
+
+
+/*=====FOR THE ASSIGNMENTS======*/
+
+#assignment-Section{
+    height: 950px;
+}
+
+/*Assignment Description*/
+#assignment-Section>aside:nth-child(3){
+    text-align: center;
+    width: 61vw;
+}
+/*assignment Name*/
+#assignment-Section>section:nth-child(1)>h1:nth-child(3){
+    position: absolute;
+    right: 34vw;
+}
+
+
+
+/*================================== 320->Mobile -S ==================================*/
+@media all and (max-width: 321px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .mainSecProject{
+
+        height: 1000px;
+    }
+    /*Left orange bar*/
+    .mainSecProject > section:first-child > div:first-child {
+        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background-size: 100% 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 51.7vw;
+        height: 38px;
+    }
+
+
+    /*Right purple bar*/
+    .mainSecProject > section:first-child > div:nth-child(2) {
+        position: absolute;
+        top: 1.8em;
+        right: 0;
+        width: 51.7vw;
+        height: 38px;
+        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    /*Project Title*/
+    .mainSecProject > section:first-child > h1 {
+        position: absolute;
+        color: #FFFFFF;
+        /*top: -4.700000000000003vh;*/
+        top: 23.08px;
+        right: 16vw;
+        font-family: "Courier Prime";
+        font-size: 20px;
+    }
+    .mainSecProject > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 15px;
+        right: 5vw;
+        text-align: center;
+        top: 93px;
+        font-family: "Courier Prime";
+    }
+
+    /*all project line*/
+    .mainSecProject > aside:nth-child(3) > hr {
+        display:none;
+        width: 25px;
+        background: black;
+        position: relative;
+        top: -3px;
+    }
+
+    .mainSecProject > aside:nth-child(3) {
+        position: relative;
+        left: 19vw;
+        /* top: 20vh; */
+        top: 114px;
+        width: 63vw;
+        color: #CFD8DC;
+        text-align: center;
+        font-size: 17px;
+        font-family: "Courier Prime";
+        display: inline-block;
+        /* height: 500px; */
+    }
+    .btn-76 {
+        /* --neon: #0ea5e9; */
+        --neon: #B026FF;
+        box-sizing: border-box;
+        display: block;
+        /* font-weight: 900; */
+        -webkit-mask-image: none;
+        outline: 4px solid #988db0;
+        font-size: 13px;
+        outline-offset: -4px;
+        overflow: hidden;
+        padding: 1.2rem 3rem;
+        position: relative;
+        /* text-transform: uppercase; */
+        text-align: center;
+        transition: 0.2s linear 0.1s;
+        width: 181px;
+        height: 60px;
+        left: -2.5vw;
+    }
+
+    /*===========ROTATE ANIMATION=======*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #animationContainer {
+        /*background: linear-gradient(to right, red, blue);*/
+        /*height: 70vh;*/
+        height: 532px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        top: 150px;
+    }
+
+    .slider {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        transform-style: preserve-3d;
+        animation: rotate 30s linear infinite;
+    }
+
+    .slider:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: perspective(1000px) rotateY(0deg);
+        }
+        100% {
+            transform: perspective(1000px) rotateY(360deg)
+        }
+    }
+
+    .slider span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: center;
+        transform-style: preserve-3d;
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
+    }
+
+    .slider span img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        transition: 2s;
+        -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #0004);
+    }
+
+    .slider span:hover img {
+        transform: translateY(-50px) scale(1.2);
+    }
+
+    /*===END ROTATE=====*/
+
+    #seeMoreNavButton {
+        position: relative;
+        left: 20.5vw;
+        /* top: 20vh; */
+        top: 150px;
+        margin: 0;
+        width: 344px;
+    }
+
+
+    /*assignment Name*/
+    #assignment-Section>section:nth-child(1)>h1:nth-child(3){
+        position: absolute;
+        right: 5vw;
+    }
+
+}
+
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 322px) and (max-width: 376px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .mainSecProject{
+
+        height: 1000px;
+    }
+    /*Left orange bar*/
+    .mainSecProject > section:first-child > div:first-child {
+        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background-size: 100% 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 51.7vw;
+        height: 38px;
+    }
+
+
+    /*Right purple bar*/
+    .mainSecProject > section:first-child > div:nth-child(2) {
+        position: absolute;
+        top: 1.8em;
+        right: 0;
+        width: 51.7vw;
+        height: 38px;
+        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    /*Project Title*/
+    .mainSecProject > section:first-child > h1 {
+        position: absolute;
+        color: #FFFFFF;
+        /*top: -4.700000000000003vh;*/
+        top: 23.08px;
+        right: 21vw;
+        font-family: "Courier Prime";
+        font-size: 20px;
+    }
+    .mainSecProject > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 15px;
+        right: 5vw;
+        text-align: center;
+        top: 93px;
+        font-family: "Courier Prime";
+    }
+
+    /*all project line*/
+    .mainSecProject > aside:nth-child(3) > hr {
+        display:none;
+        width: 25px;
+        background: black;
+        position: relative;
+        top: -3px;
+    }
+
+    .mainSecProject > aside:nth-child(3) {
+        position: relative;
+        left: 19vw;
+        /* top: 20vh; */
+        top: 114px;
+        width: 63vw;
+        color: #CFD8DC;
+        text-align: center;
+        font-size: 17px;
+        font-family: "Courier Prime";
+        display: inline-block;
+        /* height: 500px; */
+    }
+    .btn-76 {
+        /* --neon: #0ea5e9; */
+        --neon: #B026FF;
+        box-sizing: border-box;
+        display: block;
+        /* font-weight: 900; */
+        -webkit-mask-image: none;
+        outline: 4px solid #988db0;
+        font-size: 13px;
+        outline-offset: -4px;
+        overflow: hidden;
+        padding: 1.2rem 3rem;
+        position: relative;
+        /* text-transform: uppercase; */
+        text-align: center;
+        transition: 0.2s linear 0.1s;
+        width: 181px;
+        height: 60px;
+        left: 6.5vw;
+    }
+
+    /*===========ROTATE ANIMATION=======*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #animationContainer {
+        /*background: linear-gradient(to right, red, blue);*/
+        /*height: 70vh;*/
+        height: 532px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        top: 150px;
+    }
+
+    .slider {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        transform-style: preserve-3d;
+        animation: rotate 30s linear infinite;
+    }
+
+    .slider:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: perspective(1000px) rotateY(0deg);
+        }
+        100% {
+            transform: perspective(1000px) rotateY(360deg)
+        }
+    }
+
+    .slider span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: center;
+        transform-style: preserve-3d;
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
+    }
+
+    .slider span img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        transition: 2s;
+        -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #0004);
+    }
+
+    .slider span:hover img {
+        transform: translateY(-50px) scale(1.2);
+    }
+
+    /*===END ROTATE=====*/
+
+    #seeMoreNavButton {
+        position: relative;
+        left: 15.5vw;
+        /* top: 20vh; */
+        top: 152px;
+        margin: 0;
+        width: 234px;
+    }
+
+    /*Assignment Description*/
+    #assignment-Section>aside:nth-child(3){
+        text-align: center;
+        width: 61vw;
+    }
+    /*assignment Name*/
+    #assignment-Section>section:nth-child(1)>h1:nth-child(3){
+        position: absolute;
+        right: 10vw;
+    }
+
+}
+
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 377px) and (max-width: 426px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .mainSecProject{
+
+        height: 1000px;
+    }
+    /*Left orange bar*/
+    .mainSecProject > section:first-child > div:first-child {
+        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background-size: 100% 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 51.7vw;
+        height: 38px;
+    }
+
+
+    /*Right purple bar*/
+    .mainSecProject > section:first-child > div:nth-child(2) {
+        position: absolute;
+        top: 1.8em;
+        right: 0;
+        width: 51.7vw;
+        height: 38px;
+        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    /*Project Title*/
+    .mainSecProject > section:first-child > h1 {
+        position: absolute;
+        color: #FFFFFF;
+        /*top: -4.700000000000003vh;*/
+        top: 23.08px;
+        right: 21vw;
+        font-family: "Courier Prime";
+        font-size: 20px;
+    }
+    .mainSecProject > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 15px;
+        right: 5vw;
+        text-align: center;
+        top: 93px;
+        font-family: "Courier Prime";
+    }
+
+    /*all project line*/
+    .mainSecProject > aside:nth-child(3) > hr {
+        display:none;
+        width: 25px;
+        background: black;
+        position: relative;
+        top: -3px;
+    }
+
+    .mainSecProject > aside:nth-child(3) {
+        position: relative;
+        left: 19vw;
+        /* top: 20vh; */
+        top: 114px;
+        width: 63vw;
+        color: #CFD8DC;
+        text-align: center;
+        font-size: 17px;
+        font-family: "Courier Prime";
+        display: inline-block;
+        /* height: 500px; */
+    }
+    .btn-76 {
+        /* --neon: #0ea5e9; */
+        --neon: #B026FF;
+        box-sizing: border-box;
+        display: block;
+        /* font-weight: 900; */
+        -webkit-mask-image: none;
+        outline: 4px solid #988db0;
+        font-size: 13px;
+        outline-offset: -4px;
+        overflow: hidden;
+        padding: 1.2rem 3rem;
+        position: relative;
+        /* text-transform: uppercase; */
+        text-align: center;
+        transition: 0.2s linear 0.1s;
+        width: 181px;
+        height: 60px;
+        left: 6.5vw;
+    }
+
+    /*===========ROTATE ANIMATION=======*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #animationContainer {
+        /*background: linear-gradient(to right, red, blue);*/
+        /*height: 70vh;*/
+        height: 532px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        top: 150px;
+    }
+
+    .slider {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        transform-style: preserve-3d;
+        animation: rotate 30s linear infinite;
+    }
+
+    .slider:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: perspective(1000px) rotateY(0deg);
+        }
+        100% {
+            transform: perspective(1000px) rotateY(360deg)
+        }
+    }
+
+    .slider span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: center;
+        transform-style: preserve-3d;
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
+    }
+
+    .slider span img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        transition: 2s;
+        -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #0004);
+    }
+
+    .slider span:hover img {
+        transform: translateY(-50px) scale(1.2);
+    }
+
+    /*===END ROTATE=====*/
+
+    #seeMoreNavButton {
+        position: relative;
+        left: 20.5vw;
+        /* top: 20vh; */
+        top: 152px;
+        margin: 0;
+        width: 246px;
+    }
+
+
+    /*assignment Name*/
+    #assignment-Section>section:nth-child(1)>h1:nth-child(3){
+        position: absolute;
+        right: 15vw;
+    }
+
+
+}
+
+/*================================== 768->Tablet ================================== */
+@media all and (min-width: 426px) and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .mainSecProject {
+        /* background-color: #151C2E; */
+        position: relative;
+        /* top: 0; */
+        /* right: 0; */
+        /* height: 140vh; */
+        height: 943px;
+        /* width: 95vw; */
+        /* background: white; */
+        /* border: 1px solid white; */
+        /* background: #323647; */
+        background: black;
+        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg);
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 80%;
+    }
+
+    /*Left orange bar*/
+    .mainSecProject > section:first-child > div:first-child {
+        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background-size: 100% 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 51.7vw;
+        height: 50px;
+    }
+
+
+    /*Right purple bar*/
+    .mainSecProject > section:first-child > div:nth-child(2) {
+        position: absolute;
+        top: 1.5em;
+        right: 0;
+        width: 51.7vw;
+        height: 50px;
+        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    /*Project Title*/
+    .mainSecProject > section:first-child > h1 {
+        position: absolute;
+        color: #FFFFFF;
+        /*top: 3.3vh;*/
+        top: 25.08px;
+        right: 32vw;
+        font-family: "Courier Prime";
+        font-size: 22px;;
+
+    }
+
+
+    .mainSecProject > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 25px;
+        right: 5vw;
+        top: 107px;
+        font-family: "Courier Prime";
+    }
+
+    .mainSecProject > aside:nth-child(3) {
+        position: relative;
+        left: 2vw;
+        /* top: 20vh; */
+        top: 152px;
+        width: 96vw;
+        color: #CFD8DC;
+        font-size: 15px;
+        font-family: "Courier Prime";
+        display: inline-block;
+        /* height: 500px; */
+        text-align: center;
+
+    }
+
+    .btn-76 {
+        /* --neon: #0ea5e9; */
+        --neon: #B026FF;
+        box-sizing: border-box;
+        display: block;
+        /* font-weight: 900; */
+        -webkit-mask-image: none;
+        outline: 4px solid #988db0;
+        outline-offset: -4px;
+        overflow: hidden;
+        padding: 1.2rem 3rem;
+        position: relative;
+        /* text-transform: uppercase; */
+        transition: 0.2s linear 0.1s;
+        width: 270px;
+        height: 50px;
+        left: 27vw;
+    }
+
+    #seeMoreNavButton {
+        position: relative;
+        left: 1.5vw;
+        /* top: 20vh; */
+        top: 152px;
+        margin: 0;
+        width: 350px;
+    }
+
+    #rightCornerTitle {
+        color: #FFFFFF;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        position: relative;
+        left: 7vw;
+        opacity: 1;
+        display: inline-block;
+        margin: 3.5vh 0 3.5vh 0;
+        width: 150px;
+    }
+
+
+    /*assignment Name*/
+    #assignment-Section>section:nth-child(1)>h1:nth-child(3){
+        position: absolute;
+        right: 28vw;
+    }
+
+    /*Assignment Description*/
+    #assignment-Section>aside:nth-child(3)>p:nth-child(1){
+        text-align: center;
+        position: relative;
+        left: 10vw;
+        width: 75vw;
+    }
+
+
+}
+
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+
+    /*Left orange bar*/
+    .mainSecProject > section:first-child > div:first-child {
+        /*height: 100px;*/
+        /*background: black;*/
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 51.7vw;
+        height: 50px;
+        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background-size: 100% 100%;
+    }
+
+
+    /*Right purple bar*/
+    .mainSecProject > section:first-child > div:nth-child(2) {
+        position: absolute;
+        top: 1.5em;
+        right: 0;
+        width: 51.7vw;
+        height: 50px;
+        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background-size: 100% 100%;
+        /*background-image: url(../../../images/leftOrangeRow.png);*/
+        /*background-size: cover;*/
+        /*background-position: center;*/
+        /*border: 3px solid #CFD8DC;*/
+        /*background: #CFD8DC;*/
+
+        color: #4fc3dc;
+    }
+
+    /*Project Title*/
+    .mainSecProject > section:first-child > h1 {
+        position: absolute;
+        color: #FFFFFF;
+        /*top: 3vh;*/
+        top: 22.8px;
+        right: 37vw;
+        font-family: "Courier Prime";
+        font-size: 22px
+    }
+
+    /*Project-Quote*/
+    .mainSecProject > aside:nth-child(2) > p {
+        position: absolute;
+        color: #71727D;
+        display: inline-block;
+        font-size: 17px;
+        right: 8vw;
+        top: 91px;
+        font-family: "Courier Prime";
+    }
+
+    /*main container for the all project*/
+    .mainSecProject > aside:nth-child(3) {
+        position: relative;
+        left: 11vw;
+        /* top: 20vh; */
+        top: 137px;
+        width: 80vw;
+        color: #CFD8DC;
+        font-size: 20px;
+        font-family: "Courier Prime";
+        display: inline-block;
+        /* height: 500px; */
+        text-align: center;
+    }
+
+    .mainSecProject > aside:nth-child(3) > hr {
+        display: inline-block;
+        width: 54px;
+        background: black;
+        position: relative;
+        top: -3px;
+    }
+
+    #seeMoreNavButton {
+        position: relative;
+        left: 17.5vw;
+        /* top: 20vh; */
+        top: 152px;
+        margin: 0;
+        width: 350px;
+    }
+
+    .projectBtnRepo {
+        width: 100px;
+    }
+
+    /*Assignment Description*/
+    #assignment-Section>aside:nth-child(3)>p:nth-child(1){
+        text-align: center;
+        position: relative;
+        left: 2vw;
+        width: 75vw;
+    }
+
+
+}
+
+/*================================== 1440->Laptop large ================================== */
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+    .mainSecProject > aside:nth-child(3) {
+        position: relative;
+        left: 19vw;
+        /*top: 20vh;*/
+        top: 152px;
+        width: 71vw;
+        color: #CFD8DC;
+        font-size: 20px;
+        font-family: "Courier Prime";
+        display: inline-block;
+        /* height: 500px; */
+    }
+
+    #animationContainer {
+        /* background: linear-gradient(to right, red, blue); */
+        /*height: 80vh;*/
+        height: 608px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        top: 145px;
+    }
+
+    #seeMoreNavButton {
+        position: relative;
+        left: 24.5vw;
+        /*top: 20vh;*/
+        top: 152px;
+        margin: 0;
+        width: 350px;
+    }
+
+    .btn-76 {
+        /* --neon: #0ea5e9; */
+        --neon: #B026FF;
+        box-sizing: border-box;
+        display: block;
+        /* font-weight: 900; */
+        -webkit-mask-image: none;
+        outline: 4px solid #988db0;
+        outline-offset: -4px;
+        overflow: hidden;
+        padding: 1.2rem 3rem;
+        position: relative;
+        /* text-transform: uppercase; */
+        transition: 0.2s linear 0.1s;
+        /* width: 300px; */
+        height: 50px;
+        left: 18vw;
+    }
+    #assignment-Section>aside:nth-child(3){
+        text-align: center;
+    }
+
+
+
+}
+
+/* ================================== 4K ================================== */
+@media all and (min-width: 1441px) and (max-width: 2560px) {
+
+}
