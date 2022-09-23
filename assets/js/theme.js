@@ -5,7 +5,6 @@ function dark() {
     if (a.checked === true) {
         /*DARK THEME*/
         b.style.backgroundColor = "#242734";
-        // $("#AboutMe-section").removeAttr("style");
 
         /*for the disable light Theme*/
         $("#lHeadStyle").attr("disabled","disabled");
@@ -28,7 +27,6 @@ function dark() {
     } else {
         /*light THeme*/
 
-        // $("#AboutMe-section").removeAttr("style");
 
         /*For the Disable Dark Theme*/
         $("#dHeadStyle").attr("disabled","disabled");
@@ -49,12 +47,9 @@ function dark() {
         $("#lProStyle").removeAttr("disabled");
         $("#lQStyle").removeAttr("disabled");
 
-        // b.style.backgroundColor = "white";
+        b.style.backgroundColor = "white";
         // b.style.backgroundColor = '#320A48';
 
-
-        // $("#style1").attr("disabled", "disabled");
-        // $("#style1").removeAttr("disabled");
 
 
     }
