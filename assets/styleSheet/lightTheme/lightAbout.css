@@ -1,0 +1,2328 @@
+/**@author : Hasitha Lakshan
+Project :Portfolio
+Date :9/23/2022
+Time :1:39 PM
+*/
+
+/**@author : Hasitha Lakshan
+Project :Portfolio
+Date :8/30/2022
+Time :1:22 PM
+*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700;900&display=swap");
+
+.mainSecAbout {
+    background-color: black;
+    position: relative;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    /*top: 0;*/
+    /*left: 0;*/
+}
+
+.mainSecAbout > section {
+    height: 100%;
+    border: 5px solid green;
+}
+
+/*.mainSecAbout > section:nth-child(1) {
+    height: 500px;
+}
+.mainSecAbout > section:nth-child(2) {
+    height: 500px;
+
+}
+.mainSecAbout > section:nth-child(3) {
+    height: 500px;
+
+}*/
+
+.mainSecAbout > section:first-child > div:first-child {
+    position: relative;
+    /*!*top: -0.5vh;*!*/
+    top: -3.8px;
+    left: 0;
+    /*!*height: 75vh;*!*/
+    /*height: 570px;*/
+    height: 500px;
+    background: url("../../../images/DarkheadUnder.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+/*
+.quoteHead01 {
+    position: absolute;
+    !*!*!*width: 659px;*!*!*!
+    width: 40vw;
+    height: 138px;
+    !*!*!*left: 820px;*!*!*!
+    right: 2vw;
+    !*!*!*top: 820px;*!*!*!
+    top: 10px;
+
+    !*!*font-family: "Roboto";*!*!
+    font-family: "Courier Prime";
+    font-style: normal;
+    font-weight: 400;
+    !*!*!*font-size: 25px;*!*!*!
+    font-size: 1.6vw;
+    line-height: 39px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    opacity: 0.5;
+
+    color: #FFFFFF;
+
+}
+*/
+.quoteHead01 {
+    position: absolute;
+    width: 40vw;
+    height: 138px;
+    right: 2vw;
+    top: 81px;
+    font-family: "Courier Prime";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 39px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    opacity: 0.5;
+    color: #FFFFFF;
+}
+.quoteHead2 {
+    position: absolute;
+    width: 31vw;
+    height: 50px;
+    right: 2vw;
+    top: 276px;
+    opacity: 0.5;
+    font-family: "Courier Prime";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+/*.quoteHead2 {
+    position: absolute;
+    !*!*!*width: 609px;*!*!*!
+    width: 40vw;
+    height: 50px;
+    !*!*!*left: 900px;*!*!*!
+    right: 2vw;
+    top: 200px;
+    opacity: 0.5;
+    !*!*font-family: "Roboto";*!*!
+    font-family: "Courier Prime";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}*/
+
+.aboutMe {
+    position: absolute;
+    width: 195px;
+    height: 49px;
+    left: 37px;
+    top: 400px;
+
+    /*!*font-family: 'Della Respira';*!*/
+    font-family: "Courier Prime";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #BA903A;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.aboutMiddle4to {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMiddle4to > aside:nth-child(1), article:nth-child(2) {
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid white;*/
+}
+
+.aboutMiddle4to > aside:nth-child(1) {
+    width: 50vw;
+    height: 100%;
+    /*border: 1px solid white;*/
+}
+
+
+/*.aboutMiddle4to>article{*/
+/*    border: 1px solid white;*/
+/*}*/
+
+
+/*!** name /se/ age *!*!*/
+.name {
+    /*position: relative;*/
+    /*width: 412px;*/
+    /*height: 37px;*/
+    /*right: 693px;*/
+    /*top: 100px;*/
+
+    margin-top: 10px;
+    font-family: "Courier Prime";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 20px;
+    /*!*! *identical to box height *!*!*/
+
+
+    /*!*color: #254871;*!*/
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.se {
+    /*position: absolute;*/
+    /*width: 297px;*/
+    /*height: 53px;*/
+    /*left: 693px;*/
+    /*top: 1410px;*/
+
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 53px;
+    letter-spacing: 0.01em;
+
+    /*!*color: #254871;*!*/
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.age {
+    position: relative;
+    /*width: 162px;*/
+    /*height: 49px;*/
+    /*left: 693px;*/
+    /*top: 1451px;*/
+    top: -15px;
+
+    font-family: 'Courier Prime';
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42px;
+    /*!*! *identical to box height *!*!*/
+    /*!*color: #254871;*!*/
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.se {
+    /*position: absolute;*/
+    /*width: 297px;*/
+    /*height: 53px;*/
+    /*left: 693px;*/
+    /*top: 1410px;*/
+
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 53px;
+    letter-spacing: 0.01em;
+
+    /*!*color: #254871;*!*/
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.age {
+    /*position: absolute;*/
+    /*width: 162px;*/
+    /*height: 49px;*/
+    /*left: 693px;*/
+    /*top: 1451px;*/
+
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42px;
+    /*!*! *identical to box height *!*!*/
+
+
+    /*!*color: #254871;*!*/
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+
+.hi {
+    /*position: absolute;*/
+    /*width: 125px;*/
+    /*height: 42px;*/
+    /*left: 693px;*/
+    /*top: 1542px;*/
+
+    font-family: 'Space Mono';
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 42px;
+    /*!*! *identical to box height *!*!*/
+
+
+    /*!*color: #254871;*!*/
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.desMe1 {
+    /*position: absolute;*/
+    /*width: 713px;*/
+    /*height: 87px;*/
+    /*left: 693px;*/
+    /*top: 1578px;*/
+
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+
+    /*!*color: #254871;*!*/
+    color: #ffffff;
+    opacity: 0.5;
+
+}
+
+.desMe2 {
+    /*position: absolute;*/
+    /*width: 713px;*/
+    /*height: 87px;*/
+    /*left: 693px;*/
+    /*top: 1689px;*/
+
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+
+    /*!*color: #254871;*!*/
+    color: #ffffff;
+    opacity: 0.5;
+
+}
+
+/**/
+#aboutLangFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+#aboutLangFlex > div {
+    /*border: 1px solid #6f88e8;*/
+    width: 100%;
+    height: 100%;
+}
+
+
+.languages {
+    position: relative;
+    width: 15vw;
+    /*height: 50px;*/
+    left: 37px;
+    top: 10px;
+    margin-bottom: 20px;
+
+
+    /*!*font-family: 'Familjen Grotesk';*!*/
+    font-family: "Courier Prime";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #BA903A;
+}
+
+#sin {
+    display: inline-block;
+    /*position: absolute;
+    /*top: 1923px;*/
+    /*left: 50px;*!*/
+    padding-right: 10px;
+    font-size: 1rem;
+
+    position: relative;
+    /*width: 100px;*/
+    /*height: 31px;*/
+    left: 42px;
+    /*top: 2000px;*/
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*!*font-size: 20px;*!*/
+    line-height: 31px;
+
+    color: #FDF9F9;
+
+}
+
+#file {
+    display: inline-block;
+    position: relative;
+    /*width: 200px;*/
+    /*height: 31px;*/
+    left: 33px;
+    top: 3px;
+}
+
+#eng {
+    /*display: inline-block;*/
+    /*display: inline-block;*/
+    /*!*position: absolute;*/
+    /*top: 1923px;*/
+    /*left: 50px;*!*/
+    padding-right: 10px;
+    font-size: 1rem;
+
+    position: relative;
+    /*width: 100px;*/
+    /*height: 31px;*/
+    left: 42px;
+    /*top: 2030px;*/
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*!*font-size: 20px;*!*/
+    line-height: 31px;
+
+    color: #FDF9F9;
+}
+
+
+#file2 {
+    position: relative;
+    /*width: 200px;*/
+    /*height: 31px;*/
+    left: 34px;
+    top: 3px;
+}
+
+.extraDetails {
+    margin-bottom: 10px;
+    position: relative;
+    width: 332px;
+    height: 50px;
+    /*left: 45vw;*/
+    top:10px;
+
+    /*!*font-family: 'Familjen Grotesk';*!*/
+    font-family: "Courier Prime";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #BA903A;
+}
+
+#ad {
+    padding-right: 10px;
+    font-size: 1rem;
+    position: relative;
+    /*width: 100px;*/
+    /*height: 31px;*/
+    /*left: 45vw;*/
+    /*top: 2000px;*/
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*!*font-size: 20px;*!*/
+    line-height: 31px;
+
+    color: #FDF9F9;
+}
+
+#adReal {
+    padding-right: 10px;
+    font-size: 1rem;
+
+    position: relative;
+    width: 340px;
+    /*height: 31px;*/
+    /*left: 52vw;*/
+    top: -63px;
+    left: 95px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*!*font-size: 20px;*!*/
+    line-height: 31px;
+
+    color: #FDF9F9;
+}
+
+#tel {
+    padding-right: 10px;
+    font-size: 1rem;
+
+    /*position: absolute;*/
+    /*width: 100px;*/
+    /*height: 31px;*/
+    /*left: 45vw;*/
+    /*top: 2030px;*/
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*!*font-size: 20px;*!*/
+    line-height: 31px;
+
+    color: #FDF9F9;
+}
+
+#telReal {
+    padding-right: 10px;
+    font-size: 1rem;
+
+    position: relative;
+    width: 150px;
+    /*height: 31px;*/
+    left: 9vw;
+    top: -60px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    /*!*font-size: 20px;*!*/
+    line-height: 31px;
+
+    color: #FDF9F9;
+}
+
+/*
+
+
+!*!*About description/paras *!*!
+
+
+*/
+
+
+/*================================== 320->Mobile -S ==================================*/
+@media all and (max-width: 321px) {
+    .mainSecAbout {
+        position: relative;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        /*border: 1px solid green;*/
+
+    }
+    .mainSecAbout > section {
+        height: 100%;
+        /*border: 2px solid green;*/
+    }
+
+    .mainSecAbout > section:first-child > div:first-child {
+        position: relative;
+        top: -3.8px;
+        left: 0;
+        /*height: 509px;*/
+        height: 132px;
+        background: url(../../../images/DarkheadUnder.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .quoteHead01 {
+        display: none;
+    }
+    .quoteHead2 {
+        display: none;
+    }
+
+    .aboutMe {
+        position: absolute;
+        width: 195px;
+        height: 49px;
+        left: 27px;
+        top: 93px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 49px;
+        color: #BA903A;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+
+    .aboutMiddle4to {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #aboutLangFlex {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #aboutLangFlex > div:nth-child(1) {
+        /*border: 1px solid #6f88e8;*/
+        /*width: 70%;*/
+        /*height: 100%;*/
+    }
+
+    #aboutLangFlex > div {
+        /*border: 1px solid #6f88e8;*/
+        /*width: 100%;*/
+        height: 100%;
+        width: 100%;
+    }
+
+    .languages {
+        position: relative;
+        width: 15vw;
+        /*height: 50px;*/
+        left: 5px;
+        top: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+
+        /*!*font-family: 'Familjen Grotesk';*!*/
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+
+        color: #BA903A;
+    }
+
+    #sin {
+        display: inline-block;
+        /*position: absolute;
+        /*top: 1923px;*/
+        /*left: 50px;*!*/
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        left: 5px;
+        /*top: 2000px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+
+    }
+
+    #file {
+        display: inline-block;
+        position: relative;
+        /*width: 200px;*/
+        /*height: 31px;*/
+        left: 10px;
+        top: 3px;
+    }
+
+    #eng {
+        /*display: inline-block;*/
+        /*display: inline-block;*/
+        /*!*position: absolute;*/
+        /*top: 1923px;*/
+        /*left: 50px;*!*/
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        left: 5px;
+        /*top: 2030px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+
+    #file2 {
+        position: relative;
+        /*width: 200px;*/
+        /*height: 31px;*/
+        left: 10px;
+        top: 3px;
+    }
+
+    .extraDetails {
+        margin-top: 30px;
+        display: block;
+        margin-bottom: 15px;
+        position: relative;
+        width: 287px;
+        height: 50px;
+        /* left: 45vw; */
+        top: 10px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+
+    #ad {
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        /*left: 45vw;*/
+        /*top: 2000px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+    #adReal {
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 1rem;
+
+        /*position: relative;*/
+        width: 79VW;
+        /*height: 31px;*/
+        /*left: 52vw;*/
+        top: -63px;
+        right: 0;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+    #tel {
+        display: block;
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        /* width: 100px; */
+        /* height: 31px; */
+        /* left: 45vw; */
+        top: 31px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        margin-right: 20px;
+        color: #FDF9F9;
+    }
+
+    #telReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        width: 150px;
+        left: 26vw;
+        top: -60px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+}
+
+
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 322px) and (max-width: 376px) {
+    .mainSecAbout {
+        position: relative;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        /*border: 1px solid green;*/
+
+    }
+    .mainSecAbout > section {
+        height: 100%;
+        /*border: 2px solid green;*/
+    }
+
+    .mainSecAbout > section:first-child > div:first-child {
+        position: relative;
+        top: -3.8px;
+        left: 0;
+        /*height: 509px;*/
+        height: 132px;
+        background: url(../../../images/DarkheadUnder.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .quoteHead01 {
+        display: none;
+    }
+    .quoteHead2 {
+        display: none;
+    }
+
+    .aboutMe {
+        position: absolute;
+        width: 195px;
+        height: 49px;
+        left: 27px;
+        top: 93px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 49px;
+        color: #BA903A;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+
+    .aboutMiddle4to {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #aboutLangFlex {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #aboutLangFlex > div:nth-child(1) {
+        /*border: 1px solid #6f88e8;*/
+        /*width: 70%;*/
+        /*height: 100%;*/
+    }
+
+    #aboutLangFlex > div {
+        /*border: 1px solid #6f88e8;*/
+        /*width: 100%;*/
+        height: 100%;
+        width: 100%;
+    }
+
+    .languages {
+        position: relative;
+        width: 15vw;
+        /*height: 50px;*/
+        left: 5px;
+        top: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+
+        /*!*font-family: 'Familjen Grotesk';*!*/
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+
+        color: #BA903A;
+    }
+
+    #sin {
+        display: inline-block;
+        /*position: absolute;
+        /*top: 1923px;*/
+        /*left: 50px;*!*/
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        left: 5px;
+        /*top: 2000px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+
+    }
+
+    #file {
+        display: inline-block;
+        position: relative;
+        /*width: 200px;*/
+        /*height: 31px;*/
+        left: 10px;
+        top: 3px;
+    }
+
+    #eng {
+        /*display: inline-block;*/
+        /*display: inline-block;*/
+        /*!*position: absolute;*/
+        /*top: 1923px;*/
+        /*left: 50px;*!*/
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        left: 5px;
+        /*top: 2030px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+
+    #file2 {
+        position: relative;
+        /*width: 200px;*/
+        /*height: 31px;*/
+        left: 10px;
+        top: 3px;
+    }
+
+    .extraDetails {
+        margin-top: 30px;
+        display: block;
+        margin-bottom: 15px;
+        position: relative;
+        width: 287px;
+        height: 50px;
+        /* left: 45vw; */
+        top: 10px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+
+    #ad {
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        /*left: 45vw;*/
+        /*top: 2000px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+    #adReal {
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 1rem;
+
+        /*position: relative;*/
+        width: 79VW;
+        /*height: 31px;*/
+        /*left: 52vw;*/
+        top: -63px;
+        right: 0;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+    #tel {
+        display: block;
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        /* width: 100px; */
+        /* height: 31px; */
+        /* left: 45vw; */
+        top: 31px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        margin-right: 20px;
+        color: #FDF9F9;
+    }
+
+    #telReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        width: 150px;
+        /* height: 31px; */
+        left: 26vw;
+        top: -60px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+}
+
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 377px) and (max-width: 426px) {
+    .mainSecAbout {
+        position: relative;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        /*border: 1px solid green;*/
+
+    }
+    .mainSecAbout > section {
+        height: 100%;
+        /*border: 2px solid green;*/
+    }
+
+    .mainSecAbout > section:first-child > div:first-child {
+        position: relative;
+        top: -3.8px;
+        left: 0;
+        /*height: 509px;*/
+        height: 132px;
+        background: url(../../../images/DarkheadUnder.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .quoteHead01 {
+        display: none;
+    }
+    .quoteHead2 {
+        display: none;
+    }
+
+    .aboutMe {
+        position: absolute;
+        width: 195px;
+        height: 49px;
+        left: 27px;
+        top: 93px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 49px;
+        color: #BA903A;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+
+    .aboutMiddle4to {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #aboutLangFlex {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #aboutLangFlex > div:nth-child(1) {
+        /*border: 1px solid #6f88e8;*/
+        /*width: 70%;*/
+        /*height: 100%;*/
+    }
+
+    #aboutLangFlex > div {
+        /*border: 1px solid #6f88e8;*/
+        /*width: 100%;*/
+        height: 100%;
+        width: 100%;
+    }
+
+    .languages {
+        position: relative;
+        width: 15vw;
+        /*height: 50px;*/
+        left: 5px;
+        top: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+
+        /*!*font-family: 'Familjen Grotesk';*!*/
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+
+        color: #BA903A;
+    }
+
+    #sin {
+        display: inline-block;
+        /*position: absolute;
+        /*top: 1923px;*/
+        /*left: 50px;*!*/
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        left: 5px;
+        /*top: 2000px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+
+    }
+
+    #file {
+        display: inline-block;
+        position: relative;
+        /*width: 200px;*/
+        /*height: 31px;*/
+        left: 10px;
+        top: 3px;
+    }
+
+    #eng {
+        /*display: inline-block;*/
+        /*display: inline-block;*/
+        /*!*position: absolute;*/
+        /*top: 1923px;*/
+        /*left: 50px;*!*/
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        left: 5px;
+        /*top: 2030px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+
+    #file2 {
+        position: relative;
+        /*width: 200px;*/
+        /*height: 31px;*/
+        left: 10px;
+        top: 3px;
+    }
+
+    .extraDetails {
+        margin-top: 30px;
+        display: block;
+        margin-bottom: 15px;
+        position: relative;
+        width: 287px;
+        height: 50px;
+        /* left: 45vw; */
+        top: 10px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+
+    #ad {
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        /*left: 45vw;*/
+        /*top: 2000px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+    #adReal {
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 1rem;
+
+        /*position: relative;*/
+        width: 79VW;
+        /*height: 31px;*/
+        /*left: 52vw;*/
+        top: -63px;
+        right: 0;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+    #tel {
+        display:block ;
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        /*left: 45vw;*/
+        /*top: 2030px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+        margin-right: 20px;
+
+        color: #FDF9F9;
+    }
+
+    #telReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        width: 150px;
+        /* height: 31px; */
+        left: 23vw;
+        top: -60px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+}
+
+
+/*================================== 768->Tablet ================================== */
+@media all and (min-width: 426px) and (max-width: 768px) {
+
+    .mainSecAbout {
+        position: relative;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainSecAbout > section {
+        height: 100%;
+        /*border: 5px solid green;*/
+    }
+
+    .mainSecAbout > section:nth-child(1) {
+        /*height: 10%;*/
+        /*border: 5px solid yellow;*/
+    }
+
+    .mainSecAbout > section:first-child > div:first-child {
+        position: relative;
+        /*!*top: -0.5vh;*!*/
+        /*top: -3.8px;*/
+        left: 0;
+        /*!*height: 75vh;*!*/
+        /*height: 570px;*/
+        height: 300px;
+        background: url("../../../images/DarkheadUnder.png") no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .quoteHead01 {
+        position: absolute;
+        width: 63vw;
+        height: 138px;
+        right: 2vw;
+        top: 10px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6vw;
+        line-height: 39px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        opacity: 0.5;
+        color: #FFFFFF;
+    }
+
+    .quoteHead2 {
+        position: absolute;
+        width: 40vw;
+        height: 50px;
+        right: 2vw;
+        top: 134px;
+        opacity: 0.5;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4vw;
+        line-height: 29px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    .aboutMiddle4to {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .aboutMe {
+        position: absolute;
+        width: 195px;
+        height: 49px;
+        left: 37px;
+        top: 219px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 49px;
+        color: #BA903A;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+
+    #aboutLangFlex {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #aboutLangFlex > div:nth-child(1) {
+        /*border: 1px solid #6f88e8;*/
+        width: 70%;
+        /*height: 100%;*/
+    }
+
+    #aboutLangFlex > div {
+        /*border: 1px solid #6f88e8;*/
+        /*width: 100%;*/
+        height: 100%;
+    }
+
+
+    .languages {
+        position: relative;
+        width: 15vw;
+        /*height: 50px;*/
+        left: 5px;
+        top: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+
+        /*!*font-family: 'Familjen Grotesk';*!*/
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+
+        color: #BA903A;
+    }
+
+    #sin {
+        display: inline-block;
+        /*position: absolute;
+        /*top: 1923px;*/
+        /*left: 50px;*!*/
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        left: 5px;
+        /*top: 2000px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+
+    }
+
+    #file {
+        display: inline-block;
+        position: relative;
+        /*width: 200px;*/
+        /*height: 31px;*/
+        left: 10px;
+        top: 3px;
+    }
+
+    #eng {
+        /*display: inline-block;*/
+        /*display: inline-block;*/
+        /*!*position: absolute;*/
+        /*top: 1923px;*/
+        /*left: 50px;*!*/
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        left: 5px;
+        /*top: 2030px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+
+    #file2 {
+        position: relative;
+        /*width: 200px;*/
+        /*height: 31px;*/
+        left: 10px;
+        top: 3px;
+    }
+
+    .extraDetails {
+        margin-top: 30px;
+        display: block;
+        margin-bottom: 15px;
+        position: relative;
+        width: 287px;
+        height: 50px;
+        /* left: 45vw; */
+        top: 10px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+
+    #ad {
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        /*left: 45vw;*/
+        /*top: 2000px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+    #adReal {
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 1rem;
+
+        /*position: relative;*/
+        width: 46VW;
+        /*height: 31px;*/
+        /*left: 52vw;*/
+        top: -63px;
+        right: 0;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+
+        color: #FDF9F9;
+    }
+
+    #tel {
+        display:block ;
+        padding-right: 10px;
+        font-size: 1rem;
+
+        position: relative;
+        /*width: 100px;*/
+        /*height: 31px;*/
+        /*left: 45vw;*/
+        /*top: 2030px;*/
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        /*!*font-size: 20px;*!*/
+        line-height: 31px;
+        margin-right: 20px;
+
+        color: #FDF9F9;
+    }
+
+    #telReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: relative;
+        width: 150px;
+        /* height: 31px; */
+        left: 13vw;
+        top: -60px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+}
+
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 769px) and (max-width: 1024px)   {
+
+    .aboutMiddle4to {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .aboutMiddle4to > aside:nth-child(1), article:nth-child(2) {
+        width: 100%;
+        height: 100%;
+        /*border: 1px solid white;*/
+    }
+
+    .aboutMiddle4to > aside:nth-child(1) {
+        width: 78vw;
+        height: 100%;
+        /*border: 1px solid white;*/
+    }
+
+
+    /*.mainSecAbout > section:first-child > div:first-child {
+        position: relative;
+        !*top: -0.5vh;*!
+        top: -3.8px;
+        left: 0;
+        !*height: 59vh;*!
+        height: 448.4px;
+        background: url(../../../images/DarkheadUnder.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .quoteHead01 {
+        position: absolute;
+        width: 40vw;
+        height: 138px;
+        right: 2vw;
+        top: 731px;
+        !* font-family: "Roboto"; *!
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6vw;
+        line-height: 39px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        opacity: 0.5;
+        color: #FFFFFF;
+    }
+
+    .quoteHead2 {
+        position: absolute;
+        width: 40vw;
+        height: 50px;
+        right: 2vw;
+        top: 920px;
+        opacity: 0.5;
+        !* font-family: "Roboto"; *!
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4vw;
+        line-height: 29px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    .name {
+        position: absolute;
+        width: 412px;
+        height: 37px;
+        left: 514px;
+        top: 1104px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 37px;
+        color: rgb(255, 255, 255);
+        opacity: 0.8;
+    }
+
+    .aboutMe {
+        position: absolute;
+        width: 195px;
+        height: 49px;
+        left: 37px;
+        top: 1120px;
+        !* font-family: 'Della Respira'; *!
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 49px;
+        color: #BA903A;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+
+    .se {
+        position: absolute;
+        width: 297px;
+        height: 53px;
+        left: 516px;
+        top: 1198px;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 53px;
+        letter-spacing: 0.01em;
+        !* color: #254871; *!
+        color: #ffffff;
+        opacity: 0.7;
+    }
+
+    .age {
+        position: absolute;
+        width: 162px;
+        height: 49px;
+        left: 516px;
+        top: 1239px;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 42px;
+        !* color: #254871; *!
+        color: #ffffff;
+        opacity: 0.7;
+    }
+
+    .hi {
+        position: absolute;
+        width: 125px;
+        height: 42px;
+        left: 516px;
+        top: 1306px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 42px;
+        !* color: #254871; *!
+        color: #ffffff;
+        opacity: 0.6;
+    }
+
+    .desMe1 {
+        position: absolute;
+        width: 502px;
+        height: 87px;
+        left: 516px;
+        top: 1357px;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        !* color: #254871; *!
+        color: #ffffff;
+        opacity: 0.5;
+    }
+
+    .desMe2 {
+        position: absolute;
+        width: 498px;
+        height: 87px;
+        left: 516px;
+        top: 1511px;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        !* color: #254871; *!
+        color: #ffffff;
+        opacity: 0.5;
+    }
+
+    .languages {
+        position: absolute;
+        width: 332px;
+        height: 50px;
+        left: 37px;
+        top: 1744px;
+        !* font-family: 'Familjen Grotesk'; *!
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+
+    #sin {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 42px;
+        top: 1793px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+    #eng {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 42px;
+        top: 1829px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+    #file {
+        position: absolute;
+        width: 200px;
+        height: 31px;
+        left: 150px;
+        top: 1795px;
+    }
+    #file2 {
+        position: absolute;
+        width: 200px;
+        height: 31px;
+        left: 150px;
+        top: 1830px;
+    }
+    .extraDetails {
+        position: absolute;
+        width: 332px;
+        height: 50px;
+        left: 50vw;
+        top: 1744px;
+        !* font-family: 'Familjen Grotesk'; *!
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+
+    #ad {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 50vw;
+        top: 1793px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+    #adReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 334px;
+        height: 31px;
+        left: 60vw;
+        top: 1793px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+    #tel {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 50vw;
+        top: 1833px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+    #telReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 150px;
+        height: 31px;
+        left: 60vw;
+        top: 1833px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+    #fullAboutDetailContainer{
+        position: relative;
+        top: -1563px;
+        left: -50px;
+    }
+
+    #allAboutLangExtra{
+        !*height: 200px;*!
+        !*position: relative;*!
+        !*top:-1550px;*!
+        !*left: 0;*!
+    }
+    .extraDetails {
+        position: absolute;
+        width: 332px;
+        height: 50px;
+        left: 44.5vw;
+        top: 1740px;
+        !* font-family: 'Familjen Grotesk'; *!
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+    #ad {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 44.5vw;
+        top: 1798px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        color: rgb(253, 249, 249);
+    }
+
+    #tel {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 44.5vw;
+        top: 1845px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+    #adReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 334px;
+        height: 31px;
+        left: 53.9vw;
+        top: 1798px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+    #telReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 150px;
+        height: 31px;
+        left: 53.9vw;
+        top: 1845px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }*/
+
+}
+
+/*================================== 1440->Laptop large ================================== */
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+    /*.quoteHead01 {
+        position: absolute;
+        !*!*width: 659px;*!*!
+        width: 40vw;
+        height: 138px;
+        !*!*left: 820px;*!*!
+        right: 2vw;
+        !*!*top: 820px;*!*!
+        top: 720px;
+
+        !*font-family: "Roboto";*!
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        !*!*font-size: 25px;*!*!
+        font-size: 1.6vw;
+        line-height: 39px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        opacity: 0.5;
+
+        color: #FFFFFF;
+
+    }*/
+
+    /*.quoteHead01 {
+        position: absolute;
+        width: 40vw;
+        height: 138px;
+        right: 2vw;
+        top: 780px;
+        !* font-family: "Roboto"; *!
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6vw;
+        line-height: 39px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        opacity: 0.5;
+        color: #FFFFFF;
+    }
+    .quoteHead2 {
+        position: absolute;
+        width: 40vw;
+        height: 50px;
+        right: 2vw;
+        top: 976px;
+        opacity: 0.5;
+        !* font-family: "Roboto"; *!
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4vw;
+        line-height: 29px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    .aboutMe {
+        position: absolute;
+        width: 195px;
+        height: 49px;
+        left: 37px;
+        top: 1217px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 49px;
+        color: rgb(186, 144, 58);
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+
+    .name {
+        position: absolute;
+        width: 412px;
+        height: 37px;
+        left: 693px;
+        top: 1208px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 37px;
+        !* color: #254871; *!
+        color: #ffffff;
+        opacity: 0.8;
+    }
+
+    .se {
+        position: absolute;
+        width: 297px;
+        height: 53px;
+        left: 693px;
+        top: 1272px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 53px;
+        letter-spacing: 0.01em;
+        color: rgb(255, 255, 255);
+        opacity: 0.7;
+    }
+
+    .age {
+        position: absolute;
+        width: 162px;
+        height: 49px;
+        left: 693px;
+        top: 1310px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 42px;
+        color: rgb(255, 255, 255);
+        opacity: 0.7;
+    }
+
+    .hi {
+        position: absolute;
+        width: 125px;
+        height: 42px;
+        left: 693px;
+        top: 1396px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 42px;
+        !* color: #254871; *!
+        color: #ffffff;
+        opacity: 0.6;
+    }
+
+    .desMe1 {
+        position: absolute;
+        width: 713px;
+        height: 87px;
+        left: 693px;
+        top: 1441px;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        !* color: #254871; *!
+        color: #ffffff;
+        opacity: 0.5;
+    }
+
+    .desMe2 {
+        position: absolute;
+        width: 713px;
+        height: 87px;
+        left: 693px;
+        top: 1569px;
+        font-family: 'Courier Prime';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        !* color: #254871; *!
+        color: #ffffff;
+        opacity: 0.5;
+    }
+
+    .languages {
+        position: absolute;
+        width: 332px;
+        height: 50px;
+        left: 37px;
+        top: 1740px;
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: rgb(186, 144, 58);
+    }
+
+    .extraDetails {
+        position: absolute;
+        width: 332px;
+        height: 50px;
+        left: 44.5vw;
+        top: 1740px;
+        !* font-family: 'Familjen Grotesk'; *!
+        font-family: "Courier Prime";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+        color: #BA903A;
+    }
+
+    #sin {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 42px;
+        top: 1798px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        color: rgb(253, 249, 249);
+    }
+
+    #eng {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 42px;
+        top: 1845px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+    #file {
+        position: absolute;
+        width: 200px;
+        height: 31px;
+        left: 150px;
+        top: 1799px;
+    }
+
+    #file2 {
+        position: absolute;
+        width: 200px;
+        height: 31px;
+        left: 150px;
+        top: 1845px;
+    }
+
+    #ad {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 44.5vw;
+        top: 1798px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+        color: rgb(253, 249, 249);
+    }
+
+    #tel {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 100px;
+        height: 31px;
+        left: 44.5vw;
+        top: 1845px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+    #adReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 334px;
+        height: 31px;
+        left: 53.9vw;
+        top: 1798px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+    #telReal {
+        padding-right: 10px;
+        font-size: 1rem;
+        position: absolute;
+        width: 150px;
+        height: 31px;
+        left: 53.9vw;
+        top: 1845px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        !* font-size: 20px; *!
+        line-height: 31px;
+        color: #FDF9F9;
+    }
+
+    #fullAboutDetailContainer{
+        position: relative;
+        top: -1700px;
+        left: -50px;
+    }
+    #allAboutLangExtra{
+        position: relative;
+        top:-1700px;
+        left: 0;
+    }*/
+}
+
+/* ================================== 4K ================================== */
+@media all and (min-width: 1441px) and (max-width: 2560px) {
+
+}
