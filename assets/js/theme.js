@@ -13,14 +13,6 @@ function dark() {
     } else {
         /*light THeme*/
 
-        /*$("<link/>", {
-            rel: "stylesheet",
-            type: "text/css",
-            href: "../styleSheet/lightTheme/lightAbout.css"
-        }).appendTo("body");*/
-
-
-
         // $("#AboutMe-section").removeAttr("style");
 
 
@@ -34,10 +26,5 @@ function dark() {
         $("#style1").removeAttr("disabled");
 
 
-       /* $(document).ready(function () {
-            $('#AboutMe-section').css({"border":"5px solid black"});
-            $('<style type="text/css"></style>')
-                .html('@import url("../../styleSheet/lightTheme/lightAbout.css")');
-        });*/
     }
 }
