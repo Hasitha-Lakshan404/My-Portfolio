@@ -18,6 +18,7 @@ $('#btnItem').click(function (){
     $('#orderPage').css('display','none');
     $('#itemPage').css('display','block');
     $('#customerPage').css('display','none');
+
 });
 
 $('#btnCustomer').click(function (){
@@ -25,4 +26,9 @@ $('#btnCustomer').click(function (){
     $('#orderPage').css('display','none');
     $('#itemPage').css('display','none');
     $('#customerPage').css('display','block');
+
+    $('#btnDash').css({"font-weight": "none"});
+    $('#btnOrder').css({"font-weight": "none"});
+    $('#btnItem').css({"font-weight": "none"});
+    $('#btnCustomer').css({"font-weight": "bold"});
 });
