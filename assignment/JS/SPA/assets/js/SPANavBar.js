@@ -4,6 +4,11 @@ $('#btnDash').click(function (){
     $('#orderPage').css('display','none');
     $('#itemPage').css('display','none');
     $('#customerPage').css('display','none');
+
+    $('#btnDash').css({"font-weight": "bold"});
+    $('#btnOrder').css({"font-weight": "normal"});
+    $('#btnItem').css({"font-weight": "normal"});
+    $('#btnCustomer').css({"font-weight": "normal"});
 });
 
 $('#btnOrder').click(function (){
@@ -11,6 +16,11 @@ $('#btnOrder').click(function (){
     $('#orderPage').css('display','block');
     $('#itemPage').css('display','none');
     $('#customerPage').css('display','none');
+
+    $('#btnDash').css({"font-weight": "normal"});
+    $('#btnOrder').css({"font-weight": "bold"});
+    $('#btnItem').css({"font-weight": "normal"});
+    $('#btnCustomer').css({"font-weight": "normal"});
 });
 
 $('#btnItem').click(function (){
@@ -19,6 +29,10 @@ $('#btnItem').click(function (){
     $('#itemPage').css('display','block');
     $('#customerPage').css('display','none');
 
+    $('#btnDash').css({"font-weight": "normal"});
+    $('#btnOrder').css({"font-weight": "normal"});
+    $('#btnItem').css({"font-weight": "bold"});
+    $('#btnCustomer').css({"font-weight": "normal"});
 });
 
 $('#btnCustomer').click(function (){
@@ -27,8 +41,8 @@ $('#btnCustomer').click(function (){
     $('#itemPage').css('display','none');
     $('#customerPage').css('display','block');
 
-    $('#btnDash').css({"font-weight": "none"});
-    $('#btnOrder').css({"font-weight": "none"});
-    $('#btnItem').css({"font-weight": "none"});
+    $('#btnDash').css({"font-weight": "normal"});
+    $('#btnOrder').css({"font-weight": "normal"});
+    $('#btnItem').css({"font-weight": "normal"});
     $('#btnCustomer').css({"font-weight": "bold"});
 });
