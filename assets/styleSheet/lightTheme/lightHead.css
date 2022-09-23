@@ -3,3 +3,214 @@ Project :Portfolio
 Date :9/23/2022
 Time :7:59 PM
 */
+
+
+/*============================*/
+
+/*====Redesign ScrollBar=====*/
+::-webkit-scrollbar {
+    background: #192F35;
+    width: 0.5em;
+    height: 0.5em;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #192F35;
+    /*border-radius: 100vw;*/
+
+    /*scrollbar up and down margin*/
+    /*margin-block: 2em;*/
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(rebeccapurple, blue);
+    /*border-radius: 100vw;*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(blue, rebeccapurple);
+}
+
+body{
+    background-color: #242734;
+}
+/*================================*/
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 75px;
+    z-index: 5;
+}
+
+/*header-box*/
+.themeHead>aside>div:first-child{
+    background-color: #323647;
+    width:100%;
+    height: 75px;
+}
+
+/*header-logo*/
+.themeHead>aside>img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+/*for light theme*/
+.themeHead>nav>div:first-child{
+    /*width: 10px;*/
+    /*height: 50px;*/
+    /*background-color: blueviolet;*/
+    /*border-radius: 50%;*/
+    position: absolute;
+    top: 40px;
+    left: 40vw;
+}
+
+/*head navigations-ul*/
+.themeHead>nav>div:nth-child(2)>ul{
+    position: absolute;
+    top: 25px;
+    right: 5vw;
+
+}
+/*head navigations-ul-li*/
+.themeHead>nav>div:nth-child(2)>ul>li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+/*head nav-colour*/
+.themeHead>nav>div:nth-child(2)>ul>li>a{
+    color: #B79C8D;
+    padding-bottom: 0;
+    border-bottom: none;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+/*all anchor*/
+a{
+    text-decoration: none;
+}
+
+
+.themeHead>nav>div:nth-child(2)>ul>li>a:hover{
+    color: #BA903A;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #BA903A;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+/*Hamburger*/
+#hamburgerIcon>i{
+    display: block;
+    color: white;
+    position: absolute;
+    top:35px;
+    right: 20px;
+}
+
+
+
+
+
+/*================================== 320->Mobile -S ==================================*/
+@media all and (max-width: 321px){
+    /*Hamburger*/
+    #hamburgerIcon>i{
+        display:block;
+
+    }
+    #OtherHeadTitles{
+        display: none;
+    }
+    .themeHead>aside>img {
+        position: absolute;
+        width: 40px;
+        top: 16px;
+        height: 40px;
+        left: 10px;
+    }
+}
+
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 322px) and (max-width: 376px){
+    #hamburgerIcon>i{
+        display:inline;
+
+    }
+    #OtherHeadTitles{
+        display: none;
+    }
+
+    .themeHead>nav>div:nth-child(2)>ul {
+        display: none; !important;
+        position: absolute;
+        top: 25px;
+        right: 5vw;
+    }
+    .themeHead>aside>img {
+        position: absolute;
+        width: 40px;
+        top: 16px;
+        height: 40px;
+        left: 10px;
+    }
+}
+
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 377px) and (max-width: 426px){
+    /*Hamburger*/
+    #hamburgerIcon>i{
+        display: block; !important;
+    }
+    #OtherHeadTitles{
+        display: none;
+    }
+    .themeHead>aside>img {
+        position: absolute;
+        width: 40px;
+        top: 16px;
+        height: 40px;
+        left: 10px;
+    }
+
+}
+
+/*================================== 768->Tablet ================================== */
+@media all and (min-width: 427px) and (max-width: 768px){
+    #hamburgerIcon>i{
+        display: none; !important;
+    }
+
+}
+
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 769px) and (max-width: 1024px){
+    #hamburgerIcon>i{
+        display: none; !important;
+    }
+}
+
+/*================================== 1440->Laptop large ================================== */
+@media all and (min-width: 1025px) and (max-width: 1440px){
+    #hamburgerIcon>i{
+        display: none; !important;
+
+    }
+}
+
+/* ================================== 4K ================================== */
+@media all and (min-width: 1441px) and (max-width: 2560px){
+    #hamburgerIcon>i{
+        display: none; !important;
+
+    }
+}

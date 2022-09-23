@@ -9,7 +9,7 @@ Time :1:39 PM
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700;900&display=swap");
 
 .mainSecAbout {
-    background-color: black;
+    /*background-color: black;*/
     position: relative;
     height: 1200px;
     display: flex;

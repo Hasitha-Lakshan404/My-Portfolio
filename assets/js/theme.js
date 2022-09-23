@@ -6,15 +6,6 @@ function dark() {
         /*DARK THEME*/
         b.style.backgroundColor = "#242734";
 
-        /*for the disable light Theme*/
-        $("#lHeadStyle").attr("disabled","disabled");
-        $("#lHomeStyle").attr("disabled","disabled");
-        $("#lAboutStyle").attr("disabled","disabled");
-        $("#lSkillStyle").attr("disabled","disabled");
-        $("#lEduStyle").attr("disabled","disabled");
-        $("#lProStyle").attr("disabled","disabled");
-        $("#lQStyle").attr("disabled","disabled");
-
         /*Enable Dark Theme*/
         $("#dHeadStyle").removeAttr("disabled");
         $("#dHomeStyle").removeAttr("disabled");
@@ -24,9 +15,28 @@ function dark() {
         $("#dProStyle").removeAttr("disabled");
         $("#dQStyle").removeAttr("disabled");
 
+        /*for the disable light Theme*/
+        $("#lHeadStyle").attr("disabled","disabled");
+        $("#lHomeStyle").attr("disabled","disabled");
+        $("#lAboutStyle").attr("disabled","disabled");
+        $("#lSkillStyle").attr("disabled","disabled");
+        $("#lEduStyle").attr("disabled","disabled");
+        $("#lProStyle").attr("disabled","disabled");
+        $("#lQStyle").attr("disabled","disabled");
+
+
+
     } else {
         /*light THeme*/
 
+        /*Enable Light Theme*/
+        $("#lHeadStyle").removeAttr("disabled");
+        $("#lHomeStyle").removeAttr("disabled");
+        $("#lAboutStyle").removeAttr("disabled");
+        $("#lSkillStyle").removeAttr("disabled");
+        $("#lEduStyle").removeAttr("disabled");
+        $("#lProStyle").removeAttr("disabled");
+        $("#lQStyle").removeAttr("disabled");
 
         /*For the Disable Dark Theme*/
         $("#dHeadStyle").attr("disabled","disabled");
@@ -38,14 +48,7 @@ function dark() {
         $("#dQStyle").attr("disabled","disabled");
 
 
-        /*Enable Light Theme*/
-        $("#lHeadStyle").removeAttr("disabled");
-        $("#lHomeStyle").removeAttr("disabled");
-        $("#lAboutStyle").removeAttr("disabled");
-        $("#lSkillStyle").removeAttr("disabled");
-        $("#lEduStyle").removeAttr("disabled");
-        $("#lProStyle").removeAttr("disabled");
-        $("#lQStyle").removeAttr("disabled");
+
 
         b.style.backgroundColor = "white";
         // b.style.backgroundColor = '#320A48';
