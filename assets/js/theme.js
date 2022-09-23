@@ -16,6 +16,15 @@ function dark() {
         $("#lProStyle").attr("disabled","disabled");
         $("#lQStyle").attr("disabled","disabled");
 
+        /*Enable Dark Theme*/
+        $("#dHeadStyle").removeAttr("disabled");
+        $("#dHomeStyle").removeAttr("disabled");
+        $("#dAboutStyle").removeAttr("disabled");
+        $("#dSkillStyle").removeAttr("disabled");
+        $("#dEduStyle").removeAttr("disabled");
+        $("#dProStyle").removeAttr("disabled");
+        $("#dQStyle").removeAttr("disabled");
+
     } else {
         /*light THeme*/
 
