@@ -3,12 +3,12 @@ function dark() {
     var b = document.getElementsByTagName('body')[0];
 
     if (a.checked === true) {
+        /*DARK THEME*/
         b.style.backgroundColor = "#242734";
         // $("#AboutMe-section").removeAttr("style");
 
-
         /*for the disable*/
-        $("#style1").attr("disabled", "disabled");
+        // $("#style1").attr("disabled", "disabled");
 
     } else {
         /*light THeme*/
