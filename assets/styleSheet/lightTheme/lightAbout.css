@@ -67,7 +67,7 @@ Time :1:39 PM
     line-height: 39px;
     text-align: right;
     letter-spacing: 0.05em;
-    opacity: 0.5;
+    opacity: 1;
 
     color: #FFFFFF;
 
@@ -86,7 +86,7 @@ Time :1:39 PM
     line-height: 39px;
     text-align: right;
     letter-spacing: 0.05em;
-    opacity: 0.5;
+    opacity: 1;
     color: #FFFFFF;
 }
 .quoteHead2 {
@@ -95,7 +95,7 @@ Time :1:39 PM
     height: 50px;
     right: 2vw;
     top: 276px;
-    opacity: 0.5;
+    opacity: 1;
     font-family: "Courier Prime";
     font-style: normal;
     font-weight: 400;
@@ -114,7 +114,7 @@ Time :1:39 PM
     !*!*!*left: 900px;*!*!*!
     right: 2vw;
     top: 200px;
-    opacity: 0.5;
+    opacity: 1;
     !*!*font-family: "Roboto";*!*!
     font-family: "Courier Prime";
     font-style: normal;
@@ -191,7 +191,7 @@ Time :1:39 PM
 
     /*!*color: #254871;*!*/
     color: #000000;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .se {
@@ -210,7 +210,7 @@ Time :1:39 PM
 
     /*!*color: #254871;*!*/
     color: #000000;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .age {
@@ -230,7 +230,7 @@ Time :1:39 PM
     /*!*! *identical to box height *!*!*/
     /*!*color: #254871;*!*/
     color: #100707;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .se {
@@ -249,7 +249,7 @@ Time :1:39 PM
 
     /*!*color: #254871;*!*/
     color: #000000;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .age {
@@ -269,7 +269,7 @@ Time :1:39 PM
 
     /*!*color: #254871;*!*/
     color: #000000;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 
@@ -291,7 +291,7 @@ Time :1:39 PM
 
     /*!*color: #254871;*!*/
     color: #000000;
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .desMe1 {
@@ -311,7 +311,7 @@ Time :1:39 PM
 
     /*!*color: #254871;*!*/
     color: #000000;
-    opacity: 0.9;
+    opacity: 1;
 
 }
 
@@ -331,7 +331,7 @@ Time :1:39 PM
 
     /*!*color: #254871;*!*/
     color: #000000;
-    opacity: 0.9;
+    opacity: 1;
 
 }
 
@@ -1337,7 +1337,7 @@ Time :1:39 PM
         line-height: 39px;
         text-align: right;
         letter-spacing: 0.05em;
-        opacity: 0.5;
+        opacity: 1;
         color: #FFFFFF;
     }
 
@@ -1347,7 +1347,7 @@ Time :1:39 PM
         height: 50px;
         right: 2vw;
         top: 134px;
-        opacity: 0.5;
+        opacity: 1;
         font-family: "Courier Prime";
         font-style: normal;
         font-weight: 400;
@@ -1628,7 +1628,7 @@ Time :1:39 PM
         line-height: 39px;
         text-align: right;
         letter-spacing: 0.05em;
-        opacity: 0.5;
+        opacity: 1;
         color: #FFFFFF;
     }
 
@@ -1638,7 +1638,7 @@ Time :1:39 PM
         height: 50px;
         right: 2vw;
         top: 920px;
-        opacity: 0.5;
+        opacity: 1;
         !* font-family: "Roboto"; *!
         font-family: "Courier Prime";
         font-style: normal;
@@ -1662,7 +1662,7 @@ Time :1:39 PM
         font-size: 32px;
         line-height: 37px;
         color: rgb(255, 255, 255);
-        opacity: 0.8;
+        opacity: 1;
     }
 
     .aboutMe {
@@ -1695,7 +1695,7 @@ Time :1:39 PM
         letter-spacing: 0.01em;
         !* color: #254871; *!
         color: #000000;
-        opacity: 0.7;
+        opacity: 1;
     }
 
     .age {
@@ -1711,7 +1711,7 @@ Time :1:39 PM
         line-height: 42px;
         !* color: #254871; *!
         color: #000000;
-        opacity: 0.7;
+        opacity: 1;
     }
 
     .hi {
@@ -1727,7 +1727,7 @@ Time :1:39 PM
         line-height: 42px;
         !* color: #254871; *!
         color: #000000;
-        opacity: 0.6;
+        opacity: 1;
     }
 
     .desMe1 {
@@ -1744,7 +1744,7 @@ Time :1:39 PM
         letter-spacing: 0.01em;
         !* color: #254871; *!
         color: #000000;
-        opacity: 0.5;
+        opacity: 1;
     }
 
     .desMe2 {
@@ -1761,7 +1761,7 @@ Time :1:39 PM
         letter-spacing: 0.01em;
         !* color: #254871; *!
         color: #000000;
-        opacity: 0.5;
+        opacity: 1;
     }
 
     .languages {
@@ -2013,7 +2013,7 @@ Time :1:39 PM
         line-height: 39px;
         text-align: right;
         letter-spacing: 0.05em;
-        opacity: 0.5;
+        opacity: 1;
 
         color: #FFFFFF;
 
@@ -2033,7 +2033,7 @@ Time :1:39 PM
         line-height: 39px;
         text-align: right;
         letter-spacing: 0.05em;
-        opacity: 0.5;
+        opacity: 1;
         color: #FFFFFF;
     }
     .quoteHead2 {
@@ -2042,7 +2042,7 @@ Time :1:39 PM
         height: 50px;
         right: 2vw;
         top: 976px;
-        opacity: 0.5;
+        opacity: 1;
         !* font-family: "Roboto"; *!
         font-family: "Courier Prime";
         font-style: normal;
@@ -2082,7 +2082,7 @@ Time :1:39 PM
         line-height: 37px;
         !* color: #254871; *!
         color: #000000;
-        opacity: 0.8;
+        opacity: 1;
     }
 
     .se {
@@ -2098,7 +2098,7 @@ Time :1:39 PM
         line-height: 53px;
         letter-spacing: 0.01em;
         color: rgb(255, 255, 255);
-        opacity: 0.7;
+        opacity: 1;
     }
 
     .age {
@@ -2113,7 +2113,7 @@ Time :1:39 PM
         font-size: 22px;
         line-height: 42px;
         color: rgb(255, 255, 255);
-        opacity: 0.7;
+        opacity: 1;
     }
 
     .hi {
@@ -2129,7 +2129,7 @@ Time :1:39 PM
         line-height: 42px;
         !* color: #254871; *!
         color: #000000;
-        opacity: 0.6;
+        opacity: 1;
     }
 
     .desMe1 {
@@ -2146,7 +2146,7 @@ Time :1:39 PM
         letter-spacing: 0.01em;
         !* color: #254871; *!
         color: #000000;
-        opacity: 0.5;
+        opacity: 1;
     }
 
     .desMe2 {
@@ -2163,7 +2163,7 @@ Time :1:39 PM
         letter-spacing: 0.01em;
         !* color: #254871; *!
         color: #000000;
-        opacity: 0.5;
+        opacity: 1;
     }
 
     .languages {
