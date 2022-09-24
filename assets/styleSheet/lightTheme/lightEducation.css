@@ -92,7 +92,7 @@ Time :8:01 PM
 
 /*Date*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(1) > h3:first-child {
-    color: black;
+    color: rgb(50, 20, 50);
     position: relative;
     top: 10px;
     left: 40px;
@@ -100,7 +100,7 @@ Time :8:01 PM
 
 /*left-sub title*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(2) {
-    color: black;
+    color: rgb(50, 20, 50);
     font-family: "Courier Prime";
     opacity: 0.7;
     position: relative;
@@ -111,7 +111,7 @@ Time :8:01 PM
 
 /*right-Description*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
-    color: black;
+    color: rgb(50, 20, 50);
     font-family: "Courier Prime";
     position: absolute;
     width: 600px;
@@ -150,7 +150,7 @@ Time :8:01 PM
 
 /*Date*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(3) > h3:first-child {
-    color: black;
+    color: rgb(50, 20, 50);
     position: relative;
     top: 10px;
     left: 40px;
@@ -158,7 +158,7 @@ Time :8:01 PM
 
 /*left-sub title*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(2) {
-    color: black;
+    color: rgb(50, 20, 50);
     font-family: "Courier Prime";
     opacity: 0.7;
     position: relative;
@@ -169,7 +169,7 @@ Time :8:01 PM
 
 /*right-Description*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(3) {
-    color: black;
+    color: rgb(50, 20, 50);
     font-family: "Courier Prime";
     position: absolute;
     width: 600px;
@@ -209,7 +209,7 @@ Time :8:01 PM
 
 /*Date*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(2) > h3:first-child {
-    color: black;
+    color: rgb(50, 20, 50);
     position: relative;
     top: 20px;
     left: 40px;
@@ -217,7 +217,7 @@ Time :8:01 PM
 
 /*left-sub title*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(2) {
-    color: black;
+    color: rgb(50, 20, 50);
     font-family: "Courier Prime";
     opacity: 0.7;
     position: relative;
@@ -228,7 +228,7 @@ Time :8:01 PM
 
 /*right-Description*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(3) {
-    color: black;
+    color: rgb(50, 20, 50);
     font-family: "Courier Prime";
     position: absolute;
     width: 600px;
@@ -267,7 +267,7 @@ Time :8:01 PM
 
 /*Date*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(4) > h3:first-child {
-    color: black;
+    color: rgb(50, 20, 50);
     position: relative;
     top: 20px;
     left: 40px;
@@ -275,7 +275,7 @@ Time :8:01 PM
 
 /*left-sub title*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(2) {
-    color: black;
+    color: rgb(50, 20, 50);
     font-family: "Courier Prime";
     opacity: 0.7;
     position: relative;
@@ -286,7 +286,7 @@ Time :8:01 PM
 
 /*right-Description*/
 .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(3) {
-    color: black;
+    color: rgb(50, 20, 50);
     font-family: "Courier Prime";
     position: absolute;
     width: 600px;
@@ -405,7 +405,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 25px;
@@ -414,7 +414,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -428,7 +428,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 12px;
         position: absolute;
@@ -470,7 +470,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 25px;
@@ -479,7 +479,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -492,7 +492,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 13px;
         position: absolute;
@@ -534,7 +534,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 25px;
@@ -543,7 +543,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -556,7 +556,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 13px;
         position: absolute;
@@ -598,7 +598,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 43px;
@@ -607,7 +607,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -620,7 +620,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 13px;
         position: absolute;
@@ -752,7 +752,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 25px;
@@ -761,7 +761,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -775,7 +775,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 12px;
         position: absolute;
@@ -817,7 +817,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 25px;
@@ -826,7 +826,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -839,7 +839,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 13px;
         position: absolute;
@@ -881,7 +881,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 25px;
@@ -890,7 +890,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -903,7 +903,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 13px;
         position: absolute;
@@ -945,7 +945,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 43px;
@@ -954,7 +954,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -967,7 +967,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 13px;
         position: absolute;
@@ -1103,7 +1103,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 40px;
@@ -1111,7 +1111,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1124,7 +1124,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 13px;
         position: absolute;
@@ -1166,7 +1166,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 40px;
@@ -1174,7 +1174,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1187,7 +1187,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 13px;
         position: absolute;
@@ -1229,7 +1229,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 20px;
         left: 40px;
@@ -1237,7 +1237,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1250,13 +1250,13 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(3) {
-        /*color: black;
+        /*color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         position: absolute;
         width: 386px;
         top: 27px;
         right: 0;*/
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 13px;
         position: absolute;
@@ -1298,7 +1298,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 20px;
         left: 40px;
@@ -1306,7 +1306,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1319,7 +1319,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         font-size: 13px;
         position: absolute;
@@ -1453,7 +1453,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 40px;
@@ -1461,7 +1461,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1472,7 +1472,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         position: absolute;
         width: 470px;
@@ -1512,7 +1512,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 10px;
         left: 40px;
@@ -1520,7 +1520,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1531,7 +1531,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         position: absolute;
         width: 452px;
@@ -1570,7 +1570,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 20px;
         left: 40px;
@@ -1578,7 +1578,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1589,7 +1589,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         position: absolute;
         width: 386px;
@@ -1628,7 +1628,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 20px;
         left: 40px;
@@ -1636,7 +1636,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1647,7 +1647,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         position: absolute;
         width: 395px;
@@ -1767,7 +1767,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1778,7 +1778,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         position: absolute;
         width: 399px;
@@ -1807,7 +1807,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1818,7 +1818,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(3) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         position: absolute;
         width: 399px;
@@ -1849,7 +1849,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1860,7 +1860,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(2) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         position: absolute;
         width: 399px;
@@ -1888,7 +1888,7 @@ Time :8:01 PM
 
     /*left-sub title*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(2) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         opacity: 0.7;
         position: relative;
@@ -1899,7 +1899,7 @@ Time :8:01 PM
 
     /*right-Description*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > p:nth-child(3) {
-        color: black;
+        color: rgb(50, 20, 50);
         font-family: "Courier Prime";
         position: absolute;
         width: 399px;
@@ -1909,7 +1909,7 @@ Time :8:01 PM
 
     /*Date*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(4) > h3:first-child {
-        color: black;
+        color: rgb(50, 20, 50);
         position: relative;
         top: 20px;
         left: 40px;
