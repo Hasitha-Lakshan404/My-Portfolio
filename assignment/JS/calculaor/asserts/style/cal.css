@@ -13,7 +13,12 @@ Time :10:29 PM
     margin: auto;
     position: absolute;
     background: #a2afcb;
-    width: 600px;
-    height: 700px;
+    width: 500px;
+    height: 600px;
     z-index: 2;
+}
+
+#mainCalSec>div{
+    height: 120px;
+    border: 1px solid #070c0a;
 }
