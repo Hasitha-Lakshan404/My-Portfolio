@@ -103,7 +103,7 @@ Time :8:01 PM
     left: 0;
     width: 51.7vw;
     height: 80px;
-    background: url("../../../images/leftOrangeRow.png") no-repeat center;
+    background: url("../../images/leftOrangeRow.png") no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -115,9 +115,9 @@ Time :8:01 PM
     right: 0;
     width: 51.7vw;
     height: 80px;
-    background: url("../../../images/rightPurpleRow.png") no-repeat center;
+    background: url("../../images/rightPurpleRow.png") no-repeat center;
     background-size: 100% 100%;
-    /*background-image: url(../../../images/leftOrangeRow.png);*/
+    /*background-image: url(../../images/leftOrangeRow.png);*/
     /*background-size: cover;*/
     /*background-position: center;*/
     /*border: 3px solid #CFD8DC;*/
@@ -363,7 +363,7 @@ Time :8:01 PM
     }
     /*Left orange bar*/
     .mainSecProject > section:first-child > div:first-child {
-        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background: url("../../images/leftOrangeRow.png") no-repeat center;
         background-size: 100% 100%;
         position: relative;
         top: 0;
@@ -380,7 +380,7 @@ Time :8:01 PM
         right: 0;
         width: 51.7vw;
         height: 38px;
-        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background: url("../../images/rightPurpleRow.png") no-repeat center;
         background-size: 100% 100%;
     }
 
@@ -549,7 +549,7 @@ Time :8:01 PM
     }
     /*Left orange bar*/
     .mainSecProject > section:first-child > div:first-child {
-        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background: url("../../images/leftOrangeRow.png") no-repeat center;
         background-size: 100% 100%;
         position: relative;
         top: 0;
@@ -566,7 +566,7 @@ Time :8:01 PM
         right: 0;
         width: 51.7vw;
         height: 38px;
-        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background: url("../../images/rightPurpleRow.png") no-repeat center;
         background-size: 100% 100%;
     }
 
@@ -739,7 +739,7 @@ Time :8:01 PM
     }
     /*Left orange bar*/
     .mainSecProject > section:first-child > div:first-child {
-        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background: url("../../images/leftOrangeRow.png") no-repeat center;
         background-size: 100% 100%;
         position: relative;
         top: 0;
@@ -756,7 +756,7 @@ Time :8:01 PM
         right: 0;
         width: 51.7vw;
         height: 38px;
-        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background: url("../../images/rightPurpleRow.png") no-repeat center;
         background-size: 100% 100%;
     }
 
@@ -939,7 +939,7 @@ Time :8:01 PM
 
     /*Left orange bar*/
     .mainSecProject > section:first-child > div:first-child {
-        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background: url("../../images/leftOrangeRow.png") no-repeat center;
         background-size: 100% 100%;
         position: relative;
         top: 0;
@@ -956,7 +956,7 @@ Time :8:01 PM
         right: 0;
         width: 51.7vw;
         height: 50px;
-        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background: url("../../images/rightPurpleRow.png") no-repeat center;
         background-size: 100% 100%;
     }
 
@@ -1069,7 +1069,7 @@ Time :8:01 PM
         left: 0;
         width: 51.7vw;
         height: 50px;
-        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background: url("../../images/leftOrangeRow.png") no-repeat center;
         background-size: 100% 100%;
     }
 
@@ -1081,9 +1081,9 @@ Time :8:01 PM
         right: 0;
         width: 51.7vw;
         height: 50px;
-        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background: url("../../images/rightPurpleRow.png") no-repeat center;
         background-size: 100% 100%;
-        /*background-image: url(../../../images/leftOrangeRow.png);*/
+        /*background-image: url(../../images/leftOrangeRow.png);*/
         /*background-size: cover;*/
         /*background-position: center;*/
         /*border: 3px solid #CFD8DC;*/
