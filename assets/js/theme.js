@@ -46,7 +46,8 @@ function dark() {
         // $("#dQStyle").attr("disabled","disabled");
 
 
-        b.style.backgroundColor = "white";
+
+        b.style.backgroundColor = "#E7EBF8";
         // b.style.backgroundColor = '#320A48';
 
 
