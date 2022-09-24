@@ -31,9 +31,9 @@ Time :8:00 PM
     left: 0;
     width: 99.5vw;
     height: 100px;
-    !*background :url("../../../images/skillRow1.png")no-repeat center;*!
+    !*background :url("../../images/skillRow1.png")no-repeat center;*!
     !*background-size: 100% 100%;*!
-    background-image: url(../../../images/skillRow1.png);
+    background-image: url(../../images/skillRow1.png);
     background-size: cover;
     background-position: center;
     !*border: 3px solid #CFD8DC;*!
@@ -49,9 +49,9 @@ Time :8:00 PM
     left: 0;
     width: 51.7vw;
     height: 80px;
-    background: url("../../../images/leftOrangeRow.png") no-repeat center;
+    background: url("../../images/leftOrangeRow.png") no-repeat center;
     background-size: 100% 100%;
-    /*background-image: url(../../../images/leftOrangeRow.png);*/
+    /*background-image: url(../../images/leftOrangeRow.png);*/
     /*background-size: cover;*/
     /*background-position: center;*/
     /*border: 3px solid #CFD8DC;*/
@@ -67,9 +67,9 @@ Time :8:00 PM
     right: 0;
     width: 51.7vw;
     height: 80px;
-    background: url("../../../images/rightPurpleRow.png") no-repeat center;
+    background: url("../../images/rightPurpleRow.png") no-repeat center;
     background-size: 100% 100%;
-    /*background-image: url(../../../images/leftOrangeRow.png);*/
+    /*background-image: url(../../images/leftOrangeRow.png);*/
     /*background-size: cover;*/
     /*background-position: center;*/
     /*border: 3px solid #CFD8DC;*/
@@ -219,42 +219,42 @@ Time :8:00 PM
 }
 
 #skillLangFrameworks > div:nth-child(1) {
-    background: url("../../../images/java.png") no-repeat center;
+    background: url("../../images/java.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 #skillLangFrameworks > div:nth-child(2) {
-    background: url("../../../images/Python.png") no-repeat center;
+    background: url("../../images/Python.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 #skillLangFrameworks > div:nth-child(3) {
-    background: url("../../../images/js.png") no-repeat center;
+    background: url("../../images/js.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 #skillLangFrameworks > div:nth-child(4) {
-    background: url("../../../images/flutter.png") no-repeat center;
+    background: url("../../images/flutter.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 #skillLangFrameworks > div:nth-child(5) {
-    background: url("../../../images/htmlL.png") no-repeat center;
+    background: url("../../images/htmlL.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 #skillLangFrameworks > div:nth-child(6) {
-    background: url("../../../images/css3.png") no-repeat center;
+    background: url("../../images/css3.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 #skillLangFrameworks > div:nth-child(7) {
-    background: url("../../../images/hibernate.png") no-repeat center;
+    background: url("../../images/hibernate.png") no-repeat center;
     background-size: 250% 170%;
 }
 
 #skillLangFrameworks > div:nth-child(8) {
-    background: url("../../../images/mysql.png") no-repeat center;
+    background: url("../../images/mysql.png") no-repeat center;
     background-size: 120% 120%;
 }
 
@@ -313,47 +313,47 @@ Time :8:00 PM
 }
 
 #skillTools > div:nth-child(1) {
-    background: url("../../../images/intelij-removebg-preview.png") no-repeat center;
+    background: url("../../images/intelij-removebg-preview.png") no-repeat center;
     background-size: 100% 90%;
 }
 
 #skillTools > div:nth-child(2) {
-    background: url("../../../images/As-removebg-preview.png") no-repeat center;
+    background: url("../../images/As-removebg-preview.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 #skillTools > div:nth-child(3) {
-    background: url("../../../images/eclips-removebg-preview.png") no-repeat center;
+    background: url("../../images/eclips-removebg-preview.png") no-repeat center;
     background-size: 120% 120%;
 }
 
 #skillTools > div:nth-child(4) {
-    background: url("../../../images/VSC-removebg-preview.png") no-repeat center;
+    background: url("../../images/VSC-removebg-preview.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 #skillTools > div:nth-child(5) {
-    background: url("../../../images/pngwing.com.png") no-repeat center;
+    background: url("../../images/pngwing.com.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 #skillTools > div:nth-child(6) {
-    background: url("../../../images/fignew.png") no-repeat center;
+    background: url("../../images/fignew.png") no-repeat center;
     background-size: 50% 80%;
 }
 
 #skillTools > div:nth-child(7) {
-    background: url("../../../images/NetBeans.png") no-repeat center;
+    background: url("../../images/NetBeans.png") no-repeat center;
     background-size: 150% 100%;
 }
 
 #skillTools > div:nth-child(8) {
-    background: url("../../../images/icons8-scene-builder-240.png") no-repeat center;
+    background: url("../../images/icons8-scene-builder-240.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 #skillTools > div:nth-child(9) {
-    background: url("../../../images/gtnew.png") no-repeat center;
+    background: url("../../images/gtnew.png") no-repeat center;
     background-size: 120% 120%;
 }
 
@@ -381,9 +381,9 @@ Time :8:00 PM
         left: 0;
         width: 51.7vw;
         height: 38px;
-        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background: url("../../images/leftOrangeRow.png") no-repeat center;
         background-size: 100% 100%;
-        /*background-image: url(../../../images/leftOrangeRow.png);*/
+        /*background-image: url(../../images/leftOrangeRow.png);*/
         /*background-size: cover;*/
         /*background-position: center;*/
         /*border: 3px solid #CFD8DC;*/
@@ -399,9 +399,9 @@ Time :8:00 PM
         right: 0;
         width: 51.7vw;
         height: 38px;
-        background: url(../../../images/rightPurpleRow.png) no-repeat center;
+        background: url(../../images/rightPurpleRow.png) no-repeat center;
         background-size: 100% 100%;
-        /* background-image: url(../../../images/leftOrangeRow.png); */
+        /* background-image: url(../../images/leftOrangeRow.png); */
         /* background-size: cover; */
         /* background-position: center; */
         /* border: 3px solid #CFD8DC; */
@@ -621,9 +621,9 @@ Time :8:00 PM
         left: 0;
         width: 51.7vw;
         height: 38px;
-        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background: url("../../images/leftOrangeRow.png") no-repeat center;
         background-size: 100% 100%;
-        /*background-image: url(../../../images/leftOrangeRow.png);*/
+        /*background-image: url(../../images/leftOrangeRow.png);*/
         /*background-size: cover;*/
         /*background-position: center;*/
         /*border: 3px solid #CFD8DC;*/
@@ -639,9 +639,9 @@ Time :8:00 PM
         right: 0;
         width: 51.7vw;
         height: 38px;
-        background: url(../../../images/rightPurpleRow.png) no-repeat center;
+        background: url(../../images/rightPurpleRow.png) no-repeat center;
         background-size: 100% 100%;
-        /* background-image: url(../../../images/leftOrangeRow.png); */
+        /* background-image: url(../../images/leftOrangeRow.png); */
         /* background-size: cover; */
         /* background-position: center; */
         /* border: 3px solid #CFD8DC; */
@@ -862,9 +862,9 @@ Time :8:00 PM
         left: 0;
         width: 51.7vw;
         height: 38px;
-        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background: url("../../images/leftOrangeRow.png") no-repeat center;
         background-size: 100% 100%;
-        /*background-image: url(../../../images/leftOrangeRow.png);*/
+        /*background-image: url(../../images/leftOrangeRow.png);*/
         /*background-size: cover;*/
         /*background-position: center;*/
         /*border: 3px solid #CFD8DC;*/
@@ -880,9 +880,9 @@ Time :8:00 PM
         right: 0;
         width: 51.7vw;
         height: 38px;
-        background: url(../../../images/rightPurpleRow.png) no-repeat center;
+        background: url(../../images/rightPurpleRow.png) no-repeat center;
         background-size: 100% 100%;
-        /* background-image: url(../../../images/leftOrangeRow.png); */
+        /* background-image: url(../../images/leftOrangeRow.png); */
         /* background-size: cover; */
         /* background-position: center; */
         /* border: 3px solid #CFD8DC; */
@@ -1061,9 +1061,9 @@ Time :8:00 PM
         left: 0;
         width: 51.7vw;
         height: 50px;
-        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background: url("../../images/leftOrangeRow.png") no-repeat center;
         background-size: 100% 100%;
-        /*background-image: url(../../../images/leftOrangeRow.png);*/
+        /*background-image: url(../../images/leftOrangeRow.png);*/
         /*background-size: cover;*/
         /*background-position: center;*/
         /*border: 3px solid #CFD8DC;*/
@@ -1079,9 +1079,9 @@ Time :8:00 PM
         right: 0;
         width: 51.7vw;
         height: 50px;
-        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background: url("../../images/rightPurpleRow.png") no-repeat center;
         background-size: 100% 100%;
-        /*background-image: url(../../../images/leftOrangeRow.png);*/
+        /*background-image: url(../../images/leftOrangeRow.png);*/
         /*background-size: cover;*/
         /*background-position: center;*/
         /*border: 3px solid #CFD8DC;*/
@@ -1226,9 +1226,9 @@ Time :8:00 PM
         left: 0;
         width: 51.7vw;
         height: 50px;
-        background: url("../../../images/leftOrangeRow.png") no-repeat center;
+        background: url("../../images/leftOrangeRow.png") no-repeat center;
         background-size: 100% 100%;
-        /*background-image: url(../../../images/leftOrangeRow.png);*/
+        /*background-image: url(../../images/leftOrangeRow.png);*/
         /*background-size: cover;*/
         /*background-position: center;*/
         /*border: 3px solid #CFD8DC;*/
@@ -1244,9 +1244,9 @@ Time :8:00 PM
         right: 0;
         width: 51.7vw;
         height: 50px;
-        background: url("../../../images/rightPurpleRow.png") no-repeat center;
+        background: url("../../images/rightPurpleRow.png") no-repeat center;
         background-size: 100% 100%;
-        /*background-image: url(../../../images/leftOrangeRow.png);*/
+        /*background-image: url(../../images/leftOrangeRow.png);*/
         /*background-size: cover;*/
         /*background-position: center;*/
         /*border: 3px solid #CFD8DC;*/

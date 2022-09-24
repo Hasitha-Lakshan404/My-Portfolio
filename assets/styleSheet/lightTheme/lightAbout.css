@@ -20,7 +20,7 @@ Time :1:39 PM
 
 .mainSecAbout > section {
     height: 100%;
-    border: 5px solid green;
+    /*border: 5px solid green;*/
 }
 
 /*.mainSecAbout > section:nth-child(1) {
@@ -190,7 +190,7 @@ Time :1:39 PM
 
 
     /*!*color: #254871;*!*/
-    color: #ffffff;
+    color: #000000;
     opacity: 0.8;
 }
 

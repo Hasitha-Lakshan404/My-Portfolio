@@ -16,15 +16,13 @@ function dark() {
         $("#dQStyle").removeAttr("disabled");
 
         /*for the disable light Theme*/
-        // $("#lHeadStyle").attr("disabled","disabled");
-        // $("#lHomeStyle").attr("disabled","disabled");
-        // $("#lAboutStyle").attr("disabled","disabled");
-        // $("#lSkillStyle").attr("disabled","disabled");
-        // $("#lEduStyle").attr("disabled","disabled");
-        // $("#lProStyle").attr("disabled","disabled");
-        // $("#lQStyle").attr("disabled","disabled");
-
-
+        $("#lHeadStyle").attr("disabled","disabled");
+        $("#lHomeStyle").attr("disabled","disabled");
+        $("#lAboutStyle").attr("disabled","disabled");
+        $("#lSkillStyle").attr("disabled","disabled");
+        $("#lEduStyle").attr("disabled","disabled");
+        $("#lProStyle").attr("disabled","disabled");
+        $("#lQStyle").attr("disabled","disabled");
 
     } else {
         /*light THeme*/
@@ -46,8 +44,6 @@ function dark() {
         // $("#dEduStyle").attr("disabled","disabled");
         // $("#dProStyle").attr("disabled","disabled");
         // $("#dQStyle").attr("disabled","disabled");
-
-
 
 
         b.style.backgroundColor = "white";
