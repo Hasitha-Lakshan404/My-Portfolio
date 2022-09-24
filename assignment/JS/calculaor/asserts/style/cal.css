@@ -12,10 +12,20 @@ Time :10:29 PM
     left: 0;
     margin: auto;
     position: absolute;
-    background: #a2afcb;
+    /*background: #a2afcb;*/
     width: 500px;
     height: 600px;
     z-index: 2;
+
+    background: rgba(35, 131, 204, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(35, 131, 204, 1);
+
+
+
+
 }
 
 /*All ROw*/
@@ -39,7 +49,12 @@ Time :10:29 PM
     border: 1px solid #070c0a;
 }
 
-/*Third ROw Col*/
+/*Fourth ROw Col*/
 #mainCalSec>div:nth-child(4)>div{
+    border: 1px solid #070c0a;
+}
+
+/*Fifth ROw Col*/
+#mainCalSec>div:nth-child(5)>div{
     border: 1px solid #070c0a;
 }
