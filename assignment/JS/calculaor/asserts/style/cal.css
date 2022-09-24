@@ -28,3 +28,8 @@ Time :10:29 PM
 #mainCalSec>div:nth-child(1)>div{
     border: 1px solid #070c0a;
 }
+
+/*Second ROw Col*/
+#mainCalSec>div:nth-child(2)>div{
+    border: 1px solid #070c0a;
+}
