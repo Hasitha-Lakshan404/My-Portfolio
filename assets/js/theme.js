@@ -14,6 +14,7 @@ function dark() {
         $("#dEduStyle").removeAttr("disabled");
         $("#dProStyle").removeAttr("disabled");
         $("#dQStyle").removeAttr("disabled");
+        $("#dImgStyle").removeAttr("disabled");
 
         /*for the disable light Theme*/
         $("#lHeadStyle").attr("disabled","disabled");
@@ -23,6 +24,7 @@ function dark() {
         $("#lEduStyle").attr("disabled","disabled");
         $("#lProStyle").attr("disabled","disabled");
         $("#lQStyle").attr("disabled","disabled");
+        $("#lImgStyle").attr("disabled","disabled");
 
     } else {
         /*light THeme*/
@@ -35,6 +37,7 @@ function dark() {
         $("#lEduStyle").removeAttr("disabled");
         $("#lProStyle").removeAttr("disabled");
         $("#lQStyle").removeAttr("disabled");
+        $("#lImgStyle").removeAttr("disabled");
 
         /*For the Disable Dark Theme*/
         // $("#dHeadStyle").attr("disabled","disabled");
@@ -44,6 +47,7 @@ function dark() {
         // $("#dEduStyle").attr("disabled","disabled");
         // $("#dProStyle").attr("disabled","disabled");
         // $("#dQStyle").attr("disabled","disabled");
+        // $("#dImgStyle").attr("disabled","disabled");
 
 
 
