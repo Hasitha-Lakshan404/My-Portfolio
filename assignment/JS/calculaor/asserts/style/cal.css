@@ -20,12 +20,11 @@ Time :10:29 PM
 
 /*All ROw*/
 #mainCalSec>div{
-    height: 120px;
+    /*height: 120px;*/
     border: 1px solid #070c0a;
 }
 
 /*first ROw Col*/
 #mainCalSec>div:nth-child(1)>div{
-    /*height: 120px;*/
     border: 1px solid #070c0a;
 }
