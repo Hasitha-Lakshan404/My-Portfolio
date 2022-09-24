@@ -4,52 +4,6 @@ Date :8/3/2022
 Time :8:59 PM
 */
 
-/*.imageMeCard {
-    align-content: center;
-    !*margin: 0;*!
-    position: absolute;
-    width: 100px;
-    height: 500px;
-    background: black;
-    top: 1312px;
-    left: 37px;
-    !*filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));*!
-    !*border-radius: 22px;*!
-    transition: transform 3s;
-
-}
-.imageMeCard:hover{
-    align-content: center;
-    !*left: 100px;*!
-    transform: rotateY(.5turn);
-}
-
-.imageMeCard__content{
-    text-align: center;
-    position: relative;
-    padding: 5em;
-    left: 0;
-    !*filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));*!
-    !*border-radius: 22px;*!
-
-}
-.imageMeCard__front,.imageMeCard__back{
-    position: absolute;
-    width: 100px;
-    height:500px;
-    left: 37px;
-    top:0;
-
-    !*background: url(../imgme.jpg);*!
-    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
-    border-radius: 22px;
-}
-.imageMeCard__image{
-    width: 400px;
-    height: 500px;
-    left: 37px;
-}*/
-
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 
 :root {
@@ -115,7 +69,7 @@ body {
     border-radius: 25px;
 
     background-color: var(--clr);
-    background-image: url(../images/imgme.jpg);
+    background-image: url(../../images/imgme.jpg);
     background-size: cover;
     background-blend-mode: multiply;
     color: #333;
@@ -129,7 +83,7 @@ body {
     bottom: var(--spacer);
     left: var(--spacer);
     right: var(--spacer);
-    border: 5px solid #2196f3;
+    border: 5px solid #254871;
     border-radius: 30px;
     transform: var(--level-one);
 }
@@ -168,8 +122,8 @@ body {
     /*background: #333;*/
 
     background-color: var(--clr);
-    background-image: url(../images/hoverMe2.jpg);
-    /*background: linear-gradient(rgba(177, 14, 236, 0.5), rgba(25, 8, 126, 0.2)), url("../images/hoveMe.jpg") no-repeat center;*/
+    background-image: url(../../images/hoverMe2.jpg);
+    /*background: linear-gradient(rgba(177, 14, 236, 0.5), rgba(25, 8, 126, 0.2)), url("../../images/hoveMe.jpg") no-repeat center;*/
     /*background-size: 100% 100%;*/
     background-size: cover;
     background-position: center;
@@ -185,7 +139,7 @@ body {
     bottom: var(--spacer);
     left: var(--spacer);
     right: var(--spacer);
-    border: 5px solid #2196f3;
+    border: 5px solid #254871;
     border-radius: 30px;
     transform: var(--level-one);
 
@@ -209,7 +163,7 @@ body {
         border-radius: 20px;
         width: 50vw;
         height: 200px;
-        background:url("../images/imgme.jpg")no-repeat center;
+        background:url("../../images/imgme.jpg")no-repeat center;
         background-size: 100% 100%;
         background-blend-mode: multiply;
         align-items: center;
@@ -224,7 +178,7 @@ body {
         border-radius: 20px;
         width: 50vw;
         height: 250px;
-        background:url("../images/imgme.jpg")no-repeat center;
+        background:url("../../images/imgme.jpg")no-repeat center;
         background-size: 100% 100%;
         background-blend-mode: multiply;
         align-items: center;
@@ -240,7 +194,7 @@ body {
         border-radius: 20px;
         width: 50vw;
         height: 250px;
-        background:url("../images/imgme.jpg")no-repeat center;
+        background:url("../../images/imgme.jpg")no-repeat center;
         background-size: 100% 100%;
         background-blend-mode: multiply;
         align-items: center;
