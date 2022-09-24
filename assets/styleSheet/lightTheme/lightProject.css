@@ -141,7 +141,7 @@ Time :8:01 PM
 /*for the Project quote*/
 .mainSecProject > aside:nth-child(2) > p {
     position: absolute;
-    color: #71727D;
+    color: rgba(62, 40, 71, 0.96);
     display: inline-block;
     font-size: 25px;
     right: 5vw;
@@ -397,7 +397,7 @@ Time :8:01 PM
     }
     .mainSecProject > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color: rgba(62, 40, 71, 0.96);
         display: inline-block;
         font-size: 15px;
         right: 5vw;
@@ -583,7 +583,7 @@ Time :8:01 PM
     }
     .mainSecProject > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color: rgba(62, 40, 71, 0.96);
         display: inline-block;
         font-size: 15px;
         right: 5vw;
@@ -773,7 +773,7 @@ Time :8:01 PM
     }
     .mainSecProject > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color: rgba(62, 40, 71, 0.96);
         display: inline-block;
         font-size: 15px;
         right: 5vw;
@@ -976,7 +976,7 @@ Time :8:01 PM
 
     .mainSecProject > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color: rgba(62, 40, 71, 0.96);
         display: inline-block;
         font-size: 25px;
         right: 5vw;
@@ -1107,7 +1107,7 @@ Time :8:01 PM
     /*Project-Quote*/
     .mainSecProject > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color: rgba(62, 40, 71, 0.96);
         display: inline-block;
         font-size: 17px;
         right: 8vw;
