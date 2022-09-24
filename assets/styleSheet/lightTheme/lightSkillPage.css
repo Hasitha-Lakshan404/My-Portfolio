@@ -93,7 +93,7 @@ Time :8:00 PM
 /*for the skill quote*/
 .mainSecSkill > aside:nth-child(2) > p {
     position: absolute;
-    color: #71727D;
+    color:rgb(62 40 71 / 96%);
     display: inline-block;
     font-size: 25px;
     right: 5vw;
@@ -125,7 +125,7 @@ Time :8:00 PM
      border: 1px solid rgba(50, 54, 71, 0.3);*/
 
 
-    background: rgba(50, 54, 71, 0.52);
+        background: rgb(62 40 71 / 96%);
     border-radius: 100px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4px);
@@ -423,7 +423,7 @@ Time :8:00 PM
     /*Skill-Quote*/
     .mainSecSkill > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color:rgb(62 40 71 / 96%);
         display: inline-block;
         font-size: 14px;
         right: 6vw;
@@ -444,7 +444,7 @@ Time :8:00 PM
         height: 850px;
         /* background-color: #323647; */
         /* box-shadow: 0px 0px 0 1px white; */
-        background: rgba(50, 54, 71, 0.52);
+            background: rgb(62 40 71 / 96%);
         border-radius: 100px;
         box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
         backdrop-filter: blur(4px);
@@ -663,7 +663,7 @@ Time :8:00 PM
     /*Skill-Quote*/
     .mainSecSkill > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color:rgb(62 40 71 / 96%);
         display: inline-block;
         font-size: 14px;
         right: 6vw;
@@ -684,7 +684,7 @@ Time :8:00 PM
         height: 850px;
         /* background-color: #323647; */
         /* box-shadow: 0px 0px 0 1px white; */
-        background: rgba(50, 54, 71, 0.52);
+            background: rgb(62 40 71 / 96%);
         border-radius: 100px;
         box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
         backdrop-filter: blur(4px);
@@ -904,7 +904,7 @@ Time :8:00 PM
     /*Skill-Quote*/
     .mainSecSkill > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color:rgb(62 40 71 / 96%);
         display: inline-block;
         font-size: 13px;
         right: 6vw;
@@ -924,7 +924,7 @@ Time :8:00 PM
         height: 608px;
         /* background-color: #323647; */
         /* box-shadow: 0px 0px 0 1px white; */
-        background: rgba(50, 54, 71, 0.52);
+            background: rgb(62 40 71 / 96%);
         border-radius: 100px;
         box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
         backdrop-filter: blur(4px);
@@ -1104,7 +1104,7 @@ Time :8:00 PM
     /*Skill-Quote*/
     .mainSecSkill > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color:rgb(62 40 71 / 96%);
         display: inline-block;
         /*font-size: 17px;*/
         right: 6vw;
@@ -1269,7 +1269,7 @@ Time :8:00 PM
     /*Skill-Quote*/
     .mainSecSkill > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color:rgb(62 40 71 / 96%);
         display: inline-block;
         font-size: 17px;
         right: 6vw;
@@ -1352,7 +1352,7 @@ Time :8:00 PM
         height: 615.6px;
         !* background-color: #323647; *!
         !* box-shadow: 0px 0px 0 1px white; *!
-        background: rgba(50, 54, 71, 0.52);
+            background: rgb(62 40 71 / 96%);
         border-radius: 100px;
         box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
         backdrop-filter: blur(4px);
@@ -1370,7 +1370,7 @@ Time :8:00 PM
         height: 615.6px;
         /* background-color: #323647; */
         /* box-shadow: 0px 0px 0 1px white; */
-        background: rgba(50, 54, 71, 0.52);
+            background: rgb(62 40 71 / 96%);
         border-radius: 100px;
         box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
         backdrop-filter: blur(4px);
