@@ -53,7 +53,7 @@ Time :8:01 PM
 /*quotes*/
 .mainSecEducation > aside:nth-child(2) > p {
     position: absolute;
-    color: #71727D;
+    color: rgb(62 40 71 / 96%);
     display: inline-block;
     font-size: 25px;
     right: 3vw;
@@ -365,7 +365,7 @@ Time :8:01 PM
     }
     .mainSecEducation > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color: rgb(62 40 71 / 96%);
         display: inline-block;
         font-size: 15px;
         text-align: center;
@@ -712,7 +712,7 @@ Time :8:01 PM
     }
     .mainSecEducation > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color: rgb(62 40 71 / 96%);
         display: inline-block;
         font-size: 15px;
         text-align: center;
@@ -1063,7 +1063,7 @@ Time :8:01 PM
     }
     .mainSecEducation > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color: rgb(62 40 71 / 96%);
         display: inline-block;
         font-size: 15px;
         text-align: center;
@@ -1414,7 +1414,7 @@ Time :8:01 PM
 
     .mainSecEducation > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color: rgb(62 40 71 / 96%);
         display: inline-block;
         font-size: 23px;
         right: 6vw;
@@ -1730,7 +1730,7 @@ Time :8:01 PM
     /*quotes*/
     .mainSecEducation > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color: rgb(62 40 71 / 96%);
         display: inline-block;
         font-size: 17px;
         right: 3vw;
@@ -1738,16 +1738,16 @@ Time :8:01 PM
         font-family: "Courier Prime";
     }
 
-    .mainSecEducation > aside:nth-child(2) > p {
+  /*  .mainSecEducation > aside:nth-child(2) > p {
         position: absolute;
-        color: #71727D;
+        color: rgb(62 40 71 / 96%);
         display: inline-block;
         font-size: 17px;
         right: 1.8vw;
         top: 91px;
         font-family: "Courier Prime";
     }
-
+*/
     /*========FIRST EDUCATION (BLUE)==============*/
     /*education-glass-container*/
     .mainSecEducation > section:nth-child(3) > div:nth-child(1) {
