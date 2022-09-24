@@ -16,13 +16,13 @@ function dark() {
         $("#dQStyle").removeAttr("disabled");
 
         /*for the disable light Theme*/
-        $("#lHeadStyle").attr("disabled","disabled");
-        $("#lHomeStyle").attr("disabled","disabled");
-        $("#lAboutStyle").attr("disabled","disabled");
-        $("#lSkillStyle").attr("disabled","disabled");
-        $("#lEduStyle").attr("disabled","disabled");
-        $("#lProStyle").attr("disabled","disabled");
-        $("#lQStyle").attr("disabled","disabled");
+        // $("#lHeadStyle").attr("disabled","disabled");
+        // $("#lHomeStyle").attr("disabled","disabled");
+        // $("#lAboutStyle").attr("disabled","disabled");
+        // $("#lSkillStyle").attr("disabled","disabled");
+        // $("#lEduStyle").attr("disabled","disabled");
+        // $("#lProStyle").attr("disabled","disabled");
+        // $("#lQStyle").attr("disabled","disabled");
 
 
 
@@ -39,13 +39,13 @@ function dark() {
         $("#lQStyle").removeAttr("disabled");
 
         /*For the Disable Dark Theme*/
-        $("#dHeadStyle").attr("disabled","disabled");
-        $("#dHomeStyle").attr("disabled","disabled");
-        $("#dAboutStyle").attr("disabled","disabled");
-        $("#dSkillStyle").attr("disabled","disabled");
-        $("#dEduStyle").attr("disabled","disabled");
-        $("#dProStyle").attr("disabled","disabled");
-        $("#dQStyle").attr("disabled","disabled");
+        // $("#dHeadStyle").attr("disabled","disabled");
+        // $("#dHomeStyle").attr("disabled","disabled");
+        // $("#dAboutStyle").attr("disabled","disabled");
+        // $("#dSkillStyle").attr("disabled","disabled");
+        // $("#dEduStyle").attr("disabled","disabled");
+        // $("#dProStyle").attr("disabled","disabled");
+        // $("#dQStyle").attr("disabled","disabled");
 
 
 
