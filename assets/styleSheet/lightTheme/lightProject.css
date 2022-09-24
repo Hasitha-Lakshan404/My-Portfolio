@@ -16,7 +16,8 @@ Time :8:01 PM
     /*width: 95vw;*/
     /*background: white;*/
     /*border: 1px solid white;*/
-    background: #323647;
+    /*background: #323647;*/
+    background: #ffffff;
     /*background: black;*/
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg");
     background-position: center;
@@ -930,7 +931,7 @@ Time :8:01 PM
         /* background: white; */
         /* border: 1px solid white; */
         /* background: #323647; */
-        background: black;
+        /*background: black;*/
         background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg);
         background-position: center;
         background-repeat: repeat;
