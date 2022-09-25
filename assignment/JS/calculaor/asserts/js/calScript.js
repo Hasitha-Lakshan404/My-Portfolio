@@ -28,7 +28,13 @@ $("#calNo2").click(function () {
     console.log("2");
     // $("#calCurrentNumber").text("2");
 
+    if(curNo===null){
+        curNo="2";
+    }else{
+        curNo+="2"
+    }
 
+    $("#calCurrentNumber").text(curNo);
 })
 
 
