@@ -26,9 +26,13 @@ Time :10:29 PM
     font-size: 20px;
     font-weight: bolder;
 
-    background: rgba(35, 131, 204, 0.15);
+    padding: 8px;
+
+
+    /*background: rgba(35, 131, 204, 0.15);*/
+    background: #545454;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.3px);
+    /*backdrop-filter: blur(5.3px);*/
     -webkit-backdrop-filter: blur(5.3px);
     border: 1px solid rgba(35, 131, 204, 1);
 }
@@ -42,14 +46,20 @@ Time :10:29 PM
 #calMainSec > span:hover {
     /*border: 1px solid black;*/
     background-color: #4A4A4A;
+        border: none;
+    border: none;
+
 }
 
 
-/*Catch the Spans*/
+/*===Catch the Spans===*/
 
 /*c*/
 #calMainSec > span:nth-child(1) {
-
+}
+#calMainSec > span:nth-child(1):hover {
+    background-color: #587b7e;
+    /*color: black;/*/
 }
 
 /*Search*/
@@ -60,80 +70,136 @@ Time :10:29 PM
 
 /*7*/
 #calMainSec > span:nth-child(3) {
-
+    background-color: #070707;
+}/*7*/
+#calMainSec > span:nth-child(3):hover {
+    background-color: #4A4A4A;
+        border: none;
 }
 
 /*8*/
 #calMainSec > span:nth-child(4) {
-
+    background-color: #070707;
+}/*8*/
+#calMainSec > span:nth-child(4):hover {
+    background-color: #4A4A4A;
+        border: none;
 }
 
 /*9*/
 #calMainSec > span:nth-child(5) {
-
+    background-color: #070707;
+}/*9*/
+#calMainSec > span:nth-child(5):hover {
+    background-color: #4A4A4A;
+        border: none;
 }
 
 /*+*/
 #calMainSec > span:nth-child(6) {
 
+}#calMainSec > span:nth-child(6):hover {
+     background-color: #0D6EFD;
+    color: black;
 }
 
 /*4*/
 #calMainSec > span:nth-child(7) {
-
+    background-color: #070707;
+}#calMainSec > span:nth-child(7):hover {
+     background-color: #4A4A4A;
+        border: none;
 }
 
 /*5*/
 #calMainSec > span:nth-child(8) {
-
+    background-color: #070707;
+}#calMainSec > span:nth-child(8):hover {
+     background-color: #4A4A4A;
+        border: none;
 }
 
 /*6*/
 #calMainSec > span:nth-child(9) {
-
+    background-color: #070707;
+}#calMainSec > span:nth-child(9):hover {
+     background-color: #4A4A4A;
+        border: none;
 }
 
 /*-*/
 #calMainSec > span:nth-child(10) {
 
+}#calMainSec > span:nth-child(10):hover {
+     background-color: #0D6EFD;
+     color: black;
 }
 
 /*1*/
 #calMainSec > span:nth-child(11) {
-
+    background-color: #070707;
+}#calMainSec > span:nth-child(11):hover {
+     background-color: #4A4A4A;
+        border: none;
 }
 
 /*2*/
 #calMainSec > span:nth-child(12) {
-
+    background-color: #070707;
+}#calMainSec > span:nth-child(12):hover {
+     background-color: #4A4A4A;
+        border: none;
 }
 
 /*3*/
 #calMainSec > span:nth-child(13) {
-
+    background-color: #070707;
+}#calMainSec > span:nth-child(13):hover {
+     background-color: #4A4A4A;
+        border: none;
 }
 
 /*/*/
 #calMainSec > span:nth-child(14) {
 
+}#calMainSec > span:nth-child(14):hover {
+     background-color: #0D6EFD;
+     color: black;
 }
 
 /*.*/
 #calMainSec > span:nth-child(15) {
 
+}#calMainSec > span:nth-child(15):hover {
+     background-color: #0D6EFD;
+     color: black;
 }
 
 /*0*/
 #calMainSec > span:nth-child(16) {
+    background-color: #070707;
+}#calMainSec > span:nth-child(16):hover {
+     background-color: #4A4A4A;
+        border: none;
+}
 
+#calMainSec> span:nth-child(3):hover,span:nth-child(4):hover,span:nth-child(5),span:nth-child(7),span:nth-child(8),span:nth-child(9), span:nth-child(11),span:nth-child(12),span:nth-child(13),span:nth-child(16):hover{
+    background: #4A4A4A;
 }
 
 /*=*/
 #calMainSec > span:nth-child(17) {
 
+}#calMainSec > span:nth-child(17):hover {
+     background-color: #0D6EFD;
+     color: black;
 }
 
 /***/
 #calMainSec > span:nth-child(18) {
 
+}
+#calMainSec > span:nth-child(18):hover {
+    background-color: #0D6EFD;
+    color: black;
 }
