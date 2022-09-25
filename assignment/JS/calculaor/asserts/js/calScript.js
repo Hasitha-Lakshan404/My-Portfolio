@@ -1,4 +1,5 @@
 let curNo=null;
+let previousNo=null;
 
 /*========== NO 0 ===========*/
 $("#calNo0").click(function () {
@@ -163,30 +164,50 @@ $("#calAllClear").click(function () {
 
 /*====== + ========*/
 $("#calAddition").click(function () {
-    $("#calCurrentNumber").text("+")
+
+    $('#calPreviousNumber').text(curNo+" + ");
+    clearForFunc();
+
 })
 
 /*====== -  ========*/
 $("#calMinus").click(function () {
-    $("#calCurrentNumber").text("-")
+    // $("#calCurrentNumber").text("-")
+
+
 })
 
 /*====== / ========*/
 $("#calDivide").click(function () {
-    $("#calCurrentNumber").text("/")
+    // $("#calCurrentNumber").text("/")
+
+
 })
 
 /*====== * ========*/
 $("#calMultiply").click(function () {
-    $("#calCurrentNumber").text("*")
+    // $("#calCurrentNumber").text("*")
+
+
 })
 
 /*====== ========*/
 $("#calEqual").click(function () {
-    $("#calCurrentNumber").text("=")
+    // $("#calCurrentNumber").text("=")
+
+
 })
 
 /*====== . ========*/
 $("#calDot").click(function () {
-    $("#calCurrentNumber").text(".")
+    // $("#calCurrentNumber").text(".")
+
+
 })
+
+
+/*====Methods===*/
+function clearForFunc(){
+    $('#calCurrentNumber').text("");
+    curNo=null;
+}
