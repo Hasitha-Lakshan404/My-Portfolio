@@ -56,7 +56,16 @@ $("#calNo3").click(function () {
 /*========== NO 4 ===========*/
 $("#calNo4").click(function () {
     console.log("4");
-    $("#calCurrentNumber").text("4");
+    // $("#calCurrentNumber").text("4");
+
+    if(curNo===null){
+        curNo="4";
+    }else{
+        curNo+="4"
+    }
+
+    $("#calCurrentNumber").text(curNo);
+
 })
 
 
