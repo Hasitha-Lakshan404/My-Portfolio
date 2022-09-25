@@ -158,7 +158,6 @@ $("#calAllClear").click(function () {
     curNo = null;
     $("#calPreviousNumber").text("0");
     previousNo = null;
-
 })
 
 /*=====FUNCTION=====*/
@@ -233,7 +232,7 @@ $("#calMultiply").click(function () {
 
 })
 
-/*====== ========*/
+/*====== = =======*/
 $("#calEqual").click(function () {
     // $("#calCurrentNumber").text("=")
 
@@ -243,6 +242,17 @@ $("#calEqual").click(function () {
 /*====== . ========*/
 $("#calDot").click(function () {
     // $("#calCurrentNumber").text(".")
+
+    if(curNo!==null){
+        curNo+=".";
+        $("#calCurrentNumber").text(curNo);
+    }else{
+        curNo="0.";
+        $("#calCurrentNumber").text(curNo);
+    }
+
+    // console.log($('#calCurrentNumber').text()); //for the get Text
+
 
 
 })
