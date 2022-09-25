@@ -43,7 +43,13 @@ $("#calNo3").click(function () {
     console.log("3");
     // $("#calCurrentNumber").text("3");
 
+    if(curNo===null){
+        curNo="3";
+    }else{
+        curNo+="3"
+    }
 
+    $("#calCurrentNumber").text(curNo);
 })
 
 
