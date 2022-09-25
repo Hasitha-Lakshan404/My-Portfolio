@@ -151,3 +151,12 @@ $("#calNo9").click(function () {
 
 })
 
+/*=====CLEAR====*/
+$("#calAllClear").click(function () {
+    $("#calCurrentNumber").text("0");
+    curNo=null;
+
+    $("#calPreviousNumber").text("0");
+    // $("#calCurrentNumber").text("0");
+
+})
