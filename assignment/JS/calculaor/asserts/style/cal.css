@@ -15,11 +15,13 @@ Time :10:29 PM
     /*background: #a2afcb;*/
     width: 450px;
     height: 600px;
-    z-index: 2;
+
 
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(5,1fr);
+    text-align: center;
+    gap: 10px;
 
     background: rgba(35, 131, 204, 0.15);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -30,7 +32,9 @@ Time :10:29 PM
 
 #calMainSec>span{
     border: 1px solid black;
+    padding-top: 45px;
 }
+
 
 
 #calMainSec>span:nth-child(2){
