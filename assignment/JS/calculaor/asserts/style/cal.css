@@ -5,7 +5,7 @@ Time :10:29 PM
 */
 
 
-#mainCalSec{
+#calMainSec{
     top: 0;
     bottom: 0;
     right: 0;
@@ -13,48 +13,26 @@ Time :10:29 PM
     margin: auto;
     position: absolute;
     /*background: #a2afcb;*/
-    width: 500px;
+    width: 450px;
     height: 600px;
     z-index: 2;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
 
     background: rgba(35, 131, 204, 0.15);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.3px);
     -webkit-backdrop-filter: blur(5.3px);
     border: 1px solid rgba(35, 131, 204, 1);
-
-
-
-
 }
 
-/*All ROw*/
-#mainCalSec>div{
-    /*height: 120px;*/
-    border: 1px solid #070c0a;
+#calMainSec>span{
+    border: 1px solid black;
 }
 
-/*first ROw Col*/
-#mainCalSec>div:nth-child(1)>div{
-    border: 1px solid #070c0a;
-}
 
-/*Second ROw Col*/
-#mainCalSec>div:nth-child(2)>div{
-    border: 1px solid #070c0a;
-}
+#calMainSec>span:nth-child(2){
 
-/*Third ROw Col*/
-#mainCalSec>div:nth-child(3)>div{
-    border: 1px solid #070c0a;
-}
-
-/*Fourth ROw Col*/
-#mainCalSec>div:nth-child(4)>div{
-    border: 1px solid #070c0a;
-}
-
-/*Fifth ROw Col*/
-#mainCalSec>div:nth-child(5)>div{
-    border: 1px solid #070c0a;
 }
