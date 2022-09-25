@@ -155,8 +155,38 @@ $("#calNo9").click(function () {
 $("#calAllClear").click(function () {
     $("#calCurrentNumber").text("0");
     curNo=null;
-
     $("#calPreviousNumber").text("0");
-    // $("#calCurrentNumber").text("0");
 
+})
+
+/*=====FUNCTION=====*/
+
+/*====== + ========*/
+$("#calAddition").click(function () {
+    $("#calCurrentNumber").text("+")
+})
+
+/*====== -  ========*/
+$("#calMinus").click(function () {
+    $("#calCurrentNumber").text("-")
+})
+
+/*====== / ========*/
+$("#calDivide").click(function () {
+    $("#calCurrentNumber").text("/")
+})
+
+/*====== * ========*/
+$("#calMultiply").click(function () {
+    $("#calCurrentNumber").text("*")
+})
+
+/*====== ========*/
+$("#calEqual").click(function () {
+    $("#calCurrentNumber").text("=")
+})
+
+/*====== . ========*/
+$("#calDot").click(function () {
+    $("#calCurrentNumber").text(".")
 })
