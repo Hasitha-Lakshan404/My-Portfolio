@@ -165,15 +165,23 @@ $("#calAllClear").click(function () {
 /*====== + ========*/
 $("#calAddition").click(function () {
 
-    $('#calPreviousNumber').text(curNo+" + ");
-    clearForFunc();
+
+    if(previousNo==="0" || previousNo===null){
+        $('#calPreviousNumber').text(curNo+" + ");
+        previousNo=(curNo+" + ");
+        clearForFunc();
+    }else{
+        previousNo=previousNo+(curNo+" + ");
+        $('#calPreviousNumber').text(previousNo);
+        clearForFunc();
+    }
+
 
 })
 
 /*====== -  ========*/
 $("#calMinus").click(function () {
     // $("#calCurrentNumber").text("-")
-
 
 })
 
