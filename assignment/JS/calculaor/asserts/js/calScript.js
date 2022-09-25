@@ -172,14 +172,11 @@ $("#calAddition").click(function () {
             previousNo = (curNo + " + ");
             clearForFunc();
         } else {
-
             previousNo = previousNo + (curNo + " + ");
             $('#calPreviousNumber').text(previousNo);
             clearForFunc();
         }
     }
-
-
 
 })
 
@@ -187,6 +184,17 @@ $("#calAddition").click(function () {
 $("#calMinus").click(function () {
     // $("#calCurrentNumber").text("-")
 
+    if(curNo!==null){
+        if (previousNo === "0" || previousNo === null) {
+            $('#calPreviousNumber').text(curNo + " - ");
+            previousNo = (curNo + " - ");
+            clearForFunc();
+        } else {
+            previousNo = previousNo + (curNo + " - ");
+            $('#calPreviousNumber').text(previousNo);
+            clearForFunc();
+        }
+    }
 })
 
 /*====== / ========*/
