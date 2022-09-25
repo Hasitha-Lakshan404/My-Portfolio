@@ -1,5 +1,4 @@
-
-
+let curNo=null;
 
 /*========== NO 0 ===========*/
 $("#calNo0").click(function () {
@@ -11,21 +10,34 @@ $("#calNo0").click(function () {
 /*========== NO 1 ===========*/
 $("#calNo1").click(function () {
     console.log("1");
-    $("#calCurrentNumber").text("1");
+    // $("#calCurrentNumber").text("1");
+
+    if(curNo===null){
+        curNo="1";
+    }else{
+        curNo+="1"
+    }
+
+    $("#calCurrentNumber").text(curNo);
+
 })
 
 
 /*========== NO 2 ===========*/
 $("#calNo2").click(function () {
     console.log("2");
-    $("#calCurrentNumber").text("2");
+    // $("#calCurrentNumber").text("2");
+
+
 })
 
 
 /*========== NO 3 ===========*/
 $("#calNo3").click(function () {
     console.log("3");
-    $("#calCurrentNumber").text("3");
+    // $("#calCurrentNumber").text("3");
+
+
 })
 
 
