@@ -62,6 +62,10 @@ Time :10:29 PM
     /*color: black;/*/
 }
 
+
+
+
+
 /*====Search===*/
 #calMainSec > span:nth-child(2) {
     grid-column: 2/5;
@@ -221,9 +225,6 @@ Time :10:29 PM
         border: none;
 }
 
-#calMainSec> span:nth-child(3):hover,span:nth-child(4):hover,span:nth-child(5),span:nth-child(7),span:nth-child(8),span:nth-child(9), span:nth-child(11),span:nth-child(12),span:nth-child(13),span:nth-child(16):hover{
-    background: #4A4A4A;
-}
 
 /*=*/
 #calMainSec > span:nth-child(17) {
