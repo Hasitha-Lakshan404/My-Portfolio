@@ -102,7 +102,15 @@ $("#calNo6").click(function () {
 /*========== NO 7 ===========*/
 $("#calNo7").click(function () {
     console.log("7");
-    $("#calCurrentNumber").text("7");
+    // $("#calCurrentNumber").text("7");
+
+    if(curNo===null){
+        curNo="7";
+    }else{
+        curNo+="7"
+    }
+
+    $("#calCurrentNumber").text(curNo);
 })
 
 
