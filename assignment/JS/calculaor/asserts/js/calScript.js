@@ -201,6 +201,17 @@ $("#calMinus").click(function () {
 $("#calDivide").click(function () {
     // $("#calCurrentNumber").text("/")
 
+    if(curNo!==null){
+        if (previousNo === "0" || previousNo === null) {
+            $('#calPreviousNumber').text(curNo + " / ");
+            previousNo = (curNo + " / ");
+            clearForFunc();
+        } else {
+            previousNo = previousNo + (curNo + " / ");
+            $('#calPreviousNumber').text(previousNo);
+            clearForFunc();
+        }
+    }
 
 })
 
