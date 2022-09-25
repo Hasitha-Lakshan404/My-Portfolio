@@ -3,7 +3,14 @@ let curNo=null;
 /*========== NO 0 ===========*/
 $("#calNo0").click(function () {
     console.log("0");
-    $("#calCurrentNumber").text("0");
+    // $("#calCurrentNumber").text("0");
+
+    if(!(curNo===null || curNo==="0")){
+        curNo+="0"
+        $("#calCurrentNumber").text(curNo);
+    }
+
+
 })
 
 
