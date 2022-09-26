@@ -159,6 +159,7 @@ $("#calAllClear").click(function () {
     curNo = null;
     $("#calPreviousNumber").text("0");
     previousNo = null;
+    answer=null;
 })
 
 /*=====FUNCTION=====*/
@@ -168,7 +169,7 @@ let addCount=0;
 $("#calAddition").click(function () {
     let typedText=$('#calCurrentNumber').text()
 
-    // alert("ptan gaddima"+$('#calCurrentNumber').text());
+    /*check The current No is NOt Null*/
     if (curNo !== null) {
         if (previousNo === "0" || previousNo === null) {
             $('#calPreviousNumber').text(curNo + " + ");
