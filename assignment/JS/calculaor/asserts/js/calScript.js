@@ -209,9 +209,14 @@ $("#calAddition").click(function () {
 let minusCount=0;
 /*====== -  ========*/
 $("#calMinus").click(function () {
+
+
     let typedText=$('#calCurrentNumber').text();
 
+
+
     if (curNo !== null) {
+
         if (previousNo === "0" || previousNo === null) {
             $('#calPreviousNumber').text(curNo + " - ");
             previousNo = (curNo + " - ");
@@ -236,9 +241,18 @@ $("#calMinus").click(function () {
                 minusCount=1;
             }
         }else{ //if this Second or higher time
+            alert(answer);
+            if(answer!==null){ //Check answer null cuz set value for after the clear answer's value
+                answer-=parseInt(typedText);
+                $('#calCurrentNumber').text(answer.toString());
 
-            answer-=parseInt(typedText);
-            $('#calCurrentNumber').text(answer.toString());
+            }else{
+                //come to this ,
+                    //Added value and subtract values Continuously and After the first clear.comes to this.
+
+                answer=typedText; //ignore answer  text and assign typed value.
+                $('#calCurrentNumber').text(answer.toString());
+            }
         }
 
     }
@@ -283,6 +297,7 @@ $("#calMultiply").click(function () {
 $("#calEqual").click(function () {
     // $("#calCurrentNumber").text("=")
 
+    console.log("Previous Length "+previousNo.length);
 
 })
 
@@ -302,8 +317,6 @@ $("#calDot").click(function () {
             $("#calCurrentNumber").text(curNo);
         }
     }
-
-
 })
 
 
