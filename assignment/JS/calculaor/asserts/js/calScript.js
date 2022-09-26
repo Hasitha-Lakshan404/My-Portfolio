@@ -361,11 +361,18 @@ $("#calEqual").click(function () {
     // $("#calCurrentNumber").text("=")
 
     $('#calCurrentNumber').text(answer);
+    alert(answer);
 
-    curNo = null;
-    $("#calPreviousNumber").text("0");
-    previousNo = null;
-    answer=null;
+    /*catch the two value*/
+    if(answer===null){
+
+    }
+
+
+    // curNo = null;
+    // $("#calPreviousNumber").text("0");
+    // previousNo = null;
+    // answer=null;
 
 })
 
