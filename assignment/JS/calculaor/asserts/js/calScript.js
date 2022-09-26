@@ -258,8 +258,8 @@ $("#calMinus").click(function () {
     }
 })
 
-let divideCount=0;
 /*====== / ========*/
+let divideCount=0;
 $("#calDivide").click(function () {
     let typedText=$('#calCurrentNumber').text();
 
@@ -307,9 +307,11 @@ $("#calDivide").click(function () {
 
 })
 
+
 /*====== * ========*/
+let multiCount=0;
 $("#calMultiply").click(function () {
-    // $("#calCurrentNumber").text("*")
+    let typedText=$('#calCurrentNumber').text();
 
     if (curNo !== null) {
         if (previousNo === "0" || previousNo === null) {
@@ -322,6 +324,36 @@ $("#calMultiply").click(function () {
             clearForFunc();
         }
     }
+
+
+    /*Split and Get get no to the array without * */
+
+    let preNo = previousNo.split(" * ");
+
+    /*if this is first time*/
+    if(multiCount<1){
+        /*if this is first time*/
+        if(preNo.length>2){
+            answer=parseFloat(preNo[0])*parseFloat(preNo[1]);
+            let ansStr=answer.toString();
+            $('#calCurrentNumber').text(answer.toString());
+            multiCount=1;
+        }
+    }else{ //if this Second or higher time
+
+        if(answer!==null){ //Check answer null cuz set value for after the clear answer's value
+            answer*=parseFloat(typedText);
+            $('#calCurrentNumber').text(answer.toString());
+
+        }else{
+            //come to this ,
+            //Added value and multiply values Continuously and After the first clear.comes to this.
+
+            answer=typedText; //ignore answer  text and assign typed value.
+            $('#calCurrentNumber').text(answer.toString());
+        }
+    }
+
 })
 
 /*====== = =======*/
