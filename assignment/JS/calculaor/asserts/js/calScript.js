@@ -206,9 +206,10 @@ $("#calAddition").click(function () {
 
 })
 
+let minusCount=0;
 /*====== -  ========*/
 $("#calMinus").click(function () {
-    // $("#calCurrentNumber").text("-")
+    let typedText=$('#calCurrentNumber').text();
 
     if (curNo !== null) {
         if (previousNo === "0" || previousNo === null) {
@@ -220,6 +221,26 @@ $("#calMinus").click(function () {
             $('#calPreviousNumber').text(previousNo);
             clearForFunc();
         }
+
+        /*Split and Get get no to the array without + */
+
+        let preNo = previousNo.split(" - ");
+
+        /*if this is first time*/
+        if(minusCount<1){
+            /*if this is first time*/
+            if(preNo.length>2){
+                answer=parseInt(preNo[0])-parseInt(preNo[1]);
+                let ansStr=answer.toString();
+                $('#calCurrentNumber').text(answer.toString());
+                minusCount=1;
+            }
+        }else{ //if this Second or higher time
+
+            answer-=parseInt(typedText);
+            $('#calCurrentNumber').text(answer.toString());
+        }
+
     }
 })
 
