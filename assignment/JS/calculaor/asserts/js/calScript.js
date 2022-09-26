@@ -372,26 +372,30 @@ $("#calEqual").click(function () {
         /*get Before No using Operator*/
         let preNo = previousNo.split(" "+operator+" ");
         let firstNo=preNo[0];
-        let secondNo=parseInt(typedText);
+        eqLogic(firstNo,typedText,operator);
+        $('#calCurrentNumber').text(answer);
 
-        eqLogic(firstNo,secondNo,operator);
     }else{
         $('#calCurrentNumber').text(answer);
     }
 
 
-    // curNo = null;
-    // $("#calPreviousNumber").text("0");
-    // previousNo = null;
-    // answer=null;
+    curNo = null;
+    $("#calPreviousNumber").text("0");
+    previousNo = null;
+    answer=null;
 
 })
 
 function eqLogic(no1,no2,operator) {
     if(operator==="+"){
-        alert(" sum ");
+        answer=parseFloat(no1)+parseFloat(no2);
     }else if(operator==="-"){
-        alert(" minus ");
+        answer=parseFloat(no1)-parseFloat(no2);
+    }else if(operator==="/"){
+        answer=parseFloat(no1)/parseFloat(no2);
+    }else if(operator==="*"){
+        answer=parseFloat(no1)*parseFloat(no2);
     }
 
 }
