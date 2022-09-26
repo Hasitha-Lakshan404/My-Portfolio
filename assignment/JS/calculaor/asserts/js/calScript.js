@@ -189,14 +189,14 @@ $("#calAddition").click(function () {
         if(addCount<1){
             /*if this is first time*/
             if(preNo.length>2){
-                answer=parseInt(preNo[0])+parseInt(preNo[1]);
+                answer=parseFloat(preNo[0])+parseFloat(preNo[1]);
                 let ansStr=answer.toString();
                 $('#calCurrentNumber').text(answer.toString());
                 addCount=1;
             }
         }else{ //if this Second or higher time
 
-            answer+=parseInt(typedText);
+            answer+=parseFloat(typedText);
             $('#calCurrentNumber').text(answer.toString());
         }
 
@@ -235,7 +235,7 @@ $("#calMinus").click(function () {
         if(minusCount<1){
             /*if this is first time*/
             if(preNo.length>2){
-                answer=parseInt(preNo[0])-parseInt(preNo[1]);
+                answer=parseFloat(preNo[0])-parseFloat(preNo[1]);
                 let ansStr=answer.toString();
                 $('#calCurrentNumber').text(answer.toString());
                 minusCount=1;
@@ -243,7 +243,7 @@ $("#calMinus").click(function () {
         }else{ //if this Second or higher time
 
             if(answer!==null){ //Check answer null cuz set value for after the clear answer's value
-                answer-=parseInt(typedText);
+                answer-=parseFloat(typedText);
                 $('#calCurrentNumber').text(answer.toString());
 
             }else{
