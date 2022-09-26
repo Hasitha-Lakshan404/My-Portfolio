@@ -168,6 +168,7 @@ let addCount=0;
 $("#calAddition").click(function () {
     let typedText=$('#calCurrentNumber').text()
 
+    // alert("ptan gaddima"+$('#calCurrentNumber').text());
     if (curNo !== null) {
         if (previousNo === "0" || previousNo === null) {
             $('#calPreviousNumber').text(curNo + " + ");
@@ -182,23 +183,29 @@ $("#calAddition").click(function () {
         /*Split and Get get no to the array without + */
 
         let preNo = previousNo.split(" + ");
-        console.log("NO "+preNo)
-        console.log("LEngth "+preNo.length)
+        // console.log("NO "+preNo)
+        // console.log("LEngth "+preNo.length)
 
         /*if this is first time*/
         if(addCount<1){
             /*if this is first time*/
             if(preNo.length>2){
                 answer=parseInt(preNo[0])+parseInt(preNo[1]);
-                $('#calCurrentNumber').text(answer);
+                let ansStr=answer.toString();
+                $('#calCurrentNumber').text(answer.toString());
                 addCount=1;
             }
         }else{
+            console.log("kalin "+answer);
+            // console.log("curent "+$('#calCurrentNumber').text());
+            // alert($('#calCurrentNumber').text());
 
+            answer+=parseInt(typedText);
+            $('#calCurrentNumber').text(answer.toString());
         }
 
 
-
+        // $('#calCurrentNumber').text()
 
     }
 
