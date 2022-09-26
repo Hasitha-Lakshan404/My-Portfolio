@@ -360,7 +360,12 @@ $("#calMultiply").click(function () {
 $("#calEqual").click(function () {
     // $("#calCurrentNumber").text("=")
 
-    console.log("Previous Length "+previousNo.length);
+    $('#calCurrentNumber').text(answer);
+
+    curNo = null;
+    $("#calPreviousNumber").text("0");
+    previousNo = null;
+    answer=null;
 
 })
 
