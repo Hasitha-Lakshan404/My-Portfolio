@@ -1,5 +1,6 @@
 let curNo = null;
 let previousNo = null;
+let answer=null;
 
 /*========== NO 0 ===========*/
 $("#calNo0").click(function () {
@@ -163,9 +164,11 @@ $("#calAllClear").click(function () {
 /*=====FUNCTION=====*/
 
 /*====== + ========*/
+let addCount=0;
 $("#calAddition").click(function () {
+    let typedText=$('#calCurrentNumber').text()
 
-    if(curNo!==null){
+    if (curNo !== null) {
         if (previousNo === "0" || previousNo === null) {
             $('#calPreviousNumber').text(curNo + " + ");
             previousNo = (curNo + " + ");
@@ -175,7 +178,31 @@ $("#calAddition").click(function () {
             $('#calPreviousNumber').text(previousNo);
             clearForFunc();
         }
+
+        /*Split and Get get no to the array without + */
+
+        let preNo = previousNo.split(" + ");
+        console.log("NO "+preNo)
+        console.log("LEngth "+preNo.length)
+
+        /*if this is first time*/
+        if(addCount<1){
+            /*if this is first time*/
+            if(preNo.length>2){
+                answer=parseInt(preNo[0])+parseInt(preNo[1]);
+                $('#calCurrentNumber').text(answer);
+                addCount=1;
+            }
+        }else{
+
+        }
+
+
+
+
     }
+
+
 
 })
 
@@ -183,7 +210,7 @@ $("#calAddition").click(function () {
 $("#calMinus").click(function () {
     // $("#calCurrentNumber").text("-")
 
-    if(curNo!==null){
+    if (curNo !== null) {
         if (previousNo === "0" || previousNo === null) {
             $('#calPreviousNumber').text(curNo + " - ");
             previousNo = (curNo + " - ");
@@ -200,7 +227,7 @@ $("#calMinus").click(function () {
 $("#calDivide").click(function () {
     // $("#calCurrentNumber").text("/")
 
-    if(curNo!==null){
+    if (curNo !== null) {
         if (previousNo === "0" || previousNo === null) {
             $('#calPreviousNumber').text(curNo + " / ");
             previousNo = (curNo + " / ");
@@ -218,7 +245,7 @@ $("#calDivide").click(function () {
 $("#calMultiply").click(function () {
     // $("#calCurrentNumber").text("*")
 
-    if(curNo!==null){
+    if (curNo !== null) {
         if (previousNo === "0" || previousNo === null) {
             $('#calPreviousNumber').text(curNo + " * ");
             previousNo = (curNo + " * ");
@@ -229,7 +256,6 @@ $("#calMultiply").click(function () {
             clearForFunc();
         }
     }
-
 })
 
 /*====== = =======*/
@@ -243,16 +269,18 @@ $("#calEqual").click(function () {
 $("#calDot").click(function () {
     // $("#calCurrentNumber").text(".")
 
-    if(curNo!==null){
-        curNo+=".";
-        $("#calCurrentNumber").text(curNo);
-    }else{
-        curNo="0.";
-        $("#calCurrentNumber").text(curNo);
+    let tempCurrentIndex = $('#calCurrentNumber').text();
+
+    /*Search . is in the Word*/
+    if (!tempCurrentIndex.includes('.')) {
+        if (curNo !== null) {
+            curNo += ".";
+            $("#calCurrentNumber").text(curNo);
+        } else {
+            curNo = "0.";
+            $("#calCurrentNumber").text(curNo);
+        }
     }
-
-    // console.log($('#calCurrentNumber').text()); //for the get Text
-
 
 
 })
