@@ -258,9 +258,11 @@ $("#calMinus").click(function () {
     }
 })
 
+let divideCount=0;
 /*====== / ========*/
 $("#calDivide").click(function () {
-    // $("#calCurrentNumber").text("/")
+    let typedText=$('#calCurrentNumber').text();
+
 
     if (curNo !== null) {
         if (previousNo === "0" || previousNo === null) {
@@ -271,6 +273,35 @@ $("#calDivide").click(function () {
             previousNo = previousNo + (curNo + " / ");
             $('#calPreviousNumber').text(previousNo);
             clearForFunc();
+        }
+    }
+
+
+    /*Split and Get get no to the array without + */
+
+    let preNo = previousNo.split(" / ");
+
+    /*if this is first time*/
+    if(divideCount<1){
+        /*if this is first time*/
+        if(preNo.length>2){
+            answer=(parseFloat(preNo[0])/parseFloat(preNo[1])).toFixed(2);
+            let ansStr=answer.toString();
+            $('#calCurrentNumber').text(answer.toString());
+            divideCount=1;
+        }
+    }else{ //if this Second or higher time
+
+        if(answer!==null){ //Check answer null cuz set value for after the clear answer's value
+            answer/=parseFloat(typedText).toFixed(2);
+            $('#calCurrentNumber').text((answer.toFixed(2)).toString());
+
+        }else{
+            //come to this ,
+            //Added value and Dived values Continuously and After the first clear.comes to this.
+
+            answer=typedText; //ignore answer  text and assign typed value.
+            $('#calCurrentNumber').text(answer.toString());
         }
     }
 
