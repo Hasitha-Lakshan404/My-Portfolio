@@ -388,7 +388,11 @@ $("#calEqual").click(function () {
 })
 
 function eqLogic(no1,no2,operator) {
-
+    if(operator==="+"){
+        alert(" sum ");
+    }else if(operator==="-"){
+        alert(" minus ");
+    }
 
 }
 
