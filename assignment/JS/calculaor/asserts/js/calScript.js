@@ -184,8 +184,6 @@ $("#calAddition").click(function () {
         /*Split and Get get no to the array without + */
 
         let preNo = previousNo.split(" + ");
-        // console.log("NO "+preNo)
-        // console.log("LEngth "+preNo.length)
 
         /*if this is first time*/
         if(addCount<1){
@@ -196,17 +194,11 @@ $("#calAddition").click(function () {
                 $('#calCurrentNumber').text(answer.toString());
                 addCount=1;
             }
-        }else{
-            console.log("kalin "+answer);
-            // console.log("curent "+$('#calCurrentNumber').text());
-            // alert($('#calCurrentNumber').text());
+        }else{ //if this Second or higher time
 
             answer+=parseInt(typedText);
             $('#calCurrentNumber').text(answer.toString());
         }
-
-
-        // $('#calCurrentNumber').text()
 
     }
 
