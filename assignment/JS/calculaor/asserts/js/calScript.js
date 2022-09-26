@@ -241,7 +241,7 @@ $("#calMinus").click(function () {
                 minusCount=1;
             }
         }else{ //if this Second or higher time
-            alert(answer);
+
             if(answer!==null){ //Check answer null cuz set value for after the clear answer's value
                 answer-=parseInt(typedText);
                 $('#calCurrentNumber').text(answer.toString());
