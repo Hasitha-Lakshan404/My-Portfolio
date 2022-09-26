@@ -365,10 +365,10 @@ $("#calEqual").click(function () {
     /*catch the two value*/
     if(answer===null){
         // let preNo = previousNo.split(" * ");
-        alert("operator "+previousNo.length);
-        alert("operator index "+(parseInt(previousNo.length)-2));
+        // alert("operator "+previousNo.length);
+        // alert("operator index "+(parseInt(previousNo.length)-2));
 
-        alert(previousNo.charAt(parseInt(previousNo.length)-2));
+        let operator=previousNo.charAt(parseInt(previousNo.length)-2);
 
 
     }
