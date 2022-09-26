@@ -358,9 +358,9 @@ $("#calMultiply").click(function () {
 
 /*====== = =======*/
 $("#calEqual").click(function () {
-    // $("#calCurrentNumber").text("=")
+    let typedText=$('#calCurrentNumber').text();
 
-    $('#calCurrentNumber').text(answer);
+    // $('#calCurrentNumber').text(answer);
 
     /*catch the two value*/
     if(answer===null){
@@ -373,9 +373,10 @@ $("#calEqual").click(function () {
 
         /*get Before No using Operator*/
         let preNo = previousNo.split(" "+operator+" ");
-        alert("Previous No "+preNo[0]);
+        let firstNo=preNo[0];
+        let secondNo=parseInt(typedText);
 
-
+        eqLogic(firstNo,secondNo,operator);
     }
 
 
