@@ -361,10 +361,15 @@ $("#calEqual").click(function () {
     // $("#calCurrentNumber").text("=")
 
     $('#calCurrentNumber').text(answer);
-    alert(answer);
 
     /*catch the two value*/
     if(answer===null){
+        // let preNo = previousNo.split(" * ");
+        alert("operator "+previousNo.length);
+        alert("operator index "+(parseInt(previousNo.length)-2));
+
+        alert(previousNo.charAt(parseInt(previousNo.length)-2));
+
 
     }
 
@@ -375,6 +380,11 @@ $("#calEqual").click(function () {
     // answer=null;
 
 })
+
+function eqLogic(no1,no2,operator) {
+
+
+}
 
 /*====== . ========*/
 $("#calDot").click(function () {
