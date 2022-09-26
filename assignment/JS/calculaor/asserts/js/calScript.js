@@ -368,7 +368,12 @@ $("#calEqual").click(function () {
         // alert("operator "+previousNo.length);
         // alert("operator index "+(parseInt(previousNo.length)-2));
 
+        /*get Operator*/
         let operator=previousNo.charAt(parseInt(previousNo.length)-2);
+
+        /*get Before No using Operator*/
+        let preNo = previousNo.split(" "+operator+" ");
+        alert("Previous No "+preNo[0]);
 
 
     }
