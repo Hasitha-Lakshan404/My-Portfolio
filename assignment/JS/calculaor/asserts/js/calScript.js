@@ -360,8 +360,6 @@ $("#calMultiply").click(function () {
 $("#calEqual").click(function () {
     let typedText=$('#calCurrentNumber').text();
 
-    // $('#calCurrentNumber').text(answer);
-
     /*catch the two value*/
     if(answer===null){
         // let preNo = previousNo.split(" * ");
@@ -377,6 +375,8 @@ $("#calEqual").click(function () {
         let secondNo=parseInt(typedText);
 
         eqLogic(firstNo,secondNo,operator);
+    }else{
+        $('#calCurrentNumber').text(answer);
     }
 
 
