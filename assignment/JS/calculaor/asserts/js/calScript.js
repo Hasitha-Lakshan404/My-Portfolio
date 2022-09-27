@@ -665,16 +665,47 @@ $("#calMultiply").click(function () {
 $("#calEqual").click(function () {
     let typedText = $('#calCurrentNumber').text();
 
-    /*catch the two value*/
+    if (curNo !== null) {
+
+        previousNoArray.push(curNo);
+        previousNoArray.push("   ");
+        clearForFunc();
+
+        //for the display previous number
+        if (addCount === 0) { //if is first time
+            $('#calPreviousNumber').text(typedText);
+            addCount = 1;
+
+        } else { //if isn't first time
+            prn = '';
+            for (let i = 0; i < previousNoArray.length; i++) {
+                prn = prn + previousNoArray[i]
+            }
+            $('#calPreviousNumber').text(prn);
+        }
+
+        //value calculate if the array have more than two values
+        if (previousNoArray.length > 2) {
+
+            //calculate
+            allCalc();
+
+        }
+    }
+
+
+    /*let typedText = $('#calCurrentNumber').text();
+
+    /!*catch the two value*!/
     if (answer === null) {
         // let preNo = previousNo.split(" * ");
         // alert("operator "+previousNo.length);
         // alert("operator index "+(parseInt(previousNo.length)-2));
 
-        /*get Operator*/
+        /!*get Operator*!/
         let operator = previousNo.charAt(parseInt(previousNo.length) - 2);
 
-        /*get Before No using Operator*/
+        /!*get Before No using Operator*!/
         let preNo = previousNo.split(" " + operator + " ");
         let firstNo = preNo[0];
         eqLogic(firstNo, typedText, operator);
@@ -688,7 +719,8 @@ $("#calEqual").click(function () {
     curNo = null;
     $("#calPreviousNumber").text("0");
     previousNo = null;
-    answer = null;
+    answer = null;*/
+
 
 })
 
