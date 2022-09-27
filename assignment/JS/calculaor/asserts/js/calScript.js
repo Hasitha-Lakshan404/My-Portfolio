@@ -158,6 +158,9 @@ $("#calAllClear").click(function () {
     $("#calCurrentNumber").text("0");
     curNo = null;
     $("#calPreviousNumber").text("0");
+    previousNoArray=[];
+    newAns=null;
+
 
 })
 
@@ -479,7 +482,6 @@ $("#calMultiply").click(function () {
         }
         $('#calPreviousNumber').text(prn);
     }
-
 
 })
 
