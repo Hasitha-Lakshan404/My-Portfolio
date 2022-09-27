@@ -328,7 +328,14 @@ function allCalc() {
                     tempNewAns = tempNewAns - parseFloat(previousNoArray[i + 1]);
                 }
             } else if (previousNoArray[i] === " / ") {
+                //first time (need to added newAns only one time)
+                if (checkFTime === 0) {
+                    tempNewAns = newAns / parseFloat(previousNoArray[i + 1]);
+                    checkFTime = 1;
 
+                } else { //after that want to loop the answer and array value.
+                    tempNewAns = tempNewAns / parseFloat(previousNoArray[i + 1]);
+                }
             } else if (previousNoArray[i] === " * ") {
 
             }
@@ -453,12 +460,19 @@ $("#calMinus").click(function () {
 
 /*====== / ========*/
 let divideCount = 0;
+
+let divCount = 0;
+let countDivBtnClick = 0;
 $("#calDivide").click(function () {
+    countDivBtnClick++;
     let typedText = $('#calCurrentNumber').text();
 
 
     if (curNo !== null) {
-        if (previousNo === "0" || previousNo === null) {
+        previousNoArray.push(curNo);
+        previousNoArray.push(" / ");
+        clearForFunc();
+        /*if (previousNo === "0" || previousNo === null) {
             $('#calPreviousNumber').text(curNo + " / ");
 
             //Previous No Array
@@ -478,13 +492,13 @@ $("#calDivide").click(function () {
             clearForFunc();
         }
 
-        /*Split and Get get no to the array without + */
+        /!*Split and Get get no to the array without + *!/
 
         let preNo = previousNo.split(" / ");
 
-        /*if this is first time*/
+        /!*if this is first time*!/
         if (divideCount < 1) {
-            /*if this is first time*/
+            /!*if this is first time*!/
             if (preNo.length > 2) {
                 answer = (parseFloat(preNo[0]) / parseFloat(preNo[1])).toFixed(2);
                 let ansStr = answer.toString();
@@ -504,7 +518,39 @@ $("#calDivide").click(function () {
                 answer = typedText; //ignore answer  text and assign typed value.
                 $('#calCurrentNumber').text(answer.toString());
             }
+        }*/
+
+        //for the display previous number
+        if (addCount === 0) { //if is first time
+            $('#calPreviousNumber').text(typedText);
+            addCount = 1;
+
+        } else { //if isn't first time
+            prn = '';
+            for (let i = 0; i < previousNoArray.length; i++) {
+                prn = prn + previousNoArray[i]
+            }
+            $('#calPreviousNumber').text(prn);
         }
+
+        //value calculate if the array have more than two values
+        if (previousNoArray.length > 2) {
+
+            //calculate
+            allCalc();
+
+        }
+    }
+
+    //for change the Operator when btn click
+    if (countDivBtnClick > 2) {
+        console.log("Changed all  to /")
+        previousNoArray[previousNoArray.length - 1] = " / ";
+        prn = '';
+        for (let i = 0; i < previousNoArray.length; i++) {
+            prn = prn + previousNoArray[i]
+        }
+        $('#calPreviousNumber').text(prn);
     }
 
 })
