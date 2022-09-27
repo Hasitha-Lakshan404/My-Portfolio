@@ -1,6 +1,4 @@
 let curNo = null;
-let previousNo = null;
-let answer = null;
 let previousNoArray = [];
 
 /*========== NO 0 ===========*/
@@ -160,6 +158,14 @@ $("#calAllClear").click(function () {
     $("#calPreviousNumber").text("0");
     previousNoArray=[];
     newAns=null;
+    addCount = 0;
+    prn=null;
+
+    countAddBtnClick=0;
+    countMinBtnClick=0;
+    countDivBtnClick=0;
+    countMultiBtnClick=0;
+    clickCount=0;
 
 
 })
@@ -332,7 +338,7 @@ function allCalc() {
 }
 
 
-let minusCount = 0;
+
 /*====== -  ========*/
 
 let minCount = 0;
