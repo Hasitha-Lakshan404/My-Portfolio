@@ -309,7 +309,6 @@ function allCalc() {
 
         if(va.length===2){
             $('#calCurrentNumber').text(tempNewAns.toFixed(3).toString());
-            console.log("oo");
         }else{
             $('#calCurrentNumber').text(tempNewAns.toString());
 
@@ -344,53 +343,6 @@ $("#calMinus").click(function () {
         previousNoArray.push(curNo);
         previousNoArray.push(" - ");
         clearForFunc();
-        /*if (previousNo === "0" || previousNo === null) {
-            $('#calPreviousNumber').text(curNo + " - ");
-
-            //Previous No Array
-            previousNoArray.push(curNo);
-            previousNoArray.push(" - ");
-
-            previousNo = (curNo + " - ");
-            clearForFunc();
-        } else {
-
-            //Previous No Array
-            previousNoArray.push(curNo);
-            previousNoArray.push(" - ");
-
-            previousNo = previousNo + (curNo + " - ");
-            $('#calPreviousNumber').text(previousNo);
-            clearForFunc();
-        }
-
-        /!*Split and Get get no to the array without + *!/
-
-        let preNo = previousNo.split(" - ");
-
-        /!*if this is first time*!/
-        if(minusCount<1){
-            /!*if this is first time*!/
-            if(preNo.length>2){
-                answer=parseFloat(preNo[0])-parseFloat(preNo[1]);
-                let ansStr=answer.toString();
-                $('#calCurrentNumber').text(answer.toString());
-                minusCount=1;
-            }
-        }else{ //if this Second or higher time
-
-            if(answer!==null){ //Check answer null cuz set value for after the clear answer's value
-                answer-=parseFloat(typedText);
-                $('#calCurrentNumber').text(answer.toString());
-
-            }else{
-                //come to this ,
-                    //Added value and subtract values Continuously and After the first clear.comes to this.
-
-                answer=typedText; //ignore answer  text and assign typed value.
-                $('#calCurrentNumber').text(answer.toString());
-            }
-        }*/
 
         //for the display previous number
         if (addCount === 0) { //if is first time
@@ -442,53 +394,7 @@ $("#calDivide").click(function () {
         previousNoArray.push(curNo);
         previousNoArray.push(" / ");
         clearForFunc();
-        /*if (previousNo === "0" || previousNo === null) {
-            $('#calPreviousNumber').text(curNo + " / ");
 
-            //Previous No Array
-            previousNoArray.push(curNo);
-            previousNoArray.push(" / ");
-
-            previousNo = (curNo + " / ");
-            clearForFunc();
-        } else {
-
-            //Previous No Array
-            previousNoArray.push(curNo);
-            previousNoArray.push(" / ");
-
-            previousNo = previousNo + (curNo + " / ");
-            $('#calPreviousNumber').text(previousNo);
-            clearForFunc();
-        }
-
-        /!*Split and Get get no to the array without + *!/
-
-        let preNo = previousNo.split(" / ");
-
-        /!*if this is first time*!/
-        if (divideCount < 1) {
-            /!*if this is first time*!/
-            if (preNo.length > 2) {
-                answer = (parseFloat(preNo[0]) / parseFloat(preNo[1])).toFixed(2);
-                let ansStr = answer.toString();
-                $('#calCurrentNumber').text(answer.toString());
-                divideCount = 1;
-            }
-        } else { //if this Second or higher time
-
-            if (answer !== null) { //Check answer null cuz set value for after the clear answer's value
-                answer /= parseFloat(typedText).toFixed(2);
-                $('#calCurrentNumber').text((answer.toFixed(2)).toString());
-
-            } else {
-                //come to this ,
-                //Added value and Dived values Continuously and After the first clear.comes to this.
-
-                answer = typedText; //ignore answer  text and assign typed value.
-                $('#calCurrentNumber').text(answer.toString());
-            }
-        }*/
 
         //for the display previous number
         if (addCount === 0) { //if is first time
@@ -539,53 +445,6 @@ $("#calMultiply").click(function () {
         previousNoArray.push(" * ");
         clearForFunc();
 
-        /*if (previousNo === "0" || previousNo === null) {
-            $('#calPreviousNumber').text(curNo + " * ");
-
-            //Previous No Array
-            previousNoArray.push(curNo);
-            previousNoArray.push(" * ");
-
-            previousNo = (curNo + " * ");
-            clearForFunc();
-        } else {
-
-            //Previous No Array
-            previousNoArray.push(curNo);
-            previousNoArray.push(" * ");
-
-            previousNo = previousNo + (curNo + " * ");
-            $('#calPreviousNumber').text(previousNo);
-            clearForFunc();
-        }*/
-
-        /*/!*Split and Get get no to the array without * *!/
-
-    let preNo = previousNo.split(" * ");
-
-    /!*if this is first time*!/
-    if (multiCount < 1) {
-        /!*if this is first time*!/
-        if (preNo.length > 2) {
-            answer = parseFloat(preNo[0]) * parseFloat(preNo[1]);
-            let ansStr = answer.toString();
-            $('#calCurrentNumber').text(answer.toString());
-            multiCount = 1;
-        }
-    } else { //if this Second or higher time
-
-        if (answer !== null) { //Check answer null cuz set value for after the clear answer's value
-            answer *= parseFloat(typedText);
-            $('#calCurrentNumber').text(answer.toString());
-
-        } else {
-            //come to this ,
-            //Added value and multiply values Continuously and After the first clear.comes to this.
-
-            answer = typedText; //ignore answer  text and assign typed value.
-            $('#calCurrentNumber').text(answer.toString());
-        }
-    }*/
 
         //for the display previous number
         if (addCount === 0) { //if is first time
@@ -655,8 +514,6 @@ $("#calEqual").click(function () {
 
         }
     }
-
-
 
 })
 
