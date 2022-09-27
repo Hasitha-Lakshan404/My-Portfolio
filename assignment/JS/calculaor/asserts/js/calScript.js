@@ -167,13 +167,30 @@ $("#calAllClear").click(function () {
 
 /*====== + ========*/
 let addCount=0;
+let prn=null;
 $("#calAddition").click(function () {
     let typedText=$('#calCurrentNumber').text()
 
+
+    /*for (let previousNoArrayElement of previousNoArray) {
+        prn+=previousNoArrayElement;
+        console.log(previousNoArrayElement);
+        $('#calPreviousNumber').text(prn);
+    }*/
+
+
+
+
     /*check The current No is NOt Null*/
     if (curNo !== null) {
-        if (previousNo === "0" || previousNo === null) {
-            $('#calPreviousNumber').text(curNo + " + ");
+
+        previousNoArray.push(curNo);
+        previousNoArray.push(" + ");
+        clearForFunc();
+
+
+        /*if (previousNo === "0" || previousNo === null) {
+            // $('#calPreviousNumber').text(curNo + " + ");
 
             //Previous No Array
             previousNoArray.push(curNo);
@@ -187,9 +204,9 @@ $("#calAddition").click(function () {
             previousNoArray.push(" + ");
 
             previousNo = previousNo + (curNo + " + ");
-            $('#calPreviousNumber').text(previousNo);
+            // $('#calPreviousNumber').text(previousNo);
             clearForFunc();
-        }
+        }*/
 
         /*Split and Get get no to the array without + */
 
@@ -210,13 +227,33 @@ $("#calAddition").click(function () {
         // }
 
         //if it's loop only array have or more than two values
+
+
+        if(addCount===0){
+            // prn=typedText;
+            $('#calPreviousNumber').text(typedText);
+            addCount=1;
+            prn=typedText;
+        }else{
+            prn='';
+            for(let i=0;i<previousNoArray.length;i++){
+                prn=prn+previousNoArray[i]
+            }
+            $('#calPreviousNumber').text(prn);
+        }
+
+
         if(previousNoArray.length>2){
             allCalc();
         }
 
 
+
+
     }
 })
+
+
 let clickCount=0;
 let newAns=null;
 function allCalc() {
@@ -227,7 +264,7 @@ function allCalc() {
         let no2=previousNoArray[2];
         let operator=previousNoArray[1];
 
-        console.log("no 1-"+no1+" no2-"+no2+" operator-"+operator);
+        // console.log("no 1-"+no1+" no2-"+no2+" operator-"+operator);
 
         /*========Search Operator=======*/
         if(operator===" + "){
@@ -249,11 +286,11 @@ function allCalc() {
     for(let i=3;i<previousNoArray.length;i++){
         // console.log("Array values "+previousNoArray[i]);
 
-            console.log("else ekee I="+i+" -> "+previousNoArray[i]);
+            // console.log("else ekee I="+i+" -> "+previousNoArray[i]);
 
     }
 
-    console.log("temp ans="+tempAns)
+    console.log("temp ans="+tempAns);
 }
 
 
