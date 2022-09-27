@@ -300,9 +300,25 @@ function allCalc() {
 
     //iterate and get all values of the array
     for(let i=3;i<previousNoArray.length;i++){
-        // console.log("Array values "+previousNoArray[i]);
+        console.log("Array values "+previousNoArray[i]);
 
-            // console.log("else ekee I="+i+" -> "+previousNoArray[i]);
+
+        if(i<previousNoArray.length-2){
+            //Search Operators in the array
+            if(previousNoArray[i]===" + "){
+                console.log("want to added =>"+previousNoArray[i+1]);
+                // tempAns=previousNoArray[]
+            }else if(previousNoArray[i]===" - "){
+
+            }else if(previousNoArray[i]===" / "){
+
+            }else if(previousNoArray[i]===" * "){
+
+            }
+        }
+
+
+            console.log("else ekee I="+i+" -> "+previousNoArray[i]);
 
     }
 
