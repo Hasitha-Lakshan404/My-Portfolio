@@ -5,7 +5,7 @@ let previousNoArray=[];
 
 /*========== NO 0 ===========*/
 $("#calNo0").click(function () {
-    console.log("0");
+    // console.log("0");
     // $("#calCurrentNumber").text("0");
 
     if (!(curNo === null || curNo === "0")) {
@@ -19,7 +19,7 @@ $("#calNo0").click(function () {
 
 /*========== NO 1 ===========*/
 $("#calNo1").click(function () {
-    console.log("1");
+    // console.log("1");
     // $("#calCurrentNumber").text("1");
 
     if (curNo === null) {
@@ -35,7 +35,7 @@ $("#calNo1").click(function () {
 
 /*========== NO 2 ===========*/
 $("#calNo2").click(function () {
-    console.log("2");
+    // console.log("2");
     // $("#calCurrentNumber").text("2");
 
     if (curNo === null) {
@@ -50,7 +50,7 @@ $("#calNo2").click(function () {
 
 /*========== NO 3 ===========*/
 $("#calNo3").click(function () {
-    console.log("3");
+    // console.log("3");
     // $("#calCurrentNumber").text("3");
 
     if (curNo === null) {
@@ -65,7 +65,7 @@ $("#calNo3").click(function () {
 
 /*========== NO 4 ===========*/
 $("#calNo4").click(function () {
-    console.log("4");
+    // console.log("4");
     // $("#calCurrentNumber").text("4");
 
     if (curNo === null) {
@@ -81,7 +81,7 @@ $("#calNo4").click(function () {
 
 /*========== NO 5 ===========*/
 $("#calNo5").click(function () {
-    console.log("5");
+    // console.log("5");
     // $("#calCurrentNumber").text("5");
 
     if (curNo === null) {
@@ -96,7 +96,7 @@ $("#calNo5").click(function () {
 
 /*========== NO 6 ===========*/
 $("#calNo6").click(function () {
-    console.log("6");
+    // console.log("6");
     // $("#calCurrentNumber").text("6");
 
     if (curNo === null) {
@@ -111,7 +111,7 @@ $("#calNo6").click(function () {
 
 /*========== NO 7 ===========*/
 $("#calNo7").click(function () {
-    console.log("7");
+    // console.log("7");
     // $("#calCurrentNumber").text("7");
 
     if (curNo === null) {
@@ -126,7 +126,7 @@ $("#calNo7").click(function () {
 
 /*========== NO 8 ===========*/
 $("#calNo8").click(function () {
-    console.log("8");
+    // console.log("8");
     // $("#calCurrentNumber").text("8");
 
     if (curNo === null) {
@@ -141,7 +141,7 @@ $("#calNo8").click(function () {
 
 /*========== NO 9 ===========*/
 $("#calNo9").click(function () {
-    console.log("9");
+    // console.log("9");
     // $("#calCurrentNumber").text("9");
 
     if (curNo === null) {
@@ -193,24 +193,49 @@ $("#calAddition").click(function () {
 
         /*Split and Get get no to the array without + */
 
-        let preNo = previousNo.split(" + ");
+        // let preNo = previousNo.split(" + ");
+        //
+        // /*if this is first time*/
+        // if(addCount<1){
+        //     /*if this is first time*/
+        //     if(preNo.length>2){
+        //         answer=parseFloat(preNo[0])+parseFloat(preNo[1]);
+        //         let ansStr=answer.toString();
+        //         $('#calCurrentNumber').text(answer.toString());
+        //         addCount=1;
+        //     }
+        // }else{ //if this Second or higher time
+        //     answer+=parseFloat(typedText);
+        //     $('#calCurrentNumber').text(answer.toString());
+        // }
 
-        /*if this is first time*/
-        if(addCount<1){
-            /*if this is first time*/
-            if(preNo.length>2){
-                answer=parseFloat(preNo[0])+parseFloat(preNo[1]);
-                let ansStr=answer.toString();
-                $('#calCurrentNumber').text(answer.toString());
-                addCount=1;
-            }
-        }else{ //if this Second or higher time
-            answer+=parseFloat(typedText);
-            $('#calCurrentNumber').text(answer.toString());
+        //if it's loop only array have or more than two values
+        if(previousNoArray.length>2){
+            allCalc();
         }
+
 
     }
 })
+let clickCount=0;
+function allCalc() {
+    let tempAns=null;
+    //iterate and get all values of the array
+    for(let i=0;i<previousNoArray.length;i++){
+        // console.log("Array values "+previousNoArray[i]);
+
+        if(clickCount===0){
+            let no1=previousNoArray[i];
+            let no2=previousNoArray[i+2];
+            let operator=previousNoArray[i+1];
+
+            console.log("no 1-"+no1+" no2-"+no2+" operator-"+operator);
+            clickCount=1;
+        }
+
+    }
+}
+
 
 let minusCount=0;
 /*====== -  ========*/
