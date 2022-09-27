@@ -171,7 +171,7 @@ let prn=null;
 let countAddBtnClick=0;
 $("#calAddition").click(function () {
     countAddBtnClick++;
-    let typedText=$('#calCurrentNumber').text()
+    let typedText=$('#calCurrentNumber').text();
 
 
     /*for (let previousNoArrayElement of previousNoArray) {
@@ -231,13 +231,11 @@ $("#calAddition").click(function () {
         //if it's loop only array have or more than two values
 
 
-
-
         //for the display previous number
         if(addCount===0){ //if is first time
             $('#calPreviousNumber').text(typedText);
             addCount=1;
-            prn=typedText;
+
         }else{ //if isn't first time
             prn='';
             for(let i=0;i<previousNoArray.length;i++){
@@ -265,15 +263,16 @@ $("#calAddition").click(function () {
             }
             $('#calPreviousNumber').text(prn);
     }
-
-
 })
 
+
+/*===================METHOD==================*/
 
 let clickCount=0;
 let newAns=null;
 function allCalc() {
     let tempAns=null;
+    let anotherValues=0;
 
     if(clickCount===0){ //for first two Number
         let no1=previousNoArray[0];
@@ -292,22 +291,34 @@ function allCalc() {
         }else if(operator===" * "){
             tempAns=parseFloat(no1)*parseFloat(no2);
         }
+        newAns=tempAns;
 
         clickCount=1;
     }
 
-
-
     //iterate and get all values of the array
-    for(let i=3;i<previousNoArray.length;i++){
-        console.log("Array values "+previousNoArray[i]);
 
+    console.log("newAns"+newAns);
+    let tempNewAns=0;
+
+    let checkFTime=0;
+    for(let i=3;i<previousNoArray.length;i++){
+        // console.log("Array values "+previousNoArray[i]);
 
         if(i<previousNoArray.length-2){
             //Search Operators in the array
             if(previousNoArray[i]===" + "){
-                console.log("want to added =>"+previousNoArray[i+1]);
-                // tempAns=previousNoArray[]
+                // console.log("new Ans->"+newAns+"  want to added =>"+previousNoArray[i+1]);
+
+                //first time (need to added newAns only one time)
+                if(checkFTime===0){
+                    tempNewAns=newAns+parseFloat(previousNoArray[i+1]);
+                    checkFTime=1;
+
+                }else{ //after that want to loop the answer and array value.
+                    tempNewAns=tempNewAns+parseFloat(previousNoArray[i+1]);
+                }
+
             }else if(previousNoArray[i]===" - "){
 
             }else if(previousNoArray[i]===" / "){
@@ -316,13 +327,23 @@ function allCalc() {
 
             }
         }
-
-
-            console.log("else ekee I="+i+" -> "+previousNoArray[i]);
+            // console.log("else ekee I="+i+" -> "+previousNoArray[i]);
 
     }
 
-    console.log("temp ans="+tempAns);
+    if(checkFTime===1){
+        $('#calCurrentNumber').text(tempNewAns.toString());
+    }else{
+        $('#calCurrentNumber').text(newAns.toString());
+    }
+
+    console.log("TempNewAns "+tempNewAns);
+    console.log("======================");
+    // newAns=newAns+anotherValues;
+
+    // console.log("temp ans="+newAns);
+    // newAns=tempAns;
+
 }
 
 
