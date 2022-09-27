@@ -233,13 +233,12 @@ $("#calAddition").click(function () {
 
 
 
-        if(addCount===0){
-            // prn=typedText;
+        //for the display previous number
+        if(addCount===0){ //if is first time
             $('#calPreviousNumber').text(typedText);
             addCount=1;
             prn=typedText;
-        }else{
-
+        }else{ //if isn't first time
             prn='';
             for(let i=0;i<previousNoArray.length;i++){
                 prn=prn+previousNoArray[i]
@@ -247,14 +246,13 @@ $("#calAddition").click(function () {
             $('#calPreviousNumber').text(prn);
         }
 
+        //value calculate if the array have more than two values
         if(previousNoArray.length>2){
 
             //calculate
             allCalc();
 
         }
-
-
 
     }
 
