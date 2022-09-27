@@ -1,7 +1,7 @@
 let curNo = null;
 let previousNo = null;
-let answer=null;
-let previousNoArray=[];
+let answer = null;
+let previousNoArray = [];
 
 /*========== NO 0 ===========*/
 $("#calNo0").click(function () {
@@ -160,18 +160,18 @@ $("#calAllClear").click(function () {
     curNo = null;
     $("#calPreviousNumber").text("0");
     previousNo = null;
-    answer=null;
+    answer = null;
 })
 
 /*=====FUNCTION=====*/
 
 /*====== + ========*/
-let addCount=0;
-let prn=null;
-let countAddBtnClick=0;
+let addCount = 0;
+let prn = null;
+let countAddBtnClick = 0;
 $("#calAddition").click(function () {
     countAddBtnClick++;
-    let typedText=$('#calCurrentNumber').text();
+    let typedText = $('#calCurrentNumber').text();
 
 
     /*for (let previousNoArrayElement of previousNoArray) {
@@ -179,8 +179,6 @@ $("#calAddition").click(function () {
         console.log(previousNoArrayElement);
         $('#calPreviousNumber').text(prn);
     }*/
-
-
 
 
     /*check The current No is NOt Null*/
@@ -232,20 +230,20 @@ $("#calAddition").click(function () {
 
 
         //for the display previous number
-        if(addCount===0){ //if is first time
+        if (addCount === 0) { //if is first time
             $('#calPreviousNumber').text(typedText);
-            addCount=1;
+            addCount = 1;
 
-        }else{ //if isn't first time
-            prn='';
-            for(let i=0;i<previousNoArray.length;i++){
-                prn=prn+previousNoArray[i]
+        } else { //if isn't first time
+            prn = '';
+            for (let i = 0; i < previousNoArray.length; i++) {
+                prn = prn + previousNoArray[i]
             }
             $('#calPreviousNumber').text(prn);
         }
 
         //value calculate if the array have more than two values
-        if(previousNoArray.length>2){
+        if (previousNoArray.length > 2) {
 
             //calculate
             allCalc();
@@ -255,89 +253,97 @@ $("#calAddition").click(function () {
     }
 
     //for change the Operator when btn click
-    if(countAddBtnClick>2){
-        previousNoArray[previousNoArray.length-1]=" + ";
-            prn='';
-            for(let i=0;i<previousNoArray.length;i++){
-                prn=prn+previousNoArray[i]
-            }
-            $('#calPreviousNumber').text(prn);
+    if (countAddBtnClick > 2) {
+        previousNoArray[previousNoArray.length - 1] = " + ";
+        prn = '';
+        for (let i = 0; i < previousNoArray.length; i++) {
+            prn = prn + previousNoArray[i]
+        }
+        $('#calPreviousNumber').text(prn);
     }
 })
 
 
 /*===================METHOD==================*/
 
-let clickCount=0;
-let newAns=null;
-function allCalc() {
-    let tempAns=null;
-    let anotherValues=0;
+let clickCount = 0;
+let newAns = null;
 
-    if(clickCount===0){ //for first two Number
-        let no1=previousNoArray[0];
-        let no2=previousNoArray[2];
-        let operator=previousNoArray[1];
+function allCalc() {
+    let tempAns = null;
+    let anotherValues = 0;
+
+    if (clickCount === 0) { //for first two Number
+        let no1 = previousNoArray[0];
+        let no2 = previousNoArray[2];
+        let operator = previousNoArray[1];
 
         // console.log("no 1-"+no1+" no2-"+no2+" operator-"+operator);
 
         /*========Search Operator=======*/
-        if(operator===" + "){
-            tempAns=parseFloat(no1)+parseFloat(no2);
-        }else if(operator===" - "){
-            tempAns=parseFloat(no1)-parseFloat(no2);
-        }else if(operator===" / "){
-            tempAns=parseFloat(no1)/parseFloat(no2);
-        }else if(operator===" * "){
-            tempAns=parseFloat(no1)*parseFloat(no2);
+        if (operator === " + ") {
+            tempAns = parseFloat(no1) + parseFloat(no2);
+        } else if (operator === " - ") {
+            tempAns = parseFloat(no1) - parseFloat(no2);
+        } else if (operator === " / ") {
+            tempAns = parseFloat(no1) / parseFloat(no2);
+        } else if (operator === " * ") {
+            tempAns = parseFloat(no1) * parseFloat(no2);
         }
-        newAns=tempAns;
+        newAns = tempAns;
 
-        clickCount=1;
+        clickCount = 1;
     }
 
     //iterate and get all values of the array
 
-    console.log("newAns"+newAns);
-    let tempNewAns=0;
+    console.log("newAns" + newAns);
+    let tempNewAns = 0;
 
-    let checkFTime=0;
-    for(let i=3;i<previousNoArray.length;i++){
+    let checkFTime = 0;
+    for (let i = 3; i < previousNoArray.length; i++) {
         // console.log("Array values "+previousNoArray[i]);
 
-        if(i<previousNoArray.length-2){
+        if (i < previousNoArray.length - 2) {
             //Search Operators in the array
-            if(previousNoArray[i]===" + "){
+            if (previousNoArray[i] === " + ") {
                 // console.log("new Ans->"+newAns+"  want to added =>"+previousNoArray[i+1]);
 
                 //first time (need to added newAns only one time)
-                if(checkFTime===0){
-                    tempNewAns=newAns+parseFloat(previousNoArray[i+1]);
-                    checkFTime=1;
+                if (checkFTime === 0) {
+                    tempNewAns = newAns + parseFloat(previousNoArray[i + 1]);
+                    checkFTime = 1;
 
-                }else{ //after that want to loop the answer and array value.
-                    tempNewAns=tempNewAns+parseFloat(previousNoArray[i+1]);
+                } else { //after that want to loop the answer and array value.
+                    tempNewAns = tempNewAns + parseFloat(previousNoArray[i + 1]);
                 }
 
-            }else if(previousNoArray[i]===" - "){
+            } else if (previousNoArray[i] === " - ") {
+                //first time (need to added newAns only one time)
+                if (checkFTime === 0) {
+                    tempNewAns = newAns - parseFloat(previousNoArray[i + 1]);
+                    checkFTime = 1;
 
-            }else if(previousNoArray[i]===" / "){
+                } else { //after that want to loop the answer and array value.
+                    tempNewAns = tempNewAns - parseFloat(previousNoArray[i + 1]);
+                }
+            } else if (previousNoArray[i] === " / ") {
 
-            }else if(previousNoArray[i]===" * "){
+            } else if (previousNoArray[i] === " * ") {
 
             }
         }
-            // console.log("else ekee I="+i+" -> "+previousNoArray[i]);
+        // console.log("else ekee I="+i+" -> "+previousNoArray[i]);
 
     }
 
-    if(checkFTime===1){
+    if (checkFTime === 1) {
         $('#calCurrentNumber').text(tempNewAns.toString());
-    }else{
+    } else {
         $('#calCurrentNumber').text(newAns.toString());
     }
 
-    console.log("TempNewAns "+tempNewAns);
+    console.log("TempNewAns " + tempNewAns);
     console.log("======================");
     // newAns=newAns+anotherValues;
 
@@ -347,14 +353,21 @@ function allCalc() {
 }
 
 
-let minusCount=0;
+let minusCount = 0;
 /*====== -  ========*/
+
+let minCount = 0;
+let prnMin = null;
+let countMinBtnClick = 0;
 $("#calMinus").click(function () {
-    let typedText=$('#calCurrentNumber').text();
+    countMinBtnClick++;
+    let typedText = $('#calCurrentNumber').text();
 
     if (curNo !== null) {
-
-        if (previousNo === "0" || previousNo === null) {
+        previousNoArray.push(curNo);
+        previousNoArray.push(" - ");
+        clearForFunc();
+        /*if (previousNo === "0" || previousNo === null) {
             $('#calPreviousNumber').text(curNo + " - ");
 
             //Previous No Array
@@ -374,13 +387,13 @@ $("#calMinus").click(function () {
             clearForFunc();
         }
 
-        /*Split and Get get no to the array without + */
+        /!*Split and Get get no to the array without + *!/
 
         let preNo = previousNo.split(" - ");
 
-        /*if this is first time*/
+        /!*if this is first time*!/
         if(minusCount<1){
-            /*if this is first time*/
+            /!*if this is first time*!/
             if(preNo.length>2){
                 answer=parseFloat(preNo[0])-parseFloat(preNo[1]);
                 let ansStr=answer.toString();
@@ -400,15 +413,48 @@ $("#calMinus").click(function () {
                 answer=typedText; //ignore answer  text and assign typed value.
                 $('#calCurrentNumber').text(answer.toString());
             }
+        }*/
+
+        //for the display previous number
+        if (addCount === 0) { //if is first time
+            $('#calPreviousNumber').text(typedText);
+            addCount = 1;
+
+        } else { //if isn't first time
+            prn = '';
+            for (let i = 0; i < previousNoArray.length; i++) {
+                prn = prn + previousNoArray[i]
+            }
+            $('#calPreviousNumber').text(prn);
         }
 
+        //value calculate if the array have more than two values
+        if (previousNoArray.length > 2) {
+
+            //calculate
+            allCalc();
+
+        }
+
+    }
+
+    //for change the Operator when btn click
+    if (countMinBtnClick > 2) {
+        console.log("Changed sum + to -")
+        previousNoArray[previousNoArray.length - 1] = " - ";
+        console.log("What is Last Index "+previousNoArray[previousNoArray.length-1]);
+        prn = '';
+        for (let i = 0; i < previousNoArray.length; i++) {
+            prn = prn + previousNoArray[i]
+        }
+        $('#calPreviousNumber').text(prn);
     }
 })
 
 /*====== / ========*/
-let divideCount=0;
+let divideCount = 0;
 $("#calDivide").click(function () {
-    let typedText=$('#calCurrentNumber').text();
+    let typedText = $('#calCurrentNumber').text();
 
 
     if (curNo !== null) {
@@ -437,25 +483,25 @@ $("#calDivide").click(function () {
         let preNo = previousNo.split(" / ");
 
         /*if this is first time*/
-        if(divideCount<1){
+        if (divideCount < 1) {
             /*if this is first time*/
-            if(preNo.length>2){
-                answer=(parseFloat(preNo[0])/parseFloat(preNo[1])).toFixed(2);
-                let ansStr=answer.toString();
+            if (preNo.length > 2) {
+                answer = (parseFloat(preNo[0]) / parseFloat(preNo[1])).toFixed(2);
+                let ansStr = answer.toString();
                 $('#calCurrentNumber').text(answer.toString());
-                divideCount=1;
+                divideCount = 1;
             }
-        }else{ //if this Second or higher time
+        } else { //if this Second or higher time
 
-            if(answer!==null){ //Check answer null cuz set value for after the clear answer's value
-                answer/=parseFloat(typedText).toFixed(2);
+            if (answer !== null) { //Check answer null cuz set value for after the clear answer's value
+                answer /= parseFloat(typedText).toFixed(2);
                 $('#calCurrentNumber').text((answer.toFixed(2)).toString());
 
-            }else{
+            } else {
                 //come to this ,
                 //Added value and Dived values Continuously and After the first clear.comes to this.
 
-                answer=typedText; //ignore answer  text and assign typed value.
+                answer = typedText; //ignore answer  text and assign typed value.
                 $('#calCurrentNumber').text(answer.toString());
             }
         }
@@ -465,9 +511,9 @@ $("#calDivide").click(function () {
 
 
 /*====== * ========*/
-let multiCount=0;
+let multiCount = 0;
 $("#calMultiply").click(function () {
-    let typedText=$('#calCurrentNumber').text();
+    let typedText = $('#calCurrentNumber').text();
 
     if (curNo !== null) {
         if (previousNo === "0" || previousNo === null) {
@@ -497,25 +543,25 @@ $("#calMultiply").click(function () {
     let preNo = previousNo.split(" * ");
 
     /*if this is first time*/
-    if(multiCount<1){
+    if (multiCount < 1) {
         /*if this is first time*/
-        if(preNo.length>2){
-            answer=parseFloat(preNo[0])*parseFloat(preNo[1]);
-            let ansStr=answer.toString();
+        if (preNo.length > 2) {
+            answer = parseFloat(preNo[0]) * parseFloat(preNo[1]);
+            let ansStr = answer.toString();
             $('#calCurrentNumber').text(answer.toString());
-            multiCount=1;
+            multiCount = 1;
         }
-    }else{ //if this Second or higher time
+    } else { //if this Second or higher time
 
-        if(answer!==null){ //Check answer null cuz set value for after the clear answer's value
-            answer*=parseFloat(typedText);
+        if (answer !== null) { //Check answer null cuz set value for after the clear answer's value
+            answer *= parseFloat(typedText);
             $('#calCurrentNumber').text(answer.toString());
 
-        }else{
+        } else {
             //come to this ,
             //Added value and multiply values Continuously and After the first clear.comes to this.
 
-            answer=typedText; //ignore answer  text and assign typed value.
+            answer = typedText; //ignore answer  text and assign typed value.
             $('#calCurrentNumber').text(answer.toString());
         }
     }
@@ -524,24 +570,24 @@ $("#calMultiply").click(function () {
 
 /*====== = =======*/
 $("#calEqual").click(function () {
-    let typedText=$('#calCurrentNumber').text();
+    let typedText = $('#calCurrentNumber').text();
 
     /*catch the two value*/
-    if(answer===null){
+    if (answer === null) {
         // let preNo = previousNo.split(" * ");
         // alert("operator "+previousNo.length);
         // alert("operator index "+(parseInt(previousNo.length)-2));
 
         /*get Operator*/
-        let operator=previousNo.charAt(parseInt(previousNo.length)-2);
+        let operator = previousNo.charAt(parseInt(previousNo.length) - 2);
 
         /*get Before No using Operator*/
-        let preNo = previousNo.split(" "+operator+" ");
-        let firstNo=preNo[0];
-        eqLogic(firstNo,typedText,operator);
+        let preNo = previousNo.split(" " + operator + " ");
+        let firstNo = preNo[0];
+        eqLogic(firstNo, typedText, operator);
         $('#calCurrentNumber').text(answer);
 
-    }else{
+    } else {
         $('#calCurrentNumber').text(answer);
     }
 
@@ -549,19 +595,19 @@ $("#calEqual").click(function () {
     curNo = null;
     $("#calPreviousNumber").text("0");
     previousNo = null;
-    answer=null;
+    answer = null;
 
 })
 
-function eqLogic(no1,no2,operator) {
-    if(operator==="+"){
-        answer=parseFloat(no1)+parseFloat(no2);
-    }else if(operator==="-"){
-        answer=parseFloat(no1)-parseFloat(no2);
-    }else if(operator==="/"){
-        answer=parseFloat(no1)/parseFloat(no2);
-    }else if(operator==="*"){
-        answer=parseFloat(no1)*parseFloat(no2);
+function eqLogic(no1, no2, operator) {
+    if (operator === "+") {
+        answer = parseFloat(no1) + parseFloat(no2);
+    } else if (operator === "-") {
+        answer = parseFloat(no1) - parseFloat(no2);
+    } else if (operator === "/") {
+        answer = parseFloat(no1) / parseFloat(no2);
+    } else if (operator === "*") {
+        answer = parseFloat(no1) * parseFloat(no2);
     }
 
 }
