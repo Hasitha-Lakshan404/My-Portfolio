@@ -168,7 +168,9 @@ $("#calAllClear").click(function () {
 /*====== + ========*/
 let addCount=0;
 let prn=null;
+let countAddBtnClick=0;
 $("#calAddition").click(function () {
+    countAddBtnClick++;
     let typedText=$('#calCurrentNumber').text()
 
 
@@ -229,12 +231,15 @@ $("#calAddition").click(function () {
         //if it's loop only array have or more than two values
 
 
+
+
         if(addCount===0){
             // prn=typedText;
             $('#calPreviousNumber').text(typedText);
             addCount=1;
             prn=typedText;
         }else{
+
             prn='';
             for(let i=0;i<previousNoArray.length;i++){
                 prn=prn+previousNoArray[i]
@@ -242,15 +247,28 @@ $("#calAddition").click(function () {
             $('#calPreviousNumber').text(prn);
         }
 
-
         if(previousNoArray.length>2){
+
+            //calculate
             allCalc();
+
         }
 
 
 
-
     }
+
+    //for change the Operator when btn click
+    if(countAddBtnClick>2){
+        previousNoArray[previousNoArray.length-1]=" + ";
+            prn='';
+            for(let i=0;i<previousNoArray.length;i++){
+                prn=prn+previousNoArray[i]
+            }
+            $('#calPreviousNumber').text(prn);
+    }
+
+
 })
 
 
