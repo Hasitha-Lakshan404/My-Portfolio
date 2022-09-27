@@ -218,22 +218,42 @@ $("#calAddition").click(function () {
     }
 })
 let clickCount=0;
+let newAns=null;
 function allCalc() {
     let tempAns=null;
-    //iterate and get all values of the array
-    for(let i=0;i<previousNoArray.length;i++){
-        // console.log("Array values "+previousNoArray[i]);
 
-        if(clickCount===0){
-            let no1=previousNoArray[i];
-            let no2=previousNoArray[i+2];
-            let operator=previousNoArray[i+1];
+    if(clickCount===0){ //for first two Number
+        let no1=previousNoArray[0];
+        let no2=previousNoArray[2];
+        let operator=previousNoArray[1];
 
-            console.log("no 1-"+no1+" no2-"+no2+" operator-"+operator);
-            clickCount=1;
+        console.log("no 1-"+no1+" no2-"+no2+" operator-"+operator);
+
+        /*========Search Operator=======*/
+        if(operator===" + "){
+            tempAns=parseFloat(no1)+parseFloat(no2);
+        }else if(operator===" - "){
+            tempAns=parseFloat(no1)-parseFloat(no2);
+        }else if(operator===" / "){
+            tempAns=parseFloat(no1)/parseFloat(no2);
+        }else if(operator===" * "){
+            tempAns=parseFloat(no1)*parseFloat(no2);
         }
 
+        clickCount=1;
     }
+
+
+
+    //iterate and get all values of the array
+    for(let i=3;i<previousNoArray.length;i++){
+        // console.log("Array values "+previousNoArray[i]);
+
+            console.log("else ekee I="+i+" -> "+previousNoArray[i]);
+
+    }
+
+    console.log("temp ans="+tempAns)
 }
 
 
