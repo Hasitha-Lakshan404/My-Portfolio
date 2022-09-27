@@ -299,36 +299,33 @@ function allCalc() {
                 }
             }
         }
-        // console.log("else ekee I="+i+" -> "+previousNoArray[i]);
+
 
     }
 
     if (checkFTime === 1) {
-        $('#calCurrentNumber').text(tempNewAns.toString());
 
         let va = tempNewAns.toString().split(".");
 
         if(va.length===2){
+            $('#calCurrentNumber').text(tempNewAns.toFixed(3).toString());
             console.log("oo");
         }else{
-            console.log("nnn");
+            $('#calCurrentNumber').text(tempNewAns.toString());
+
         }
-
-
 
 
     } else {
         let va = newAns.toString().split(".");
         if(va.length===2){
-            console.log("oo");
+            $('#calCurrentNumber').text(newAns.toFixed(3).toString());
         }else{
-            console.log("nn");
+            $('#calCurrentNumber').text(newAns.toString());
         }
-        $('#calCurrentNumber').text(newAns.toString());
+
     }
 
-    // console.log("TempNewAns " + tempNewAns);
-    // console.log("======================");
 
 }
 
