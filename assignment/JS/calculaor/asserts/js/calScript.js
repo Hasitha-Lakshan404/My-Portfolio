@@ -16,7 +16,6 @@ $("#calNo0").click(function () {
 
 })
 
-
 /*========== NO 1 ===========*/
 $("#calNo1").click(function () {
     // console.log("1");
@@ -159,8 +158,7 @@ $("#calAllClear").click(function () {
     $("#calCurrentNumber").text("0");
     curNo = null;
     $("#calPreviousNumber").text("0");
-    previousNo = null;
-    answer = null;
+
 })
 
 /*=====FUNCTION=====*/
@@ -174,13 +172,6 @@ $("#calAddition").click(function () {
     let typedText = $('#calCurrentNumber').text();
 
 
-    /*for (let previousNoArrayElement of previousNoArray) {
-        prn+=previousNoArrayElement;
-        console.log(previousNoArrayElement);
-        $('#calPreviousNumber').text(prn);
-    }*/
-
-
     /*check The current No is NOt Null*/
     if (curNo !== null) {
 
@@ -188,45 +179,6 @@ $("#calAddition").click(function () {
         previousNoArray.push(" + ");
         clearForFunc();
 
-
-        /*if (previousNo === "0" || previousNo === null) {
-            // $('#calPreviousNumber').text(curNo + " + ");
-
-            //Previous No Array
-            previousNoArray.push(curNo);
-            previousNoArray.push(" + ");
-
-            previousNo = (curNo + " + ");
-            clearForFunc();
-        } else {
-            //Previous No Array
-            previousNoArray.push(curNo);
-            previousNoArray.push(" + ");
-
-            previousNo = previousNo + (curNo + " + ");
-            // $('#calPreviousNumber').text(previousNo);
-            clearForFunc();
-        }*/
-
-        /*Split and Get get no to the array without + */
-
-        // let preNo = previousNo.split(" + ");
-        //
-        // /*if this is first time*/
-        // if(addCount<1){
-        //     /*if this is first time*/
-        //     if(preNo.length>2){
-        //         answer=parseFloat(preNo[0])+parseFloat(preNo[1]);
-        //         let ansStr=answer.toString();
-        //         $('#calCurrentNumber').text(answer.toString());
-        //         addCount=1;
-        //     }
-        // }else{ //if this Second or higher time
-        //     answer+=parseFloat(typedText);
-        //     $('#calCurrentNumber').text(answer.toString());
-        // }
-
-        //if it's loop only array have or more than two values
 
 
         //for the display previous number
@@ -297,7 +249,7 @@ function allCalc() {
 
     //iterate and get all values of the array
 
-    console.log("newAns" + newAns);
+    // console.log("newAns" + newAns);
     let tempNewAns = 0;
 
     let checkFTime = 0;
@@ -353,16 +305,30 @@ function allCalc() {
 
     if (checkFTime === 1) {
         $('#calCurrentNumber').text(tempNewAns.toString());
+
+        let va = tempNewAns.toString().split(".");
+
+        if(va.length===2){
+            console.log("oo");
+        }else{
+            console.log("nnn");
+        }
+
+
+
+
     } else {
+        let va = newAns.toString().split(".");
+        if(va.length===2){
+            console.log("oo");
+        }else{
+            console.log("nn");
+        }
         $('#calCurrentNumber').text(newAns.toString());
     }
 
-    console.log("TempNewAns " + tempNewAns);
-    console.log("======================");
-    // newAns=newAns+anotherValues;
-
-    // console.log("temp ans="+newAns);
-    // newAns=tempAns;
+    // console.log("TempNewAns " + tempNewAns);
+    // console.log("======================");
 
 }
 
@@ -454,9 +420,9 @@ $("#calMinus").click(function () {
 
     //for change the Operator when btn click
     if (countMinBtnClick > 2) {
-        console.log("Changed sum + to -")
+        // console.log("Changed sum + to -")
         previousNoArray[previousNoArray.length - 1] = " - ";
-        console.log("What is Last Index " + previousNoArray[previousNoArray.length - 1]);
+        // console.log("What is Last Index " + previousNoArray[previousNoArray.length - 1]);
         prn = '';
         for (let i = 0; i < previousNoArray.length; i++) {
             prn = prn + previousNoArray[i]
@@ -551,7 +517,7 @@ $("#calDivide").click(function () {
 
     //for change the Operator when btn click
     if (countDivBtnClick > 2) {
-        console.log("Changed all  to /")
+        // console.log("Changed all  to /")
         previousNoArray[previousNoArray.length - 1] = " / ";
         prn = '';
         for (let i = 0; i < previousNoArray.length; i++) {
@@ -649,7 +615,7 @@ $("#calMultiply").click(function () {
     }
     //for change the Operator when btn click
     if (countDivBtnClick > 2) {
-        console.log("Changed all  to *")
+        // console.log("Changed all  to *")
         previousNoArray[previousNoArray.length - 1] = " * ";
         prn = '';
         for (let i = 0; i < previousNoArray.length; i++) {
@@ -694,48 +660,9 @@ $("#calEqual").click(function () {
     }
 
 
-    /*let typedText = $('#calCurrentNumber').text();
-
-    /!*catch the two value*!/
-    if (answer === null) {
-        // let preNo = previousNo.split(" * ");
-        // alert("operator "+previousNo.length);
-        // alert("operator index "+(parseInt(previousNo.length)-2));
-
-        /!*get Operator*!/
-        let operator = previousNo.charAt(parseInt(previousNo.length) - 2);
-
-        /!*get Before No using Operator*!/
-        let preNo = previousNo.split(" " + operator + " ");
-        let firstNo = preNo[0];
-        eqLogic(firstNo, typedText, operator);
-        $('#calCurrentNumber').text(answer);
-
-    } else {
-        $('#calCurrentNumber').text(answer);
-    }
-
-
-    curNo = null;
-    $("#calPreviousNumber").text("0");
-    previousNo = null;
-    answer = null;*/
-
 
 })
 
-function eqLogic(no1, no2, operator) {
-    if (operator === "+") {
-        answer = parseFloat(no1) + parseFloat(no2);
-    } else if (operator === "-") {
-        answer = parseFloat(no1) - parseFloat(no2);
-    } else if (operator === "/") {
-        answer = parseFloat(no1) / parseFloat(no2);
-    } else if (operator === "*") {
-        answer = parseFloat(no1) * parseFloat(no2);
-    }
-
-}
 
 /*====== . ========*/
 $("#calDot").click(function () {
