@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Projects</title>
     <link href="../styleSheet/darkTheme/darkHead.css" rel="stylesheet">
-<!--    <link href="../styleSheet/normalize.css" rel="stylesheet">-->
-<!--    <link href="../styleSheet/themeCheckBox.css" rel="stylesheet">-->
+    <!--    <link href="../styleSheet/normalize.css" rel="stylesheet">-->
+    <!--    <link href="../styleSheet/themeCheckBox.css" rel="stylesheet">-->
 
     <!--DARK THEME-->
     <link href="../styleSheet/darkTheme/darkHead.css" rel="stylesheet">
@@ -22,7 +22,7 @@
     <link href="../fonts/css/all.min.css" rel="stylesheet">
 
     <!--New Css-->
-    <link rel="stylesheet" href="../pages/DarkProjectPageCss.css">
+    <link href="../pages/DarkProjectPageCss.css" rel="stylesheet">
 
 
     <script>
@@ -84,7 +84,7 @@
 
 
 <!--Project Main-->
-<main >
+<main>
 
     <!--Home Page-->
     <section class="projectPageMain">
@@ -133,12 +133,39 @@
 
             <hr class="line">
         </div>
+    </address>
 
+    <!--for the Assignment -->
+    <!--<ul id="list">
+        <li class="show">List item</li>
+        <li class="show">List item</li>
+    </ul>
+    <button id="addToList">Add a list item</button>-->
+    <section class="add-to-list swing-side demo-container">
+        <ul>
+            <li class="show" style="background-color: rgb(209, 60, 158);">List item</li>
+            <li class="show" style="background-color: rgb(60, 209, 158);">List item</li>
+        </ul>
+        <button id="addToList">Add a list item</button>
+    </section>
 </main>
 
 <!--Project Footer-->
 <footer>
 
 </footer>
+
 </body>
+<script>
+    /*document.getElementById('addToList').onclick = function () {
+        var list = document.getElementById('list');
+        var newLI = document.createElement('li');
+        newLI.innerHTML = 'A new item';
+        list.appendChild(newLI);
+        setTimeout(function () {
+            newLI.className = newLI.className + " show";
+        }, 10);
+    }*/
+
+</script>
 </html>
