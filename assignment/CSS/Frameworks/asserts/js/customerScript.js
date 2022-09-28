@@ -1,3 +1,5 @@
+var customer=[];g
+
 $('#btnSaveCustomer').click(function () {
 
 
