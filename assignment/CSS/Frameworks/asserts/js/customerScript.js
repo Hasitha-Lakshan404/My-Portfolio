@@ -1,4 +1,4 @@
-var customer=[];g
+var customer=[];
 
 $('#btnSaveCustomer').click(function () {
 
@@ -10,6 +10,8 @@ $('#btnSaveCustomer').click(function () {
         cusAddress:$('#customerAddress').val(),
         cusSalary:$('#customerSalary').val()
     }
+
+    customer.push(cusObject);
 
 
 })
