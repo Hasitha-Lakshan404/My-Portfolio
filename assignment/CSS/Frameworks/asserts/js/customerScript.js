@@ -33,9 +33,7 @@ function setData() {
 }
 
 $('#btnSearchButton').click(function () {
-
     $('#inputCusSearch').val();
-
 
 })
 
