@@ -37,7 +37,10 @@ $('#btnSearchButton').click(function () {
     for (let customerKey of customer) {
 
         if(customerKey.cusId===$('#inputCusSearch').val()){
-            alert("same id");
+            $('#id').val(customerKey.cusId);
+            $('#name').val(customerKey.cusName);
+            $('#salary').val(customerKey.cusSalary);
+            $('#address').val(customerKey.cusAddress);
         }
     }
 
