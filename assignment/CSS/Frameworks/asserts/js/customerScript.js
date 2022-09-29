@@ -34,14 +34,29 @@ function setData() {
 
 $('#btnSearchButton').click(function () {
 
+
+
     for (let customerKey of customer) {
 
-        if(customerKey.cusId===$('#inputCusSearch').val()){
-            $('#id').val(customerKey.cusId);
-            $('#name').val(customerKey.cusName);
-            $('#salary').val(customerKey.cusSalary);
-            $('#address').val(customerKey.cusAddress);
+        //check the ComboBox Id Equal
+        if($('#cusCombo').val()==="ID"){
+            //check Id
+            if(customerKey.cusId===$('#inputCusSearch').val()){
+                $('#id').val(customerKey.cusId);
+                $('#name').val(customerKey.cusName);
+                $('#salary').val(customerKey.cusSalary);
+                $('#address').val(customerKey.cusAddress);
+            }
+        }else if($('#cusCombo').val()==="1"){
+            //check Name
+            if(customerKey.cusName===$('#inputCusSearch').val()){
+                $('#id').val(customerKey.cusId);
+                $('#name').val(customerKey.cusName);
+                $('#salary').val(customerKey.cusSalary);
+                $('#address').val(customerKey.cusAddress);
+            }
         }
+
     }
 
 
