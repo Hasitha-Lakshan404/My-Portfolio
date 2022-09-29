@@ -39,3 +39,32 @@ function cusClear() {
     $('#item-qty').val("");
 }
 
+$('#btnItemSearchButton').click(function () {
+
+
+    for (let itemKey of item) {
+
+        //check the ComboBox Id Equal
+        if($('#itemCombo').val()==="ID"){
+            //check Id
+            console.log(itemKey.itCode +"=="+$('#inputItemSearch').val());
+            if(itemKey.itCode===$('#inputItemSearch').val()){
+                $('#itemId').val(itemKey.itCode);
+                $('#itemName').val(itemKey.itName);
+                $('#price').val(itemKey.itPrice);
+                $('#qtyOnHand').val(itemKey.itQty);
+            }
+        }else if($('#itemCombo').val()==="1"){
+            //check Name
+            if(itemKey.cusName===$('#inputCusSearch').val()){
+                $('#itemId').val(itemKey.itCode);
+                $('#itemName').val(itemKey.itName);
+                $('#price').val(itemKey.itPrice);
+                $('#qtyOnHand').val(itemKey.itQty);
+            }
+        }
+
+    }
+
+
+})
