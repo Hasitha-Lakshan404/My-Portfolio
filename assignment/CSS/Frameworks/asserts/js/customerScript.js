@@ -33,7 +33,14 @@ function setData() {
 }
 
 $('#btnSearchButton').click(function () {
-    $('#inputCusSearch').val();
+
+    for (let customerKey of customer) {
+
+        if(customerKey.cusId===$('#inputCusSearch').val()){
+            alert("same id");
+        }
+    }
+
 
 })
 
