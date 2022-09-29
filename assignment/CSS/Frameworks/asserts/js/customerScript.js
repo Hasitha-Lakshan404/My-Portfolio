@@ -35,6 +35,9 @@ $('#btnSaveCustomer').click(function () {
 });
 
 function setData() {
+
+    $('#tblCustomer').empty();
+
     for (let customerElement of customer) {
         var row=`<tr><td>${customerElement.cusId}</td><td>${customerElement.cusName}</td><td>${customerElement.cusAddress}</td><td>${customerElement.cusSalary}</td></tr>`;
         // var rows=`<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td><td>${customer.salary}</td></tr>`;
@@ -42,3 +45,4 @@ function setData() {
         $('#tblCustomer').append(row);
     }
 }
+
