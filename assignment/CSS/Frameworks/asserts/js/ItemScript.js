@@ -19,6 +19,7 @@ $('#itemSaveButton').click(function () {
     console.log(item);
 
     setItemData();
+    cusClear();
 });
 
 function setItemData() {
@@ -29,5 +30,12 @@ function setItemData() {
 
         $('#tblItem').append(row);
     }
+}
+
+function cusClear() {
+    $("#item-code").val("");
+    $('#item-name').val("");
+    $('#item-Price').val("");
+    $('#item-qty').val("");
 }
 
