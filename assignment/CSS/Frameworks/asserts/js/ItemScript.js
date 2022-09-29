@@ -3,19 +3,20 @@ var item=[];
 
 $('#itemSaveButton').click(function () {
     
-    let itemCode=$("#item-code");
-    let itemName =$('#item-name');
-    let itemPrice =$('#item-Price');
-    let itemQty =$('#item-qty');
+    let itemCode=$("#item-code").val();
+    let itemName =$('#item-name').val();
+    let itemPrice =$('#item-Price').val();
+    let itemQty =$('#item-qty').val();
     
     var itemObject= {
         itCode:itemCode,
-        itName:itemPrice,
+        itName:itemName,
         itPrice:itemPrice,
         itQty:itemQty
     }
 
     item.push(itemObject);
+    console.log(item);
 
     setItemData();
 });
