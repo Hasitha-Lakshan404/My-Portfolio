@@ -2,6 +2,7 @@ var customer=[];
 
 $('#btnSaveCustomer').click(function () {
 
+
     let customerID = $("#customerId").val();
     let customerName = $("#customerName").val();
     let customerAddress = $("#customerAddress").val();
@@ -32,10 +33,10 @@ $('#btnSaveCustomer').click(function () {
         //then add it to the table body of customer table
         $("#tblCustomer").append(row);
     }*/
+
 });
 
 function setData() {
-
     $('#tblCustomer').empty();
 
     for (let customerElement of customer) {
