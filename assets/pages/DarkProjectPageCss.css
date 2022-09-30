@@ -7,7 +7,7 @@ Time :5:39 PM
 
 /*Main page*/
 .projectPageMain {
-    height: 80vh;
+    height: 759px;
     /*background: #FFFFFF;*/
     /*border: 2px solid white;*/
 }
@@ -15,7 +15,7 @@ Time :5:39 PM
 /*main curve*/
 .projectPageMain > div {
     position: relative;
-    top: 20vh;
+    top: 152px;
     left: 10vw;
     width: 80vw;
     height: 55vh;
@@ -31,7 +31,7 @@ Time :5:39 PM
 /*two orange rows*/
 .projectPageMain > div:nth-child(1) > div:nth-child(1) {
     position: relative;
-    top: 5vh;
+    top: 38px;
     left: 5vw;
     height: .7em;
     width: 75%;
@@ -41,7 +41,7 @@ Time :5:39 PM
 
 .projectPageMain > div:nth-child(1) > div:nth-child(2) {
     position: absolute;
-    bottom: 5vh;
+    bottom: 38px;
     right: 5vw;
     height: .7em;
     width: 75%;
@@ -53,7 +53,7 @@ Time :5:39 PM
 .projectPageMain h1 {
     color: #3C5B54;
     font-family: Space Mono;
-    margin-top: 8vh;
+    margin-top: 60.8px;
     margin-left: 5vw;
 }
 
@@ -76,6 +76,36 @@ Time :5:39 PM
     font-family: "Space Mono";
     font-size: 20px;
     margin-left: 45vw;
-    margin-top: 2vh;
+    margin-top: 15.2px;
+
+}
+
+/*===========Assignments==========*/
+#proPageAssignmentSec{
+    border: 1px solid white;
+    height: 800px;
+}
+#proPageAssignmentSec>aside:nth-child(1){
+    background: url("../images/projectSideTitle.png") no-repeat center;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 60px;
+
+    position: absolute;
+    right: 0;
+}
+
+#proPageAssignmentSec>aside:nth-child(1)>h2{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 45px;
+    color: white;
+    font-family: "Space Mono";
+}
+
+
+/*============Projects=========*/
+#proPageProjectSec{
 
 }
