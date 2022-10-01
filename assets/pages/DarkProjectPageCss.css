@@ -137,7 +137,7 @@ Time :5:39 PM
     position: relative;
     top: 60px;
     background-color: #23283d;
-    height: 700px;
+    height: 800px;
 }
 
 /*set Title*/
@@ -174,4 +174,36 @@ Time :5:39 PM
     display: inline-block;
     position: relative;
     left: -295px;
+}
+
+.proPageContainer{
+    position: relative;
+    top: 30px;
+    left: 5vw;
+    /* border: 3px solid #CFD8DC; */
+    /* border-radius: 100px; */
+    width: 90vw;
+    /* height: 80vh; */
+    height: 608px;
+    /* background-color: #323647; */
+    /* box-shadow: 0px 0px 0 1px white; */
+    background: rgba(50, 54, 71, 0.52);
+    border-radius: 100px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(50, 54, 71, 1);
+}
+
+.proPageContainer:before{
+    display: inline-block;
+    content: "";
+    position: absolute;
+    width: 609px;
+    height: 5px;
+    transform: rotate(90deg);
+    background-color: rgba(13, 14, 12, 0.17);
+    top: 299px;
+    left: 390px;
+    z-index: 3;
 }
