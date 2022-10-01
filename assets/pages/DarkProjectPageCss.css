@@ -64,6 +64,7 @@ Time :5:39 PM
     font-size: 30px;
     margin-left: 5vw;
 }
+
 .projectPageMain > div:nth-child(1) > p:nth-child(5) {
     color: #B3B3B3;
     font-family: "Space Mono";
@@ -81,11 +82,12 @@ Time :5:39 PM
 }
 
 /*===========Assignments==========*/
-#proPageAssignmentSec{
+#proPageAssignmentSec {
     border: 1px solid white;
     height: 700px;
 }
-#proPageAssignmentSec>aside:nth-child(1){
+
+#proPageAssignmentSec > aside:nth-child(1) {
     background: url("../images/projectSideTitle.png") no-repeat center;
     background-size: 100% 100%;
     width: 600px;
@@ -95,7 +97,7 @@ Time :5:39 PM
     right: 0;
 }
 
-#proPageAssignmentSec>aside:nth-child(1)>h2{
+#proPageAssignmentSec > aside:nth-child(1) > h2 {
     display: inline-block;
     position: relative;
     top: 15px;
@@ -106,11 +108,12 @@ Time :5:39 PM
 
 
 /*============Projects=========*/
-#proPageProjectSec{
+#proPageProjectSec {
     border: 1px solid white;
     height: 800px;
 }
-#proPageProjectSec>aside:nth-child(1){
+
+#proPageProjectSec > aside:nth-child(1) {
     background: url("../images/projectSideTitle.png") no-repeat center;
     background-size: 100% 100%;
     width: 600px;
@@ -120,7 +123,7 @@ Time :5:39 PM
     right: 0;
 }
 
-#proPageProjectSec>aside:nth-child(1)>h2{
+#proPageProjectSec > aside:nth-child(1) > h2 {
     display: inline-block;
     position: relative;
     top: 15px;
@@ -133,7 +136,7 @@ Time :5:39 PM
 /*==========set Projects=======*/
 
 /*main container*/
-#proj1{
+#proj1 {
     position: relative;
     top: 60px;
     background-color: #23283d;
@@ -141,7 +144,7 @@ Time :5:39 PM
 }
 
 /*set Title*/
-.proPageTitle{
+.proPageTitle {
     position: relative;
     top: 60px;
     left: 200px;
@@ -149,7 +152,8 @@ Time :5:39 PM
     /*border: 1px solid white;*/
     height: 100px;
 }
-.proPageTitle>div:nth-child(1){
+
+.proPageTitle > div:nth-child(1) {
     color: rgba(255, 255, 255, 0.07);
     font-size: 50px;
     font-family: "Ubuntu";
@@ -157,7 +161,8 @@ Time :5:39 PM
     display: inline-block;
 
 }
-.proPageTitle>div:nth-child(2){
+
+.proPageTitle > div:nth-child(2) {
     color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: "Ubuntu";
@@ -166,7 +171,8 @@ Time :5:39 PM
     position: relative;
     left: -300px;
 }
-.proPageTitle>div:nth-child(3){
+
+.proPageTitle > div:nth-child(3) {
     color: #FF3C00;
     font-size: 30px;
     font-family: "Ubuntu";
@@ -176,7 +182,7 @@ Time :5:39 PM
     left: -295px;
 }
 
-.proPageContainer{
+.proPageContainer {
     position: relative;
     top: 30px;
     left: 5vw;
@@ -195,7 +201,7 @@ Time :5:39 PM
     border: 1px solid rgba(50, 54, 71, 1);
 }
 
-.proPageContainer:before{
+.proPageContainer:before {
     display: inline-block;
     content: "";
     position: absolute;
@@ -209,10 +215,27 @@ Time :5:39 PM
 }
 
 /*image Sides*/
-.proPageImageSide>div{
+.proPageImageSide > div {
     position: absolute;
     display: inline-block;
     width: 450px;
     height: 250px;
     border: 1px solid #FFFFFF;
+}
+
+.proPageImageSide > div:nth-child(1) {
+    left: 60px;
+    top: 20px;
+}
+
+.proPageImageSide > div:nth-child(2) {
+    left: 185px;
+    top: 161px;
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+
+.proPageImageSide > div:nth-child(3) {
+    left: 60px;
+    top: 320px;
 }
