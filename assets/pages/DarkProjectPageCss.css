@@ -201,6 +201,7 @@ Time :5:39 PM
     border: 1px solid rgba(50, 54, 71, 1);
 }
 
+/*Container LIne*/
 .proPageContainer:before {
     display: inline-block;
     content: "";
@@ -210,7 +211,7 @@ Time :5:39 PM
     transform: rotate(90deg);
     background-color: rgba(13, 14, 12, 0.17);
     top: 299px;
-    left: 390px;
+    left: 357px;
     z-index: 3;
 }
 
