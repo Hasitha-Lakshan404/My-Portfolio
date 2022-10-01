@@ -207,3 +207,12 @@ Time :5:39 PM
     left: 390px;
     z-index: 3;
 }
+
+/*image Sides*/
+.proPageImageSide>div{
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    height: 250px;
+    border: 1px solid #FFFFFF;
+}
