@@ -3,3 +3,30 @@ Project :Portfolio
 Date :10/3/2022
 Time :4:22 PM
 */
+
+body{
+    cursor: none;
+}
+
+
+#mainCircle{
+    position: absolute;
+    border: 3px solid rgba(47, 64, 182, 0.63);
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#subCircle{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
