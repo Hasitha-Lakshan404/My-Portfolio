@@ -8,6 +8,9 @@ body{
     cursor: none;
 }
 
+header{
+    cursor: default;
+}
 
 #mainCircle{
     position: absolute;
