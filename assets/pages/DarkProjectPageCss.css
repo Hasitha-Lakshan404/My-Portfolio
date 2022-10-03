@@ -139,8 +139,8 @@ Time :5:39 PM
 #proj1 {
     position: relative;
     top: 60px;
-    background-color: #23283d;
-    height: 800px;
+    /*background-color: #23283d;*/
+    height: 1500px;
 }
 
 /*set Title*/
