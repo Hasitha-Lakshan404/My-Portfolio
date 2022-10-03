@@ -4,21 +4,42 @@ Date :10/3/2022
 Time :4:22 PM
 */
 
-body{
-    cursor: none;
-}
 
 header{
     cursor: default;
 }
 
+body{
+    cursor: none;
+}
+
+.mainSecAbout{
+    cursor: default;
+}
+.mainSecSkill{
+    cursor: default;
+}.mainSecEducation{
+    cursor: default;
+}.mainSecProject{
+    cursor: default;
+}.mainSecProject{
+    cursor: default;
+}.mainSecQuote{
+    cursor: default;
+}
+.footer{
+    cursor: default;
+}
+
+
 #mainCircle{
     position: absolute;
-    border: 3px solid rgba(47, 64, 182, 0.63);
+    border: 3px solid rgba(151, 157, 197, 0.63);
     background-color: transparent;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    /*z-index: 1;*/
 }
 
 #subCircle{
