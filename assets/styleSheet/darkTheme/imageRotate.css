@@ -89,7 +89,6 @@ body {
     position: relative;
     padding: 15em 5em;
     transition: transform 3s;
-/*// background: pink;*/
     transform-style: preserve-3d;
 }
 
