@@ -17,11 +17,20 @@ Time :7:59 PM
 }
 
 .full {
-    position:absolute;
-    inset:0;
-    z-index:1;
+    position: absolute;
+    inset: 0;
+    z-index: 1;
     display: grid;
-    background:#fff;
+    /*background: #fff;*/
+   /* background: #7CF7FF;
+    background: -webkit-linear-gradient(to left, #7CF7FF, #4B73FF);
+    background: linear-gradient(to left, #7CF7FF, #4B73FF);*/
+    /*background: #59CDE9;
+    background: -webkit-linear-gradient(to left, #59CDE9, #0A2A88);
+    background: linear-gradient(to left, #59CDE9, #0A2A88);*/
+    background: #00E0EE;
+    background: -webkit-linear-gradient(to left, #00E0EE, #19087E);
+    background: linear-gradient(to left, #00E0EE, #19087E);
 }
 .full:before {
     content:"";
@@ -29,7 +38,7 @@ Time :7:59 PM
     --s:67px; /* shape size */
     --m:4px;  /* line thickness */
 
-    --v1: #fff 119.5deg, #0000 120.5deg;
+    --v1: #3d3188 119.5deg, #0000 120.5deg;
     --v2: #000  119.5deg, #0000 120.5deg;
     background:
             conic-gradient(at var(--m)              calc(var(--s)*0.5777), transparent 270deg, #000 0deg),
@@ -38,7 +47,7 @@ Time :7:59 PM
             conic-gradient(from -60deg at 50% calc(var(--s)*0.8662 + 2*var(--m)), var(--v2)),
             conic-gradient(from 120deg at 50% calc(var(--s)*1.4435 + 3*var(--m)), var(--v1)),
             conic-gradient(from 120deg at 50% calc(var(--s)*1.4435 +   var(--m)), var(--v2)),
-            linear-gradient(90deg, #fff calc(50% - var(--m)),#000 0 calc(50% + var(--m)), #fff 0);
+            linear-gradient(90deg, #3d3188 calc(50% - var(--m)),#000 0 calc(50% + var(--m)), #3d3188 0);
     background-size: calc(var(--s) + 2*var(--m)) calc(var(--s)*1.732 + 3*var(--m));
     -webkit-mask:linear-gradient(-60deg,#0000 calc(50% - 4*var(--s)),#000,#0000 calc(50% + 4*var(--s))) right/300% 100% no-repeat;
     animation:f 3s infinite linear;
