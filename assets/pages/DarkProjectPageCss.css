@@ -336,6 +336,17 @@ Time :5:39 PM
     transition-delay: 0.5s,0.1s;
 }
 
+.liContainer ul li ::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    border-top:2px solid white ;
+    border-right:2px solid white ;
+
+}
 
 .liContainer ul li a {
     position: relative;
