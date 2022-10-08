@@ -321,6 +321,13 @@ Time :5:39 PM
     transition: background 0.5s,width 0.5s;
     border: 2px solid blue;
 }
+.liContainer ul li p{
+    position: relative;
+    z-index: 10;
+    padding: 5px 10px;
+    color: #FFFFFF;
+
+}
 
 
 
