@@ -316,8 +316,10 @@ Time :5:39 PM
    left: 0;
     width: 34px;
     height: 34px;
-    background: orangered;
+    background: transparent;
     border-radius: 34px;
+    transition: background 0.5s,width 0.5s;
+    border: 2px solid blue;
 }
 
 
