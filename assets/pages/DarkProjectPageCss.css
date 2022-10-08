@@ -274,6 +274,7 @@ Time :5:39 PM
 #secCssBody>div{
     height: 350px;
     border: 1px solid white;
+
 }
 
 /*==========Animated List=========*/
@@ -281,3 +282,12 @@ Time :5:39 PM
 .liContainer{
     font-family: 'Poppins', sans-serif;
 }
+
+/*for select and remove things*/
+.liContainer ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
