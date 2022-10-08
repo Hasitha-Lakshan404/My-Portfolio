@@ -346,7 +346,11 @@ Time :5:39 PM
     border-top:2px solid white ;
     border-right:2px solid white ;
     transform:rotate(45deg);
+    transition: 0.5s;
+}
 
+.liContainer ul li:hover ::before{
+    transform: rotate(45deg)scale(1.5);
 }
 
 .liContainer ul li a {
