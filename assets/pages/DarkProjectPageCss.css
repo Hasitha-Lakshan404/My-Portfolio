@@ -245,21 +245,22 @@ Time :5:39 PM
 }
 
 /*Assignment Section*/
-#secCss{
+#secCss {
     position: relative;
     top: 80px;
     width: 100%;
     height: 400px;
     border: 1px solid #2ca11f;
 }
-#secCss>h2{
+
+#secCss > h2 {
     position: relative;
     left: 20px;
     color: #FFFFFF;
     display: inline-block;
 }
 
-#secCssBody{
+#secCssBody {
     position: relative;
     top: 20px;
     width: 100%;
@@ -271,7 +272,7 @@ Time :5:39 PM
 
 }
 
-#secCssBody>div{
+#secCssBody > div {
     height: 350px;
     border: 1px solid white;
 
@@ -282,26 +283,28 @@ Time :5:39 PM
 
 /*==========Animated List=========*/
 
-.liContainer{
+.liContainer {
     font-family: 'Poppins', sans-serif;
 }
 
 /*for select and remove things*/
-.liContainer ul{
+.liContainer ul {
+    position: relative;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    position: relative;
+
 }
 
-.liContainer h2{
+.liContainer h2 {
     color: #FFFFFF;
     margin-bottom: 10px;
     font-weight: 500;
     display: inline-block;
     border-bottom: 2px solid white;
 }
-.liContainer ul li{
+
+.liContainer ul li {
     position: relative;
     list-style: none;
     display: table;
@@ -309,29 +312,32 @@ Time :5:39 PM
     padding-left: 34px;
     padding-right: 5px;
 }
-.liContainer ul li ::after{
-   content: "";
+
+.liContainer ul li ::after {
+    content: "";
     position: absolute;
     top: 0;
-   left: 0;
+    left: 0;
     width: 34px;
     height: 34px;
     background: transparent;
     border-radius: 34px;
-    transition: background 0.5s,width 0.5s;
+    transition: background 0.5s, width 0.5s;
+    transition-delay: 0.1s,0s;
     border: 2px solid blue;
     box-sizing: border-box;
-    z-index: 0;
 }
-.liContainer ul li:hover ::after{
+
+.liContainer ul li:hover ::after {
     width: 100%;
     background: blue;
     color: #FFFFFF;
     opacity: 0.5;
+    transition-delay: 0.5s,0.1s;
 }
 
 
-.liContainer ul li a{
+.liContainer ul li a {
     position: relative;
     z-index: 10;
     padding: 9px 50px;
