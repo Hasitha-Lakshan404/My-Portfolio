@@ -291,6 +291,7 @@ Time :5:39 PM
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
 }
 
 .liContainer h2{
@@ -299,6 +300,14 @@ Time :5:39 PM
     font-weight: 500;
     display: inline-block;
     border-bottom: 2px solid white;
+}
+.liContainer ul li{
+    position: relative;
+    list-style: none;
+    display: table;
+    margin: 10px 0;
+    padding-left: 34px;
+    padding-right: 5px;
 }
 
 
