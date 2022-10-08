@@ -339,12 +339,13 @@ Time :5:39 PM
 .liContainer ul li ::before{
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 14px;
+    left: 12px;
     width: 6px;
     height: 6px;
     border-top:2px solid white ;
     border-right:2px solid white ;
+    transform:rotate(45deg);
 
 }
 
