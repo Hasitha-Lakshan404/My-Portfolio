@@ -275,6 +275,8 @@ Time :5:39 PM
     height: 350px;
     border: 1px solid white;
 
+    display: flex;
+    justify-content: center;
 }
 
 /*==========Animated List=========*/
