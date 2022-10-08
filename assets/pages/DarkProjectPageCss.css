@@ -305,11 +305,11 @@ Time :5:39 PM
     position: relative;
     list-style: none;
     display: table;
-    margin: 10px 0;
+    margin: 29px 0;
     padding-left: 34px;
     padding-right: 5px;
 }
-.liContainer ul li ::before{
+.liContainer ul li ::after{
    content: "";
     position: absolute;
     top: 0;
@@ -320,14 +320,24 @@ Time :5:39 PM
     border-radius: 34px;
     transition: background 0.5s,width 0.5s;
     border: 2px solid blue;
+    box-sizing: border-box;
+    z-index: 0;
 }
-.liContainer ul li p{
+.liContainer ul li:hover ::after{
+    width: 100%;
+    background: blue;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+
+.liContainer ul li a{
     position: relative;
     z-index: 10;
-    padding: 5px 50px;
+    padding: 9px 50px;
     color: #FFFFFF;
-
 }
+
 
 
 
