@@ -293,4 +293,12 @@ Time :5:39 PM
     box-sizing: border-box;
 }
 
+.liContainer h2{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-weight: 500;
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+
 
