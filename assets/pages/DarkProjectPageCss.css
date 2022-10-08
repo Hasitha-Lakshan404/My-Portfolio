@@ -18,7 +18,7 @@ Time :5:39 PM
     top: 152px;
     left: 10vw;
     width: 80vw;
-    height: 55vh;
+    height: 418px;
     /* From https://css.glass */
     background: rgba(50, 54, 71, 0.54);
     border-radius: 7vw;
@@ -266,7 +266,6 @@ Time :5:39 PM
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
-
 }
 
 #secCssBody>div{
@@ -274,6 +273,6 @@ Time :5:39 PM
     border: 1px solid white;
 }
 
-
+/*==========Animated List=========*/
 
 
