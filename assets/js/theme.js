@@ -66,7 +66,7 @@ $(document).mousemove(function(event) {
 
     $('#mainCircle').css({
         'top':event.pageY-20,
-        'left':event.pageX-20
+        'left':event.pageX-20,
     });
 
 });
@@ -74,7 +74,7 @@ $(document).mousemove(function(event) {
 
 //for the Loading Window
 $(window).on('load',function () {
-    // $('#loadingContainer').fadeOut(1000);
+    $('#loadingContainer').fadeOut(1000);
 
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
         (function () {
