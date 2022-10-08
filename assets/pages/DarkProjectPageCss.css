@@ -323,7 +323,7 @@ Time :5:39 PM
     background: transparent;
     border-radius: 34px;
     transition: background 0.5s, width 0.5s;
-    transition-delay: 0.1s,0s;
+    transition-delay: 0.5s,0s;
     border: 2px solid blue;
     box-sizing: border-box;
 }
@@ -333,7 +333,7 @@ Time :5:39 PM
     background: blue;
     color: #FFFFFF;
     opacity: 0.5;
-    transition-delay: 0.5s,0.1s;
+    transition-delay: 0s,0.5s;
 }
 
 .liContainer ul li ::before{
@@ -347,9 +347,12 @@ Time :5:39 PM
     border-right:2px solid white ;
     transform:rotate(45deg);
     transition: 0.5s;
+    transition-delay: 0s;
 }
 
 .liContainer ul li:hover ::before{
+    left: 24px;
+    transition-delay: 0.5s;
     transform: rotate(45deg)scale(1.5);
 }
 
