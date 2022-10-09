@@ -246,11 +246,11 @@ Time :5:39 PM
 
 .proDetails {
     position: absolute;
-    top: 20px;
+    top: 62px;
     right: 70px;
     /*border: 1px solid white;*/
     width: 600px;
-    height: 91%;
+    height: 84%;
     align-items: center;
 
 }
@@ -263,6 +263,25 @@ Time :5:39 PM
     font-family: 'space mono';
 }
 
+/*Techno Stack*/
+.technoStack{
+    position: relative;
+    top: 50px;
+    left: 0;
+}
+.technoStack h2{
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
+    color: #FFFFFF;
+    font-family: 'space mono';
+    display: inline-block;
+}
+.technoStack li{
+    margin-bottom: 2px;
+    color: #FFFFFF;
+    font-family: 'space mono';
+
+}
 
 /*====Buttons====*/
 .repoButton {
