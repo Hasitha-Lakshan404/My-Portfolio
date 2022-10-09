@@ -139,7 +139,7 @@ Time :5:39 PM
 /*==========set Projects=======*/
 
 /*main container*/
-.proj1{
+.proj1 {
     position: relative;
     top: 60px;
     border: 1px solid white;
@@ -244,19 +244,20 @@ Time :5:39 PM
     top: 320px;
 }
 
-.proDetails{
+.proDetails {
     position: absolute;
-    top:20px;
+    top: 20px;
     right: 70px;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     width: 600px;
     height: 91%;
     align-items: center;
 
 }
-.proDetails>p{
+
+.proDetails > p {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
     /*font-family: 'Poppins', sans-serif;*/
     font-family: 'space mono';
@@ -264,7 +265,7 @@ Time :5:39 PM
 
 
 /*====Buttons====*/
-.repoButton{
+.repoButton {
     position: absolute;
     width: 192px;
     height: 45px;
@@ -278,12 +279,12 @@ Time :5:39 PM
     bottom: 0;
 }
 
-.downloadButton{
+.downloadButton {
     position: absolute;
     width: 192px;
     height: 45px;
-     background-color: #00505E;
-     border:1px solid #8086F1;
+    background-color: #00505E;
+    border: 1px solid #8086F1;
     color: #FFFFFF;
     font-family: 'space mono';
     border-radius: 20px;
@@ -292,21 +293,22 @@ Time :5:39 PM
     bottom: 0;
 }
 
-.repoButton:hover{
+.repoButton:hover {
     background-color: #8086F1;
     box-shadow: 10px 1px 40px #8086F1;
 }
-.downloadButton:hover{
+
+.downloadButton:hover {
     background-color: #8086F1;
 }
 
-.fa-arrow-up-right-from-square{
-    margin-right: 20px;
-}
-.fa-download{
+.fa-arrow-up-right-from-square {
     margin-right: 20px;
 }
 
+.fa-download {
+    margin-right: 20px;
+}
 
 
 /*Assignment Section*/
@@ -388,7 +390,7 @@ Time :5:39 PM
     background: transparent;
     border-radius: 34px;
     transition: background 0.5s, width 0.5s;
-    transition-delay: 0.5s,0s;
+    transition-delay: 0.5s, 0s;
     border: 2px solid blue;
     box-sizing: border-box;
 }
@@ -398,27 +400,27 @@ Time :5:39 PM
     background: blue;
     color: #FFFFFF;
     opacity: 0.5;
-    transition-delay: 0s,0.5s;
+    transition-delay: 0s, 0.5s;
 }
 
-.liContainer ul li ::before{
+.liContainer ul li ::before {
     content: "";
     position: absolute;
     top: 14px;
     left: 12px;
     width: 6px;
     height: 6px;
-    border-top:2px solid white ;
-    border-right:2px solid white ;
-    transform:rotate(45deg);
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
     transition: 0.5s;
     transition-delay: 0s;
 }
 
-.liContainer ul li:hover ::before{
+.liContainer ul li:hover ::before {
     left: 24px;
     transition-delay: 0.5s;
-    transform: rotate(45deg)scale(1.5);
+    transform: rotate(45deg) scale(1.5);
 }
 
 .liContainer ul li a {
@@ -427,7 +429,6 @@ Time :5:39 PM
     padding: 9px 50px;
     color: #FFFFFF;
 }
-
 
 
 /*====================Assignment JavaScript========================*/
