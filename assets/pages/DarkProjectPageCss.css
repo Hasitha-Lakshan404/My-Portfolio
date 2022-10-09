@@ -488,3 +488,44 @@ Time :5:39 PM
     justify-content: center;
     /*align-items: center;*/
 }
+
+/*======Third Title=======*/
+
+/*set Title*/
+.proPageTitle3 {
+    position: relative;
+    top: 60px;
+    left: 200px;
+    display: inline-block;
+    /*border: 1px solid white;*/
+    height: 100px;
+}
+
+.proPageTitle3 > div:nth-child(1) {
+    color: rgba(255, 255, 255, 0.07);
+    font-size: 50px;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+.proPageTitle3 > div:nth-child(2) {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: "Ubuntu";
+    /*font-weight: bold;*/
+    display: inline-block;
+    position: relative;
+    left: -472px;
+}
+
+.proPageTitle3 > div:nth-child(3) {
+    color: #FF3C00;
+    font-size: 30px;
+    font-family: "Ubuntu";
+    /*font-weight: bold;*/
+    display: inline-block;
+    position: relative;
+    left: -456px;
+}
