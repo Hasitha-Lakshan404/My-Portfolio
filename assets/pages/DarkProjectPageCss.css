@@ -245,12 +245,12 @@ Time :5:39 PM
 }
 
 .proDetails{
-    position: absolute;
+    position: relative;
     top:20px;
-    right: 70px;
+    left: 700px;
     border: 1px solid white;
     width: 600px;
-    height: 80%;
+    height: 95%;
 }
 .proDetails>p{
     text-align: center;
@@ -263,12 +263,16 @@ Time :5:39 PM
 .repoButton{
     width: 192px;
     height: 45px;
-  /*  left: 821px;
-    top: 1747px;
-*/
+    background-color: #00505E;
+    border: 1px solid #8086F1;
+    color: #FFFFFF;
+
 }.downloadButton{
     width: 192px;
     height: 45px;
+     background-color: #00505E;
+     border:1px solid #8086F1;
+    color: #FFFFFF;
   /*  left: 821px;
     top: 1747px;
 */
