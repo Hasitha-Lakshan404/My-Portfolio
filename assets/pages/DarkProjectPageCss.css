@@ -139,11 +139,11 @@ Time :5:39 PM
 /*==========set Projects=======*/
 
 /*main container*/
-#proj1 {
+.proj1{
     position: relative;
     top: 60px;
-    /*background-color: #23283d;*/
-    height: 1500px;
+    border: 1px solid white;
+    height: 814px;
 }
 
 /*set Title*/
@@ -244,6 +244,31 @@ Time :5:39 PM
     top: 320px;
 }
 
+.proDetails{
+    position: absolute;
+    top:20px;
+    right: 70px;
+    border: 1px solid white;
+    width: 600px;
+    height: 80%;
+}
+.proDetails>p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'space mono';
+}
+
+.repoButton{
+
+}
+.repoButton:hover{
+
+}
+
+
+
 /*Assignment Section*/
 #secCss {
     position: relative;
@@ -258,6 +283,7 @@ Time :5:39 PM
     left: 20px;
     color: #FF3C00;
     display: inline-block;
+    font-family: 'Poppins', sans-serif;
 }
 
 #secCssBody {
@@ -267,9 +293,8 @@ Time :5:39 PM
     height: 350px;
     /*border: 1px solid white;*/
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
+    grid-template-rows:1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr;
 }
 
 #secCssBody > div {
@@ -380,6 +405,7 @@ Time :5:39 PM
     left: 20px;
     color: #FF3C00;
     display: inline-block;
+    font-family: 'Poppins', sans-serif;
 }
 
 #secJsBody {
