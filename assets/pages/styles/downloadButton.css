@@ -553,9 +553,10 @@ input:checked + label .button_spots:nth-of-type(60) {
 
 .button {
     position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
+    top: 90%;
+    /*left: 0;*/
+    right: 50px;
+    /*bottom: 0;*/
     margin: auto;
     text-align: Center;
     height: 360px;
@@ -1172,7 +1173,7 @@ input:checked + label .button_spots:nth-of-type(60) {
     transition: all 1.5s;
 }
 .button_inner {
-    border-radius: 2px;
+    /*border-radius: 2px;*/
     position: absolute;
     width: 200px;
     height: 50px;
@@ -1185,6 +1186,7 @@ input:checked + label .button_spots:nth-of-type(60) {
     font-size: 12px;
     cursor: pointer;
     border: 2px solid #FFFFFF;
+    border-radius: 20px;
     color: white;
     text-align: Center;
     transition: all 0.3s, box-shadow 0.2s, transform 0.2s 0.2s;
