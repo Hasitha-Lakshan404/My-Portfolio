@@ -245,12 +245,14 @@ Time :5:39 PM
 }
 
 .proDetails{
-    position: relative;
+    position: absolute;
     top:20px;
-    left: 700px;
+    right: 70px;
     border: 1px solid white;
     width: 600px;
-    height: 95%;
+    height: 91%;
+    align-items: center;
+
 }
 .proDetails>p{
     text-align: center;
@@ -260,26 +262,48 @@ Time :5:39 PM
     font-family: 'space mono';
 }
 
+
+/*====Buttons====*/
 .repoButton{
+    position: absolute;
     width: 192px;
     height: 45px;
     background-color: #00505E;
     border: 1px solid #8086F1;
     color: #FFFFFF;
+    font-family: 'space mono';
+    border-radius: 20px;
+    cursor: pointer;
+    left: 50px;
+    bottom: 0;
+}
 
-}.downloadButton{
+.downloadButton{
+    position: absolute;
     width: 192px;
     height: 45px;
      background-color: #00505E;
      border:1px solid #8086F1;
     color: #FFFFFF;
-  /*  left: 821px;
-    top: 1747px;
-*/
+    font-family: 'space mono';
+    border-radius: 20px;
+    cursor: pointer;
+    right: 50px;
+    bottom: 0;
 }
 
 .repoButton:hover{
 
+}
+.repoButton:hover{
+
+}
+
+.fa-arrow-up-right-from-square{
+    margin-right: 20px;
+}
+.fa-download{
+    margin-right: 20px;
 }
 
 
