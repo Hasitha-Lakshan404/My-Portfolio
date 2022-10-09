@@ -293,10 +293,11 @@ Time :5:39 PM
 }
 
 .repoButton:hover{
-
+    background-color: #8086F1;
+    box-shadow: 10px 1px 40px #8086F1;
 }
-.repoButton:hover{
-
+.downloadButton:hover{
+    background-color: #8086F1;
 }
 
 .fa-arrow-up-right-from-square{
