@@ -27,12 +27,12 @@ Time :5:43 PM
     cursor: pointer;
 
     top: 90%;
-    left: 50px;
+    left: 90px;
 
     font-family: "Source Code Pro";
     font-weight: 600;
     /*text-transform: uppercase;*/
-    font-size: 30px;
+    font-size: 20px;
     color: var(--text-color);
 
     background-color: var(--btn-color);
@@ -60,7 +60,7 @@ Time :5:43 PM
 
 .repoB::after{
     font-weight: 200;
-    top: -30px;
+    top: -26px;
     left: -20px;
 }
 
@@ -77,7 +77,7 @@ Time :5:43 PM
     right: 66%;
 }
 .right::after {
-    top: -30px;
+    top: -27px;
     left: calc(-66% - 20px);
 
     background-color: var(--bg-color);
