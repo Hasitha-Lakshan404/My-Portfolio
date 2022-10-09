@@ -261,8 +261,19 @@ Time :5:39 PM
 }
 
 .repoButton{
-
+    width: 192px;
+    height: 45px;
+  /*  left: 821px;
+    top: 1747px;
+*/
+}.downloadButton{
+    width: 192px;
+    height: 45px;
+  /*  left: 821px;
+    top: 1747px;
+*/
 }
+
 .repoButton:hover{
 
 }
