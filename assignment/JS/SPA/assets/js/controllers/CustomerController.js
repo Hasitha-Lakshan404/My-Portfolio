@@ -56,7 +56,21 @@ $('#customerAddress').on('keydown',function (event){
 $('#customerSalary').on('keydown',function (event){
 
     if(event.key==="Enter"){
+        let customerID=$('#customerId').val();
+        let customerName=$('#customerName').val();
+        let customerAddress=$('#customerAddress').val();
+        let customerSalary=$('#customerSalary').val();
 
+        var customer={
+            id:customerID,
+            name:customerName,
+            address:customerAddress,
+            salary:customerSalary
+        }
+
+        cusAr.push(customer);
+
+        addTable();
     }
 
 });
