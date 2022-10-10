@@ -118,3 +118,36 @@ $('#btnSearchButton').click(function () {
     }
 
 });
+
+/*When the table click set data to the field*/
+function trSelector() {
+
+    $("#tblCustomer>tr").click(function (){
+        let id=$(this).children(':eq(0)').text();
+        let name=$(this).children(':eq(1)').text();
+        let address=$(this).children(':eq(2)').text();
+        let salary=$(this).children(':eq(3)').text();
+
+        console.log(id+"  "+name+"  "+address+" "+salary);
+
+        $('#cId').val(id);
+        $('#cName').val(name);
+        $('#cAddress').val(address);
+        $('#cSalary').val(salary);
+
+
+        //first type, i remove my table when the double click row
+        /*if(sm===id){
+            $(this).children().remove();
+        }else{
+            sm=id;
+        }*/
+
+
+        /*Double click to remove*/
+        $("#tblCustomer>tr").dblclick(function (){
+            $(this).remove();
+        });
+
+    });
+}
