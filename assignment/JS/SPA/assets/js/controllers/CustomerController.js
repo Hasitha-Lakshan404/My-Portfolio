@@ -37,6 +37,8 @@ $('#customerId').on('keydown',function (event){
 
     if(event.key==="Enter"){
         $("#customerName").focus();
+    }else if(event.key==="ArrowUp"){
+        $("#customerSalary").focus();
     }
 
 });
@@ -44,6 +46,8 @@ $('#customerName').on('keydown',function (event){
 
     if(event.key==="Enter"){
         $("#customerAddress").focus();
+    }else if(event.key==="ArrowUp"){
+        $("#customerId").focus();
     }
 
 });
@@ -51,6 +55,8 @@ $('#customerAddress').on('keydown',function (event){
 
     if(event.key==="Enter"){
         $("#customerSalary").focus();
+    }else if(event.key==="ArrowUp"){
+        $("#customerName").focus();
     }
 
 });
@@ -59,7 +65,10 @@ $('#customerSalary').on('keydown',function (event){
     if(event.key==="Enter"){
         cusSave($('#customerId').val(),$('#customerName').val(),$('#customerAddress').val(),$('#customerSalary').val());
 
+    }else if(event.key==="ArrowUp"){
+        $("#customerAddress").focus();
     }
+
 
 });
 
