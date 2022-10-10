@@ -30,3 +30,12 @@ function addTable() {
     trSelector();
 
 }
+
+/*====Add Focus Event when user Click Enter====*/
+$('#customerId').on('keydown',function (event){
+
+    if(event.key==="Enter"){
+        $("#customerName").focus();
+    }
+
+});
