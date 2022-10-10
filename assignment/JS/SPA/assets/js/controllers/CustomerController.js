@@ -1,4 +1,4 @@
-var cusAr=[];
+var customerAr=[];
 
 $('#btnSaveCustomer').click(function (event) {
     cusSave($('#customerId').val(),$('#customerName').val(),$('#customerAddress').val(),$('#customerSalary').val());
@@ -15,7 +15,7 @@ $('#btnSaveCustomer').click(function (event) {
         salary:customerSalary
     }
 
-    cusAr.push(customer);
+    customerAr.push(customer);
 
     addTable();*/
 
@@ -24,7 +24,7 @@ $('#btnSaveCustomer').click(function (event) {
 function addTable() {
     $("#tblCustomer> tr").detach();
 
-    for (var customer of cusAr){
+    for (var customer of customerAr){
         var row="<tr><td>"+customer.id+"</td><td>"+customer.name+"</td><td>"+customer.address+"</td><td>"+customer.salary+"</td></tr>";
         $('#tblCustomer').append(row);
     }
@@ -82,7 +82,38 @@ function cusSave(customerID,customerName,customerAddress,customerSalary) {
         salary:customerSalary
     }
 
-    cusAr.push(customer);
+    customerAr.push(customer);
 
     addTable();
 }
+
+/*Search Customer*/
+$('#btnSearchButton').click(function () {
+
+    for (let customerKey of customerAr) {
+
+        //check the ComboBox Id Equal
+        console.log($('#cusCombo').val());
+
+        if($('#cusCombo').val()==="ID"){
+            //check Id
+            alert(customerKey.id+"=="+$('#inputCusSearch').val());
+            if(customerKey.id===$('#inputCusSearch').val()){
+                $('#cId').val(customerKey.cusId);
+                $('#cName').val(customerKey.cusName);
+                $('#cSalary').val(customerKey.cusSalary);
+                $('#cAddress').val(customerKey.cusAddress);
+            }
+        }else if($('#cusCombo').val()==="1"){
+            //check Name
+            if(customerKey.name===$('#inputCusSearch').val()){
+                $('#cId').val(customerKey.cusId);
+                $('#cName').val(customerKey.cusName);
+                $('#cSalary').val(customerKey.cusSalary);
+                $('#cAddress').val(customerKey.cusAddress);
+            }
+        }
+
+    }
+
+});

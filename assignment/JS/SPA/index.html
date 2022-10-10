@@ -672,7 +672,7 @@
 
             <!--Selector Field-->
             <div class="col-5 col-xl-2 col-sm-3 col-md-2 col-lg-2">
-                <select aria-label=".form-select-lg example" class="form-select form-select-ls mt-4">
+                <select id="cusCombo" aria-label=".form-select-lg example" class="form-select form-select-ls mt-4">
                     <option selected>ID</option>
                     <option value="1">Name</option>
                 </select>
@@ -681,8 +681,8 @@
             <!--Search Bar with Button-->
             <div class="col-12 col-xl col-sm-9 col-md-6 col-lg">
                 <form class="d-flex mt-3 mt-sm-4 mt-lg-4">
-                    <input aria-label="Search" class="form-control me-2" placeholder="Search Customer" type="search">
-                    <button class="btn btn-outline-primary" type="button">Search</button>
+                    <input id="inputCusSearch" aria-label="Search" class="form-control me-2" placeholder="Search Customer" type="search">
+                    <button id="btnSearchButton" class="btn btn-outline-primary" type="button">Search</button>
                 </form>
             </div>
 
@@ -758,33 +758,32 @@
                 <div class="row gx-3">
                     <div class="col-5 col-sm-5 col-lg">
                         <div class="mb-4">
-                            <label class="form-label" for="Id">Customer ID</label>
-                            <input class="form-control" disabled id="Id" placeholder="C001" type="text">
+                            <label class="form-label" for="cId">Customer ID</label>
+                            <input class="form-control" disabled id="cId" placeholder="C001" type="text">
                         </div>
                     </div>
 
                     <div class="col-7 col-sm-7 col-lg">
                         <div class="mb-4">
-                            <label class="form-label" for="name">Name</label>
-                            <input class="form-control" disabled id="name" placeholder="Hasitha" type="text">
+                            <label class="form-label" for="cName">Name</label>
+                            <input class="form-control" disabled id="cName" placeholder="Hasitha" type="text">
                         </div>
                     </div>
 
                     <div class="col">
                         <div class="mb-4">
-                            <label class="form-label" for="salary">Salary(Rs)</label>
-                            <input class="form-control" disabled id="salary" placeholder="0000.00" type="text">
+                            <label class="form-label" for="cSalary">Salary(Rs)</label>
+                            <input class="form-control" disabled id="cSalary" placeholder="0000.00" type="text">
                         </div>
                     </div>
-
                 </div>
 
                 <!--Second Row-->
                 <div class="row gx-3">
                     <div class="col">
                         <div class="mb-2">
-                            <label class="form-label" for="address">Address</label>
-                            <input class="form-control" disabled id="address" placeholder="Bandaragama" type="text">
+                            <label class="form-label" for="cAddress">Address</label>
+                            <input class="form-control" disabled id="cAddress" placeholder="Bandaragama" type="text">
                         </div>
                     </div>
                 </div>
