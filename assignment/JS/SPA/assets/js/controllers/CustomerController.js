@@ -25,7 +25,7 @@ function addTable() {
     $("#tblCustomer> tr").detach();
 
     for (var customer of customerAr){
-        var row="<tr><td>"+customer.id+"</td><td>"+customer.name+"</td><td>"+customer.address+"</td><td>"+customer.salary+"</td></tr>";
+        var row="<tr><td>"+customer.cusId+"</td><td>"+customer.cusName+"</td><td>"+customer.cusAddress+"</td><td>"+customer.cusSalary+"</td></tr>";
         $('#tblCustomer').append(row);
     }
     trSelector();
@@ -76,10 +76,10 @@ $('#customerSalary').on('keydown',function (event){
 function cusSave(customerID,customerName,customerAddress,customerSalary) {
 
     var customer={
-        id:customerID,
-        name:customerName,
-        address:customerAddress,
-        salary:customerSalary
+        cusId:customerID,
+        cusName:customerName,
+        cusAddress:customerAddress,
+        cusSalary:customerSalary
     }
 
     customerAr.push(customer);
@@ -97,8 +97,9 @@ $('#btnSearchButton').click(function () {
 
         if($('#cusCombo').val()==="ID"){
             //check Id
-            alert(customerKey.id+"=="+$('#inputCusSearch').val());
-            if(customerKey.id===$('#inputCusSearch').val()){
+            // alert(customerKey.id+"=="+$('#inputCusSearch').val());
+
+            if(customerKey.cusId===$('#inputCusSearch').val()){
                 $('#cId').val(customerKey.cusId);
                 $('#cName').val(customerKey.cusName);
                 $('#cSalary').val(customerKey.cusSalary);
@@ -106,7 +107,7 @@ $('#btnSearchButton').click(function () {
             }
         }else if($('#cusCombo').val()==="1"){
             //check Name
-            if(customerKey.name===$('#inputCusSearch').val()){
+            if(customerKey.cusName===$('#inputCusSearch').val()){
                 $('#cId').val(customerKey.cusId);
                 $('#cName').val(customerKey.cusName);
                 $('#cSalary').val(customerKey.cusSalary);
