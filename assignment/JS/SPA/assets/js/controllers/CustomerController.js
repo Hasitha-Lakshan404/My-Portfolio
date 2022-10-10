@@ -39,3 +39,24 @@ $('#customerId').on('keydown',function (event){
     }
 
 });
+$('#customerName').on('keydown',function (event){
+
+    if(event.key==="Enter"){
+        $("#customerAddress").focus();
+    }
+
+});
+$('#customerAddress').on('keydown',function (event){
+
+    if(event.key==="Enter"){
+        $("#customerSalary").focus();
+    }
+
+});
+$('#customerSalary').on('keydown',function (event){
+
+    if(event.key==="Enter"){
+
+    }
+
+});
