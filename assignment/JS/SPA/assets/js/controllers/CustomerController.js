@@ -1,8 +1,9 @@
 var cusAr=[];
 
 $('#btnSaveCustomer').click(function (event) {
+    cusSave($('#customerId').val(),$('#customerName').val(),$('#customerAddress').val(),$('#customerSalary').val());
 
-    let customerID=$('#customerId').val();
+    /*let customerID=$('#customerId').val();
     let customerName=$('#customerName').val();
     let customerAddress=$('#customerAddress').val();
     let customerSalary=$('#customerSalary').val();
@@ -16,7 +17,7 @@ $('#btnSaveCustomer').click(function (event) {
 
     cusAr.push(customer);
 
-    addTable();
+    addTable();*/
 
 });
 
@@ -56,21 +57,23 @@ $('#customerAddress').on('keydown',function (event){
 $('#customerSalary').on('keydown',function (event){
 
     if(event.key==="Enter"){
-        let customerID=$('#customerId').val();
-        let customerName=$('#customerName').val();
-        let customerAddress=$('#customerAddress').val();
-        let customerSalary=$('#customerSalary').val();
+        cusSave($('#customerId').val(),$('#customerName').val(),$('#customerAddress').val(),$('#customerSalary').val());
 
-        var customer={
-            id:customerID,
-            name:customerName,
-            address:customerAddress,
-            salary:customerSalary
-        }
-
-        cusAr.push(customer);
-
-        addTable();
     }
 
 });
+
+/*save Customer*/
+function cusSave(customerID,customerName,customerAddress,customerSalary) {
+
+    var customer={
+        id:customerID,
+        name:customerName,
+        address:customerAddress,
+        salary:customerSalary
+    }
+
+    cusAr.push(customer);
+
+    addTable();
+}
