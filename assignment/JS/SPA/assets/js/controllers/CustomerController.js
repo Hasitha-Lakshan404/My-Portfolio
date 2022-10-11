@@ -3,21 +3,6 @@ var customerAr=[];
 $('#btnSaveCustomer').click(function (event) {
     cusSave($('#customerId').val(),$('#customerName').val(),$('#customerAddress').val(),$('#customerSalary').val());
 
-    /*let customerID=$('#customerId').val();
-    let customerName=$('#customerName').val();
-    let customerAddress=$('#customerAddress').val();
-    let customerSalary=$('#customerSalary').val();
-
-    var customer={
-        id:customerID,
-        name:customerName,
-        address:customerAddress,
-        salary:customerSalary
-    }
-
-    customerAr.push(customer);
-
-    addTable();*/
 
 });
 
@@ -83,8 +68,14 @@ function cusSave(customerID,customerName,customerAddress,customerSalary) {
     }
 
     customerAr.push(customer);
+    /*Double click to remove*/
 
     addTable();
+    dblClickDelete();
+
+
+
+
 }
 
 /*Search Customer*/
@@ -119,6 +110,18 @@ $('#btnSearchButton').click(function () {
 
 });
 
+
+
+/*Double Click delete*/
+function dblClickDelete() {
+    $("#tblCustomer>tr").dblclick(function (){
+        deleteCustomer($(this).children(':eq(0)').text());
+        $(this).remove();
+        addTable();
+    });
+}
+
+
 /*When the table click set data to the field*/
 function trSelector() {
 
@@ -137,10 +140,11 @@ function trSelector() {
 
 
         /*Double click to remove*/
-        $("#tblCustomer>tr").dblclick(function (){
-            $(this).remove();
+       /* $("#tblCustomer>tr").dblclick(function (){
+            alert("meken ennee")
             deleteCustomer($(this).id);
-        });
+            $(this).remove();
+        });*/
 
     });
 
@@ -184,3 +188,29 @@ function deleteCustomer(customerID) {
     }
 }
 
+
+/*Update Customer*/
+$("#btnCusUpdate").click(function () {
+    let customerID = $('#cId').val();
+    let response = updateCustomer(customerID);
+    if (response) {
+        alert("Customer Updated Successfully");
+    } else {
+        alert("Update Failed..!");
+
+    }
+});
+
+function updateCustomer(customerID) {
+    let customer = searchCustomer(customerID);
+    if (customer != null) {
+        customer.cusId = $("#cId").val();
+        customer.cusName = $("#cName").val();
+        customer.cusAddress = $("#cAddress").val();
+        customer.cusSalary = $("#cSalary").val();
+        addTable();
+        return true;
+    } else {
+        return false;
+    }
+}
