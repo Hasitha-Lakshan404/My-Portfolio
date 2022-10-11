@@ -136,18 +136,50 @@ function trSelector() {
         $('#cSalary').val(salary);
 
 
-        //first type, i remove my table when the double click row
-        /*if(sm===id){
-            $(this).children().remove();
-        }else{
-            sm=id;
-        }*/
-
-
         /*Double click to remove*/
         $("#tblCustomer>tr").dblclick(function (){
             $(this).remove();
+
         });
 
     });
+
 }
+
+/*for Delete Customer*/
+$("#btnCusDelete").click(function () {
+    let delID = $("#cId").val();
+
+    let option = confirm("Do you really want to delete customer id :" + delID);
+    if (option){
+        if (deleteCustomer(delID)) {
+            alert("Customer Successfully Deleted..");
+
+        } else {
+            alert("No such customer to delete. please check the id");
+        }
+    }
+});
+
+function searchCustomer(cusID) {
+    for (let customer of customerAr) {
+        if (customer.cusId == cusID) {
+            return customer;
+        }
+    }
+    return null;
+}
+
+
+function deleteCustomer(customerID) {
+    let customer = searchCustomer(customerID);
+    if (customer != null) {
+        let indexNumber = customerAr.indexOf(customer);
+        customerAr.splice(indexNumber, 1);
+        addTable();
+        return true;
+    } else {
+        return false;
+    }
+}
+
