@@ -20,7 +20,7 @@ function addTable() {
 /*====Add Focus Event when user Click Enter====*/
 $('#customerId').on('keydown',function (event){
 
-    if(event.key==="Enter"){
+    if(event.key==="Enter" && check(cusIDRegEx, $("#customerId"))){
         $("#customerName").focus();
     }else if(event.key==="ArrowUp"){
         $("#customerSalary").focus();
@@ -29,7 +29,7 @@ $('#customerId').on('keydown',function (event){
 });
 $('#customerName').on('keydown',function (event){
 
-    if(event.key==="Enter"){
+    if(event.key==="Enter" && check(cusNameRegEx, $("#customerName"))){
         $("#customerAddress").focus();
     }else if(event.key==="ArrowUp"){
         $("#customerId").focus();
@@ -38,7 +38,7 @@ $('#customerName').on('keydown',function (event){
 });
 $('#customerAddress').on('keydown',function (event){
 
-    if(event.key==="Enter"){
+    if(event.key==="Enter" && check(cusAddressRegEx, $("#customerAddress"))){
         $("#customerSalary").focus();
     }else if(event.key==="ArrowUp"){
         $("#customerName").focus();
@@ -47,8 +47,12 @@ $('#customerAddress').on('keydown',function (event){
 });
 $('#customerSalary').on('keydown',function (event){
 
-    if(event.key==="Enter"){
-        cusSave($('#customerId').val(),$('#customerName').val(),$('#customerAddress').val(),$('#customerSalary').val());
+    if(event.key==="Enter" && check(cusSalaryRegEx, $("#customerSalary"))){
+        let res = confirm("Do you want to add this customer.?");
+        if (res) {
+            cusSave($('#customerId').val(),$('#customerName').val(),$('#customerAddress').val(),$('#customerSalary').val());
+        }
+
 
     }else if(event.key==="ArrowUp"){
         $("#customerAddress").focus();
@@ -215,6 +219,12 @@ function updateCustomer(customerID) {
     }
 }
 
+/*Disable Tab*/
+$("#customerId,#customerName,#customerAddress,#customerSalary").on('keydown', function (event) {
+    if (event.key == "Tab") {
+        event.preventDefault();
+    }
+});
 
 
 /*FOr Validation*/
