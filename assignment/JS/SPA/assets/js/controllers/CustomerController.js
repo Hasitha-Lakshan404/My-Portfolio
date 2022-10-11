@@ -139,7 +139,7 @@ function trSelector() {
         /*Double click to remove*/
         $("#tblCustomer>tr").dblclick(function (){
             $(this).remove();
-
+            deleteCustomer($(this).id);
         });
 
     });
@@ -173,6 +173,7 @@ function searchCustomer(cusID) {
 
 function deleteCustomer(customerID) {
     let customer = searchCustomer(customerID);
+
     if (customer != null) {
         let indexNumber = customerAr.indexOf(customer);
         customerAr.splice(indexNumber, 1);
