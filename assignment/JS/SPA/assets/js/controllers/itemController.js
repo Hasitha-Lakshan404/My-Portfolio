@@ -87,18 +87,18 @@ $('#btnItemSearch').click(function () {
         console.log($('#itemCombo').val());
 
         if($('#itemCombo').val()==="ID"){
-           
-            if(itemKey.itId===$('#inputCusSearch').val()){
+           console.log("ide eke"+itemKey.itemCode +" = "+$('#inputItemSearch').val());
+            if(itemKey.itemCode===$('#inputItemSearch').val()){
                 $('#itId').val(itemKey.itemCode);
-                $('#itName').val(itemKey.itemCode);
+                $('#itName').val(itemKey.itemName);
                 $('#qtyOnHand').val(itemKey.qtyOnHand);
                 $('#itPrice').val(itemKey.itemPrice);
             }
         }else if($('#itemCombo').val()==="1"){
             //check Name
-            if(itemKey.itName===$('#inputCusSearch').val()){
+            if(itemKey.itemName===$('#inputItemSearch').val()){
                 $('#itId').val(itemKey.itemCode);
-                $('#itName').val(itemKey.itemCode);
+                $('#itName').val(itemKey.itemName);
                 $('#qtyOnHand').val(itemKey.qtyOnHand);
                 $('#itPrice').val(itemKey.itemPrice);
             }
@@ -179,7 +179,7 @@ function deleteItem(itemID) {
 /*Update Item*/
 $("#btnItemUpdate").click(function () {
     let itemID = $('#itId').val();
-    let response = updateCustomer(itemID);
+    let response = updateItem(itemID);
     if (response) {
         alert("Item Updated Successfully");
     } else {
@@ -188,8 +188,8 @@ $("#btnItemUpdate").click(function () {
     }
 });
 
-function updateItem(customerID) {
-    let items = searchCustomer(itemsID);
+function updateItem(itemsID) {
+    let items = searchItem(itemsID);
     if (items != null) {
         items.itemCode = $("#itId").val();
         items.itemName = $("#itName").val();
