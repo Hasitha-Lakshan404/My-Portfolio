@@ -75,7 +75,7 @@ function itemSave(itmCode,itemName,qtOHand,itPrice) {
 
     addTable();
     dblClickDelete();
-
+    loadAllItemId();
 }
 
 /*Search Item*/
