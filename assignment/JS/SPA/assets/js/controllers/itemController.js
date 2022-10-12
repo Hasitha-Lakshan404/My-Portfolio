@@ -113,7 +113,7 @@ $('#btnItemSearch').click(function () {
 /*Double Click delete*/
 function dblClickDelete() {
     $("#tblItem>tr").dblclick(function (){
-        deleteCustomer($(this).children(':eq(0)').text());
+        deleteItem($(this).children(':eq(0)').text());
         $(this).remove();
         addTable();
     });
@@ -143,7 +143,7 @@ function trSelector() {
 $("#btnItemDelete").click(function () {
     let delID = $("#itId").val();
 
-    let option = confirm("Do you really want to delete customer id :" + delID);
+    let option = confirm("Do you really want to delete Item  :" + delID);
     if (option){
         if (deleteItem(delID)) {
             alert("Item Successfully Deleted..");
@@ -212,7 +212,7 @@ $("#itemId,#itemName,#itemPrice,#itemQtyOnHand").on('keydown', function (event) 
 
 /*For Validation*/
 
-// customer reguler expressions
+// Item reguler expressions
 
 const itemCodeRegEx = /^(I00-)[0-9]{1,3}$/;
 const itemNameRegEx = /^[A-z ]{5,20}$/;
@@ -279,8 +279,8 @@ function defaultText(txtField,error) {
 
 function setButtonState(value){
     if (value>0){
-        $("#btnSaveCustomer").attr('disabled',true);
+        $("#btnItemSave").attr('disabled',true);
     }else{
-        $("#btnSaveCustomer").attr('disabled',false);
+        $("#btnItemSave").attr('disabled',false);
     }
 }
