@@ -109,7 +109,6 @@ $('#btnItemSearch').click(function () {
 });
 
 
-
 /*Double Click delete*/
 function dblClickDelete() {
     $("#tblItem>tr").dblclick(function (){

@@ -28,6 +28,12 @@ $('#customerIdOrd').on('change',function (){
 $('#itemIdOrd').on('change',function (){
     console.log($('#itemIdOrd').val());
 
+    let item = searchItem($('#itemIdOrd').val());
+
+    $('#item').val(item.itemName);
+    $('#priceOrd').val(item.itemPrice);
+    $('#qtyOnHandOrd').val(item.qtyOnHand);
+
 
 
 });
