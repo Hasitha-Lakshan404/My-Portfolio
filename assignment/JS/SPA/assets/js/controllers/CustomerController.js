@@ -53,7 +53,6 @@ $('#customerSalary').on('keydown',function (event){
             cusSave($('#customerId').val(),$('#customerName').val(),$('#customerAddress').val(),$('#customerSalary').val());
         }
 
-
     }else if(event.key==="ArrowUp"){
         $("#customerAddress").focus();
     }
@@ -227,10 +226,10 @@ $("#customerId,#customerName,#customerAddress,#customerSalary").on('keydown', fu
 });
 
 
-/*FOr Validation*/
+/*For Validation*/
 
 
-$("#txtCustomerID").focus();
+$("#customerId").focus();
 
 // customer reguler expressions
 const cusIDRegEx = /^(C00-)[0-9]{1,3}$/;

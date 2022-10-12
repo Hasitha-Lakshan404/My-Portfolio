@@ -459,7 +459,7 @@
 
             <!--Selector Field-->
             <div class="col-5 col-xl-2 col-sm-3 col-md-2 col-lg-2">
-                <select aria-label=".form-select-lg example" class="form-select form-select-ls  mt-4">
+                <select id="itemCombo" aria-label=".form-select-lg example" class="form-select form-select-ls  mt-4">
                     <option selected>ID</option>
                     <option value="1">Code</option>
                 </select>
@@ -469,7 +469,7 @@
             <div class="col-12 col-xl col-sm-9 col-md-6 col-lg">
                 <form class="d-flex mt-3 mt-sm-4 mt-lg-4">
                     <input aria-label="Search" class="form-control me-2" placeholder="Search Item" type="search">
-                    <button class="btn btn-outline-primary" type="button">Search</button>
+                    <button class="btn btn-outline-primary" id="btnItemSearch" type="button">Search</button>
                 </form>
             </div>
 
@@ -503,20 +503,24 @@
                             <div class="modal-body">
                                 <form>
                                     <div>
-                                        <label class="col-form-label" for="item-id">Item Code:</label>
-                                        <input class="form-control" id="item-id" type="text">
+                                        <label class="col-form-label" for="itemId">Item Code:</label>
+                                        <input class="form-control" id="itemId" type="text">
+                                        <span class="control-error" style="color: red" id="lblItemCode"></span>
                                     </div>
                                     <div>
-                                        <label class="col-form-label" for="item-name">Item Name:</label>
-                                        <input class="form-control" id="item-name" type="text">
+                                        <label class="col-form-label" for="itemName">Item Name:</label>
+                                        <input class="form-control" id="itemName" type="text">
+                                        <span class="control-error" style="color: red" id="lblItemName"></span>
                                     </div>
                                     <div>
-                                        <label class="col-form-label" for="item-address">Item Price:</label>
-                                        <input class="form-control" id="item-address" type="text">
+                                        <label class="col-form-label" for="itemPrice">Item Price:</label>
+                                        <input class="form-control" id="itemPrice" type="text">
+                                        <span class="control-error" style="color: red" id="lblItemPrice"></span>
                                     </div>
                                     <div>
-                                        <label class="col-form-label" for="item-salary">Item Quantity:</label>
-                                        <input class="form-control" id="item-salary" type="number">
+                                        <label class="col-form-label" for="itemQtyOnHand">Item Quantity:</label>
+                                        <input class="form-control" id="itemQtyOnHand" type="number">
+                                        <span class="control-error" style="color: red" id="lblItemQTY"></span>
                                     </div>
                                 </form>
                             </div>
@@ -524,7 +528,7 @@
                             <!--Message Footer/Button-->
                             <div class="modal-footer">
                                 <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
-                                <button class="btn btn-primary" type="button">Save</button>
+                                <button class="btn btn-primary" id="btnItemSave" type="button">Save</button>
                             </div>
                         </div>
                     </div>
@@ -545,15 +549,15 @@
                 <!--Item-->
                 <div class="col-5 col-sm-5 col-lg">
                     <div class="mb-4">
-                        <label class="form-label" for="itemId">Item Code</label>
-                        <input class="form-control" disabled id="itemId" placeholder="P001" type="text">
+                        <label class="form-label" for="itId">Item Code</label>
+                        <input class="form-control" disabled id="itId" placeholder="P001" type="text">
                     </div>
                 </div>
                 <!--Name-->
                 <div class="col-7 col-sm-7 col-lg">
                     <div class="mb-4">
-                        <label class="form-label" for="itemName">Name</label>
-                        <input class="form-control" disabled id="itemName" placeholder="Sunlight" type="text">
+                        <label class="form-label" for="itName">Name</label>
+                        <input class="form-control" disabled id="itName" placeholder="Sunlight" type="text">
                     </div>
                 </div>
                 <!--QTY-->
@@ -566,8 +570,8 @@
                 <!--UP-->
                 <div class="col col-lg">
                     <div class="mb-2">
-                        <label class="form-label" for="price">Unit Price</label>
-                        <input class="form-control" disabled id="price" placeholder="0000.00" type="text">
+                        <label class="form-label" for="itPrice">Unit Price</label>
+                        <input class="form-control" disabled id="itPrice" placeholder="0000.00" type="text">
                     </div>
                 </div>
 
@@ -576,9 +580,9 @@
             <!--Second Row/Buttons-->
             <div class="row">
                 <div class=" gap-2 d-flex justify-content-center justify-content-md-end justify-content-sm-center  mt-4 mt-lg-2">
-                    <button class="btn btn-secondary" type="button">Clear</button>
-                    <button class="btn btn-danger" type="button">Delete</button>
-                    <button class="btn btn-primary" type="button">Update</button>
+                    <button class="btn btn-secondary" id="btnItemClear" type="button">Clear</button>
+                    <button class="btn btn-danger" id="btnItemDelete" type="button">Delete</button>
+                    <button class="btn btn-primary" id="btnItemUpdate"type="button">Update</button>
                 </div>
             </div>
         </div>
@@ -610,37 +614,7 @@
                     <th scope="col">Unit Price(Rs)</th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Sunlight</td>
-                    <td>10</td>
-                    <td>120</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Rice</td>
-                    <td>50</td>
-                    <td>320</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Life Boy</td>
-                    <td>120</td>
-                    <td>100</td>
-                </tr>
-                <tr>
-                    <th scope="row">4</th>
-                    <td>Sugar</td>
-                    <td>76</td>
-                    <td>530</td>
-                </tr>
-                <tr>
-                    <th scope="row">5</th>
-                    <td>Biscuit</td>
-                    <td>100</td>
-                    <td>150</td>
-                </tr>
+                <tbody id="tblItem">
                 </tbody>
             </table>
         </div>
@@ -842,6 +816,7 @@
 
 <script src="assets/js/jquery-3.6.1.min.js"></script>
 <script src="assets/js/controllers/CustomerController.js"></script>
+<script src="assets/js/controllers/itemController.js"></script>
 </body>
 
 

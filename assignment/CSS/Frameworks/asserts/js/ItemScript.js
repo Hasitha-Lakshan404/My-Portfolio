@@ -11,8 +11,9 @@ $('#itemSaveButton').click(function () {
     var itemObject= {
         itCode:itemCode,
         itName:itemName,
+        itQty:itemQty,
         itPrice:itemPrice,
-        itQty:itemQty
+
     }
 
     item.push(itemObject);
