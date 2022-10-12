@@ -19,6 +19,8 @@ $('#customerIdOrd').on('change',function (){
     let customer = searchCustomer($('#customerIdOrd').val());
 
     $('#customerNameOrd').val(customer.cusName);
+    $('#salaryOrd').val(customer.cusSalary);
+    $('#addressOrd').val(customer.cusAddress);
 
 
 });
