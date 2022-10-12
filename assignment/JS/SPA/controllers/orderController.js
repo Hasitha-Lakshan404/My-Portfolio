@@ -15,7 +15,16 @@ function loadAllItemId() {
 
 
 $('#customerIdOrd').on('change',function (){
-    console.log($('#customerIdOrd').val());
+    /*get Customer*/
+    let customer = searchCustomer($('#customerIdOrd').val());
+
+    $('#customerNameOrd').val(customer.cusName);
+
+
+});
+
+$('#itemIdOrd').on('change',function (){
+    console.log($('#itemIdOrd').val());
 
 
 
