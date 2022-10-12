@@ -11,3 +11,12 @@ function loadAllItemId() {
         $('#itemIdOrd').append(`<option>${itemArElement.itemCode}</option>`);
     }
 }
+
+
+
+$('#customerIdOrd').on('change',function (){
+    console.log($('#customerIdOrd').val());
+
+
+
+});
