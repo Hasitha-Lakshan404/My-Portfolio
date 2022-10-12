@@ -40,5 +40,33 @@ $('#itemIdOrd').on('change',function (){
 
 $('#btnAddToCart').click(function (){
 
+    let itemCode=$('#itemIdOrd').val();
+    let itmName = $('#item').val();
+    let itmPrice = $('#priceOrd').val();
+    let itemOrderQty = $('#orderQty').val();
+
+    let total =itmPrice*itemOrderQty;
+
+    var tempOrder={
+        orItemCOde:itemCode,
+        orItemName:itmName,
+        orItemPrice:itmPrice,
+        orItemQTY:itemOrderQty,
+        orItemTotal:total
+    }
+
+    tempOrderCartAr.push(tempOrder);
+
+    addCartData();
+
 })
 
+function addCartData() {
+    $("#tblCart> tr").detach();
+
+    for (var tc of tempOrderCartAr){
+        var row="<tr><td>"+tc.orItemCOde+"</td><td>"+tc.orItemName+"</td><td>"+tc.orItemPrice+"</td><td>"+tc.orItemQTY+"</td><td>"+tc.orItemTotal+"</td></tr>";
+        $('#tblCart').append(row);
+    }
+    trCusSelector();
+}
