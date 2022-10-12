@@ -75,8 +75,7 @@ function cusSave(customerID,customerName,customerAddress,customerSalary) {
     addCustomerTable();
     dblClickCusDelete();
 
-
-
+    loadAllCustomerId();
 
 }
 
