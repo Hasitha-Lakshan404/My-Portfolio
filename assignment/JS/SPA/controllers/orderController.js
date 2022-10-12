@@ -61,6 +61,7 @@ $('#btnAddToCart').click(function (){
 
 })
 
+/*Add Table*/
 function addCartData() {
     $("#tblCart> tr").detach();
 
@@ -69,4 +70,15 @@ function addCartData() {
         $('#tblCart').append(row);
     }
     trCusSelector();
+    getTotal();
+}
+
+
+function getTotal() {
+    let tempTot=0;
+    for (let tempOrderCartArElement of tempOrderCartAr) {
+        tempTot=tempTot+tempOrderCartArElement.orItemTotal;
+    }
+    $('#total').val(tempTot);
+
 }
