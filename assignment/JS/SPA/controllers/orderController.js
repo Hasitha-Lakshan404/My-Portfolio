@@ -13,7 +13,7 @@ function loadAllItemId() {
 }
 
 
-
+/*Listener fir the Customer Combo*/
 $('#customerIdOrd').on('change',function (){
     /*get Customer*/
     let customer = searchCustomer($('#customerIdOrd').val());
@@ -25,6 +25,7 @@ $('#customerIdOrd').on('change',function (){
 
 });
 
+/*Listener fir the Item Combo*/
 $('#itemIdOrd').on('change',function (){
     console.log($('#itemIdOrd').val());
 
@@ -34,6 +35,10 @@ $('#itemIdOrd').on('change',function (){
     $('#priceOrd').val(item.itemPrice);
     $('#qtyOnHandOrd').val(item.qtyOnHand);
 
-
-
 });
+
+
+$('#btnAddToCart').click(function (){
+
+})
+

@@ -291,7 +291,6 @@
                                 <div class="mb-4">
                                     <label for="itemIdOrd" class="form-label">Item ID</label>
                                     <select class="form-select form-select-ls" id="itemIdOrd" aria-label=".form-select-lg example">
-                                        <option selected>P001</option>
                                     </select>
                                 </div>
                             </div>
@@ -322,7 +321,7 @@
                                 <input type="number" class="form-control" id="orderQty" placeholder="00">
                             </div>
                             <div class="mt-5 d-grid  col-6 mx-auto">
-                                <button type="button" class="btn btn-primary">Add Item</button>
+                                <button type="button" id="btnAddToCart" class="btn btn-primary">Add To Cart</button>
                             </div>
                         </div>
                     </div>
@@ -814,10 +813,10 @@
 </main>
 
 <script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="db/DB.js"></script>
 <script src="controllers/CustomerController.js"></script>
 <script src="controllers/itemController.js"></script>
 <script src="controllers/orderController.js"></script>
-<script src="db/DB.js"></script>
 </body>
 
 

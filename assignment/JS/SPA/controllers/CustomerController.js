@@ -56,7 +56,6 @@ $('#customerSalary').on('keydown',function (event){
         $("#customerAddress").focus();
     }
 
-
 });
 
 /*save Customer*/
@@ -106,7 +105,6 @@ $('#btnSearchButton').click(function () {
                 $('#cAddress').val(customerKey.cusAddress);
             }
         }
-
     }
 
 });
