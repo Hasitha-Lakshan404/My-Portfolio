@@ -1,4 +1,4 @@
-var customerAr=[];
+
 
 $('#btnSaveCustomer').click(function (event) {
     cusSave($('#customerId').val(),$('#customerName').val(),$('#customerAddress').val(),$('#customerSalary').val());
@@ -6,15 +6,14 @@ $('#btnSaveCustomer').click(function (event) {
 
 });
 
-function addTable() {
+function addCustomerTable() {
     $("#tblCustomer> tr").detach();
 
     for (var customer of customerAr){
         var row="<tr><td>"+customer.cusId+"</td><td>"+customer.cusName+"</td><td>"+customer.cusAddress+"</td><td>"+customer.cusSalary+"</td></tr>";
         $('#tblCustomer').append(row);
     }
-    trSelector();
-
+    trCusSelector();
 }
 
 /*====Add Focus Event when user Click Enter====*/
@@ -73,8 +72,8 @@ function cusSave(customerID,customerName,customerAddress,customerSalary) {
     customerAr.push(customer);
     /*Double click to remove*/
 
-    addTable();
-    dblClickDelete();
+    addCustomerTable();
+    dblClickCusDelete();
 
 
 
@@ -116,17 +115,17 @@ $('#btnSearchButton').click(function () {
 
 
 /*Double Click delete*/
-function dblClickDelete() {
+function dblClickCusDelete() {
     $("#tblCustomer>tr").dblclick(function (){
         deleteCustomer($(this).children(':eq(0)').text());
         $(this).remove();
-        addTable();
+        addCustomerTable();
     });
 }
 
 
 /*When the table click set data to the field*/
-function trSelector() {
+function trCusSelector() {
 
     $("#tblCustomer>tr").click(function (){
         let id=$(this).children(':eq(0)').text();
@@ -184,7 +183,7 @@ function deleteCustomer(customerID) {
     if (customer != null) {
         let indexNumber = customerAr.indexOf(customer);
         customerAr.splice(indexNumber, 1);
-        addTable();
+        addCustomerTable();
         return true;
     } else {
         return false;
@@ -211,7 +210,7 @@ function updateCustomer(customerID) {
         customer.cusName = $("#cName").val();
         customer.cusAddress = $("#cAddress").val();
         customer.cusSalary = $("#cSalary").val();
-        addTable();
+        addCustomerTable();
         return true;
     } else {
         return false;
@@ -246,55 +245,55 @@ customerValidations.push({reg: cusSalaryRegEx, field: $('#customerSalary'),error
 
 
 $("#customerId,#customerName,#customerAddress,#customerSalary").on('keyup', function (event) {
-    checkValidity();
+    checkCusValidity();
 });
 
 $("#customerId,#customerName,#customerAddress,#customerSalary").on('blur', function (event) {
-    checkValidity();
+    checkCusValidity();
 });
 
-function checkValidity() {
+function checkCusValidity() {
     let errorCount=0;
     for (let validation of customerValidations) {
-        if (check(validation.reg,validation.field)) {
-            textSuccess(validation.field,"");
+        if (checkCus(validation.reg,validation.field)) {
+            textCusSuccess(validation.field,"");
         } else {
             errorCount=errorCount+1;
-            setTextError(validation.field,validation.error);
+            setCusTextError(validation.field,validation.error);
         }
     }
-    setButtonState(errorCount);
+    setCusButtonState(errorCount);
 }
 
-function check(regex, txtField) {
+function checkCus(regex, txtField) {
     let inputValue = txtField.val();
     return regex.test(inputValue) ? true : false;
 }
 
-function textSuccess(txtField,error) {
+function textCusSuccess(txtField,error) {
     if (txtField.val().length <= 0) {
-        defaultText(txtField,"");
+        defaultCusText(txtField,"");
     } else {
         txtField.css('border', '2px solid green');
         txtField.parent().children('span').text(error);
     }
 }
 
-function setTextError(txtField,error) {
+function setCusTextError(txtField,error) {
     if (txtField.val().length <= 0) {
-        defaultText(txtField,"");
+        defaultCusText(txtField,"");
     } else {
         txtField.css('border', '2px solid red');
         txtField.parent().children('span').text(error);
     }
 }
 
-function defaultText(txtField,error) {
+function defaultCusText(txtField,error) {
     txtField.css("border", "1px solid #ced4da");
     txtField.parent().children('span').text(error);
 }
 
-function setButtonState(value){
+function setCusButtonState(value){
     if (value>0){
         $("#btnSaveCustomer").attr('disabled',true);
     }else{

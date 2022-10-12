@@ -1,0 +1,2 @@
+var customerAr=[];
+var itemAr=[];

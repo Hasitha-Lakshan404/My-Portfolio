@@ -1,4 +1,4 @@
-var itemAr=[];
+
 $("#itemId").focus();
 
 $('#btnItemSave').click(function (event) {
