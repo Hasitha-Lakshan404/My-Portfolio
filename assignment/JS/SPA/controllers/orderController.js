@@ -147,3 +147,7 @@ function clearData() {
     $('#priceOrd').val("");
     $('#orderQty').val("");
 }
+
+
+
+
