@@ -61,14 +61,15 @@ $('#customerSalary').on('keydown',function (event){
 /*save Customer*/
 function cusSave(customerID,customerName,customerAddress,customerSalary) {
 
-    var customer={
+    /*var customer={
         cusId:customerID,
         cusName:customerName,
         cusAddress:customerAddress,
         cusSalary:customerSalary
-    }
+    }*/
+    customerModal(customerID,customerName,customerAddress,customerSalary);
 
-    customerAr.push(customer);
+
     /*Double click to remove*/
 
     addCustomerTable();

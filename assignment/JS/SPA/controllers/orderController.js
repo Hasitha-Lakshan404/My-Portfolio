@@ -58,15 +58,7 @@ $('#btnAddToCart').click(function (){
         addCartData();
 
     }else{
-        var tempOrder={
-            orItemCOde:itemCode,
-            orItemName:itmName,
-            orItemPrice:itmPrice,
-            orItemQTY:itemOrderQty,
-            orItemTotal:total
-        }
-        tempOrderCartAr.push(tempOrder);
-
+        tempCartModal(itemCode,itmName,itmPrice,itemOrderQty,total)
         addCartData();
     }
 
