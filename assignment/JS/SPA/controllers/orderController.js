@@ -47,17 +47,28 @@ $('#btnAddToCart').click(function (){
 
     let total =itmPrice*itemOrderQty;
 
-    var tempOrder={
-        orItemCOde:itemCode,
-        orItemName:itmName,
-        orItemPrice:itmPrice,
-        orItemQTY:itemOrderQty,
-        orItemTotal:total
+
+    let rowExists = searchRowExists(itemCode);
+    if(rowExists!=null){
+        let newQty=rowExists.orItemQTY+itemOrderQty;
+
+        // rowExists.orItemQTY.val(newQty);
+        rowExists.orItemQTY=newQty;
+        rowExists.orItemTotal=itmPrice*newQty;
+        addCartData();
+
+    }else{
+        var tempOrder={
+            orItemCOde:itemCode,
+            orItemName:itmName,
+            orItemPrice:itmPrice,
+            orItemQTY:itemOrderQty,
+            orItemTotal:total
+        }
+        tempOrderCartAr.push(tempOrder);
+
+        addCartData();
     }
-
-    tempOrderCartAr.push(tempOrder);
-
-    addCartData();
 
 })
 
@@ -108,7 +119,8 @@ $('#cash').on('keyup',function (){
 /*Remove Duplicate Row*/
 function searchRowExists(itemCode) {
     for (let tempOr of tempOrderCartAr) {
-        if(tempOr.itemCode===itemCode){
+        console.log(tempOr.orItemCOde+"-----"+itemCode);
+        if(tempOr.orItemCOde===itemCode){
             return tempOr
         }
     }
