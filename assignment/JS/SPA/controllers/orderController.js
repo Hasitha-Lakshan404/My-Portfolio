@@ -131,5 +131,19 @@ function searchRowExists(itemCode) {
 
 /*Min QTY*/
 function minQty(itemCode,orderQty) {
+    for (let itemArElement of itemAr) {
+        if(itemArElement.itemCode===itemCode){
+            itemArElement.qtyOnHand=parseInt(itemArElement.qtyOnHand)-parseInt(orderQty);
+        }
+    }
+    addTable();
+    clearData();
 
+}
+
+function clearData() {
+    $('#qtyOnHandOrd').val("");
+    $('#item').val("");
+    $('#priceOrd').val("");
+    $('#orderQty').val("");
 }
