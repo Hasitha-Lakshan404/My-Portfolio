@@ -50,11 +50,11 @@ $('#btnAddToCart').click(function (){
 
     let rowExists = searchRowExists(itemCode);
     if(rowExists!=null){
-        let newQty=rowExists.orItemQTY+itemOrderQty;
+        let newQty=((parseInt(rowExists.orItemQTY))+(parseInt(itemOrderQty)));
 
         // rowExists.orItemQTY.val(newQty);
         rowExists.orItemQTY=newQty;
-        rowExists.orItemTotal=itmPrice*newQty;
+        rowExists.orItemTotal=parseFloat(itmPrice)*newQty;
         addCartData();
 
     }else{
