@@ -104,3 +104,13 @@ $('#cash').on('keyup',function (){
 
     $('#balance').val((parseFloat(cash))-parseFloat(subT));
 })
+
+/*Remove Duplicate Row*/
+function searchRowExists(itemCode) {
+    for (let tempOr of tempOrderCartAr) {
+        if(tempOr.itemCode===itemCode){
+            return tempOr
+        }
+    }
+    return null;
+}
