@@ -149,5 +149,8 @@ function clearData() {
 }
 
 
+/*Purchase Order*/
+$('#purchaseOrder').click(function (){
 
+});
 
