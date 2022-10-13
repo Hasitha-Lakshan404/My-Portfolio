@@ -73,7 +73,6 @@ function addCartData() {
     getTotal();
 }
 
-
 function getTotal() {
     let tempTot=0;
     for (let tempOrderCartArElement of tempOrderCartAr) {
@@ -82,3 +81,19 @@ function getTotal() {
     $('#total').val(tempTot);
 
 }
+
+/*discount*/
+$('#discount').on('keyup',function (){
+    let dis=$('#discount').val();
+    let tot=$('#total').val();
+    let totMin=0;
+    let subTot=0;
+
+    console.log(dis+"=="+tot);
+    totMin=parseFloat(tot)*(dis/100);
+    subTot=tot-totMin;
+
+    $('#subTotal').val(subTot);
+
+
+})
