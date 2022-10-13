@@ -94,6 +94,13 @@ $('#discount').on('keyup',function (){
     subTot=tot-totMin;
 
     $('#subTotal').val(subTot);
+})
+
+/*Cash*/
+$('#cash').on('keyup',function (){
+    let cash=$('#cash').val();
+    let subT=$('#subTotal').val();
 
 
+    $('#balance').val((parseFloat(cash))-parseFloat(subT));
 })
