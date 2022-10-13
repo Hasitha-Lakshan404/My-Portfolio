@@ -70,6 +70,8 @@ $('#btnAddToCart').click(function (){
         addCartData();
     }
 
+    minQty(itemCode,itemOrderQty);
+
 })
 
 /*Add Table*/
@@ -125,4 +127,9 @@ function searchRowExists(itemCode) {
         }
     }
     return null;
+}
+
+/*Min QTY*/
+function minQty(itemCode,orderQty) {
+
 }
