@@ -88,7 +88,7 @@ function getTotal() {
 }
 
 /*discount*/
-let totMin=0;
+let disTOGave=0;
 $('#discount').on('keyup',function (){
     let dis=$('#discount').val();
     let tot=$('#total').val();
@@ -97,7 +97,10 @@ $('#discount').on('keyup',function (){
 
     console.log(dis+"=="+tot);
     totMin=parseFloat(tot)*(dis/100);
+    console.log("dis Dis: "+totMin)
+
     subTot=tot-totMin;
+    disTOGave=totMin;
 
     $('#subTotal').val(subTot);
 })
@@ -144,7 +147,8 @@ $('#purchaseOrder').click(function (){
     let orderId = $('#orderId').val();
     let orderDate = $('#OrderDate').val();
     let customerName = $('#customerNameOrd').val();
-    let discount = totMin;
+    let discount = disTOGave;
+    alert("purchace Dis: "+disTOGave);
     let subTotal = $('#subTotal').val();
 
     orderModal(orderId,orderDate,customerName,discount,subTotal);
