@@ -74,9 +74,8 @@ function cusSave(customerID,customerName,customerAddress,customerSalary) {
 
     addCustomerTable();
     dblClickCusDelete();
-
     loadAllCustomerId();
-
+    clearAllCusData();
 }
 
 /*Search Customer*/
@@ -297,4 +296,20 @@ function setCusButtonState(value){
     }else{
         $("#btnSaveCustomer").attr('disabled',false);
     }
+}
+
+$("#clearCus").click(function () {
+    clearAllCusData();
+});
+
+function clearAllCusData() {
+    $('#customerId').val("");
+    $('#customerName').val("");
+    $('#customerAddress').val("");
+    $('#customerSalary').val("");
+
+    $('#cId').val("");
+    $('#cName').val("");
+    $('#cSalary').val("");
+    $('#cAddress').val("");
 }

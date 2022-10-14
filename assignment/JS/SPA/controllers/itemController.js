@@ -276,3 +276,5 @@ function setButtonState(value){
         $("#btnItemSave").attr('disabled',false);
     }
 }
+
+/*Clear Data*/
