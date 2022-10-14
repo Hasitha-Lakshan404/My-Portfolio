@@ -3,6 +3,7 @@ $("#itemId").focus();
 
 $('#btnItemSave').click(function (event) {
       itemSave($('#itemId').val(),$('#itemName').val(),$('#itemQtyOnHand').val(),$('#itemPrice').val());
+
 });
 
 function addTable() {
@@ -69,6 +70,7 @@ function itemSave(itmCode,itemName,qtOHand,itPrice) {
     addTable();
     dblClickDelete();
     loadAllItemId();
+    clearAllItemData();
 }
 
 /*Search Item*/
@@ -278,3 +280,18 @@ function setButtonState(value){
 }
 
 /*Clear Data*/
+$("#btnItemClear").click(function () {
+    clearAllItemData();
+});
+
+function clearAllItemData() {
+    $('#itId').val("");
+    $('#itName').val("");
+    $('#qtyOnHand').val("");
+    $('#itPrice').val("");
+
+    $('#itemId').val("");
+    $('#itemName').val("");
+    $('#itemPrice').val("");
+    $('#itemQtyOnHand').val("");
+}
