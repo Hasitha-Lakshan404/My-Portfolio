@@ -131,12 +131,6 @@ function trCusSelector() {
         $('#cSalary').val(salary);
 
 
-        /*Double click to remove*/
-       /* $("#tblCustomer>tr").dblclick(function (){
-            alert("meken ennee")
-            deleteCustomer($(this).id);
-            $(this).remove();
-        });*/
 
     });
 
@@ -150,6 +144,7 @@ $("#btnCusDelete").click(function () {
     if (option){
         if (deleteCustomer(delID)) {
             alert("Customer Successfully Deleted..");
+            clearAllCusData();
 
         } else {
             alert("No such customer to delete. please check the id");

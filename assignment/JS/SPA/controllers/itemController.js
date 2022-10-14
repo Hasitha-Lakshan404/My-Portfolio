@@ -141,6 +141,7 @@ $("#btnItemDelete").click(function () {
     if (option){
         if (deleteItem(delID)) {
             alert("Item Successfully Deleted..");
+            clearAllItemData();
         } else {
             alert("No such Item to delete. please check the Code");
         }
@@ -163,6 +164,7 @@ function deleteItem(itemID) {
         let indexNumber = itemAr.indexOf(item);
         itemAr.splice(indexNumber, 1);
         addTable();
+
         return true;
     } else {
         return false;
