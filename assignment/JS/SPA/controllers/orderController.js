@@ -148,7 +148,6 @@ $('#purchaseOrder').click(function (){
     let orderDate = $('#OrderDate').val();
     let customerName = $('#customerNameOrd').val();
     let discount = disTOGave;
-    alert("purchace Dis: "+disTOGave);
     let subTotal = $('#subTotal').val();
 
     orderModal(orderId,orderDate,customerName,discount,subTotal);
@@ -156,41 +155,49 @@ $('#purchaseOrder').click(function (){
     loadAllOrder();
     blindOrderRowClickEvent();
     clearOrderTexts();
-    // console.log(orderArray);
 
+    for (var tempOrder of tempOrderCartAr){
+        tempOrderCartAr.pop();
+    }
+    tempOrderCartAr.pop();
+    addCartData();
+
+    // console.log(orderArray);
 });
 
 /*FUNCTIONS*/
 function blindOrderRowClickEvent(){
+
     $('#tblOrder>tr').click(function (){
         let ordId = $(this).children(':eq(0)').text();
-        $('#txtOrdId').val(ordId);
+        $('#orderIdDash').val(ordId);
         let ordDate = $(this).children(':eq(1)').text();
-        $('#txtOrdDate').val(ordDate);
+        $('#OrderDateDash').val(ordDate);
         let ordName = $(this).children(':eq(2)').text();
-        $('#txtOrdName').val(ordName);
+        $('#customerNameDash').val(ordName);
         let ordDis = $(this).children(':eq(3)').text();
-        $('#txtOrdDis').val(ordDis);
+        $('#discountDash').val(ordDis);
         let ordCost = $(this).children(':eq(4)').text();
-        $('#txtOrdCost').val(ordCost);
+        $('#subTotDash').val(ordCost);
     });
 }
 
 function clearOrderTexts(){
-    $('#ordId').val("");
-    $('#ordDate').val("");
+    $('#orderId').val("");
+    $('#OrderDate').val("");
     $('#customerNameOrd').val("");
-    $('#customerSalaryOrd').val("");
-    $('#customerAddressOrd').val("");
+    $('#salaryOrd').val("");
+    $('#addressOrd').val("");
 
-    $('#itemNameOrd').val("");
-    $('#itemPriceOrd').val("");
-    $('#itemQtyOrd').val("");
+    $('#item').val("");
+    $('#priceOrd').val("");
+    $('#qtyOnHandOrd').val(0);
     $('#orderQty').val("");
 
-    $('#txtCash').val("");
-    $('#txtDiscount').val("");
-    $('#txtBalance').val("");
+    $('#cash').val("");
+    $('#discount').val(0);
+    $('#balance').val("");
+    $('#subTotal').val(0);
 }
 
 function loadAllOrder(){

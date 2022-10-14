@@ -72,7 +72,7 @@
         <div class="row">
             <!--Selector field-->
             <div class="col-5 col-sm-3 col-lg-2">
-                <select class="form-select form-select-ls mt-4" aria-label=".form-select-lg example">
+                <select id="chooseOrderType" class="form-select form-select-ls mt-4" aria-label=".form-select-lg example">
                     <option selected>ID</option>
                     <option value="1">Name</option>
                     <option value="2">Date</option>
@@ -82,8 +82,8 @@
             <!--Search bar with button-->
             <div class="col-12 col-sm-9 col-lg-10">
                 <form class="d-flex mt-3 mt-sm-4">
-                    <input class="form-control me-2" type="search" placeholder="Search Item" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="button">Search
+                    <input class="form-control me-2" id="searchOrder" type="search" placeholder="Search Item" aria-label="Search">
+                    <button id="btnSearchOrder" class="btn btn-outline-primary" type="button">Search
                     </button>
                 </form>
             </div>
@@ -127,8 +127,8 @@
                     </div>
                     <div class="col">
                         <div class="mb-2">
-                            <label for="cost" class="form-label">Sub Total</label>
-                            <input type="text" class="form-control" id="cost" placeholder="0000.00" disabled>
+                            <label for="subTotDash" class="form-label">Sub Total</label>
+                            <input type="text" class="form-control" id="subTotDash" placeholder="0000.00" disabled>
                         </div>
                     </div>
                 </div>
@@ -136,8 +136,8 @@
                 <!--Third Row/Button-->
                 <div class="row">
                     <div class=" gap-2 d-flex justify-content-center justify-content-md-end justify-content-sm-center  mt-4">
-                        <button type="button" class="btn btn-secondary">Clear</button>
-                        <button type="button" class="btn btn-danger">Delete</button>
+                        <button type="button" id="btnClearOrd" class="btn btn-secondary">Clear</button>
+                        <button type="button" id="btnDeleteOrd" class="btn btn-danger">Delete</button>
                     </div>
                 </div>
             </div>
@@ -225,18 +225,18 @@
                             <div class="col">
                                 <div class="mb-lg-4 mb-sm-3 mb-3">
                                     <label for="customerNameOrd" class="form-label">Customer</label>
-                                    <input type="text" class="form-control" id="customerNameOrd" placeholder="Hasitha">
+                                    <input type="text" class="form-control" disabled id="customerNameOrd" placeholder="Hasitha">
                                 </div>
                             </div>
                         </div>
                         <div class="row gx-3">
                             <div class="mb-lg-4 mb-sm-3 mb-3">
                                 <label for="salaryOrd" class="form-label">Salary</label>
-                                <input type="text" class="form-control" id="salaryOrd" placeholder="0000.00">
+                                <input type="text" class="form-control" disabled id="salaryOrd" placeholder="0000.00">
                             </div>
                             <div class="mb-lg-4 mb-md-5 ">
                                 <label for="addressOrd" class="form-label">Address</label>
-                                <input type="text" class="form-control" id="addressOrd" placeholder="Bandaragama">
+                                <input type="text" class="form-control" disabled id="addressOrd" placeholder="Bandaragama">
                             </div>
                         </div>
                     </div>
@@ -262,7 +262,7 @@
                             <div class="col">
                                 <div class="mb-4">
                                     <label for="item" class="form-label">Item</label>
-                                    <input type="text" class="form-control" id="item" placeholder="Sunlight">
+                                    <input type="text" class="form-control" disabled id="item" placeholder="Sunlight">
                                 </div>
                             </div>
                         </div>
@@ -270,13 +270,13 @@
                             <div class="col">
                                 <div class="mb-4">
                                     <label for="priceOrd" class="form-label">Price</label>
-                                    <input type="text" class="form-control" id="priceOrd" placeholder="0000.00">
+                                    <input type="text" class="form-control" disabled id="priceOrd" placeholder="0000.00">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-5">
                                     <label for="qtyOnHandOrd" class="form-label">QyOnHand</label>
-                                    <input type="number" class="form-control" id="qtyOnHandOrd" placeholder="10">
+                                    <input type="number" class="form-control" disabled id="qtyOnHandOrd" placeholder="10">
                                 </div>
                             </div>
                         </div>
@@ -761,6 +761,7 @@
 <script src="controllers/CustomerController.js"></script>
 <script src="controllers/itemController.js"></script>
 <script src="controllers/orderController.js"></script>
+<script src="controllers/homeController.js"></script>
 
 
 <script src="modal/customerModal.js"></script>
