@@ -142,7 +142,6 @@ Time :5:39 PM
 .proj1 {
     position: relative;
     top: 60px;
-    border: 1px solid white;
     height: 814px;
 }
 
@@ -224,7 +223,8 @@ Time :5:39 PM
     display: inline-block;
     width: 450px;
     height: 250px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #050000;
+
 }
 
 .proPageImageSide > div:nth-child(1) {
@@ -449,6 +449,10 @@ Time :5:39 PM
     color: #FFFFFF;
 }
 
+#Contact-me{
+    position: relative;
+    top: 2500px;
+}
 
 /*====================Assignment JavaScript========================*/
 /*Assignment Section*/
