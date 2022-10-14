@@ -88,10 +88,11 @@ function getTotal() {
 }
 
 /*discount*/
+let totMin=0;
 $('#discount').on('keyup',function (){
     let dis=$('#discount').val();
     let tot=$('#total').val();
-    let totMin=0;
+    var totMin=0;
     let subTot=0;
 
     console.log(dis+"=="+tot);
@@ -105,7 +106,6 @@ $('#discount').on('keyup',function (){
 $('#cash').on('keyup',function (){
     let cash=$('#cash').val();
     let subT=$('#subTotal').val();
-
 
     $('#balance').val((parseFloat(cash))-parseFloat(subT));
 })
@@ -130,7 +130,6 @@ function minQty(itemCode,orderQty) {
     }
     addTable();
     clearData();
-
 }
 
 function clearData() {
@@ -140,9 +139,59 @@ function clearData() {
     $('#orderQty').val("");
 }
 
-
 /*Purchase Order*/
 $('#purchaseOrder').click(function (){
+    let orderId = $('#orderId').val();
+    let orderDate = $('#OrderDate').val();
+    let customerName = $('#customerNameOrd').val();
+    let discount = totMin;
+    let subTotal = $('#subTotal').val();
+
+    orderModal(orderId,orderDate,customerName,discount,subTotal);
+
+    loadAllOrder();
+    blindOrderRowClickEvent();
+    clearOrderTexts();
+    // console.log(orderArray);
 
 });
 
+/*FUNCTIONS*/
+function blindOrderRowClickEvent(){
+    $('#tblOrder>tr').click(function (){
+        let ordId = $(this).children(':eq(0)').text();
+        $('#txtOrdId').val(ordId);
+        let ordDate = $(this).children(':eq(1)').text();
+        $('#txtOrdDate').val(ordDate);
+        let ordName = $(this).children(':eq(2)').text();
+        $('#txtOrdName').val(ordName);
+        let ordDis = $(this).children(':eq(3)').text();
+        $('#txtOrdDis').val(ordDis);
+        let ordCost = $(this).children(':eq(4)').text();
+        $('#txtOrdCost').val(ordCost);
+    });
+}
+
+function clearOrderTexts(){
+    $('#ordId').val("");
+    $('#ordDate').val("");
+    $('#customerNameOrd').val("");
+    $('#customerSalaryOrd').val("");
+    $('#customerAddressOrd').val("");
+
+    $('#itemNameOrd').val("");
+    $('#itemPriceOrd').val("");
+    $('#itemQtyOrd').val("");
+    $('#orderQty').val("");
+
+    $('#txtCash').val("");
+    $('#txtDiscount').val("");
+    $('#txtBalance').val("");
+}
+
+function loadAllOrder(){
+    $("#tblOrder> tr").detach();
+    for (var i of orders){
+        $('#tblOrder').append('<tr><td>'+i.orId+'</td>'+'<td>'+i.orDate+'</td>'+'<td>'+i.orCusName+'</td>'+'<td>'+i.orDis+'</td>'+'<td>'+i.orSubTotal+'</td></tr>');
+    }
+}
