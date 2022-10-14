@@ -7,6 +7,26 @@
 - ⚜ Wireframe -->: [Click Here](https://wireframe.cc/I1Wa9g)
 - ⚜ Site Map  ---->: [Click Here](https://www.gloomaps.com/976edlsGTx)
 
+<H3>Technology Stack</H3>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Java Script</li>
+</ul>
+
+
+
+<H3>Main Assignment</H3>
+<ul>
+<li><a href="My-Portfolio/assignment/JS/calculaor/calculator.html" target="blank">Calculator</a></li>
+<li><a href="as" target="blank">POS System</a></li>
+</ul>
+
+
+
+
+
+
 <H3>01. Dark Theme</H3>
 <img src="assets/Readme/Dark-Theme.png">
 <H5>Dark Theme-Project side</H5>
