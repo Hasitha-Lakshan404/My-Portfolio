@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Knight Rider</title>
+    <style>
+        body {
+            background-color: black;
+            background-image: url("assets/knbg.jpg");
+            background-size: cover;
+            overflow: hidden;
+        }
+
+        h1 {
+            color: white;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 100px;
+            width: max-content;
+            border-bottom: 3px solid white;
+            padding-bottom: 9px;
+        }
+
+        #container {
+            display: flex;
+            position: absolute;
+            width: 95vw;
+            left: 150px;
+            right: 0;
+            margin: auto;
+            top: 300px;
+
+
+        }
+
+        #container > div {
+            width: 200px;
+            height: 70px;
+            border: 1px solid crimson;
+        }
+
+        #btnContainer > button {
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 10px;
+        }
+
+        #btnContainer {
+            position: absolute;
+            display: flex;
+            width: 95vw;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 490px;
+            justify-content: center;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<h1>Knight-Rider</h1>
+
+<section id="container">
+</section>
+
+<section id="btnContainer">
+    <button id="btnStart">Start</button>
+    <button id="btnEnd">End</button>
+</section>
+
+
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+
+<script>
+
+    var knightRider = {
+        count:0,
+        temArray:[],
+        leftColorArray: ['white', 'white', 'white', 'white', 'white', 'white',"rgba(217,0,44,0.12)", 'rgba(217,0,44,0.34)', 'rgba(217,0,44,0.53)', 'rgba(217,0,44,0.71)', 'rgba(217,0,44,0.89)', 'RED'],
+        rightColorArray: ['white', 'white', 'white', 'white', 'white', 'white','RED','rgba(217,0,44,0.89)','rgba(217,0,44,0.71)','rgba(217,0,44,0.53)','rgba(217,0,44,0.34)','rgba(217,0,44,0.12)' ],
+
+        animateLeft: function () {
+            var lastColor = this.temArray.pop();
+            this.temArray.unshift(lastColor);
+        },
+        animateRight:function (){
+            var firstColor = this.temArray.shift();
+            this.temArray.push(firstColor);
+        },
+        animate:function (){
+            this.count++;
+            if(this.count<=this.leftColorArray.length){
+                this.temArray=this.leftColorArray;
+                this.animateLeft();
+            }else{
+                if (this.count>=(this.rightColorArray.length*2)){
+                    this.count=0;
+                }
+                this.temArray=this.rightColorArray;
+                this.animateRight();
+            }
+        }
+    }
+
+    renderDivs();
+
+    function renderDivs() {
+        $('#container').empty();
+        for (let i = 0; i < (knightRider.temArray.length) / 2; i++) {
+            $('#container').append(`<div style="background-color: ${knightRider.temArray[i]}"></div>`);
+        }
+        knightRider.animate();
+    }
+
+    var id=setInterval(renderDivs, 90);
+
+
+    $("#btnStart").click(function (){
+        clearInterval(id);
+        id=setInterval(renderDivs, 90);
+        console.log("ID when Start btn Called",id)
+    });
+
+    $("#btnEnd").click(function (){
+        clearInterval(id);
+        console.log("ID when End Btn Called",id)
+    });
+
+
+</script>
+</body>
+</html>
