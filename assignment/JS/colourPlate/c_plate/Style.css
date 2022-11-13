@@ -1,0 +1,43 @@
+/**@author : Hasitha Lakshan
+Project :OOPLEC
+Date :10/24/2022
+Time :4:13 PM
+*/
+
+#colourPlate{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border:  1px solid black;
+}
+
+#btnStart{
+    position: absolute;
+    top:450px;
+    bottom: 0;
+    left: -200px;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    height: 30px
+
+}
+
+#btnEnd{
+    position: absolute;
+    top:450px;
+    bottom: 0;
+    left: 200px;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    height: 30px
+
+}
+
+

@@ -494,7 +494,6 @@ Time :5:39 PM
 }
 
 /*======Third Title=======*/
-
 /*set Title*/
 .proPageTitle3 {
     position: relative;
@@ -511,7 +510,6 @@ Time :5:39 PM
     font-family: "Ubuntu";
     font-weight: bold;
     display: inline-block;
-
 }
 
 .proPageTitle3 > div:nth-child(2) {
