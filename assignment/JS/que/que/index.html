@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Queue</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+
+        body{
+            background-image: url("asserts/quebg.jpg");
+            background-size: cover;
+        }
+
+        #name{
+            width: 250px;
+        }
+        #colorPlate{
+            width: 250px;
+        }
+
+        #container{
+            display: flex;
+        }
+        #container>div{
+            width: 120px;
+            height: 90px;
+            border: 1px solid black;
+            position: relative;
+        }
+        #container>div>h1{
+            font-size: 20px;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: max-content;
+            height: max-content;
+        }
+
+    </style>
+
+
+</head>
+
+
+
+<body>
+<section class="container-fluid">
+    <form>
+        <div class="mb-3" id="name">
+            <label  class="form-label">Name</label>
+            <input type="text" class="form-control" id="txtName">
+        </div>
+        <div class="mb-3" id="colorPlate">
+            <label  class="form-label">Color</label>
+            <input type="color" class="form-control" id="txtColor">
+        </div>
+
+        <button type="button" id="btnQue" class="btn btn-primary">Add To Que</button>
+    </form>
+</section>
+
+<!--for the que process-->
+<main class="container-fluid">
+    <section id="container" class="mt-5">
+
+    </section>
+</main>
+
+
+
+<script src="../../knight_Rider/assets/js/jquery-3.6.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="que.js"></script>
+
+</body>
+</html>
