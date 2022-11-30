@@ -14,7 +14,7 @@ $(window).on('load', function () {
             this.game = game;
 
             $(window).on('keydown', event => {
-                if ((event.key === "ArrowUp" || event.key === "ArrowDown") && this.game.keys.indexOf(event.key) === -1) {
+                if ((event.key === "ArrowUp" || event.key === "ArrowDown"|| event.key === "ArrowLeft"|| event.key === "ArrowRight") && this.game.keys.indexOf(event.key) === -1) {
                     this.game.keys.push(event.key);
                 } else if (event.key === " ") {
                     this.game.player.shootTop();
@@ -96,6 +96,7 @@ $(window).on('load', function () {
             this.x = 20;
             this.y = 100;
             this.speedY = 0;
+            this.speed_X = 0;
             this.maxSpeed = 3;
             this.projectiles = [];
             this.isShoot=game.isPlayerShoot;
@@ -127,7 +128,7 @@ $(window).on('load', function () {
                 // this.game.isPlayerShoot=false;
             }
 
-
+            //vertical movement
             if (this.game.keys.includes("ArrowUp")) {
                 this.speedY = -this.maxSpeed;
 
@@ -137,6 +138,17 @@ $(window).on('load', function () {
                 this.speedY = 0;
             }
             this.y += this.speedY;
+
+
+            // horizontal
+            if (this.game.keys.includes("ArrowLeft")&& this.x > 0) {
+                this.speed_X = -this.maxSpeed;
+            } else if (this.game.keys.includes("ArrowRight") && this.x + this.width < this.game.width) {
+                this.speed_X = this.maxSpeed;
+            } else {
+                this.speed_X = 0;
+            }
+            this.x += this.speed_X;
 
 
             //handle vertical boundaries
